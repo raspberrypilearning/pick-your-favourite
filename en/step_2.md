@@ -1,46 +1,43 @@
-## Step title
+## Create the frame
 
-<div style="display: flex; flex-wrap: wrap">
-<div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
-Add an introductory sentence. What will learners achieve by the end of this step?
-</div>
-<div>
-Image, gif or video showing what they will achieve by the end of the step. ![](images/image.png){:width="300px"}
-</div>
-</div>
+In this step you will create the frame for your fan website. Choosing a starting background colour and create the dropdown that allows users to change the webpage!
+
+### What will the webpage be about?
 
 --- task ---
 
-Open a [new Scratch project](http://rpf.io/scratch-new){:target="_blank"}. Scratch will open in another browser tab.
+What hobby or interest will you choose for your website?
 
-[[[working-offline]]]
++ ⚽️ **Sports**: Teams, players or leagues?
++ 👗 **Fashion**: Brands, trends, influencers or decades?
++ 🔬 **Science**: Wildlife, climate or theories?
++ 🎥 **TV & Film**: Anime, Series, Movies, Characters or Settings?
++ 🖥️ **Coding**: Languages, Devices or Software?
++ 🕹️ **Video Games**: Franchises, Characters, Genres or Consoles?
++ 🎨 **Art**: Art works, Mediums, Artists or Museums?
++ 👥 **Culture**: Festivals, holidays or historical events?
 
---- /task ---
-
---- task ---
-
-Step content... 
-Can use:
-**Test:**
-**Choose:**
-**Tip:**
-
---- /task ---
-
---- task ---
-
-**Debug:** You might find some bugs in your project that you need to fix. Here are some common bugs.
+For the project you need to pick a theme, and three choices for the user to make within that theme
 
 --- collapse ---
 
 ---
-title: Each debug in a collapse or ingredient
+title: Some examples...
 ---
 
-Each debug in a collapse or ingredient
+The example project uses **Football** as it's theme, and gives the user a choice between three teams:
+1. Liverpool
+2. Manchester City
+3. Tottenham Hotspur
+
+The "Dinosaur" example let's the user choose between different species of Dinosaur:
+1. Tyrannosaurus Rex
+2. Triceratops
+3. Stegasaurus
 
 --- /collapse ---
 
+Choose your theme and three options within that theme.
+
 --- /task ---
 
---- save ---

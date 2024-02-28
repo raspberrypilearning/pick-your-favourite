@@ -1,16 +1,18 @@
 ---
-title: design-project-template
+title: pick-your-favourite
 hero_image: images/banner.png
-description: design-project-template description
+description: Create a fan website that gives users a choice of content
 version: 4
 listed: false
 copyedit: false
 last_tested: '2021-03-26'
 steps:
 - title: Introduction
-- title: Step title
-- title: Step title
-- title: Step title
+- title: Create the frame
+- title: Choose your colours
+- title: Change the text
+- title: Animate the sections
+- title: Make the choice permanent
 - title: Reflection
   knowledge_quiz:
     path: quiz1
