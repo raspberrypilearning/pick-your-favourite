@@ -35,9 +35,59 @@ The "Dinosaur" example let's the user choose between different species of Dinosa
 2. Triceratops
 3. Stegasaurus
 
+There are many choices of themes, and options within those themes. Pick something you would love to show to your friends or family!
+
 --- /collapse ---
 
 Choose your theme and three options within that theme.
 
 --- /task ---
 
+### Add your options
+
+--- task ---
+
+Change the text in the drop down buttons to match your options:
+
+--- code ---
+---
+language: html
+filename: index
+line_numbers: true
+line_number_start: 
+line_highlights: 
+---
+
+--- /code ---
+
+--- /task ---
+
+### Code to add
+
+HTML
+<section id="instruction">
+    <h1>Select a team!</h1>
+</section>
+
+CSS: 
+
+Inside body
+background-color: #008000;
+color: white;
+
+Inside nav
+background-color: #93bf85;
+
+Update option button text and Choose text
+
+HTML
+<section id="content-holder">
+    <h1 id="title">Title</h1>
+    <div id="slot-1" class="content"></div>
+    <div id="slot-2" class="content"></div>
+    <div id="slot-3" class="content"></div>
+</section>
+
+Update CSS
+inside content-holder
+display: none;

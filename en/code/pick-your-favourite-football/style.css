@@ -5,8 +5,6 @@
 }
 
 body {
-    background-color: #008000;
-    color: white;
     padding: 0;
     margin: 0;
     box-sizing: border-box;
@@ -16,7 +14,8 @@ body {
     flex-direction: column;
     font-family: "Cute Font", sans-serif;
     font-size: 32px;
-    transition: 
+    background-color: #008000;
+    color: white;
 }
 
 main {
@@ -45,10 +44,10 @@ nav {
     height: 60px;
     display: flex;
     justify-content: center;
-    background-color: #93bf85;
     position: fixed;
     top: 0;
     width: 100%;
+    background-color: #93bf85;
 }
 
 .dropdown {
@@ -71,11 +70,10 @@ button {
 #dropdown-options {
   position: relative;
   display: none;
-  background-color: blue;
   color: white;
   min-width: 140px;
   text-align: center;
-    gap: 10px
+  gap: 10px;
   z-index: 1;
 }
 
@@ -94,7 +92,6 @@ button {
 }
 
 #content-holder {
-  display: none;
   grid-template-rows: repeat(3, 100vh auto);
 }
 

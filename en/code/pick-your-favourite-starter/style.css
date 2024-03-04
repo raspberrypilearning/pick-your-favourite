@@ -5,8 +5,6 @@
 }
 
 body {
-    background-color: #4e1644;
-    color: white;
     padding: 0;
     margin: 0;
     box-sizing: border-box;
@@ -44,7 +42,6 @@ nav {
     height: 60px;
     display: flex;
     justify-content: center;
-    background-color: #9385bf;
     position: fixed;
     top: 0;
     width: 100%;
@@ -91,7 +88,6 @@ button {
 }
 
 #content-holder {
-  display: none;
   grid-template-rows: repeat(3, 100vh auto);
 }
 
@@ -109,113 +105,32 @@ button {
   opacity: 0;
 }
 
+/* Body Classes */
+
+
 #slot-1 {
   grid-row-start: 2;
   grid-row-end: 3;
 }
 
-#slot-1.trex {
-    background-color: rgba(0, 178, 169, 0.8);
-    
-    h1 {
-        color: #F6EB61;
-    }
-}
+/* Slot 1 classes */
 
-#slot-1.triceratops {
-    background-color: rgba(28, 44, 91, 0.8);
-
-    h1 {
-        color: rgb(255, 198, 89);
-    }
-}
-
-#slot-1.stegosaurus {
-    background-color: rgba(19, 34, 87, 0.8);
-    color: white;
-    h1 {
-        color: white;
-    }
-}
 
 #slot-2 {
   grid-row-start: 4;
   grid-row-end: 5;
 }
 
-#slot-2.trex {
-    background-color: rgba(246, 235, 97, 0.8);
-    color: black;
-    h1 {
-        color: rgb(0, 178, 169);
-    }
-}
+/* Slot 2 classes */
 
-#slot-2.triceratops {
-    background-color: rgba(255, 198, 89, 0.8);
-    color: black;
-    h1 {
-        color: rgb(28, 44, 91);
-    }
-}
-
-#slot-2.stegosaurus {
-    background-color: rgba(19, 31, 83, 0.8);
-    color: white;
-    h1 {
-        color: white;
-    }
-}
 
 #slot-3 {
   grid-row-start: 6;
   grid-row-end: 7;
 }
 
-#slot-3.trex {
-    background-color: rgba(0, 178, 169, 0.8);
-    text-align: left;
-    h1 {
-        color: #F6EB61;
-        text-align: center;
-    }
-}
+/* Slot 3 classes */
 
-#slot-3.triceratops {
-    background-color: rgba(236, 51, 37, 0.8);
-    text-align: left;
-    color: white;
-    h1 {
-        color: rgb(255, 198, 89);
-        text-align: center;
-    }
-}
-
-
-#slot-3.stegosaurus {
-    background-color: rgba(19, 31, 83, 0.8);
-    color: white;
-    text-align: left;
-    h1 {
-        color: white;
-        text-align: center;
-    }
-}
-
-.trex {
-  background-color: #41220fb4;
-  color: white;
-}
-
-.triceratops {
-  background-color: #6a7029;
-  color: white;
-}
-
-.stegosaurus {
-  background-color: rgb(32, 78, 55);
-  color: black;
-}
 
 /* Animations */
 
