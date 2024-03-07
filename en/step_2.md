@@ -227,8 +227,6 @@ line_highlights:
 
 --- /code ---
 
-Run your code. 
-
 --- /task ---
 
 Next you will add even more colours, that will change depending on which option the user chooses!

@@ -23,16 +23,11 @@ const slot3 = document.querySelector("#slot-3");
 function clear(){
     body.classList = '';
     
-    title.innerHTML = "";
-    
     slot1.classList = 'content';
-    slot1.innerHTML = "";
     
     slot2.classList = 'content';
-    slot2.innerHTML = "";
     
     slot3.classList = 'content';
-    slot3.innerHTML = "";
     
     dropdown.classList.remove("open");
 }
