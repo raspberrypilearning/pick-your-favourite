@@ -1,6 +1,6 @@
-## Change the text
+## Change some content
 
-In this step you will add the text content to your webpage for each of the options, and add colours for each of the content slots. 
+In this step you will add the text content and colours to the first content slot on your webpage for each of the options. 
 
 ### What content will you add?
 
@@ -37,7 +37,7 @@ And the content in them changes depending what **species of Dinosaur** the user 
 
 --- /task ---
 
-### Creating the first slot
+### Creating the text for the first slot
 
 You are going to create the content for the first slot, for all three options and also set a colour for it.
 
@@ -166,6 +166,8 @@ Make sure your content displays as you would like.
 
 --- /task ---
 
+### Add colour to the first slot
+
 The background colour is the same as the webpage, which looks a bit rubbish. 
 
 Next you are going to add the colours for the first option. 
@@ -214,7 +216,7 @@ language: css
 filename: style.css
 line_numbers: true
 line_number_start: 128
-line_highlights: 129-131
+line_highlights: 130
 ---
 
 /* Slot 1 classes */
@@ -225,6 +227,8 @@ line_highlights: 129-131
 --- /code ---
 
 --- /task ---
+
+### Use Javascript to add the content and colours
 
 Now you are going to add the JavaScript that will add the class to slot 1 and fill it with your content!
 
@@ -263,6 +267,39 @@ Run your code, and select the first option.
 You should see the colour you chose now!
 
 --- /task ---
+
+--- collapse ---
+
+---
+title: My text colour isn't very visible
+---
+
+Seeing your colours you might want to change the text colour on your content. 
+
+Make sure they contrast well with the background colour you have chosen.
+
+**Tip:** To make life easier choose `black` or `white` text. 
+
+Add the `color` property to your selector.
+
+--- code ---
+---
+language: css
+filename: style.css
+line_numbers: true
+line_number_start: 128
+line_highlights: 131
+---
+
+/* Slot 1 classes */
+#slot-1.liverpool {
+    background-color: var(--slot1-liverpool);
+    color: white;
+}
+
+--- /code ---
+
+--- /collapse ---
 
 --- task ---
 
@@ -303,7 +340,7 @@ language: css
 filename: style.css
 line_numbers: true
 line_number_start: 46
-line_highlights: 47
+line_highlights: 47-52
 ---
 
   slot1.classList.add("liverpool")
@@ -329,7 +366,7 @@ language: css
 filename: style.css
 line_numbers: true
 line_number_start: 46
-line_highlights: 47
+line_highlights: 47-52
 ---
 
   slot1.classList.add("liverpool")
@@ -370,3 +407,183 @@ line_highlights: 29
 
 --- /task ---
 
+### Change the content for options 2 and 3
+
+Now option 1 is working for your first slot, it is time to add the content and colours for your second option. 
+
+--- task ---
+
+Add a slot 1 colour to `default.css` for your second option.
+
+--- /task ---
+
+--- task ---
+
+Open `style.css` and underneath your first slot1 selector, add a new one for your second option. 
+
+The selector must start with `#slot-1.` and end with your second option class.
+
+The football one looks like this:
+
+--- code ---
+---
+language: css
+filename: style.css
+line_numbers: true
+line_number_start: 128
+line_highlights: 133-135
+---
+
+/* Slot 1 classes */
+#slot-1.liverpool {
+    background-color: var(--slot1-liverpool);
+}
+
+#slot-1.man-city {
+
+}
+
+--- /code ---
+
+--- /task ---
+
+--- task ---
+
+Set the `background-color` property in your new selector to the colour variable you made for it.
+
+--- code ---
+---
+language: css
+filename: style.css
+line_numbers: true
+line_number_start: 128
+line_highlights: 133-135
+---
+
+#slot-1.man-city {
+    background-color: var(--slot-1-man-city);
+}
+
+--- /code ---
+
+--- /task ---
+
+Now you are going to add to your `option2()` function to apply the class and change the content to slot 1.
+
+--- task ---
+
+Find your `option2()` function in `scripts.js`. 
+
+Add a line to apply your new class to it. 
+
+The football example looked like this:
+
+--- code ---
+---
+language: css
+filename: style.css
+line_numbers: true
+line_number_start: 36
+line_highlights: 46
+---
+
+function option2(){
+  clear();
+
+  instruction.style.display = 'none';
+  content.style.display = "grid";
+
+  body.classList.add("man-city");
+
+  title.innerHTML = "man-city";
+
+  slot1.classList.add("man-city");
+}
+
+--- /code ---
+
+--- /task ---
+
+--- task ---
+
+In your `option1` function, copy the lines that changed the `innerHTML` for slot 1.
+
+Paste them inside the `option2` function. 
+
+Edit the lines to be about your second option, the football example looked like this:
+
+--- code ---
+---
+language: css
+filename: style.css
+line_numbers: true
+line_number_start: 36
+line_highlights: 46
+---
+
+  slot1.classList.add("man-city");
+  slot1.innerHTML = "<h1>Recent results</h1> \n \
+        <p>Man City 3 - 1 Burnley</p> \n \
+        <p>Tottenham 0 - 1 Man City</p> \n \
+        <p>Newcastle 2 - 3 Man City</p> \n \
+        <p>Man City 5 - 0 Huddersfield</p> \n \
+        <p>Man City 2 - 0 Sheffield United</p>";
+}
+
+--- /code ---
+
+With Manchester City's results instead of liverpools. 
+
+--- /task ---
+
+--- task ---
+
+Run your code and select your second option, you should see your new colour and content appear!
+
+You might want to add a `color` property to the class to change the text colour to make it more visible.
+
+--- /task ---
+
+To finish up this step you are going to do the same process again but for the **third option**. 
+
+You have to:
++ Add a new colour to `default.css`
++ Create a new `slot-1` class in `style.css` that sets the new colour in a `background-color` property
++ Add the line to your `option3` function to set the class to slot 1.
++ Add the lines to your `option3` function to change the content in slot 1.
+
+--- task ---
+
+Add a new colour to `defaults.css`. 
+
+Open `style.css` and add a new selector for `#slot-1` using your third class name.
+
+--- /task ---
+
+--- task ---
+
+Open `scripts.js` and copy all the slot 1 lines from your `option2` function. 
+
+Paste them at the bottom of your `option3` function.
+
+--- /task ---
+
+--- task ---
+
+Change the name of the class to your third option class.
+
+Update the content to match your third option.
+
+--- /task ---
+
+--- task ---
+
+Test your project. 
+
+Click Run. 
+
+Select an option and scroll down, make sure the colours and content look how you want them to.
+
+--- /task ---
+
+Next you will add the colours, classes and code for the second and third content slots. You are going to have a whole webpage that changes, not just one slot!

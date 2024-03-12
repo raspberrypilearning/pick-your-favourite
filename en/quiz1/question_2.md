@@ -5,35 +5,23 @@
 legend: Question 2 of 3
 ---
 
-You made Pico say hello in a speech bubble.
-
-```blocks3
-say [Hello!] for [2] secs
-```
-
-Where would you go to find this block?
+In CSS you can create very specific selectors, if you have an element with an id attribute `slot-2` and a class `trex` which of these selectors would you use to style **only** the element with **both** of those attributes?
 
 --- choices ---
 
-- (x) 
+- `.slot-1#trex` ( ) 
 
   --- feedback ---
 
   --- /feedback ---
 
-- ( ) 
+- `#slot-1, .trex` ( ) 
 
   --- feedback ---
 
   --- /feedback ---
 
-- ( ) 
-
-  --- feedback ---
-
-  --- /feedback ---
-
-- ( ) 
+- `#slot-1.trex` (x) 
 
   --- feedback ---
 

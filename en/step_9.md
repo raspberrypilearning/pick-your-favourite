@@ -1,23 +1,107 @@
-## Share
+## Upgrade your project
 
-If you are in a club, why not share your project with friends?
+In this step you can upgrade your project by:
++ Styling your content slots more
++ Adding more options to your dropdown
 
-You could also show your family how your project works.
+You don't have to do all of these, choose whichever one appeals to you and fits the time you have.
 
-If you have a Scratch account, you can share your project through Scratch. You can send a link to people you know, and the whole Scratch community will be able to find your project and try it out.
+--- collapse ---
 
-[[[share-scratch]]]
+---
+title: Add more styling to your content slots
+---
 
-Why not invite your friends to create a project? Let them know how you had fun.
+At the moment your content slots are styled with a `background-color` and maybe `color` if you want you can add styling to change the colour of your `h1` or any other element.
 
-If you have a Scratch account, and have shared your 'Don't fall in' project, keep an eye out for comments that others may make about your creation. Feedback is a great way to reflect on your work. Ignore any comments that are unhelpful or irrelevant.
+To style a specific element you can add an element selector inside your class selectors. 
 
-[[[comments-feedback-scratch]]]
+For example, the football webpage added a colour to the `h1` element for each class and it looked like this:
+
+--- code ---
+---
+language: css
+filename: style.css
+---
+
+#slot-1.man-city {
+    background-color: var(--slot-1-man-city);
+
+    h1 {
+        color: var(--slot-2-man-city);
+    }
+}
+
+--- /code ---
+
+You can see that it used the colours from another slot to tie the webpage together. 
+
+You can add any styling you might want to your content, the dinosuar example used the `text-align` property to change the alignment in the **activity** content slot. 
+
+--- code ---
+---
+language: css
+filename: style.css
+---
+
+#slot-3.triceratops {
+    background-color: var(--slot-3-triceratops);
+    text-align: left;
+    color: white;
+    h1 {
+        color: var(--slot-2-triceratops);
+        text-align: center;
+    }
+}
+
+--- /code ---
+
+--- /collapse ---
+
+--- collapse ---
+
+---
+title: Add another option
+---
+
+If you have more time you might want to add more options to your dropdown for your user to choose from.
 
 --- task ---
 
-Inspire the Raspberry Pi Foundation community with your project!
+Open `defaults.css` and add new colours for the:
++ body
++ slot 1
++ slot 2
++ slot 3
 
-To submit your project to our ['Don't fall in - Community'](https://scratch.mit.edu/studios/29601182){:target="_blank"} Scratch studio, please complete [this form](https://form.raspberrypi.org/f/community-project-submissions){:target="_blank"}.
+For your new option
 
 --- /task ---
+
+--- task ---
+
+Open `style.css` and create new classes for your bod, and each of your content slots. Using your new colours to style the slots. 
+
+--- /task ---
+
+--- task ---
+
+Open `scripts.js` and create a new function called `option4()`. 
+
+You can copy one of your previous functions to make this process easier.
+
+Apply the classes you just made and change the content to match your new option.
+
+Make sure you also set the `choice` variable to match the new option at the end of the function.
+
+--- /task ---
+
+--- task ---
+
+Open `index.html` and add a new button to the `dropdown-options` `<div>`. Use the `onclick` attribute to call your new function and change the content.
+
+--- /task ---
+
+You can repeat the steps above for as many options as you would like to add to your webpage. 
+
+--- /collapse ---

@@ -115,7 +115,7 @@ button {
 }
 
 #slot-1.trex {
-    background-color: rgba(0, 178, 169, 0.8);
+    background-color: var(--slot-1-t-rex);
     
     h1 {
         color: #F6EB61;
@@ -123,7 +123,7 @@ button {
 }
 
 #slot-1.triceratops {
-    background-color: rgba(28, 44, 91, 0.8);
+    background-color: var(--slot-1-triceratops);
 
     h1 {
         color: rgb(255, 198, 89);
@@ -131,7 +131,7 @@ button {
 }
 
 #slot-1.stegosaurus {
-    background-color: rgba(19, 34, 87, 0.8);
+    background-color: var(--slot-1-stegosaurus);
     color: white;
     h1 {
         color: white;
@@ -144,7 +144,7 @@ button {
 }
 
 #slot-2.trex {
-    background-color: rgba(246, 235, 97, 0.8);
+    background-color: var(--slot-2-t-rex);
     color: black;
     h1 {
         color: rgb(0, 178, 169);
@@ -152,7 +152,7 @@ button {
 }
 
 #slot-2.triceratops {
-    background-color: rgba(255, 198, 89, 0.8);
+    background-color: var(--slot-2-triceratops);
     color: black;
     h1 {
         color: rgb(28, 44, 91);
@@ -160,7 +160,7 @@ button {
 }
 
 #slot-2.stegosaurus {
-    background-color: rgba(19, 31, 83, 0.8);
+    background-color: var(--slot-2-stegosaurus);
     color: white;
     h1 {
         color: white;
@@ -173,7 +173,7 @@ button {
 }
 
 #slot-3.trex {
-    background-color: rgba(0, 178, 169, 0.8);
+    background-color: var(--slot-3-t-rex);
     text-align: left;
     h1 {
         color: #F6EB61;
@@ -182,7 +182,7 @@ button {
 }
 
 #slot-3.triceratops {
-    background-color: rgba(236, 51, 37, 0.8);
+    background-color: var(--slot-3-triceratops);
     text-align: left;
     color: white;
     h1 {
@@ -193,7 +193,7 @@ button {
 
 
 #slot-3.stegosaurus {
-    background-color: rgba(19, 31, 83, 0.8);
+    background-color: var(--slot-3-stegosaurus);
     color: white;
     text-align: left;
     h1 {

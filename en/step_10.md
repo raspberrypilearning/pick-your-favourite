@@ -1,6 +1,6 @@
 ## What next?
 
-If you are following the [More Web](https://projects.raspberrypi.org/en/raspberrypi/more-web) path, you can move on to the [TODO - ProjectName](https://projects.raspberrypi.org/en/projects/project-name) project. In this project, you will make a (add description here).
+If you are following the [More Web](https://projects.raspberrypi.org/en/raspberrypi/more-web) path, you can move on to the [Quiz time!](https://projects.raspberrypi.org/en/projects/quiz-time) project. In this project, you will make a (add description here).
 
 --- print-only ---
 
