@@ -2,11 +2,11 @@
 
 In this step you will make your whole webpage change when the user chooses an option.
 
-### Adding content for slot 2!
+### Adding content for slot 2
 
-The process for adding content to slot 2 is very similar to what you did in the previous step, to help you make this process quicker use Copy (<kbd>Ctrl</kbd>+<kbd>C</keyboard>/<kbd>Cmd</kbd>+<kbd>C</keyboard>) and Paste (<kbd>Ctrl</kbd>+<kbd>V</keyboard>/<kbd>Cmd</kbd>+<kbd>V</keyboard>) on the code you have already written, then update it to match the new content.
+The process for adding content to slot 2 is very similar to what you did in the previous step, to help you make this process quicker use Copy (<kbd>Ctrl</kbd>+<kbd>C</kbd>/<kbd>Cmd</kbd>+<kbd>C</kbd>) and Paste (<kbd>Ctrl</kbd>+<kbd>V</kbd>/<kbd>Cmd</kbd>+<kbd>V</kbd>) on the code you have already written, then update it to match the new content.
 
-In the last step you did each option one at a time. This time you are going to do all three options at each step: adding colours, creating classes and adding the code. 
+In the last step you did each option one at a time. This time you are going to do all three options at each step: adding colours, creating classes and adding the code.
 
 ### Add colours for slot 2
 
@@ -101,7 +101,9 @@ Now you are going to add to your three `option` functions to apply the classes t
 
 --- task ---
 
-Open `scripts.js`, find your `option1()` function.
+Open `scripts.js`.
+
+Find your `option1()` function.
 
 Add a line that adds your option 1 class to slot 2. 
 
@@ -109,8 +111,8 @@ The dinosaur example looked like this:
 
 --- code ---
 ---
-language: css
-filename: style.css
+language: js
+filename: scripts.js
 line_numbers: true
 line_number_start: 40
 line_highlights: 59
@@ -163,8 +165,8 @@ The dinosaur example looks like this:
 
 --- code ---
 ---
-language: css
-filename: style.css
+language: js
+filename: scripts.js
 line_numbers: true
 line_number_start: 40
 line_highlights: 60-64
@@ -227,16 +229,10 @@ title: An example
 
 The `option2` function for the dinosaur example looked like this:
 
----
-title: An example...
----
-
-The dinosaur example looks like this:
-
 --- code ---
 ---
-language: css
-filename: style.css
+language: js
+filename: scripts.js
 line_numbers: true
 line_number_start: 40
 line_highlights: 60-64
@@ -273,7 +269,8 @@ line_highlights: 60-64
 
 --- /collapse ---
 
-**Run your webpage** - test your colours and content by selecting your second option.
+**Click Run**
++ Test your colours and content by selecting your second option.
 
 --- /task ---
 
@@ -287,11 +284,11 @@ Modify the class and content to match your third option.
 
 ### The third slot
 
-You are so close to finishing the content of your webpage, well done. 
+You are so close to finishing the content of your webpage! Well done!
 
 Now you are going to add the colours, classes and code to style and fill the third slot!
 
-You have done this two times now so the instructions will just remind you of the steps. 
+You have done this twice now, so the instructions will just remind you of the steps. 
 
 --- task ---
 
@@ -381,8 +378,8 @@ title: An example...
 
 --- code ---
 ---
-language: css
-filename: style.css
+language: js
+filename: scripts.js
 line_numbers: false
 ---
 
@@ -506,7 +503,8 @@ line_numbers: false
 
 --- task ---
 
-**Run your webpage** - test all three options, check the content and colours look how you want them to. 
+**Click Run**
++ Test all three options, check the content and colours look how you want them to. 
 
 You can adjust the text colour to make sure it contrasts with the background enough
 
