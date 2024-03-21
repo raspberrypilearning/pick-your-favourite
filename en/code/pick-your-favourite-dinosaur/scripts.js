@@ -21,20 +21,20 @@ const slot3 = document.querySelector("#slot-3");
 
 // Clear 
 function clear(){
-    body.classList = '';
-    
-    title.innerHTML = "";
-    
-    slot1.classList = 'content';
-    slot1.innerHTML = "";
-    
-    slot2.classList = 'content';
-    slot2.innerHTML = "";
-    
-    slot3.classList = 'content';
-    slot3.innerHTML = "";
-    
-    dropdown.classList.remove("open");
+  body.classList = '';
+  
+  title.innerHTML = "";
+  
+  slot1.classList = 'content';
+  slot1.innerHTML = "";
+  
+  slot2.classList = 'content';
+  slot2.innerHTML = "";
+  
+  slot3.classList = 'content';
+  slot3.innerHTML = "";
+  
+  dropdown.classList.remove("open");
 }
 
 // Option 1
@@ -51,26 +51,26 @@ function option1() {
   slot1.classList.add("trex");
   slot1.innerHTML =
     "<h1>Anatomy and Characteristics</h1> \n \
-        <p>One of the largest meat-eating dinosaurs</p> \n \
-        <p>Powerful hind limbs</p> \n \
-        <p>Massive skull with sharp teeth</p> \n \
-        <p>Tiny, two-fingered forelimbs</p>";
+      <p>One of the largest meat-eating dinosaurs</p> \n \
+      <p>Powerful hind limbs</p> \n \
+      <p>Massive skull with sharp teeth</p> \n \
+      <p>Tiny, two-fingered forelimbs</p>";
 
   slot2.classList.add("trex");
   slot2.innerHTML =
     "<h1>Trivia</h1> \n \
-        <p>T-Rex had an huge bite force, capable of crushing bone.</p>\n \
-        <p>T-Rex was a fast runner</p>\n \
-        <p>The name Tyrannosaurus Rex means tyrant lizard king in Greek</p>";
+      <p>T-Rex had an huge bite force, capable of crushing bone.</p>\n \
+      <p>T-Rex was a fast runner</p>\n \
+      <p>The name Tyrannosaurus Rex means tyrant lizard king in Greek</p>";
 
   slot3.classList.add("trex");
   slot3.innerHTML =
     "<h1>Activity</h1> \n \
-        <ol>\n \
-        <li>Get into teams and line up at a start line</li>\n \
-        <li>Put one toy for each team member at the other end of the room</li>\n \
-        <li>One person from each team races to 'bite' a toy and bring it back to the team</li>\n \
-        <li>The first team to return all their toys wins!</li> </ol>";
+      <ol>\n \
+      <li>Get into teams and line up at a start line</li>\n \
+      <li>Put one toy for each team member at the other end of the room</li>\n \
+      <li>One person from each team races to 'bite' a toy and bring it back to the team</li>\n \
+      <li>The first team to return all their toys wins!</li> </ol>";
   
   localStorage.setItem("choice", "trex");
 }
@@ -89,17 +89,17 @@ function option2() {
   slot1.classList.add("triceratops");
   slot1.innerHTML =
     "<h1>Anatomy and Characteristics</h1> \n \
-        <p>A herbivorous dinosaur</p> \n \
-        <p>Known for its distinctive frill and three facial horns</p> \n \
-        <p>It had a bulky body, a beak-like mouth, and a large bony plate projecting from the back of its skull</p> \n \
-        <p>Triceratops likely lived in herds and used its horns for defense</p>";
+      <p>A herbivorous dinosaur</p> \n \
+      <p>Known for its distinctive frill and three facial horns</p> \n \
+      <p>It had a bulky body, a beak-like mouth, and a large bony plate projecting from the back of its skull</p> \n \
+      <p>Triceratops likely lived in herds and used its horns for defense</p>";
 
   slot2.classList.add("triceratops");
   slot2.innerHTML =
     "<h1>Trivia</h1> \n \
-        <p>Triceratops was a bit of a show off, its frill may have been used for display</p>\n \
-        <p>Triceratops roamed North America during the Late Cretaceous period</p>\n \
-        <p>Triceratops means three-horned face in Greek</p>";
+      <p>Triceratops was a bit of a show off, its frill may have been used for display</p>\n \
+      <p>Triceratops roamed North America during the Late Cretaceous period</p>\n \
+      <p>Triceratops means three-horned face in Greek</p>";
 
   slot3.classList.add("triceratops");
   slot3.innerHTML =
@@ -129,25 +129,25 @@ function option3() {
   slot1.classList.add("stegosaurus");
   slot1.innerHTML =
     "<h1>Anatomy and Characteristics</h1> \n \
-        <p>Stegosaurus was a plant eater (a herbivor)</p> \n \
-        <p>It had a double row of large bony plates along its back</p> \n \
-        <p>It had spikes on its tail</p> \n \
-        <p>It a small head, with a small brain compared to its body size</p>";
+      <p>Stegosaurus was a plant eater (a herbivor)</p> \n \
+      <p>It had a double row of large bony plates along its back</p> \n \
+      <p>It had spikes on its tail</p> \n \
+      <p>It a small head, with a small brain compared to its body size</p>";
 
   slot2.classList.add("stegosaurus");
   slot2.innerHTML =
     "<h1>Trivia</h1> \n \
-        <p>Stegosaurus had a second brain in its hips, assisting in coordinating movement and balance</p>\n \
-        <p>Stegosaurus lived during the Late Jurassic period</p> \n \
-        <p>Stegosaurus means armoured roof lizard in Greek</p> \n \
-        <p>The stop-motion puppet used in the 1933 film King Kong was based on a 1897 illustration of Stegosaurus</p>";
+      <p>Stegosaurus had a second brain in its hips, assisting in coordinating movement and balance</p>\n \
+      <p>Stegosaurus lived during the Late Jurassic period</p> \n \
+      <p>Stegosaurus means armoured roof lizard in Greek</p> \n \
+      <p>The stop-motion puppet used in the 1933 film King Kong was based on a 1897 illustration of Stegosaurus</p>";
 
   slot3.classList.add("stegosaurus");
   slot3.innerHTML =
     "<h1>Activity</h1> \n \
-        <ol><li>Decorate some paper plates to make Stegosaurus's bony plates</li>\n \
-        <li>Once the plates are dry, have a 'Stegosaurus Parade' to showcase your plates</li>\n \
-        <li>Share the designs and celebrate the creativity!</li></ol>";
+      <ol><li>Decorate some paper plates to make Stegosaurus's bony plates</li>\n \
+      <li>Once the plates are dry, have a 'Stegosaurus Parade' to showcase your plates</li>\n \
+      <li>Share the designs and celebrate the creativity!</li></ol>";
 
   localStorage.setItem("choice", "stegosaurus");
 }
@@ -185,21 +185,21 @@ slot3observer.observe(slot3);
 
 // Loaded function
 document.addEventListener("DOMContentLoaded", function () {
-    const choice = localStorage.getItem("choice");
-  
-    if (choice == "trex"){
-        option1();
-    } else if (choice == "triceratops"){
-        option2();
-    } else if (choice == "stegasaurus"){
-        option3();
-    }
+  const choice = localStorage.getItem("choice");
+
+  if (choice == "trex"){
+    option1();
+  } else if (choice == "triceratops"){
+    option2();
+  } else if (choice == "stegosaurus"){
+    option3();
+  }
 });
 
 // Reset
 function reset(){
-    clear();
-    content.style.display = "";
-    instruction.style.display = 'flex';
-    localStorage.setItem("choice", "");
+  clear();
+  content.style.display = "";
+  instruction.style.display = 'flex';
+  localStorage.setItem("choice", "");
 }

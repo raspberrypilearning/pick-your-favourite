@@ -19,19 +19,19 @@ Decide what the titles of each of your content slots will be.
 title: Some examples...
 ---
 
-The Football example had slots for:
+**The Football example had slots for:**
 + Match results
 + News
 + Top players
 
-The content for these changed depending which **team** the user chooses.
+The content changes depending which football **team** the user chooses.
 
-The Dinosaur example had slots for:
+**The Dinosaur example had slots for:**
 + Anatomy and Characteristics
 + Trivia
 + An activity
 
-And the content in them changes depending what **species of Dinosaur** the user selects.
+The content changes depending which dinosaur **species** the user chooses.
 
 --- /collapse ---
 
@@ -48,7 +48,7 @@ Open `index.html` and add a line break in between the `<div>` with the id `slot-
 --- code ---
 ---
 language: html
-filename: index.html
+filename: index.html.html
 line_numbers: true
 line_number_start: 27
 line_highlights: 30
@@ -74,7 +74,7 @@ Add a heading for the content slot using `<h1>` tags.
 --- code ---
 ---
 language: html
-filename: index.html
+filename: index.html.html
 line_numbers: true
 line_number_start: 27
 line_highlights: 30
@@ -110,7 +110,7 @@ title: Some examples...
 --- code ---
 ---
 language: html
-filename: index.html
+filename: index.html.html
 line_numbers: true
 line_number_start: 27
 line_highlights: 30
@@ -136,7 +136,7 @@ line_highlights: 30
 --- code ---
 ---
 language: html
-filename: index.html
+filename: index.html.html
 line_numbers: true
 line_number_start: 27
 line_highlights: 30
@@ -160,7 +160,7 @@ line_highlights: 30
 
 --- /collapse ---
 
-Run your code, and select the first option from your dropdown. 
+Run your code, and select the first option from your drop-down. 
 
 Make sure your content displays as you would like.
 
@@ -182,9 +182,9 @@ Open `default.css` and add a new colour for your first option, call the variable
 
 Open `style.css` and find the `/* Slot 1 classes */` comment on line 128. 
 
-Add a new selector for the `slot-1` id and add a class for your first option...
+Add a new selector for the `slot-1` id and add a class for your first option.
 
-The football example looked like this:
+The **Football** example looked like this:
 
 --- code ---
 ---
@@ -221,14 +221,14 @@ line_highlights: 130
 
 /* Slot 1 classes */
 #slot-1.liverpool {
-    background-color: var(--slot1-liverpool);
+  background-color: var(--slot1-liverpool);
 }
 
 --- /code ---
 
 --- /task ---
 
-### Use Javascript to add the content and colours
+### Use JavaScript to add the content and colours
 
 Now you are going to add the JavaScript that will add the class to slot 1 and fill it with your content!
 
@@ -240,8 +240,8 @@ Use the constant `slot1` to add your class to the content slot.
 
 --- code ---
 ---
-language: css
-filename: style.css
+language: js
+filename: scripts.js
 line_numbers: true
 line_number_start: 36
 line_highlights: 46
@@ -274,11 +274,11 @@ You should see the colour you chose now!
 title: My text colour isn't very visible
 ---
 
-Seeing your colours you might want to change the text colour on your content. 
+When you see your colours, you might want to change the text colour on your content.
 
 Make sure they contrast well with the background colour you have chosen.
 
-**Tip:** To make life easier choose `black` or `white` text. 
+**Tip:** To make life easier choose `black` or `white` text.
 
 Add the `color` property to your selector.
 
@@ -293,8 +293,8 @@ line_highlights: 131
 
 /* Slot 1 classes */
 #slot-1.liverpool {
-    background-color: var(--slot1-liverpool);
-    color: white;
+  background-color: var(--slot1-liverpool);
+  color: white;
 }
 
 --- /code ---
@@ -307,8 +307,8 @@ Add a line to change the `innerHTML` of `slot1`.
 
 --- code ---
 ---
-language: css
-filename: style.css
+language: js
+filename: scripts.js
 line_numbers: true
 line_number_start: 46
 line_highlights: 47
@@ -326,18 +326,20 @@ line_highlights: 47
 
 Open `index.html`. 
 
-Highlight and copy (<kbd>Ctrl</kbd>+<kbd>C</keyboard>/<kbd>Cmd</kbd>+<kbd>C</keyboard>) the content inside the `slot-1` div. 
+Highlight and copy (<kbd>Ctrl</kbd>+<kbd>C</kbd>/<kbd>Cmd</kbd>+<kbd>C</kbd>) the content inside the `slot-1` div. 
 
 --- /task ---
 
 --- task ---
 
-Back in `scripts.js` paste (<kbd>Ctrl</kbd>+<kbd>V</keyboard>/<kbd>Cmd</kbd>+<kbd>V</keyboard>) the content in between the speech marks `""`.
+Open `scripts.js` 
+
+Paste (<kbd>Ctrl</kbd>+<kbd>V</kbd>/<kbd>Cmd</kbd>+<kbd>V</kbd>) the content in between the speech marks ``""``.
 
 --- code ---
 ---
-language: css
-filename: style.css
+language: js
+filename: scripts.js
 line_numbers: true
 line_number_start: 46
 line_highlights: 47-52
@@ -345,11 +347,11 @@ line_highlights: 47-52
 
   slot1.classList.add("liverpool")
   slot1.innerHTML = "<h1>Recent results</h1>
-          <p>Liverpool 4 - 1 Chelsea</p>
-          <p>Liverpool 5 - 2 Norwich City</p>
-          <p>Fulham 1 - 1 Liverpool</p>
-          <p>Bournemouth 0 - 4 Liverpool</p>
-          <p>Liverpool 2 - 1 Fulham</p>";
+        <p>Liverpool 4 - 1 Chelsea</p>
+        <p>Liverpool 5 - 2 Norwich City</p>
+        <p>Fulham 1 - 1 Liverpool</p>
+        <p>Bournemouth 0 - 4 Liverpool</p>
+        <p>Liverpool 2 - 1 Fulham</p>";
 }
 
 --- /code ---
@@ -362,20 +364,20 @@ Add `\n \` to add a line break to the end of every line, **except** the last one
 
 --- code ---
 ---
-language: css
-filename: style.css
+language: js
+filename: scripts.js
 line_numbers: true
 line_number_start: 46
-line_highlights: 47-52
+line_highlights: 47-51
 ---
 
   slot1.classList.add("liverpool")
   slot1.innerHTML = "<h1>Recent results</h1> \n \
-          <p>Liverpool 4 - 1 Chelsea</p> \n \
-          <p>Liverpool 5 - 2 Norwich City</p> \n \
-          <p>Fulham 1 - 1 Liverpool</p> \n \
-          <p>Bournemouth 0 - 4 Liverpool</p>\n \
-          <p>Liverpool 2 - 1 Fulham</p>";
+        <p>Liverpool 4 - 1 Chelsea</p> \n \
+        <p>Liverpool 5 - 2 Norwich City</p> \n \
+        <p>Fulham 1 - 1 Liverpool</p> \n \
+        <p>Bournemouth 0 - 4 Liverpool</p>\n \
+        <p>Liverpool 2 - 1 Fulham</p>";
 }
 
 --- /code ---
@@ -389,7 +391,7 @@ Now open `index.html` and delete the content inside the `slot-1` div.
 --- code ---
 ---
 language: html
-filename: index
+filename: index.html
 line_numbers: true
 line_number_start: 27
 line_highlights: 29
@@ -436,7 +438,7 @@ line_highlights: 133-135
 
 /* Slot 1 classes */
 #slot-1.liverpool {
-    background-color: var(--slot1-liverpool);
+  background-color: var(--slot1-liverpool);
 }
 
 #slot-1.man-city {
@@ -461,14 +463,14 @@ line_highlights: 133-135
 ---
 
 #slot-1.man-city {
-    background-color: var(--slot-1-man-city);
+  background-color: var(--slot-1-man-city);
 }
 
 --- /code ---
 
 --- /task ---
 
-Now you are going to add to your `option2()` function to apply the class and change the content to slot 1.
+Now you are going to add to your `option2()` function, so it applies the class and changes the content.
 
 --- task ---
 
@@ -476,12 +478,12 @@ Find your `option2()` function in `scripts.js`.
 
 Add a line to apply your new class to it. 
 
-The football example looked like this:
+The **football** example looked like this:
 
 --- code ---
 ---
-language: css
-filename: style.css
+language: js
+filename: scripts.js
 line_numbers: true
 line_number_start: 36
 line_highlights: 46
@@ -510,7 +512,7 @@ In your `option1` function, copy the lines that changed the `innerHTML` for slot
 
 Paste them inside the `option2` function. 
 
-Edit the lines to be about your second option, the football example looked like this:
+Edit the lines to be about your second option, the football example looked like this (with Manchester City's results instead of Liverpool's):
 
 --- code ---
 ---
@@ -532,8 +534,6 @@ line_highlights: 46
 
 --- /code ---
 
-With Manchester City's results instead of liverpools. 
-
 --- /task ---
 
 --- task ---
@@ -544,7 +544,7 @@ You might want to add a `color` property to the class to change the text colour 
 
 --- /task ---
 
-To finish up this step you are going to do the same process again but for the **third option**. 
+To finish this step, you are going to do the same process again but for the **third option**. 
 
 You have to:
 + Add a new colour to `default.css`
@@ -554,7 +554,7 @@ You have to:
 
 --- task ---
 
-Add a new colour to `defaults.css`. 
+Add a new colour to `default.css`. 
 
 Open `style.css` and add a new selector for `#slot-1` using your third class name.
 
@@ -578,11 +578,10 @@ Update the content to match your third option.
 
 --- task ---
 
-Test your project. 
+### Test your project. 
 
-Click Run. 
-
-Select an option and scroll down, make sure the colours and content look how you want them to.
+**Click Run**
++ Select an option and scroll down, make sure the colours and content look how you want them to.
 
 --- /task ---
 

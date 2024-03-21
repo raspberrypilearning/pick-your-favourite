@@ -17,17 +17,16 @@ You will:
 
 ### Try it!
 
+[See inside](https://editor.raspberrypi.org/en/projects/pick-your-favourite-football){:target="_blank"}
+
 <div style="display: flex; flex-wrap: wrap">
-    <div style="flex-basis: 175px; flex-grow: 1">  
-        Following a particular sport is a great way to connect with friends. Sometimes you support the same team, but with so many options you and your mates might support different teams. Here is a website that all of you can use, use the dropdown at the top to switch the teams!
-    </div>
-    <div>
-        **Happiness**: [See inside](https://staging-editor.raspberrypi.org/en/projects/pick-your-favourite-football){:target="_blank"}
-        <div>
-            <iframe src="https://editor.raspberrypi.org/en/embed/viewer/pick-your-favourite-football" width="100%" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen> 
-            </iframe>
-        </div>  
-    </div>
+<div style="flex-basis: 175px; flex-grow: 1">  
+Following a sport is a great way to connect with friends. Sometimes you support the same team, but with so many options you and your mates might support different teams. Here is a website that all of you can use. Click the drop-down at the top to switch the teams!
+
+<iframe src="https://editor.raspberrypi.org/en/embed/viewer/pick-your-favourite-football" width="100%" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen> 
+</iframe>
+
+</div>  
 </div>
 
 --- /task ---
@@ -38,7 +37,7 @@ You will need to make some design choices to create your fan website!
 
 + What will your overall topic be?
 + What three options will you give to users?
-+ What three bits of content will apply to those choices?
++ What three bits of content will apply to those options?
 
 --- task ---
 
@@ -49,7 +48,9 @@ Explore these examples to get more ideas:
 <iframe src="https://editor.raspberrypi.org/en/embed/viewer/pick-your-favourite-dinosaur" width="100%" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen> </iframe>
 </div>
 
+
 --- /task ---
+
 --- /no-print ---
 
 --- print-only ---

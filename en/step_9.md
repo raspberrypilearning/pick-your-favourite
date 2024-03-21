@@ -2,7 +2,7 @@
 
 In this step you can upgrade your project by:
 + Styling your content slots more
-+ Adding more options to your dropdown
++ Adding more options to your drop-down
 
 You don't have to do all of these, choose whichever one appeals to you and fits the time you have.
 
@@ -64,11 +64,11 @@ filename: style.css
 title: Add another option
 ---
 
-If you have more time you might want to add more options to your dropdown for your user to choose from.
+If you have more time you might want to add more options to your drop-down for your user to choose from.
 
 --- task ---
 
-Open `defaults.css` and add new colours for the:
+Open `default.css` and add new colours for the:
 + body
 + slot 1
 + slot 2
@@ -98,7 +98,7 @@ Make sure you also set the `choice` variable to match the new option at the end 
 
 --- task ---
 
-Open `index.html` and add a new button to the `dropdown-options` `<div>`. Use the `onclick` attribute to call your new function and change the content.
+Open `index.html` and add a new button to the `drop-down-options` `<div>`. Use the `onclick` attribute to call your new function and change the content.
 
 --- /task ---
 

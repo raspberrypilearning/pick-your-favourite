@@ -1,20 +1,23 @@
 ## Choose your colours
 
-In this step you are going to make your webpage change into different colours for all the options! 
+In this step you are going to make your webpage colours change for all the options! 
+
+--- task ---
 
 **Try it**
 
-Click on the options in the dinosaur example to see the colour changes!
+Click on the options in the dinosaur example to see the colours change!
 
 <iframe src="https://editor.raspberrypi.org/en/embed/viewer/pick-your-favourite-dinosaur" width="100%" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen> </iframe>
-</div>
+
+--- /task ---
 
 For each option you will need colours for:
 + The `<body>` of the webpage
 + The three content slots
 + Heading and text for the slots
 
-**Tip:** You are going to add a lot of code in this step so make sure you use Copy (<kbd>Ctrl</kbd>+<kbd>C</keyboard>/<kbd>Cmd</kbd>+<kbd>C</keyboard>) and Paste (<kbd>Ctrl</kbd>+<kbd>V</keyboard>/<kbd>Cmd</kbd>+<kbd>V</keyboard>) to speed the process up. 
+**Tip:** You are going to add a lot of code in this step, so make sure you use Copy (<kbd>Ctrl</kbd>+<kbd>C</kbd>/<kbd>Cmd</kbd>+<kbd>C</kbd>) and Paste (<kbd>Ctrl</kbd>+<kbd>V</kbd>/<kbd>Cmd</kbd>+<kbd>V</kbd>) to speed the process up. 
 
 ### Create your body colour classes
 
@@ -22,13 +25,13 @@ For each option you will need colours for:
 
 Choose your three body colours and note them down. 
 
-**T0-DO** Add colour ingredients
+**TO-DO** Add colour ingredients
 
 --- /task ---
 
 --- task ---
 
-If you want to add your own colours, you can open `default.css` and add your own variables inside the `:root:` selector. 
+If you want to add your own colours, you can open `default.css` and add your own variables inside the `:root` selector. 
 
 --- code ---
 ---
@@ -56,13 +59,13 @@ Open `style.css`.
 
 Find the `/* Body Classes */` comment.
 
-Underneath create a class selector for your first option with the `.` identifier.
+Underneath, create a class selector for your first option with the `.` identifier.
 
 Set the `background-color:` property to the body colour for the first option.
 
 You might also want to set a `color:` property to make sure the title text is visible.
 
-You should give this class a name that relates to your option, the dinosaur example above looks like this:
+You should give this class a name that relates to your option, the **Dinosaur** example looks like this:
 
 --- code ---
 ---
@@ -95,7 +98,7 @@ title: What should my code look like?
 
 Your CSS should contain three class selectors, with `background-color:` and maybe `color` properties set. 
 
-This is the `Dinosaur` example.
+This is the **Dinosaur** example.
 
 --- code ---
 ---
@@ -103,7 +106,7 @@ language: css
 filename: style.css
 line_numbers: true
 line_number_start: 108
-line_highlights: 109-111
+line_highlights: 
 ---
 
 /* Body Classes */
@@ -134,15 +137,17 @@ Next you need to create functions that will cause the changes to your page when 
 
 --- task ---
 
-Open `script.js` - and create a function called `option1` underneath the `// Option 1` comment. 
+Open `script.js` - and find the `// Option 1` comment. 
+
+Create a function called `option1`.
 
 --- code ---
 ---
 language: javascript
 filename: scripts.js
 line_numbers: true
-line_number_start: 41
-line_highlights: 42-44
+line_number_start: 35
+line_highlights: 36-38
 ---
 
 // Option 1
@@ -156,15 +161,15 @@ function option1(){
 
 --- task ---
 
-When an option is clicked you need to clear the page, then change hide the instruction and set the `content-holder` to display as a `grid`. 
+When an option is clicked you need to clear the page, then hide the instruction and set the `content-holder` to display as a `grid`. 
 
 --- code ---
 ---
 language: javascript
 filename: scripts.js
 line_numbers: true
-line_number_start: 41
-line_highlights: 43, 45-46
+line_number_start: 35
+line_highlights: 37, 39-40
 ---
 
 // Option 1
@@ -183,15 +188,15 @@ function option1(){
 
 Next add the new class you made in `style.css` to the body, and change the title to match your option. 
 
-The Dinosaur example looks like this:
+The **Dinosaur** example looks like this:
 
 --- code ---
 ---
 language: javascript
 filename: scripts.js
 line_numbers: true
-line_number_start: 46
-line_highlights: 48, 50 
+line_number_start: 40
+line_highlights: 42, 44
 ---
 
   content.style.display = "grid";
@@ -220,8 +225,8 @@ Change:
 language: javascript
 filename: scripts.js
 line_numbers: true
-line_number_start: 53
-line_highlights: 53, 60, 62 
+line_number_start: 47
+line_highlights: 48, 60, 62 
 ---
 
 // Option 2
@@ -244,7 +249,10 @@ function option2(){
 
 Do the same for your third option, underneath the `// Option 3` comment. 
 
-Make sure to update; the function name, the class added to body and the title.
+Make sure to update:
++ the function name
++ the class added to body
++ the title
 
 --- collapse ---
 
@@ -257,7 +265,7 @@ title: How should my option3 function look?
 language: javascript
 filename: scripts.js
 line_numbers: true
-line_number_start: 65
+line_number_start:
 ---
 
 // Option 3
@@ -280,25 +288,25 @@ function option3(){
 
 ### Make the options work
 
-In order to test your code you need to link the buttons in the dropdown to the functions you have just written. 
+In order to test your code you need to link the buttons in the drop-down to the functions you have just written. 
 
 --- task ---
 
 Open `index.html`. 
 
-Add `onclick` properties to each of your dropdown buttons, calling the three functions.
+Add `onclick` properties to each of your drop-down buttons, calling the three functions.
 
 --- code ---
 ---
 language: html
-filename: index.html
+filename: index.html.html
 line_numbers: true
 line_number_start: 15
 line_highlights: 16-18
 ---
 
 <div id="dropdown-options">
-  <button onclick="option1()">Tyrannosaurus Rex</button>
+  <button onclick="option1()">T-Rex</button>
   <button onclick="option2()">Triceratops</button>
   <button onclick="option3()">Stegosaurus</button>
 </div>
@@ -311,10 +319,10 @@ line_highlights: 16-18
 
 Click **Run**.
 
-Use the dropdown and select your options, you should see the colours change!
+Use the drop-down and select your options, you should see the colours change!
 
-**Debug**: If your colours don't change, make sure the class names you add in JavaScript **exactly** match the ones in your CSS. 
+**Debug**: If your colours don't change, make sure the class names you add in JavaScript match the ones in your CSS **exactly**!.
 
 --- /task ---
 
-Next you will allow the user to change the content of your webpage by choosing your options!
+Next you will allow the user to change the content of your webpage when they choose an option!

@@ -199,12 +199,12 @@ function reset(){
 
 --- task ---
 
-Open `index.html` and add a new button to the dropdown menu that the user can use to reset the page. 
+Open `index.html` and add a new button to the drop-down menu that the user can use to reset the page. 
 
 --- code ---
 ---
 language: html
-filename: index.html
+filename: index.html.html
 line_numbers: false
 line_number_start: 14
 line_highlights: 18

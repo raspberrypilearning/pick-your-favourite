@@ -1,6 +1,6 @@
 ## Create the frame
 
-In this step you will create the frame for your fan website. Choosing a starting background colour and create the dropdown that allows users to change the webpage!
+In this step you will create the frame for your fan website. You will also choose a starting background colour and the drop-down that allows users to change the webpage!
 
 ### What will the webpage be about?
 
@@ -11,13 +11,13 @@ What hobby or interest will you choose for your website?
 + ⚽️ **Sports**: Teams, players or leagues?
 + 👗 **Fashion**: Brands, trends, influencers or decades?
 + 🔬 **Science**: Wildlife, climate or theories?
-+ 🎥 **TV & Film**: Anime, Series, Movies, Characters or Settings?
++ 🎥 **TV & Film**: Anime, series, movies, characters or settings?
 + 🖥️ **Coding**: Languages, Devices or Software?
-+ 🕹️ **Video Games**: Franchises, Characters, Genres or Consoles?
-+ 🎨 **Art**: Art works, Mediums, Artists or Museums?
++ 🕹️ **Video Games**: Franchises, characters, genres or consoles?
++ 🎨 **Art**: Art works, mediums, artists or museums?
 + 👥 **Culture**: Festivals, holidays or historical events?
 
-For the project you need to pick a theme, and three choices for the user to make within that theme
+For the project you need to pick a theme, and three choices for the user to make within that theme.
 
 --- collapse ---
 
@@ -25,15 +25,15 @@ For the project you need to pick a theme, and three choices for the user to make
 title: Some examples...
 ---
 
-The example project uses **Football** as it's theme, and gives the user a choice between three teams:
+The example project uses **Football** as its theme, and gives the user a choice between three teams:
 1. Liverpool
 2. Manchester City
 3. Tottenham Hotspur
 
-The "Dinosaur" example let's the user choose between different species of Dinosaur:
+The **Dinosaur** example lets the user choose between different species of Dinosaur:
 1. Tyrannosaurus Rex
 2. Triceratops
-3. Stegasaurus
+3. Stegosaurus
 
 There are many choices of themes, and options within those themes. Pick something you would love to show to your friends or family!
 
@@ -47,54 +47,54 @@ Choose your theme and three options within that theme.
 
 --- task ---
 
-Change the text in the button and dropdown options to match your idea!
+Change the text in the button and drop-down options to match your idea!
 
 --- code ---
 ---
 language: html
-filename: index
+filename: index.html
 line_numbers: true
 line_number_start: 12
 line_highlights: 13, 15-17
 ---
 
 <div class="dropdown">
-    <button>Choose a Dinosaur &#9207;</button>
-    <div id="dropdown-options">
-        <button>T-Rex</button>
-        <button>Triceratops</button>
-        <button>Stegasaurus</button>
-    </div>
+  <button>Choose a Dinosaur &#9207;</button>
+  <div id="dropdown-options">
+    <button>T-Rex</button>
+    <button>Triceratops</button>
+    <button>Stegosaurus</button>
+  </div>
 </div>
 
 --- /code ---
 
-**Tip** - Unless you are also doing dinosaurs, make sure that they are your options!
+**Tip** - Make sure you add your options (unless you are also doing dinosaurs)!
 
 --- /task ---
 
-At the moment the dropdown doesn't open, there is a function to open and close it in the `script.js` file. 
+At the moment the drop-down doesn't open, there is a function to open and close it in the `script.js` file. 
 
 --- task ---
 
-Add the function to open the dropdown, using the `onclick` attribute.
+Add the function to open the drop-down, using the `onclick` attribute.
 
 --- code ---
 ---
 language: html
-filename: index
+filename: index.html
 line_numbers: true
 line_number_start: 12
 line_highlights: 13
 ---
 
 <div class="dropdown">
-    <button onclick="openDropdown()">Choose a Dinosaur &#9207;</button>
-    <div id="dropdown-options">
-        <button>T-Rex</button>
-        <button>Triceratops</button>
-        <button>Stegasaurus</button>
-    </div>
+  <button onclick="openDropdown()">Choose a Dinosaur &#9207;</button>
+  <div id="dropdown-options">
+    <button>T-Rex</button>
+    <button>Triceratops</button>
+    <button>Stegosaurus</button>
+  </div>
 </div>
 
 --- /code ---
@@ -112,10 +112,10 @@ Add the instructions in a `<section>` using a `<h1>` element:
 --- code ---
 ---
 language: html
-filename: index
+filename: index.html
 line_numbers: true
 line_number_start: 22
-line_highlights: 24
+line_highlights: 23-25
 ---
 
 <main>
@@ -132,7 +132,7 @@ line_highlights: 24
 
 The page is looking pretty boring now, time for you to make it look awesome!
 
-**TO-DO** - Add a Google font
+**TO-DO** - Add a Google font << Make into import statements
 
 --- task ---
 
@@ -148,9 +148,9 @@ Add an appropriate font for your webpage from Google Fonts.
 
 --- task ---
 
-Open `defaults.css`. 
+Open `default.css`. 
 
-Change the `--body-background`, `--body-text` and `--nav-bar` colour variables to new colours of your choice
+Change the `--body-background`, `--body-text` and `--nav-bar` colour variables to new colours of your choice.
 
 --- code ---
 ---
@@ -187,10 +187,10 @@ Inside the `<main>` tags, add a new section with the id attribute `content-holde
 --- code ---
 ---
 language: html
-filename: index
+filename: index.html
 line_numbers: true
 line_number_start: 27
-line_highlights: 
+line_highlights: 27-29
 ---
 
   <section id="content-holder">
@@ -211,10 +211,10 @@ Use `id` attributes for the slots, you will use these later!
 --- code ---
 ---
 language: html
-filename: index
+filename: index.html
 line_numbers: true
 line_number_start: 27
-line_highlights: 
+line_highlights: 28-31
 ---
 
   <section id="content-holder">
@@ -229,4 +229,4 @@ line_highlights:
 
 --- /task ---
 
-Next you will add even more colours, that will change depending on which option the user chooses!
+Next you will add even more colours that will change depending on which option the user chooses!

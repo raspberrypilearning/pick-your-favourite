@@ -295,7 +295,7 @@ You have done this two times now so the instructions will just remind you of the
 
 --- task ---
 
-Open `defaults.css` - under the `/* Slot 3 colours */` comment, add three colours for slot 3 (one for each of your options).
+Open `default.css` - under the `/* Slot 3 colours */` comment, add three colours for slot 3 (one for each of your options).
 
 --- collapse ---
 
