@@ -299,7 +299,7 @@ Add `onclick` properties to each of your drop-down buttons, calling the three fu
 --- code ---
 ---
 language: html
-filename: index.html.html
+filename: index.html
 line_numbers: true
 line_number_start: 15
 line_highlights: 16-18

@@ -43,15 +43,15 @@ You are going to create the content for the first slot, for all three options an
 
 --- task ---
 
-Open `index.html` and add a line break in between the `<div>` with the id `slot-1`.
+Open `index.html` and add a line break in between the opening and closing `<div>` tags (with the id `slot-1`).
 
 --- code ---
 ---
 language: html
-filename: index.html.html
+filename: index.html
 line_numbers: true
 line_number_start: 27
-line_highlights: 30
+line_highlights: 29-31
 ---
 
 <section id="content-holder">
@@ -65,6 +65,8 @@ line_highlights: 30
 
 --- /code ---
 
+**Tip:** Make sure you put your cursor between the opening `<div>` and the closing `</div>` before putting the line break in.
+
 --- /task ---
 
 --- task ---
@@ -74,7 +76,7 @@ Add a heading for the content slot using `<h1>` tags.
 --- code ---
 ---
 language: html
-filename: index.html.html
+filename: index.html
 line_numbers: true
 line_number_start: 27
 line_highlights: 30
@@ -110,7 +112,7 @@ title: Some examples...
 --- code ---
 ---
 language: html
-filename: index.html.html
+filename: index.html
 line_numbers: true
 line_number_start: 27
 line_highlights: 30
@@ -136,7 +138,7 @@ line_highlights: 30
 --- code ---
 ---
 language: html
-filename: index.html.html
+filename: index.html
 line_numbers: true
 line_number_start: 27
 line_highlights: 30

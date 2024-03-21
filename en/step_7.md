@@ -204,7 +204,7 @@ Open `index.html` and add a new button to the drop-down menu that the user can u
 --- code ---
 ---
 language: html
-filename: index.html.html
+filename: index.html
 line_numbers: false
 line_number_start: 14
 line_highlights: 18
