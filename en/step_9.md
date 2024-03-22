@@ -1,10 +1,10 @@
 ## Upgrade your project
 
 In this step you can upgrade your project by:
-+ Styling your content slots more
++ Adding more styling to your content slots
 + Adding more options to your drop-down
 
-You don't have to do all of these, choose whichever one appeals to you and fits the time you have.
+You don't have to do both. Choose whichever one appeals to you and fits the time you have.
 
 --- collapse ---
 
@@ -12,11 +12,13 @@ You don't have to do all of these, choose whichever one appeals to you and fits 
 title: Add more styling to your content slots
 ---
 
-At the moment your content slots are styled with a `background-color` and maybe `color` if you want you can add styling to change the colour of your `h1` or any other element.
+At the moment your content slots are styled with a `background-color` and maybe `color` 
+
+You can also add styling to change the colour of your `h1` or any other element.
 
 To style a specific element you can add an element selector inside your class selectors. 
 
-For example, the football webpage added a colour to the `h1` element for each class and it looked like this:
+For example, the **football** example added a colour to the `h1` element for each class like this:
 
 --- code ---
 ---
@@ -36,7 +38,7 @@ filename: style.css
 
 You can see that it used the colours from another slot to tie the webpage together. 
 
-You can add any styling you might want to your content, the dinosuar example used the `text-align` property to change the alignment in the **activity** content slot. 
+You can add any styling you might want to your content, the **dinosaur** example used the `text-align` property to change the alignment in the **activity** content slot. 
 
 --- code ---
 ---
@@ -80,7 +82,7 @@ For your new option
 
 --- task ---
 
-Open `style.css` and create new classes for your bod, and each of your content slots. Using your new colours to style the slots. 
+Open `style.css` and create new classes for `<body>`, and each of your content slots. Use your new colours to style the slots.
 
 --- /task ---
 
@@ -98,10 +100,12 @@ Make sure you also set the `choice` variable to match the new option at the end 
 
 --- task ---
 
-Open `index.html` and add a new button to the `drop-down-options` `<div>`. Use the `onclick` attribute to call your new function and change the content.
+Open `index.html` and add a new button to the `drop-down-options` `<div>`. 
+
+Add the `onclick` attribute to call your new function that will change the content.
 
 --- /task ---
 
-You can repeat the steps above for as many options as you would like to add to your webpage. 
+You can repeat the steps above for as many options as you would like to add to your webpage!
 
 --- /collapse ---
