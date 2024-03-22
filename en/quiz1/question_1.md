@@ -39,7 +39,7 @@ Which of these would allow you to **use** the `--body-background` variable in an
 
 --- choices ---
 
-- `background-color: --body-background;` ()
+- ( ) `background-color: --body-background;` ()
 
   --- feedback ---
 
@@ -47,13 +47,15 @@ Which of these would allow you to **use** the `--body-background` variable in an
 
   --- /feedback ---
 
-- `background-color: var(--body-background);` (x)
+- (x) `background-color: var(--body-background);`
 
   --- feedback ---
 
+  Correct!
+
   --- /feedback ---
 
-- `background-color: root(--body-background);` () 
+- ( ) `background-color: root(--body-background);` 
 
   --- feedback ---
 

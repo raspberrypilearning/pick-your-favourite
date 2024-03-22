@@ -7,7 +7,7 @@ legend: Question 3 of 3
 
 In JavaScript, you can use **properties** to change elements. 
 
-Which of the following properties allows you to insert new **tags** inside an element?
+Which of these properties allows you to insert new **tags** inside an element?
 
 --- choices ---
 
