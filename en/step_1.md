@@ -43,11 +43,15 @@ You will need to make some design choices to create your fan website!
 
 Explore these examples to get more ideas:
 
-**Dinosaurs**: [See inside](https://editor.raspberrypi.org/en/projects/pick-your-favourite-dinosaur){:target="_blank"}
+**Pick your favourite dinosaur**: [See inside](https://editor.raspberrypi.org/en/projects/pick-your-favourite-dinosaur){:target="_blank"}
 <div>
 <iframe src="https://editor.raspberrypi.org/en/embed/viewer/pick-your-favourite-dinosaur" width="100%" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen> </iframe>
 </div>
 
+**Pick your favourite decade**: [See inside](https://editor.raspberrypi.org/en/projects/pick-your-favourite-decade){:target="_blank"}
+<div>
+<iframe src="https://editor.raspberrypi.org/en/embed/viewer/pick-your-favourite-decade" width="100%" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen> </iframe>
+</div>
 
 --- /task ---
 
@@ -57,8 +61,12 @@ Explore these examples to get more ideas:
 
 ### Get inspiration 
 
-**Dinosaurs**
+**Pick your favourite dinosaur**
 
 ![](images/dinosaurs.png)
+
+**Pick your favourite decade**
+
+![](images/decades.png)
 
 --- /print-only ---
