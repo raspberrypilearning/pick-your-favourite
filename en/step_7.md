@@ -30,7 +30,6 @@ line_numbers: false
 line_number_start: 1
 line_highlights: 7
 ---
-
   slot3.classList.add("liverpool");
   slot3.innerHTML = "<h1>Top Players</h1> \n \
     <p>Mohamed Salah</p>\n \
@@ -68,7 +67,6 @@ line_numbers: false
 line_number_start: 164
 line_highlights: 165-167
 ---
-
 // Loading event
 document.addEventListener("DOMContentLoaded", function () {
   
@@ -90,7 +88,6 @@ line_numbers: false
 line_number_start: 164
 line_highlights: 166
 ---
-
 // Loading event
 document.addEventListener("DOMContentLoaded", function () {
   const choice = localStorage.getItem("choice");
@@ -114,7 +111,6 @@ line_numbers: false
 line_number_start: 164
 line_highlights: 168-170
 ---
-
 // Loading event
 document.addEventListener("DOMContentLoaded", function () {
   const choice = localStorage.getItem("choice");
