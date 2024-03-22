@@ -14,7 +14,7 @@ Open `scripts.js` and find the `// Observers` comment
 
 Create a new `IntersectionOberver` constant - called `slot1observer`. 
 
-Add the entries array and the `if statement` that checks whether the entry is intersecting.
+Add the entries array and the `if` statement that checks whether the entry is intersecting.
 
 For these observers you want the **whole** target to be in the viewport, so set the `threshold` to `1`.
 
@@ -43,7 +43,7 @@ const slot1observer = new IntersectionObserver(
 
 --- task ---
 
-Inside the `if` add a line that adds a class to `slot1` - leave the `""` empty for now
+Inside the `if` statement, write the code that adds a class to `slot1` - leave the `""` empty for now
 
 --- code ---
 ---
@@ -51,7 +51,7 @@ language: javascript
 filename: scripts.js
 line_numbers: true
 line_number_start: 149
-line_highlights: 150-157
+line_highlights: 153
 ---
 
 // Observers
@@ -99,7 +99,9 @@ line_number_start: 153
 
 --- task ---
 
-Now you need to set your `IntersectionObserve` to observe the page. Add the call below your new constant.
+Now you need to set your `IntersectionObserver` to observe the page. 
+
+Add the call.
 
 --- code ---
 ---
@@ -107,7 +109,7 @@ language: javascript
 filename: scripts.js
 line_numbers: true
 line_number_start: 149
-line_highlights: 150-157
+line_highlights: 158
 ---
 
 // Observers
@@ -127,9 +129,8 @@ slot1observer.observe(slot1);
 
 --- task ---
 
-**Run your webpage** 
-
-Select an option and scroll down, you should see the first slot appear and then animate. 
+**Click Run**
++ Select an option and scroll down, you should see the first slot appear and then animate. 
 
 --- /task ---
 
@@ -161,7 +162,8 @@ line_highlights: 109
 
 --- /code ---
 
-**Run your webpage** and test your animations again, the slot should not appear until it animates.
+**Click Run** 
++ Scroll to see your animation again. The slot should not appear until it animates.
 
 --- /task ---
 
@@ -204,7 +206,7 @@ language: javascript
 filename: scripts.js
 line_numbers: true
 line_number_start: 160
-line_highlights: 160, 163, 166
+line_highlights: 161, 164, 169
 ---
 
 // Observers
@@ -220,7 +222,8 @@ slot2observer.observe(slot2);
 
 --- /code ---
 
-**Run your page** and test out your second animation
+**Click Run**
++ Test your second animation.
 
 --- /task ---
 
@@ -239,8 +242,8 @@ Change all the references so they say `slot3`, and maybe choose a different anim
 language: javascript
 filename: scripts.js
 line_numbers: true
-line_number_start: 160
-line_highlights: 160, 163, 166
+line_number_start: 171
+line_highlights: 172, 175, 180
 ---
 
 // Observers
@@ -256,8 +259,9 @@ slot3observer.observe(slot3);
 
 --- /code ---
 
-**Run your page** and test out your third animation.
+**Click Run**
++ Test your third animation.
 
 --- /task ---
 
-Next you are going to use `localStorage` to make the users choice permanent!
+Next you are going to use `localStorage` to make the user's choice permanent!

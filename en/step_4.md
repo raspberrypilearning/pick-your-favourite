@@ -1,6 +1,6 @@
 ## Change some content
 
-In this step you will add the text content and colours to the first content slot on your webpage for each of the options. 
+In this step you will add the text content and colours to the first slot on your webpage for each of the options.
 
 ### What content will you add?
 

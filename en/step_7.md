@@ -1,6 +1,6 @@
 ## Make the choice permanent
 
-In this step you will use the local storage in the user's we browser to save the choice they make, so whenever the page is loaded, it keeps the colours and content of their choice.
+In this step you will use the local storage in the user's web browser to save the choice they make, so whenever the page is loaded it keeps the colours and content of their choice!
 
 ### Saving the user's choice
 
@@ -14,9 +14,11 @@ Open `scripts.js` - and find your `option1()` function.
 
 --- task ---
 
-At the bottom of the function, add `localStorage.setItem()` which you will use to set a storage variable.
+At the bottom of the function, add `localStorage.setItem()`, which creates a storage variable.
 
-Inside the brackets, provide the name of the variable `"choice"` and the name of your first option in quotes `""` - seperated by a comma.
+Inside the brackets: 
++ Provide the name of the variable: `"choice"` 
++ and the name of your first option in quotes `""` - separated by a comma.
 
 The football example looks like this:
 
@@ -25,13 +27,15 @@ The football example looks like this:
 language: javascript
 filename: scripts.js
 line_numbers: false
+line_number_start: 1
+line_highlights: 7
 ---
 
   slot3.classList.add("liverpool");
   slot3.innerHTML = "<h1>Top Players</h1> \n \
     <p>Mohamed Salah</p>\n \
-    <p>Virgil Van Dyke</p>\n \
-    <p>Trent Alexander Arnold</p>";
+    <p>Virgil van Dijk</p>\n \
+    <p>Trent Alexander-Arnold</p>";
 
   localStorage.setItem("choice", "liverpool");
 }

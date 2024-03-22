@@ -317,9 +317,8 @@ line_highlights: 16-18
 
 --- task ---
 
-Click **Run**.
-
-Use the drop-down and select your options, you should see the colours change!
+**Click Run**
++ Use the drop-down and select your options, you should see the colours change!
 
 **Debug**: If your colours don't change, make sure the class names you add in JavaScript match the ones in your CSS **exactly**!.
 

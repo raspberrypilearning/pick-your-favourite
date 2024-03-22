@@ -65,8 +65,8 @@ function option1(){
     slot3.classList.add("liverpool");
     slot3.innerHTML = "<h1>Top Players</h1> \n \
         <p>Mohamed Salah</p>\n \
-        <p>Virgil Van Dyke</p>\n \
-        <p>Trent Alexander Arnold</p>";
+        <p>Virgil van Dijk</p>\n \
+        <p>Trent Alexander-Arnold</p>";
 
     localStorage.setItem("choice", "liverpool");
 }
