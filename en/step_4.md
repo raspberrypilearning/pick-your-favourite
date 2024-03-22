@@ -192,9 +192,8 @@ The **Football** example looked like this:
 ---
 language: css
 filename: style.css
-line_numbers: true
-line_number_start: 128
-line_highlights: 129-131
+line_numbers: false
+line_highlights: 2-4
 ---
 
 /* Slot 1 classes */
@@ -216,9 +215,8 @@ Add your background colour to this selector
 ---
 language: css
 filename: style.css
-line_numbers: true
-line_number_start: 128
-line_highlights: 130
+line_numbers: false
+line_highlights: 3
 ---
 
 /* Slot 1 classes */
@@ -232,7 +230,7 @@ line_highlights: 130
 
 ### Use JavaScript to add the content and colours
 
-Now you are going to add the JavaScript that will add the class to slot 1 and fill it with your content!
+Now you are going to write the JavaScript that adds the class to slot 1 and fill it with your content!
 
 --- task ---
 
@@ -433,9 +431,8 @@ The football one looks like this:
 ---
 language: css
 filename: style.css
-line_numbers: true
-line_number_start: 128
-line_highlights: 133-135
+line_numbers: false
+line_highlights: 6-8
 ---
 
 /* Slot 1 classes */
@@ -459,9 +456,8 @@ Set the `background-color` property in your new selector to the colour variable 
 ---
 language: css
 filename: style.css
-line_numbers: true
-line_number_start: 128
-line_highlights: 133-135
+line_numbers: false
+line_highlights: 2
 ---
 
 #slot-1.man-city {
@@ -518,11 +514,11 @@ Edit the lines to be about your second option, the football example looked like 
 
 --- code ---
 ---
-language: css
-filename: style.css
+language: js
+filename: scripts.js
 line_numbers: true
-line_number_start: 36
-line_highlights: 46
+line_number_start: 46
+line_highlights: 48-52
 ---
 
   slot1.classList.add("man-city");
@@ -580,7 +576,7 @@ Update the content to match your third option.
 
 --- task ---
 
-### Test your project. 
+### Test your project
 
 **Click Run**
 + Select an option and scroll down, make sure the colours and content look how you want them to.

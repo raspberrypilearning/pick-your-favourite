@@ -22,9 +22,8 @@ For these observers you want the **whole** target to be in the viewport, so set 
 ---
 language: javascript
 filename: scripts.js
-line_numbers: true
-line_number_start: 149
-line_highlights: 150-157
+line_numbers: false
+line_highlights: 2-9
 ---
 
 // Observers
@@ -49,9 +48,8 @@ Inside the `if` statement, write the code that adds a class to `slot1` - leave t
 ---
 language: javascript
 filename: scripts.js
-line_numbers: true
-line_number_start: 149
-line_highlights: 153
+line_numbers: false
+line_highlights: 5
 ---
 
 // Observers
@@ -87,11 +85,18 @@ You can always change it later if you want to use a different one.
 ---
 language: javascript
 filename: scripts.js
-line_numbers: true
-line_number_start: 153
+line_numbers: false
+line_number_start: 5
 ---
-
+// Observers
+const slot1observer = new IntersectionObserver(
+  (entries) => {
+    if (entries[0].isIntersecting) {
       slot1.classList.add("rise-in");
+    }
+  },
+  { threshold: 1 }
+);
 
 --- /code ---
 
@@ -107,9 +112,8 @@ Add the call.
 ---
 language: javascript
 filename: scripts.js
-line_numbers: true
-line_number_start: 149
-line_highlights: 158
+line_numbers: false
+line_highlights: 10
 ---
 
 // Observers
@@ -204,9 +208,8 @@ There are 5 animations you can choose from:
 ---
 language: javascript
 filename: scripts.js
-line_numbers: true
-line_number_start: 160
-line_highlights: 161, 164, 169
+line_numbers: false
+line_highlights: 2, 5, 10
 ---
 
 // Observers
@@ -241,9 +244,8 @@ Change all the references so they say `slot3`, and maybe choose a different anim
 ---
 language: javascript
 filename: scripts.js
-line_numbers: true
-line_number_start: 171
-line_highlights: 172, 175, 180
+line_numbers: false
+line_highlights: 2, 5, 10
 ---
 
 // Observers

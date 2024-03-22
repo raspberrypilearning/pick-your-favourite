@@ -132,7 +132,7 @@ line_highlights: 23-25
 
 The page is looking pretty boring now, time for you to make it look awesome!
 
-**TO-DO** - Add a Google font << Make into import statements
+**TODO** - Add a Google font << Make into import statements
 
 --- task ---
 

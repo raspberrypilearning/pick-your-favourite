@@ -28,9 +28,7 @@ The dinosaur examples slot 2 colours look like this:
 ---
 language: css
 filename: default.css
-line_numbers: true
-line_number_start: 20
-line_highlights: 
+line_numbers: false
 ---
 
   /* Slot 2 colours */
@@ -67,8 +65,6 @@ Here is the slot 2 classes for the dinosaur example.
 language: css
 filename: style.css
 line_numbers: false
-line_number_start: 
-line_highlights: 
 ---
 
   /* Slot 2 Classes */
@@ -113,9 +109,8 @@ The dinosaur example looked like this:
 ---
 language: js
 filename: scripts.js
-line_numbers: true
-line_number_start: 40
-line_highlights: 59
+line_numbers: false
+line_highlights: 20
 ---
 
   // Option 1
@@ -167,9 +162,8 @@ The dinosaur example looks like this:
 ---
 language: js
 filename: scripts.js
-line_numbers: true
-line_number_start: 40
-line_highlights: 60-64
+line_numbers: false
+line_highlights: 21-24
 ---
 
   // Option 1
@@ -201,7 +195,8 @@ line_highlights: 60-64
 
 --- /collapse ---
 
-**Run your webpage** - test the content and class by selecting your first option. 
+**Click Run**
++ Test the content and class by selecting your first option. 
 
 --- /task ---
 
@@ -233,9 +228,8 @@ The `option2` function for the dinosaur example looked like this:
 ---
 language: js
 filename: scripts.js
-line_numbers: true
-line_number_start: 40
-line_highlights: 60-64
+line_numbers: false
+line_highlights: 21-25
 ---
 
   // Option 2
@@ -306,8 +300,7 @@ These are the colour variables for slot 3 in the dinosaur example:
 ---
 language: css
 filename: default.css
-line_numbers: true
-line_number_start: 25
+line_numbers: false
 line_highlights: 
 ---
 
@@ -334,14 +327,13 @@ Underneath, create 3 classes for slot 3 (one for each of your options).
 title: An example
 ---
 
-Here are the classes for the dinosaur example:
+Here are the classes for the **dinosaur** example:
 
 --- code ---
 ---
 language: css
 filename: style.css
-line_numbers: true
-line_number_start: 20
+line_numbers: false
 line_highlights: 
 ---
 
@@ -368,7 +360,8 @@ line_highlights:
 
 --- task ---
 
-Open `scripts.js` - add lines to each of your option functions to apply your new classes and add the content to slot 3. 
+Open `scripts.js` 
+Add lines to each of your option functions to apply your new classes and add the content to slot 3. 
 
 --- collapse ---
 

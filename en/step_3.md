@@ -71,9 +71,8 @@ You should give this class a name that relates to your option, the **Dinosaur** 
 ---
 language: css
 filename: style.css
-line_numbers: true
-line_number_start: 108
-line_highlights: 110-111
+line_numbers: false
+line_highlights: 2-5
 ---
 
 /* Body Classes */
@@ -104,8 +103,7 @@ This is the **Dinosaur** example.
 ---
 language: css
 filename: style.css
-line_numbers: true
-line_number_start: 108
+line_numbers: false
 line_highlights: 
 ---
 
@@ -145,9 +143,8 @@ Create a function called `option1`.
 ---
 language: javascript
 filename: scripts.js
-line_numbers: true
-line_number_start: 35
-line_highlights: 36-38
+line_numbers: false
+line_highlights: 2-4
 ---
 
 // Option 1
@@ -167,9 +164,8 @@ When an option is clicked you need to clear the page, then hide the instruction 
 ---
 language: javascript
 filename: scripts.js
-line_numbers: true
-line_number_start: 35
-line_highlights: 37, 39-40
+line_numbers: false
+line_highlights: 3-6
 ---
 
 // Option 1
@@ -194,11 +190,14 @@ The **Dinosaur** example looks like this:
 ---
 language: javascript
 filename: scripts.js
-line_numbers: true
-line_number_start: 40
-line_highlights: 42, 44
+line_numbers: false
+line_highlights: 8-10
 ---
+// Option 1
+function option1(){
+  clear();
 
+  instruction.style.display = 'none';
   content.style.display = "grid";
 
   body.classList.add("trex");
@@ -224,9 +223,8 @@ Change:
 ---
 language: javascript
 filename: scripts.js
-line_numbers: true
-line_number_start: 47
-line_highlights: 48, 60, 62 
+line_numbers: false
+line_highlights: 2, 8, 10
 ---
 
 // Option 2
@@ -264,8 +262,7 @@ title: How should my option3 function look?
 ---
 language: javascript
 filename: scripts.js
-line_numbers: true
-line_number_start:
+line_numbers: false
 ---
 
 // Option 3
