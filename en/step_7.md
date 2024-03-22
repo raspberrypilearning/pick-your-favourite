@@ -28,7 +28,7 @@ language: javascript
 filename: scripts.js
 line_numbers: false
 line_number_start: 1
-line_highlights: 7
+line_highlights: 8
 ---
   slot3.classList.add("liverpool");
   slot3.innerHTML = "<h1>Top Players</h1> \n \
