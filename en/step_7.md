@@ -27,7 +27,6 @@ The football example looks like this:
 language: javascript
 filename: scripts.js
 line_numbers: false
-line_number_start: 1
 line_highlights: 8
 ---
   slot3.classList.add("liverpool");
