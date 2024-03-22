@@ -63,8 +63,7 @@ Underneath, use `document.addEventListener()` to create a function that will run
 language: javascript
 filename: scripts.js
 line_numbers: false
-line_number_start: 164
-line_highlights: 165-167
+line_highlights: 2-3
 ---
 // Loading event
 document.addEventListener("DOMContentLoaded", function () {
@@ -77,15 +76,14 @@ document.addEventListener("DOMContentLoaded", function () {
 
 --- task ---
 
-Inside the event listener, create a new `constant` to store the value contained in the `choice` variable in `localStorage`.
+Inside the event listener, create a new `constant` to hold the value contained in the `choice` variable in `localStorage`.
 
 --- code ---
 ---
 language: javascript
 filename: scripts.js
 line_numbers: false
-line_number_start: 164
-line_highlights: 166
+line_highlights: 3
 ---
 // Loading event
 document.addEventListener("DOMContentLoaded", function () {
@@ -98,7 +96,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
 --- task ---
 
-Create an `if` statement to check if the variable is set to your first option. 
+Create an `if` statement to check if the `choice` value is the first option. 
 
 If it is, then call your `option1()` function.
 
@@ -107,8 +105,7 @@ If it is, then call your `option1()` function.
 language: javascript
 filename: scripts.js
 line_numbers: false
-line_number_start: 164
-line_highlights: 168-170
+line_highlights: 4-6
 ---
 // Loading event
 document.addEventListener("DOMContentLoaded", function () {
@@ -132,8 +129,7 @@ Finally, add two `else if` statements to check for the other two options, callin
 language: javascript
 filename: scripts.js
 line_numbers: false
-line_number_start: 164
-line_highlights: 170-174
+line_highlights: 7-10
 ---
 
 // Loading event
@@ -155,9 +151,11 @@ document.addEventListener("DOMContentLoaded", function () {
 
 --- task ---
 
-**Run your webpage** - select an option.
-
-Click Run again, the page should stay the same.
+**Click Run**
++ Select an option.
+ 
+**Click Run** (again)
++ The page should stay the same.
 
 Try changing options and then clicking Run again, the page should keep the last option you chose.
 
@@ -180,16 +178,15 @@ This function will clear the choices, hide the content, show the instructions an
 language: javascript
 filename: scripts.js
 line_numbers: false
-line_number_start: 177
-line_highlights: 178-183
+line_highlights: 2-7
 ---
 
 // Reset
 function reset(){
-    clear();
-    content.style.display = "";
-    instruction.style.display = 'flex';
-    localStorage.setItem("choice", "");
+  clear();
+  content.style.display = "";
+  instruction.style.display = 'flex';
+  localStorage.setItem("choice", "");
 }
 
 --- /code ---
@@ -198,15 +195,16 @@ function reset(){
 
 --- task ---
 
-Open `index.html` and add a new button to the drop-down menu that the user can use to reset the page. 
+Open `index.html`
+
+Add a new button to your drop-down menu so the user can reset the page. 
 
 --- code ---
 ---
 language: html
 filename: index.html
 line_numbers: false
-line_number_start: 14
-line_highlights: 18
+line_highlights: 5
 ---
 
         <div id="dropdown-options">
@@ -222,8 +220,9 @@ line_highlights: 18
 
 --- task ---
 
-**Run your page** - test out your reset button by selecting an option, running the page again and then resetting. 
+**Click Run** 
++ Test your reset button by selecting an option, clicking **Run** again and then resetting.
 
 --- /task ---
 
-Well done, you have made an awesome fan web page, and used your new CSS and JavaScript skills to make it amazing!
+Well done, you have made an awesome fan webpage, and used your new CSS and JavaScript skills to make it amazing!
