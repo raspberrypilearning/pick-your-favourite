@@ -9,6 +9,8 @@ last_tested: '2021-03-26'
 steps:
 - title: Introduction
 - title: Create the frame
+  completion:
+    - engaged
 - title: Choose your page colour
 - title: Change some content
 - title: Change the rest of the page
@@ -20,5 +22,7 @@ steps:
     version: 1
     questions: 3
     passing_score: 3
+  completion:
+    - external
 - title: Upgrade your project
 - title: What next?

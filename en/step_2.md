@@ -73,7 +73,7 @@ line_highlights: 13, 15-17
 
 --- /task ---
 
-At the moment the drop-down doesn't open, there is a function to open and close it in the `script.js` file. 
+At the moment the drop-down doesn't open, there is a function to open and close it in the `scripts.js` file. 
 
 --- task ---
 

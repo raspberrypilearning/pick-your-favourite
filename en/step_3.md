@@ -135,7 +135,7 @@ Next you need to create functions that will cause the changes to your page when 
 
 --- task ---
 
-Open `script.js` - and find the `// Option 1` comment. 
+Open `scripts.js` - and find the `// Option 1` comment. 
 
 Create a function called `option1`.
 

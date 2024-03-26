@@ -3,9 +3,9 @@ const dropdown = document.getElementById("dropdown-options");
 
 function openDropdown(){
   if (dropdown.classList.contains("open")){
-      dropdown.classList.remove("open");    
+    dropdown.classList.remove("open");    
   } else {
-      dropdown.classList.add("open");
+    dropdown.classList.add("open");
   }
   
 };
