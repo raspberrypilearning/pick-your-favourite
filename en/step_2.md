@@ -43,11 +43,39 @@ Choose your theme and three options within that theme.
 
 --- /task ---
 
+--- task ---
+
+Open the [Pick your favourite starter project]((https://staging-editor.raspberrypi.org/en/projects/pick-your-favourite-starter){:target="_blank"})
+
+If you are logged in - save the project to your account and change the name.
+
+--- /task ---
+
+--- task ---
+
+Change the title of your webpage, in the `<head>` section.
+
+--- code ---
+---
+language: html
+filename: index.html
+line_numbers: true
+line_number_start: 8
+---
+
+<title>Give your page a title.</title>
+
+--- /code ---
+
+--- /task ---
+
 ### Create your options
 
 --- task ---
 
 Change the text in the button and drop-down options to match your idea!
+
+**Make sure** to leave the unicode for the arrow - `&#9207;` at the end.
 
 --- code ---
 ---
@@ -132,13 +160,9 @@ line_highlights: 23-25
 
 The page is looking pretty boring now, time for you to make it look awesome!
 
-**TODO** - Add a Google font << Make into import statements
-
 --- task ---
 
 Add an appropriate font for your webpage from Google Fonts.
-
-[[[included-fonts]]]
 
 [[[web-fonts]]]
 

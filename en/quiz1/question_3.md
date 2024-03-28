@@ -11,7 +11,7 @@ Which of these properties allows you to insert new **tags** inside an element?
 
 --- choices ---
 
-- `innerText` ( ) 
+- ( ) `innerText` 
 
 
   --- feedback ---
@@ -20,23 +20,16 @@ Which of these properties allows you to insert new **tags** inside an element?
 
   --- /feedback ---
 
-- `style` ( ) 
+- (x) `innerHTML` 
 
 
   --- feedback ---
 
-  This property is used to add styling to an element and change the way it looks.
+  Correct, this property let's you add new tags inside an element.
 
   --- /feedback ---
 
-- `innerHTML` (x) 
-
-
-  --- feedback ---
-
-  --- /feedback ---
-
-- `classList` ( ) 
+- ( ) `classList` 
 
 
   --- feedback ---
