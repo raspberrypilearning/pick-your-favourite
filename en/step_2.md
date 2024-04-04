@@ -164,9 +164,9 @@ The page is looking pretty boring now, time for you to make it look awesome!
 
 Add an appropriate font for your webpage from Google Fonts.
 
-[[[web-fonts]]]
-
 [[[google-fonts]]]
+
+[[[web-fonts]]]
 
 --- /task ---
 
