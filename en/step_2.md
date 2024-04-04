@@ -132,17 +132,13 @@ line_highlights: 23-25
 
 The page is looking pretty boring now, time for you to make it look awesome!
 
-**TODO** - Add a Google font << Make into import statements
-
 --- task ---
 
 Add an appropriate font for your webpage from Google Fonts.
 
-[[[included-fonts]]]
+[[[google-fonts]]]
 
 [[[web-fonts]]]
-
-[[[google-fonts]]]
 
 --- /task ---
 
