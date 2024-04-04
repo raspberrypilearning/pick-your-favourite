@@ -482,7 +482,7 @@ The **football** example looked like this:
 ---
 language: js
 filename: scripts.js
-line_numbers: true
+line_numbers: false
 line_number_start: 36
 line_highlights: 46
 ---
@@ -516,7 +516,7 @@ Edit the lines to be about your second option, the football example looked like 
 ---
 language: js
 filename: scripts.js
-line_numbers: true
+line_numbers: false
 line_number_start: 46
 line_highlights: 48-52
 ---
@@ -586,7 +586,7 @@ Set its `display` property to `none`.
 ---
 language: css
 filename: style.css
-line_numbers: true
+line_numbers: false
 line_number_start: 91
 line_highlights: 93
 ---

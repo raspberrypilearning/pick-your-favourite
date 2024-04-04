@@ -205,7 +205,7 @@ Add an `opacity` property and set it to `0`.
 ---
 language: css
 filename: style.css
-line_numbers: true
+line_numbers: false
 line_number_start: 103
 line_highlights: 109
 ---

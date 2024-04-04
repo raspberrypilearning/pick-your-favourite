@@ -40,8 +40,8 @@ If you want to add your own colours, you can open `default.css` and add your own
 language: css
 filename: default.css
 line_numbers: true
-line_number_start: 7
-line_highlights: 12
+line_number_start: 5
+line_highlights: 10
 ---
 
   /* Base Colours */

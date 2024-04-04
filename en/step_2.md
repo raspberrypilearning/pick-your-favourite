@@ -63,7 +63,7 @@ line_numbers: true
 line_number_start: 8
 ---
 
-<title>Give your page a title.</title>
+<title>Give your page a title</title>
 
 --- /code ---
 
@@ -82,8 +82,8 @@ Change the text in the button and drop-down options to match your idea!
 language: html
 filename: index.html
 line_numbers: true
-line_number_start: 12
-line_highlights: 13, 15-17
+line_number_start: 13
+line_highlights: 14, 16-18
 ---
 
 <div class="dropdown">
@@ -112,8 +112,8 @@ Add the function to open the drop-down, using the `onclick` attribute.
 language: html
 filename: index.html
 line_numbers: true
-line_number_start: 12
-line_highlights: 13
+line_number_start: 13
+line_highlights: 14
 ---
 
 <div class="dropdown">
@@ -142,8 +142,8 @@ Add the instructions in a `<section>` using a `<h1>` element:
 language: html
 filename: index.html
 line_numbers: true
-line_number_start: 22
-line_highlights: 23-25
+line_number_start: 23
+line_highlights: 24-26
 ---
 
 <main>
@@ -181,8 +181,8 @@ Change the `--body-background`, `--body-text` and `--nav-bar` colour variables t
 language: css
 filename: default.css
 line_numbers: true
-line_number_start: 7
-line_highlights: 8-10
+line_number_start: 5
+line_highlights: 6-8
 ---
 
 /* Base Colours */
@@ -194,7 +194,13 @@ line_highlights: 8-10
 
 [[[contrast-checker]]]
 
-Run your code to see your changes, adjust the colours if you want to. 
+--- /task ---
+
+--- task ---
+
+Run your code to see your changes. 
+
+Adjust the colours if you want to. 
 
 --- /task ---
 
@@ -213,14 +219,18 @@ Inside the `<main>` tags, add a new section with the id attribute `content-holde
 language: html
 filename: index.html
 line_numbers: true
-line_number_start: 27
+line_number_start: 23
 line_highlights: 27-29
 ---
-
-  <section id="content-holder">
-
-  </section>
-</main> 
+    
+    <main>
+      <section id="instruction">
+        <h1>Select a team!</h1>
+      </section>
+      <section id="content-holder">
+      
+      </section>
+    </main>
 
 --- /code ---
 
@@ -241,13 +251,13 @@ line_number_start: 27
 line_highlights: 28-31
 ---
 
-  <section id="content-holder">
-    <h1 id="title">Title</h1>
-    <div id="slot-1" class="content"></div>
-    <div id="slot-2" class="content"></div>
-    <div id="slot-3" class="content"></div>
-  </section>
-</main> 
+      <section id="content-holder">
+        <h1 id="title">Title</h1>
+        <div id="slot-1" class="content"></div>
+        <div id="slot-2" class="content"></div>
+        <div id="slot-3" class="content"></div>
+      </section>
+    </main> 
 
 --- /code ---
 
