@@ -25,7 +25,9 @@ For each option you will need colours for:
 
 Choose your three body colours and note them down. 
 
-**TO-DO** Add colour ingredients
+[[[colours-from-image]]]
+
+[[[contrast-checker]]]
 
 --- /task ---
 
