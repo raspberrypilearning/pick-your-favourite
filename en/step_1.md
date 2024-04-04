@@ -23,7 +23,7 @@ You will:
 <div style="flex-basis: 175px; flex-grow: 1">  
 Following a sport is a great way to connect with friends. Sometimes you support the same team, but with so many options you and your mates might support different teams. Here is a website that all of you can use. Click the drop-down at the top to switch the teams!
 
-<iframe src="https://editor.raspberrypi.org/en/embed/viewer/pick-your-favourite-football" width="100%" height="800" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen> 
+<iframe src="https://editor.raspberrypi.org/en/embed/viewer/pick-your-favourite-football" width="100%" height="900" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen> 
 </iframe>
 
 </div>  
@@ -45,12 +45,12 @@ Explore these examples to get more ideas:
 
 **Pick your favourite dinosaur**: [See inside](https://editor.raspberrypi.org/en/projects/pick-your-favourite-dinosaur){:target="_blank"}
 <div>
-<iframe src="https://editor.raspberrypi.org/en/embed/viewer/pick-your-favourite-dinosaur" width="100%" height="800" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen> </iframe>
+<iframe src="https://editor.raspberrypi.org/en/embed/viewer/pick-your-favourite-dinosaur" width="100%" height="1000" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen> </iframe>
 </div>
 
 **Pick your favourite decade**: [See inside](https://editor.raspberrypi.org/en/projects/pick-your-favourite-decade){:target="_blank"}
 <div>
-<iframe src="https://editor.raspberrypi.org/en/embed/viewer/pick-your-favourite-decade" width="100%" height="800" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen> </iframe>
+<iframe src="https://editor.raspberrypi.org/en/embed/viewer/pick-your-favourite-decade" width="100%" height="1000" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen> </iframe>
 </div>
 
 --- /task ---

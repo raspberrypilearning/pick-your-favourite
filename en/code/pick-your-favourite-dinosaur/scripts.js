@@ -59,17 +59,17 @@ function option1() {
   slot2.classList.add("trex");
   slot2.innerHTML =
     "<h1>Trivia</h1> \n \
-      <p>T-Rex had an huge bite force, capable of crushing bone.</p>\n \
-      <p>T-Rex was a fast runner</p>\n \
+      <p>T-Rex had an huge bite force, capable of crushing bone</p> \n \
+      <p>T-Rex was a fast runner</p> \n \
       <p>The name Tyrannosaurus Rex means tyrant lizard king in Greek</p>";
 
   slot3.classList.add("trex");
   slot3.innerHTML =
     "<h1>Activity</h1> \n \
       <ol>\n \
-      <li>Get into teams and line up at a start line</li>\n \
-      <li>Put one toy for each team member at the other end of the room</li>\n \
-      <li>One person from each team races to 'bite' a toy and bring it back to the team</li>\n \
+      <li>Get into teams and line up at a start line</li> \n \
+      <li>Put one toy for each team member at the other end of the room</li> \n \
+      <li>One person from each team races to 'bite' a toy and bring it back to the team</li> \n \
       <li>The first team to return all their toys wins!</li> </ol>";
   
   localStorage.setItem("choice", "trex");
@@ -109,7 +109,7 @@ function option2() {
         <li>Attach them to headbands or make them handheld</li>\n \
         <li>Place the horns at varying distances on the ground</li>\n \
         <li>Use hula hoops or create rings from cardboard</li>\n \
-        <li>Take turns tossing the rings onto the Triceratops horns, earning 10 points</li>\n \
+        <li>Take turns tossing the rings onto the Triceratops horns, earning 10 points!</li>\n \
         <li>The person with the most points after all turns wins!</li> </ol>";
 
   localStorage.setItem("choice", "triceratops");

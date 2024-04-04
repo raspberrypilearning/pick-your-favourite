@@ -145,9 +145,9 @@ button {
 
 #slot-2.trex {
   background-color: var(--slot-2-t-rex);
-  color: black;
+  color: white;
   h1 {
-    color: rgb(0, 178, 169);
+    color: #F6EB61;
   }
 }
 
