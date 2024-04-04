@@ -12,7 +12,7 @@ In the last step you did each option one at a time. This time you are going to d
 
 --- task ---
 
-Open `default.css`, find the `/* Slot 2 Colours */` comment.
+Open `default.css`.
 
 Add **three** new colour variables. Assign colours to them for your slot 2 classes.
 
@@ -286,7 +286,7 @@ You have done this twice now, so the instructions will just remind you of the st
 
 --- task ---
 
-Open `default.css` - under the `/* Slot 3 colours */` comment, add three colours for slot 3 (one for each of your options).
+Open `default.css` -  add three colours for slot 3 (one for each of your options).
 
 --- collapse ---
 
@@ -304,7 +304,6 @@ line_numbers: false
 line_highlights: 
 ---
 
-  /* Slot 3 colours */
   --slot-3-t-rex: #00b2a9;
   --slot-3-triceratops: #ec3325;
   --slot-3-stegosaurus: #131f53;

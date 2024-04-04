@@ -9,9 +9,9 @@ In this step you will add the text content and colours to the first slot on your
 Decide what the titles of each of your content slots will be.
 
 **Think about**
-+ What three things should someone know about your options?
-+ What categories could you write about for each option?
 + What three things should all fans of your theme know about?
++ What categories could you write about for each option?
++ What three things do all three options share?
 
 --- collapse ---
 
@@ -571,6 +571,32 @@ Paste them at the bottom of your `option3` function.
 Change the name of the class to your third option class.
 
 Update the content to match your third option.
+
+--- /task ---
+
+Now that you have functions to show your content, you want to hide it before the user chooses an option. 
+
+--- task ---
+
+Open `style.css` and find the `#content-holder` selector. 
+
+Set its `display` property to `none`.
+
+--- code ---
+---
+language: css
+filename: style.css
+line_numbers: true
+line_number_start: 91
+line_highlights: 93
+---
+
+#content-holder {
+  grid-template-rows: repeat(3, 100vh auto);
+  display: none;
+}
+
+--- /code ---
 
 --- /task ---
 

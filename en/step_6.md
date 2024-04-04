@@ -136,6 +136,61 @@ slot1observer.observe(slot1);
 **Click Run**
 + Select an option and scroll down, you should see the first slot appear and then animate. 
 
+--- collapse ---
+
+---
+title: My content is long and my animation isn't working
+---
+
+If you have a lot of content in your slot, it may never be entirely in the viewport - because your `threshold` is set to `1` (100% of the element) your animation will not trigger. 
+
+To fix this you might want to remove the threshold completely like this: 
+
+--- code ---
+---
+language: javascript
+filename: scripts.js
+line_numbers: false
+line_highlights: 10
+---
+
+// Observers
+const slot1observer = new IntersectionObserver(
+  (entries) => {
+    if (entries[0].isIntersecting) {
+      slot1.classList.add("");
+    }
+  }
+);
+slot1observer.observe(slot1);
+
+--- /code ---
+
+Or you can reduce the amount of the element needed to trigger the animation, for example this would require half of the element to trigger...
+
+--- code ---
+---
+language: javascript
+filename: scripts.js
+line_numbers: false
+line_highlights: 10
+---
+
+// Observers
+const slot1observer = new IntersectionObserver(
+  (entries) => {
+    if (entries[0].isIntersecting) {
+      slot1.classList.add("");
+    }
+  },
+  { threshold: 0.5 }
+);
+slot1observer.observe(slot1);
+
+--- /code ---
+
+--- /collapse ---
+
 --- /task ---
 
 It doesn't look very good that your slot appears before animating, so you are going to make your content slots invisible until they animate.
