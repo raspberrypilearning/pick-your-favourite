@@ -45,7 +45,7 @@ Choose your theme and three options within that theme.
 
 --- task ---
 
-Open the [Pick your favourite starter project]((https://staging-editor.raspberrypi.org/en/projects/pick-your-favourite-starter){:target="_blank"})
+Open the [Pick your favourite starter project]((https://editor.raspberrypi.org/en/projects/pick-your-favourite-starter){:target="_blank"})
 
 If you are logged in - save the project to your account and change the name.
 
