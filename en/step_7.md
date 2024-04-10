@@ -1,6 +1,6 @@
 ## Make the choice permanent
 
-In this step you will use the local storage in the user's web browser to save the choice they make, so whenever the page is loaded it keeps the colours and content of their choice!
+In this step, you will use the local storage in the user's web browser to save the choice they make, so whenever the page is loaded it keeps the colours and content of their choice!
 
 ### Saving the user's choice
 
@@ -8,7 +8,7 @@ You are going to add lines to each of your option functions to set a variable in
 
 --- task ---
 
-Open `scripts.js` - and find your `option1()` function.
+Open `scripts.js` and find your `option1()` function.
 
 --- /task ---
 
@@ -18,7 +18,7 @@ At the bottom of the function, add `localStorage.setItem()`, which creates a sto
 
 Inside the brackets: 
 + Provide the name of the variable: `"choice"` 
-+ and the name of your first option in quotes `""` - separated by a comma.
++ Add the name of your first option in quotes `""`, separated by a comma.
 
 The football example looks like this:
 
@@ -48,13 +48,13 @@ Copy the line and place it at the bottom of your `option2()` and `option3()` fun
 
 --- /task ---
 
-### Checking the choice when the page is loaded
+### Check the choice when the page is loaded
 
-Next you are going to create a function to check if the variable has been set when the page loads.
+Next, you are going to create a function to check if the variable has been set when the page loads.
 
 --- task ---
 
-In `scripts.js` find the `// Loading event` comment.
+In `scripts.js`, find the `// Loading event` comment.
 
 Underneath, use `document.addEventListener()` to create a function that will run when the page is loaded.
 
@@ -157,21 +157,21 @@ document.addEventListener("DOMContentLoaded", function () {
 **Click Run** (again)
 + The page should stay the same.
 
-Try changing options and then clicking Run again, the page should keep the last option you chose.
+Try changing options and then click **Run** again, the page should keep the last option you chose.
 
 --- /task ---
 
-### Resetting the choice
+### Reset the choice
 
 You also need to create an option for the user to reset their choice and see the instructions again.
 
 --- task ---
 
-In `scripts.js` find the `// Reset` comment.
+In `scripts.js`, find the `// Reset` comment.
 
 Create a new function called `reset`.
 
-This function will clear the choices, hide the content, show the instructions and clear the `localStorage` variable.
+This function will clear the choices, hide the content, show the instructions, and clear the `localStorage` variable.
 
 --- code ---
 ---
