@@ -1,6 +1,6 @@
 ## Change some content
 
-In this step you will add the text content and colours to the first slot on your webpage for each of the options.
+In this step, you will add the text content and colours to the first slot on your webpage for each of the options.
 
 ### What content will you add?
 
@@ -19,19 +19,19 @@ Decide what the titles of each of your content slots will be.
 title: Some examples...
 ---
 
-**The Football example had slots for:**
+**The Football example has slots for:**
 + Match results
 + News
 + Top players
 
-The content changes depending which football **team** the user chooses.
+The content changes depending on which football **team** the user chooses.
 
-**The Dinosaur example had slots for:**
-+ Anatomy and Characteristics
+**The Dinosaur example has slots for:**
++ Anatomy and characteristics
 + Trivia
 + An activity
 
-The content changes depending which dinosaur **species** the user chooses.
+The content changes depending on which dinosaur **species** the user chooses.
 
 --- /collapse ---
 
@@ -39,7 +39,7 @@ The content changes depending which dinosaur **species** the user chooses.
 
 ### Creating the text for the first slot
 
-You are going to create the content for the first slot, for all three options and also set a colour for it.
+You are going to create the content for the first slot — for all three options — and also set a colour for it.
 
 --- task ---
 
@@ -99,7 +99,7 @@ line_highlights: 30
 
 Add content for this slot for the **first option** a user can choose.
 
-You can use `<p>`, `<ul>`, `<ol>` or any other elements you have experience with. 
+You can use `<p>`, `<ul>`, `<ol>`, or any other elements you have experience with. 
 
 --- collapse ---
 
@@ -162,7 +162,7 @@ line_highlights: 30
 
 --- /collapse ---
 
-Run your code, and select the first option from your drop-down. 
+Run your code, and select the first option from your drop-down menu. 
 
 Make sure your content displays as you would like.
 
@@ -172,7 +172,7 @@ Make sure your content displays as you would like.
 
 The background colour is the same as the webpage, which looks a bit rubbish. 
 
-Next you are going to add the colours for the first option. 
+Next, you are going to add new colours for the first option. 
 
 --- task ---
 
@@ -209,7 +209,7 @@ This selector will style the element with id `slot-1` and the class `liverpool`.
 
 --- task ---
 
-Add your background colour to this selector
+Add your background colour to this selector.
 
 --- code ---
 ---
@@ -230,7 +230,7 @@ line_highlights: 3
 
 ### Use JavaScript to add the content and colours
 
-Now you are going to write the JavaScript that adds the class to slot 1 and fill it with your content!
+Now, you are going to write the JavaScript that adds the class to slot 1 and fill it with your content!
 
 --- task ---
 
@@ -274,11 +274,11 @@ You should see the colour you chose now!
 title: My text colour isn't very visible
 ---
 
-When you see your colours, you might want to change the text colour on your content.
+When you see your colours, you might want to change the text colour of your content.
 
 Make sure they contrast well with the background colour you have chosen.
 
-**Tip:** To make life easier choose `black` or `white` text.
+**Tip:** To make life easier, choose `black` or `white` text.
 
 Add the `color` property to your selector.
 
@@ -326,15 +326,15 @@ line_highlights: 47
 
 Open `index.html`. 
 
-Highlight and copy (<kbd>Ctrl</kbd>+<kbd>C</kbd>/<kbd>Cmd</kbd>+<kbd>C</kbd>) the content inside the `slot-1` div. 
+Highlight and copy (<kbd>Ctrl</kbd>+<kbd>C</kbd> or <kbd>Cmd</kbd>+<kbd>C</kbd>) the content inside the `slot-1` div. 
 
 --- /task ---
 
 --- task ---
 
-Open `scripts.js` 
+Open `scripts.js`. 
 
-Paste (<kbd>Ctrl</kbd>+<kbd>V</kbd>/<kbd>Cmd</kbd>+<kbd>V</kbd>) the content in between the speech marks ``""``.
+Paste (<kbd>Ctrl</kbd>+<kbd>V</kbd> or <kbd>Cmd</kbd>+<kbd>V</kbd>) the content in between the speech marks ``""``.
 
 --- code ---
 ---
@@ -386,7 +386,7 @@ line_highlights: 47-51
 
 --- task ---
 
-Now open `index.html` and delete the content inside the `slot-1` div. 
+Now, open `index.html` and delete the content inside the `slot-1` div. 
 
 --- code ---
 ---
@@ -411,7 +411,7 @@ line_highlights: 29
 
 ### Change the content for options 2 and 3
 
-Now option 1 is working for your first slot, it is time to add the content and colours for your second option. 
+Now that option 1 works for your first slot, it is time to add the content and colours for your second option. 
 
 --- task ---
 
@@ -468,7 +468,7 @@ line_highlights: 2
 
 --- /task ---
 
-Now you are going to add to your `option2()` function, so it applies the class and changes the content.
+Now, you are going to add to your `option2()` function, so it applies the class and changes the content.
 
 --- task ---
 
@@ -536,7 +536,7 @@ line_highlights: 48-52
 
 --- task ---
 
-Run your code and select your second option, you should see your new colour and content appear!
+Run your code and select your second option. You should see your new colour and content appear!
 
 You might want to add a `color` property to the class to change the text colour to make it more visible.
 
@@ -547,8 +547,8 @@ To finish this step, you are going to do the same process again but for the **th
 You have to:
 + Add a new colour to `default.css`
 + Create a new `slot-1` class in `style.css` that sets the new colour in a `background-color` property
-+ Add the line to your `option3` function to set the class to slot 1.
-+ Add the lines to your `option3` function to change the content in slot 1.
++ Add the line to your `option3` function to set the class to slot 1
++ Add the lines to your `option3` function to change the content in slot 1
 
 --- task ---
 
@@ -609,4 +609,4 @@ line_highlights: 93
 
 --- /task ---
 
-Next you will add the colours, classes and code for the second and third content slots. You are going to have a whole webpage that changes, not just one slot!
+Next, you will add the colours, classes, and code for the second and third content slots. Then you will have a whole webpage that changes, not just one slot!
