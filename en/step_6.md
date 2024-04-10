@@ -1,22 +1,22 @@
 ## Animate the sections
 
-In this step you will make **three** intersection observers that will detect when your slots enter the viewport and apply animations to them. 
+In this step, you will make **three** intersection observers that will detect when your slots enter the viewport and apply animations to them. 
 
 ### Create the first observer
 
 --- task ---
 
-Open `scripts.js` and find the `// Observers` comment
+Open `scripts.js` and find the `// Observers` comment.
 
 --- /task ---
 
 --- task ---
 
-Create a new `IntersectionOberver` constant - called `slot1observer`. 
+Create a new `IntersectionOberver` constant, called `slot1observer`. 
 
 Add the entries array and the `if` statement that checks whether the entry is intersecting.
 
-For these observers you want the **whole** target to be in the viewport, so set the `threshold` to `1`.
+For these observers, you want the **whole** target to be in the viewport, so set the `threshold` to `1`.
 
 --- code ---
 ---
@@ -42,7 +42,7 @@ const slot1observer = new IntersectionObserver(
 
 --- task ---
 
-Inside the `if` statement, write the code that adds a class to `slot1` - leave the `""` empty for now
+Inside the `if` statement, write the code that adds a class to `slot1`. Leave the `""` empty for now.
 
 --- code ---
 ---
@@ -68,7 +68,7 @@ const slot1observer = new IntersectionObserver(
 
 --- task ---
 
-**Choose:** which animation you would like to use for your first slot. 
+**Choose** which animation you would like to use for your first slot. 
 
 There are 5 animations you can choose from:
 1. `fade-in`
@@ -104,7 +104,7 @@ const slot1observer = new IntersectionObserver(
 
 --- task ---
 
-Now you need to set your `IntersectionObserver` to observe the page. 
+Now, you need to set your `IntersectionObserver` to observe the page. 
 
 Add the call.
 
@@ -142,9 +142,9 @@ slot1observer.observe(slot1);
 title: My content is long and my animation isn't working
 ---
 
-If you have a lot of content in your slot, it may never be entirely in the viewport - because your `threshold` is set to `1` (100% of the element) your animation will not trigger. 
+If you have a lot of content in your slot, it may never be entirely in the viewport and because your `threshold` is set to `1` (100% of the element), your animation will not trigger. 
 
-To fix this you might want to remove the threshold completely like this: 
+To fix this, you might want to remove the threshold completely like this: 
 
 --- code ---
 ---
@@ -166,7 +166,7 @@ slot1observer.observe(slot1);
 
 --- /code ---
 
-Or you can reduce the amount of the element needed to trigger the animation, for example this would require half of the element to trigger...
+Or you can reduce the amount of the element needed to trigger the animation. For example, this would require half of the element to trigger...
 
 --- code ---
 ---
@@ -287,7 +287,7 @@ slot2observer.observe(slot2);
 
 --- task ---
 
-Copy the observer again, paste it underneath.
+Copy the observer again and paste it underneath.
 
 --- /task ---
 
@@ -321,4 +321,4 @@ slot3observer.observe(slot3);
 
 --- /task ---
 
-Next you are going to use `localStorage` to make the user's choice permanent!
+Next, you are going to use `localStorage` to make the user's choice permanent!
