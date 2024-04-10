@@ -1,8 +1,8 @@
 ## Upgrade your project
 
-In this step you can upgrade your project by:
+In this step, you can upgrade your project by:
 + Adding more styling to your content slots
-+ Adding more options to your drop-down
++ Adding more options to your drop-down menu
 
 You don't have to do both. Choose whichever one appeals to you and fits the time you have.
 
@@ -12,13 +12,13 @@ You don't have to do both. Choose whichever one appeals to you and fits the time
 title: Add more styling to your content slots
 ---
 
-At the moment your content slots are styled with a `background-color` and maybe `color` 
+At the moment, your content slots are styled with a `background-color` and maybe `color`. 
 
 You can also add styling to change the colour of your `h1` or any other element.
 
-To style a specific element you can add an element selector inside your class selectors. 
+To style a specific element, you can add an element selector inside your class selectors. 
 
-For example, the **football** example added a colour to the `h1` element for each class like this:
+For example, the **football** example adds a colour to the `h1` element for each class like this:
 
 --- code ---
 ---
@@ -36,9 +36,9 @@ filename: style.css
 
 --- /code ---
 
-You can see that it used the colours from another slot to tie the webpage together. 
+You can see that it uses the colours from another slot to tie the webpage together. 
 
-You can add any styling you might want to your content, the **dinosaur** example used the `text-align` property to change the alignment in the **activity** content slot. 
+You can add any styling you might want to your content. The **dinosaur** example used the `text-align` property to change the alignment in the **activity** content slot, for example. 
 
 --- code ---
 ---
@@ -66,23 +66,21 @@ filename: style.css
 title: Add another option
 ---
 
-If you have more time you might want to add more options to your drop-down for your user to choose from.
+If you have more time, you might want to add more options to your drop-down menu for your user to choose from.
 
 --- task ---
 
-Open `default.css` and add new colours for the:
-+ body
-+ slot 1
-+ slot 2
-+ slot 3
-
-For your new option
+Open `default.css` and, for your new option, add new colours for:
++ The body
++ Slot 1
++ Slot 2
++ Slot 3
 
 --- /task ---
 
 --- task ---
 
-Open `style.css` and create new classes for `<body>`, and each of your content slots. Use your new colours to style the slots.
+Open `style.css` and create new classes for `<body>` and each of your content slots. Use your new colours to style the slots.
 
 --- /task ---
 
