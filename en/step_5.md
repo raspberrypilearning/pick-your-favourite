@@ -1,12 +1,12 @@
 ## Change the rest of the page
 
-In this step you will make your whole webpage change when the user chooses an option.
+In this step, you will make your whole webpage change when the user chooses an option.
 
 ### Adding content for slot 2
 
-The process for adding content to slot 2 is very similar to what you did in the previous step, to help you make this process quicker use Copy (<kbd>Ctrl</kbd>+<kbd>C</kbd>/<kbd>Cmd</kbd>+<kbd>C</kbd>) and Paste (<kbd>Ctrl</kbd>+<kbd>V</kbd>/<kbd>Cmd</kbd>+<kbd>V</kbd>) on the code you have already written, then update it to match the new content.
+The process for adding content to slot 2 is very similar to what you did in the previous step. To make this process quicker, use copy (<kbd>Ctrl</kbd>+<kbd>C</kbd> or <kbd>Cmd</kbd>+<kbd>C</kbd>) and paste (<kbd>Ctrl</kbd>+<kbd>V</kbd> or <kbd>Cmd</kbd>+<kbd>V</kbd>) on the code you have already written, then update it to match the new content.
 
-In the last step you did each option one at a time. This time you are going to do all three options at each step: adding colours, creating classes and adding the code.
+In the last step, you did each option one at a time. This time, you will do all three options at each step: adding colours, creating classes, and adding the code.
 
 ### Add colours for slot 2
 
@@ -85,7 +85,7 @@ line_numbers: false
 
 --- /code ---
 
-Make sure you are using **your** class names not the ones in the example.
+Make sure you are using **your** class names, not the ones in the example.
 
 --- /collapse ---
 
@@ -144,7 +144,7 @@ In the football example it was **Recent news** and in the dinosaur example it wa
 
 --- task ---
 
-Next, add a the lines needed to change the `innerHTML` of slot 2. 
+Next, add the lines needed to change the `innerHTML` of slot 2. 
 
 You can copy the line above that does the same thing for slot 1, or write a new set of lines yourself. 
 
@@ -280,13 +280,13 @@ Modify the class and content to match your third option.
 
 You are so close to finishing the content of your webpage! Well done!
 
-Now you are going to add the colours, classes and code to style and fill the third slot!
+Now, you are going to add the colours, classes, and code to style and fill the third slot!
 
 You have done this twice now, so the instructions will just remind you of the steps. 
 
 --- task ---
 
-Open `default.css` -  add three colours for slot 3 (one for each of your options).
+Open `default.css` and add three colours for slot 3 (one for each of your options).
 
 --- collapse ---
 
@@ -498,8 +498,8 @@ line_numbers: false
 **Click Run**
 + Test all three options, check the content and colours look how you want them to. 
 
-You can adjust the text colour to make sure it contrasts with the background enough
+You can adjust the text colour to make sure it contrasts with the background enough.
 
 --- /task ---
 
-Next you will add some sparkle to your webpage using **intersection observers** and animations!
+Next, you will add some sparkle to your webpage using **intersection observers** and animations!
