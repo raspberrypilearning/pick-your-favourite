@@ -25,7 +25,7 @@ Which of these properties allows you to insert new **tags** inside an element?
 
   --- feedback ---
 
-  Correct, this property let's you add new tags inside an element.
+  Correct, this property lets you add new tags inside an element.
 
   --- /feedback ---
 
@@ -34,7 +34,7 @@ Which of these properties allows you to insert new **tags** inside an element?
 
   --- feedback ---
 
-  This property let's you add, remove and read the class attribute of an element.
+  This property lets you add, remove, and read the class attribute of an element.
 
   --- /feedback ---
 
