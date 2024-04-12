@@ -67,7 +67,7 @@ Set the `background-color:` property to the body colour for the first option.
 
 You might also want to set a `color:` property to make sure the title text is visible.
 
-You should give this class a name that relates to your option, the **Dinosaur** example looks like this:
+You should give this class a name that relates to your option, the **dinosaur** example looks like this:
 
 --- code ---
 ---
@@ -99,7 +99,7 @@ title: What should my code look like?
 
 Your CSS should contain three class selectors, with `background-color:` and maybe `color` properties set. 
 
-This is the **Dinosaur** example.
+This is the **dinosaur** example.
 
 --- code ---
 ---
@@ -186,7 +186,7 @@ function option1(){
 
 Next, add the new class you made in `style.css` to the body, and change the title to match your option. 
 
-The **Dinosaur** example looks like this:
+The **dinosaur** example looks like this:
 
 --- code ---
 ---
