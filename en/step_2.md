@@ -25,12 +25,12 @@ For this project, you need to pick a theme and three choices for the user to mak
 title: Some examples...
 ---
 
-The example project uses **Football** as its theme, and gives the user a choice between three teams:
+The example project uses **football** as its theme, and gives the user a choice between three teams:
 1. Liverpool
 2. Manchester City
 3. Tottenham Hotspur
 
-The **Dinosaur** example lets the user choose between different species of dinosaur:
+The **dinosaur** example lets the user choose between different species of dinosaur:
 1. Tyrannosaurus Rex
 2. Triceratops
 3. Stegosaurus
@@ -75,7 +75,7 @@ line_number_start: 8
 
 Change the text in the button and drop-down options to match your idea!
 
-**Make sure** to leave the unicode for the arrow - `&#9207;` - at the end.
+**Make sure** to leave the unicode for the arrow  — `&#9207;` — at the end.
 
 --- code ---
 ---
@@ -101,7 +101,7 @@ line_highlights: 14, 16-18
 
 --- /task ---
 
-At the moment the drop-down menu doesn't open. There is a function to open and close it in the `scripts.js` file. 
+At the moment, the drop-down menu doesn't open. There is a function to open and close it in the `scripts.js` file. 
 
 --- task ---
 
