@@ -16,7 +16,7 @@ Decide what the titles of each of your content slots will be.
 --- collapse ---
 
 ---
-title: Some examples...
+title: Some examples
 ---
 
 **The football example has slots for:**
@@ -104,7 +104,7 @@ You can use `<p>`, `<ul>`, `<ol>`, or any other elements you have experience wit
 --- collapse ---
 
 ---
-title: Some examples...
+title: Some examples
 ---
 
 ### Dinosaurs
