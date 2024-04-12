@@ -2,7 +2,7 @@
 
 In this step, you will make your whole webpage change when the user chooses an option.
 
-### Adding content for slot 2
+### Add content for slot 2
 
 The process for adding content to slot 2 is very similar to what you did in the previous step. To make this process quicker, use copy (<kbd>Ctrl</kbd>+<kbd>C</kbd> or <kbd>Cmd</kbd>+<kbd>C</kbd>) and paste (<kbd>Ctrl</kbd>+<kbd>V</kbd> or <kbd>Cmd</kbd>+<kbd>V</kbd>) on the code you have already written, then update it to match the new content.
 
@@ -19,7 +19,7 @@ Add **three** new colour variables. Assign colours to them for your slot 2 class
 --- collapse ---
 
 ---
-title: An example...
+title: An example
 ---
 
 The dinosaur examples slot 2 colours look like this:
@@ -153,7 +153,7 @@ You can copy the line above that does the same thing for slot 1, or write a new 
 --- collapse ---
 
 ---
-title: An example...
+title: An example
 ---
 
 The dinosaur example looks like this:
@@ -359,13 +359,14 @@ line_highlights:
 
 --- task ---
 
-Open `scripts.js` 
+Open `scripts.js`.
+
 Add lines to each of your option functions to apply your new classes and add the content to slot 3. 
 
 --- collapse ---
 
 ---
-title: An example...
+title: An example
 ---
 
 --- code ---
