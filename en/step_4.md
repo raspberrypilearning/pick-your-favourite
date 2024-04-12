@@ -19,14 +19,14 @@ Decide what the titles of each of your content slots will be.
 title: Some examples...
 ---
 
-**The Football example has slots for:**
+**The football example has slots for:**
 + Match results
 + News
 + Top players
 
 The content changes depending on which football **team** the user chooses.
 
-**The Dinosaur example has slots for:**
+**The dinosaur example has slots for:**
 + Anatomy and characteristics
 + Trivia
 + An activity
@@ -170,13 +170,13 @@ Make sure your content displays as you would like.
 
 ### Add colour to the first slot
 
-The background colour is the same as the webpage, which looks a bit rubbish. 
+The background colour is the same as the webpage, which looks a bit boring. 
 
 Next, you are going to add new colours for the first option. 
 
 --- task ---
 
-Open `default.css` and add a new colour for your first option, call the variable `--slot1-classname` - replacing the end with your class for the first option.
+Open `default.css` and add a new colour for your first option, call the variable `--slot1-classname` — replacing the end with your class for the first option.
 
 --- /task ---
 
@@ -184,9 +184,9 @@ Open `default.css` and add a new colour for your first option, call the variable
 
 Open `style.css` and find the `/* Slot 1 classes */` comment on line 128. 
 
-Add a new selector for the `slot-1` id and add a class for your first option.
+Add a new selector for the `slot-1` ID and add a class for your first option.
 
-The **Football** example looked like this:
+The **football** example looked like this:
 
 --- code ---
 ---
@@ -510,7 +510,7 @@ In your `option1` function, copy the lines that changed the `innerHTML` for slot
 
 Paste them inside the `option2` function. 
 
-Edit the lines to be about your second option, the football example looked like this (with Manchester City's results instead of Liverpool's):
+Edit the lines of text so they are about your second option. The football example looked like this (with Manchester City's results instead of Liverpool's):
 
 --- code ---
 ---
