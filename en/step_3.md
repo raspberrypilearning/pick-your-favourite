@@ -1,6 +1,6 @@
 ## Choose your colours
 
-In this step you are going to make your webpage colours change for all the options! 
+In this step, you will make your webpage colours change for all the options! 
 
 --- task ---
 
@@ -17,7 +17,7 @@ For each option you will need colours for:
 + The three content slots
 + Heading and text for the slots
 
-**Tip:** You are going to add a lot of code in this step, so make sure you use Copy (<kbd>Ctrl</kbd>+<kbd>C</kbd>/<kbd>Cmd</kbd>+<kbd>C</kbd>) and Paste (<kbd>Ctrl</kbd>+<kbd>V</kbd>/<kbd>Cmd</kbd>+<kbd>V</kbd>) to speed the process up. 
+**Tip:** You are going to add a lot of code in this step, so make sure you use copy (<kbd>Ctrl</kbd>+<kbd>C</kbd> or <kbd>Cmd</kbd>+<kbd>C</kbd>) and paste (<kbd>Ctrl</kbd>+<kbd>V</kbd> or <kbd>Cmd</kbd>+<kbd>V</kbd>) to speed the process up. 
 
 ### Create your body colour classes
 
@@ -67,7 +67,7 @@ Set the `background-color:` property to the body colour for the first option.
 
 You might also want to set a `color:` property to make sure the title text is visible.
 
-You should give this class a name that relates to your option, the **Dinosaur** example looks like this:
+You should give this class a name that relates to your option, the **dinosaur** example looks like this:
 
 --- code ---
 ---
@@ -89,7 +89,7 @@ line_highlights: 2-5
 
 --- task ---
 
-Underneath this create the other **2 class selectors** for your other options. 
+Underneath this, create the other **2 class selectors** for your other options. 
 
 --- collapse ---
 
@@ -99,7 +99,7 @@ title: What should my code look like?
 
 Your CSS should contain three class selectors, with `background-color:` and maybe `color` properties set. 
 
-This is the **Dinosaur** example.
+This is the **dinosaur** example.
 
 --- code ---
 ---
@@ -133,11 +133,11 @@ line_highlights:
 
 ### Creating functions
 
-Next you need to create functions that will cause the changes to your page when the options are clicked.
+Next, you need to create functions that will make the changes to your page when the options are clicked.
 
 --- task ---
 
-Open `scripts.js` - and find the `// Option 1` comment. 
+Open `scripts.js` and find the `// Option 1` comment. 
 
 Create a function called `option1`.
 
@@ -160,7 +160,7 @@ function option1(){
 
 --- task ---
 
-When an option is clicked you need to clear the page, then hide the instruction and set the `content-holder` to display as a `grid`. 
+When an option is clicked, you need to clear the page, then hide the instruction and set the `content-holder` to display as a `grid`. 
 
 --- code ---
 ---
@@ -184,9 +184,9 @@ function option1(){
 
 --- task ---
 
-Next add the new class you made in `style.css` to the body, and change the title to match your option. 
+Next, add the new class you made in `style.css` to the body, and change the title to match your option. 
 
-The **Dinosaur** example looks like this:
+The **dinosaur** example looks like this:
 
 --- code ---
 ---
@@ -250,9 +250,9 @@ function option2(){
 Do the same for your third option, underneath the `// Option 3` comment. 
 
 Make sure to update:
-+ the function name
-+ the class added to body
-+ the title
++ The function name
++ The class added to body
++ The title
 
 --- collapse ---
 
@@ -287,13 +287,13 @@ function option3(){
 
 ### Make the options work
 
-In order to test your code you need to link the buttons in the drop-down to the functions you have just written. 
+To test your code, you need to link the buttons in the drop-down menu to the functions you have just written. 
 
 --- task ---
 
 Open `index.html`. 
 
-Add `onclick` properties to each of your drop-down buttons, calling the three functions.
+Add `onclick` properties to each of your drop-down buttons, calling each of the three functions.
 
 --- code ---
 ---
@@ -317,10 +317,10 @@ line_highlights: 16-18
 --- task ---
 
 **Click Run**
-+ Use the drop-down and select your options, you should see the colours change!
++ Use the drop-down menu and select your options. You should see the colours change!
 
-**Debug**: If your colours don't change, make sure the class names you add in JavaScript match the ones in your CSS **exactly**!.
+**Debug**: If your colours don't change, make sure the class names you added in JavaScript match the ones in your CSS **exactly**!.
 
 --- /task ---
 
-Next you will allow the user to change the content of your webpage when they choose an option!
+Next, you will allow the user to change the content of your webpage when they choose an option!
