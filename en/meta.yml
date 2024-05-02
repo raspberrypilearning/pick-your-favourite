@@ -9,13 +9,15 @@ last_tested: '2021-03-26'
 steps:
 - title: Introduction
 - title: Create the frame
+- title: Choose your page colour
   completion:
     - engaged
-- title: Choose your page colour
 - title: Change some content
 - title: Change the rest of the page
 - title: Animate the sections
 - title: Make the choice permanent
+  completion:
+    - internal
 - title: Reflection
   knowledge_quiz:
     path: quiz1
