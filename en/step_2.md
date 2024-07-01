@@ -45,7 +45,7 @@ Choose your theme and three options within that theme.
 
 --- task ---
 
-Open the [Pick your favourite starter project]((https://editor.raspberrypi.org/en/projects/pick-your-favourite-starter){:target="_blank"})
+Open the [Pick your favourite starter project](https://editor.raspberrypi.org/en/projects/pick-your-favourite-starter){:target="_blank"}
 
 If you are logged in, save the project to your account and change the name.
 
@@ -158,7 +158,7 @@ line_highlights: 24-26
 
 ### Make the page your own
 
-The page is looking pretty boring now, time for you to make it look awesome!
+Now it is time to style your web page with different fonts and colours.
 
 --- task ---
 
