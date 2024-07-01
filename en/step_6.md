@@ -70,7 +70,7 @@ const slot1observer = new IntersectionObserver(
 
 **Choose** which animation you would like to use for your first slot. 
 
-There are 5 animations you can choose from:
+There are 5 animations which have been pre-defined for you inside **style.css**:
 1. `fade-in`
 2. `grow-in`
 3. `rise-in`
@@ -207,7 +207,7 @@ language: css
 filename: style.css
 line_numbers: false
 line_number_start: 103
-line_highlights: 109
+line_highlights: 110
 ---
 
 .content {

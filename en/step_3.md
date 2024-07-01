@@ -23,12 +23,9 @@ For each option you will need colours for:
 
 --- task ---
 
-Choose your three body colours and note them down. 
+Choose a body colour for each of the three options and note them down. 
 
-[[[colours-from-image]]]
-
-[[[contrast-checker]]]
-
+You can use a [colour picker](https://www.w3schools.com/colors/colors_picker.asp){:target="_blank"} to help you choose.
 --- /task ---
 
 --- task ---
@@ -47,7 +44,6 @@ line_highlights: 10
   /* Base Colours */
   --body-background: #FFFFFF;
   --body-text-colour: #000000;
-  --nav-bar: #FFFFFF;
 
   --new-colour: #A63CEA;
 

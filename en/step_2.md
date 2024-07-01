@@ -45,7 +45,7 @@ Choose your theme and three options within that theme.
 
 --- task ---
 
-Open the [Pick your favourite starter project]((https://editor.raspberrypi.org/en/projects/pick-your-favourite-starter){:target="_blank"})
+Open the [Pick your favourite starter project](https://editor.raspberrypi.org/en/projects/pick-your-favourite-starter){:target="_blank"}
 
 If you are logged in, save the project to your account and change the name.
 
@@ -158,7 +158,7 @@ line_highlights: 24-26
 
 ### Make the page your own
 
-The page is looking pretty boring now, time for you to make it look awesome!
+Now it is time to style your web page with different fonts and colours.
 
 --- task ---
 
@@ -166,15 +166,13 @@ Add an appropriate font for your webpage from Google Fonts.
 
 [[[google-fonts]]]
 
-[[[web-fonts]]]
-
 --- /task ---
 
 --- task ---
 
 Open `default.css`. 
 
-Change the `--body-background`, `--body-text`, and `--nav-bar` colour variables to new colours of your choice.
+Change the `--body-background` and `--body-text` colour variables to new colours of your choice.
 
 --- code ---
 ---
@@ -188,7 +186,6 @@ line_highlights: 6-8
 /* Base Colours */
   --body-background: #FFFFFF;
   --body-text-colour: #000000;
-  --nav-bar: #FFFFFF;
 
 --- /code ---
 
