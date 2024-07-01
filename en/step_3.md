@@ -25,8 +25,7 @@ For each option you will need colours for:
 
 Choose a body colour for each of the three options and note them down. 
 
-[[[css-colours]]]
-
+You can use a [colour picker](https://www.w3schools.com/colors/colors_picker.asp){:target="_blank"} to help you choose.
 --- /task ---
 
 --- task ---
