@@ -1,12 +1,12 @@
 ## Change some content
 
-In this step, you will add the text content and colours to the first slot on your webpage for each of the options.
+In this step, you will add the text content and colours to the first paragraph on your webpage for each of the options.
 
 ### What content will you add?
 
 --- task ---
 
-Decide what the titles of each of your content slots will be.
+Decide what the titles of each of your content paragraphs will be.
 
 **Think about**
 + What three things should all fans of your theme know about?
@@ -19,14 +19,14 @@ Decide what the titles of each of your content slots will be.
 title: Some examples
 ---
 
-**The football example has slots for:**
+**The football example has paragraph slots for:**
 + Match results
 + News
 + Top players
 
 The content changes depending on which football **team** the user chooses.
 
-**The dinosaur example has slots for:**
+**The dinosaur example has paragraph slots for:**
 + Anatomy and characteristics
 + Trivia
 + An activity
@@ -37,9 +37,9 @@ The content changes depending on which dinosaur **species** the user chooses.
 
 --- /task ---
 
-### Creating the text for the first slot
+### Creating the text for the first paragraph
 
-You are going to create the content for the first slot — for all three options — and also set a colour for it.
+You are going to create the content for the first paragraph — for all three options — and also set a colour for it.
 
 --- task ---
 
@@ -170,9 +170,7 @@ Make sure your content displays as you would like.
 
 ### Add colour to the first slot
 
-The background colour is the same as the webpage, which looks a bit boring. 
-
-Next, you are going to add new colours for the first option. 
+The background colour is the same as the webpage. Next, you will add new colours for the first option. 
 
 --- task ---
 
@@ -230,7 +228,7 @@ line_highlights: 3
 
 ### Use JavaScript to add the content and colours
 
-Now, you are going to write the JavaScript that adds the class to slot 1 and fill it with your content!
+Now, you are going to write the JavaScript that adds the class to slot 1 and fill it with your content.
 
 --- task ---
 
