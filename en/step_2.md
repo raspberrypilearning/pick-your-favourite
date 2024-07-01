@@ -166,15 +166,13 @@ Add an appropriate font for your webpage from Google Fonts.
 
 [[[google-fonts]]]
 
-[[[web-fonts]]]
-
 --- /task ---
 
 --- task ---
 
 Open `default.css`. 
 
-Change the `--body-background`, `--body-text`, and `--nav-bar` colour variables to new colours of your choice.
+Change the `--body-background` and `--body-text` colour variables to new colours of your choice.
 
 --- code ---
 ---
@@ -188,7 +186,6 @@ line_highlights: 6-8
 /* Base Colours */
   --body-background: #FFFFFF;
   --body-text-colour: #000000;
-  --nav-bar: #FFFFFF;
 
 --- /code ---
 
