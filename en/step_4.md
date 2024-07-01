@@ -164,7 +164,7 @@ line_highlights: 30
 
 Run your code, and select the first option from your drop-down menu. 
 
-Make sure your content displays as you would like.
+Make sure that you can see the content you have written.
 
 --- /task ---
 
@@ -540,13 +540,7 @@ You might want to add a `color` property to the class to change the text colour 
 
 --- /task ---
 
-To finish this step, you are going to do the same process again but for the **third option**. 
-
-You have to:
-+ Add a new colour to `default.css`
-+ Create a new `slot-1` class in `style.css` that sets the new colour in a `background-color` property
-+ Add the line to your `option3` function to set the class to slot 1
-+ Add the lines to your `option3` function to change the content in slot 1
+To finish this step, you are going to repeat the same process again but for the **third option**. 
 
 --- task ---
 
