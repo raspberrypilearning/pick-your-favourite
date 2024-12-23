@@ -199,7 +199,7 @@ slot2.innerHTML = "<h1>Trivia</h1> \n \
 
 \--- /collapse ---
 
-**Click Run**
+**Klik op Run**
 
 - Test the content and class by selecting your first option.
 
@@ -271,7 +271,7 @@ slot2.innerHTML =
 
 \--- /collapse ---
 
-**Click Run**
+**Klik op Run**
 
 - Test your colours and content by selecting your second option.
 
@@ -287,7 +287,7 @@ Modify the class and content to match your third option.
 
 ### The third slot
 
-You are so close to finishing the content of your webpage! Well done!
+You are so close to finishing the content of your webpage! Goed gedaan!
 
 Now, you are going to add the colours, classes, and code to style and fill the third slot!
 
@@ -511,7 +511,7 @@ slot3.innerHTML =
 
 \--- task ---
 
-**Click Run**
+**Klik op Run**
 
 - Test all three options, check the content and colours look how you want them to.
 
