@@ -8,7 +8,7 @@ In this step, you will add the text content and colours to the first paragraph o
 
 Decide what the titles of each of your content paragraphs will be.
 
-**Think about**
+**Подумай про наступне**
 
 - What three things should all fans of your theme know about?
 - What categories could you write about for each option?
@@ -594,7 +594,7 @@ display: none;
 
 \--- task ---
 
-### Test your project
+### Перевірте ваш проект
 
 **Click Run**
 
