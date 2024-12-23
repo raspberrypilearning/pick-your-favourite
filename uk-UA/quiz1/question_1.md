@@ -1,4 +1,4 @@
-## Reflection
+## Рефлексія
 
 Well done, you have learned a lot! Now it's time to reflect - reflecting is an important part of learning because it helps make new connections in your brain.
 
@@ -6,13 +6,13 @@ Answer the three questions below to reflect on what you've learned.
 
 After each question, press submit. You will be guided towards the correct answer. You can do this activity as many times as you want to.
 
-Have fun!
+Успіхів!
 
 \--- question ---
 
 ---
 
-## legend: Question 1 of 3
+## legend: Питання 1 з 3
 
 When creating new variables to store colours and fonts, your CSS might look like this...
 
@@ -51,7 +51,7 @@ Which of these would allow you to **use** the `--body-background` variable in an
 
   \--- feedback ---
 
-  Correct!
+  Правильно!
 
   \--- /feedback ---
 
