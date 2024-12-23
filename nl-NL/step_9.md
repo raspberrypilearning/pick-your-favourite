@@ -1,4 +1,4 @@
-## Upgrade your project
+## Verbeter je project
 
 In this step, you can upgrade your project by:
 
