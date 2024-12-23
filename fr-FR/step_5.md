@@ -12,7 +12,7 @@ In the last step, you did each option one at a time. This time, you will do all 
 
 \--- task ---
 
-Open `default.css`.
+Ouvre `default.css`.
 
 Add **three** new colour variables. Assign colours to them for your slot 2 classes.
 
@@ -46,7 +46,7 @@ line_numbers: false
 
 \--- task ---
 
-Open `style.css`.
+Ouvre `style.css`.
 
 Find the `/* Slot 2 classes */` comment.
 
@@ -97,7 +97,7 @@ Now you are going to add to your three `option` functions to apply the classes t
 
 \--- task ---
 
-Open `scripts.js`.
+Ouvre `scripts.js`.
 
 Find your `option1()` function.
 
@@ -199,7 +199,7 @@ slot2.innerHTML = "<h1>Trivia</h1> \n \
 
 \--- /collapse ---
 
-**Click Run**
+**Clique sur Run**
 
 - Test the content and class by selecting your first option.
 
@@ -271,7 +271,7 @@ slot2.innerHTML =
 
 \--- /collapse ---
 
-**Click Run**
+**Clique sur Run**
 
 - Test your colours and content by selecting your second option.
 
@@ -287,7 +287,7 @@ Modify the class and content to match your third option.
 
 ### The third slot
 
-You are so close to finishing the content of your webpage! Well done!
+You are so close to finishing the content of your webpage! Bien joué !
 
 Now, you are going to add the colours, classes, and code to style and fill the third slot!
 
@@ -368,7 +368,7 @@ color: white;
 
 \--- task ---
 
-Open `scripts.js`.
+Ouvre `scripts.js`.
 
 Add lines to each of your option functions to apply your new classes and add the content to slot 3.
 
@@ -511,7 +511,7 @@ slot3.innerHTML =
 
 \--- task ---
 
-**Click Run**
+**Clique sur Run**
 
 - Test all three options, check the content and colours look how you want them to.
 
