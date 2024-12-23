@@ -252,7 +252,7 @@ Make sure to update:
 
 - The function name
 - The class added to body
-- The title
+- De titel
 
 \--- collapse ---
 
@@ -316,7 +316,7 @@ line_highlights: 16-18
 
 \--- task ---
 
-**Click Run**
+**Klik op Run**
 
 - Use the drop-down menu and select your options. You should see the colours change!
 
