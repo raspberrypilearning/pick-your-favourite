@@ -6,7 +6,7 @@ In this project, you will create a fan website that lets a user make choices tha
 Bonding over <span style="color: #0faeb0">**shared interests**</span> is what the internet was built for! From the earliest message boards to modern sites like Reddit, people love to read about and discuss their favourite hobbies and forms of entertainment!
 </p>
 
-You will:
+Tu vas :
 
 - Choose three options for colours and content
 - Use buttons, CSS, and JavaScript to change the whole webpage
@@ -16,7 +16,7 @@ You will:
 
 \--- task ---
 
-### Try it!
+### Essaye !
 
 [See inside](https://editor.raspberrypi.org/en/projects/pick-your-favourite-football){:target="_blank"}
 
@@ -32,7 +32,7 @@ Following a sport is a great way to connect with friends. Sometimes you support 
 
 \--- /task ---
 
-### Get inspiration!
+### Trouve l'inspiration!
 
 You will need to make some design choices to create your fan website!
 
@@ -42,7 +42,7 @@ You will need to make some design choices to create your fan website!
 
 \--- task ---
 
-Explore these examples to get more ideas:
+Explore ces exemples de projets pour obtenir plus d'idées :
 
 **Pick your favourite dinosaur**: [See inside](https://editor.raspberrypi.org/en/projects/pick-your-favourite-dinosaur){:target="_blank"}
 
@@ -62,7 +62,7 @@ Explore these examples to get more ideas:
 
 \--- print-only ---
 
-### Get inspiration
+### Trouve l'inspiration
 
 **Pick your favourite dinosaur**
 
