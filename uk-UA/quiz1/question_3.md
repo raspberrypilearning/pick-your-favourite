@@ -2,7 +2,7 @@
 
 ---
 
-## legend: Question 3 of 3
+## legend: Питання 3 з 3
 
 In JavaScript, you can use **properties** to change elements.
 
