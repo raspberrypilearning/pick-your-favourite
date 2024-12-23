@@ -1,4 +1,4 @@
-## What next?
+## Що далі?
 
 If you are following the [More web](https://projects.raspberrypi.org/en/raspberrypi/more-web) path, you can move on to the [Quiz time!](https://projects.raspberrypi.org/en/projects/quiz-time) project. In this project, you will make a web app that lets the user test their knowledge of a topic you are the expert in!
 
