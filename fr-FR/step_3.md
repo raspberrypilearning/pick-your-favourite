@@ -54,7 +54,7 @@ line_highlights: 10
 
 \--- task ---
 
-Open `style.css`.
+Ouvre `style.css`.
 
 Find the `/* Body Classes */` comment.
 
@@ -252,7 +252,7 @@ Make sure to update:
 
 - The function name
 - The class added to body
-- The title
+- Le titre
 
 \--- collapse ---
 
@@ -291,7 +291,7 @@ To test your code, you need to link the buttons in the drop-down menu to the fun
 
 \--- task ---
 
-Open `index.html`.
+Ouvre `index.html`.
 
 Add `onclick` properties to each of your drop-down buttons, calling each of the three functions.
 
@@ -316,7 +316,7 @@ line_highlights: 16-18
 
 \--- task ---
 
-**Click Run**
+**Clique sur Run**
 
 - Use the drop-down menu and select your options. You should see the colours change!
 
