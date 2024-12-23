@@ -8,7 +8,7 @@ In this step, you will add the text content and colours to the first paragraph o
 
 Decide what the titles of each of your content paragraphs will be.
 
-**Think about**
+**Denk aan**
 
 - What three things should all fans of your theme know about?
 - What categories could you write about for each option?
@@ -23,7 +23,7 @@ Decide what the titles of each of your content paragraphs will be.
 **The football example has paragraph slots for:**
 
 - Match results
-- News
+- Nieuws
 - Top players
 
 The content changes depending on which football **team** the user chooses.
@@ -594,9 +594,9 @@ display: none;
 
 \--- task ---
 
-### Test your project
+### Test je project
 
-**Click Run**
+**Klik op Run**
 
 - Select an option and scroll down, make sure the colours and content look how you want them to.
 
