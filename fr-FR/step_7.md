@@ -155,7 +155,7 @@ option3();
 
 \--- task ---
 
-**Click Run**
+**Clique sur Run**
 
 - Select an option.
 
@@ -201,7 +201,7 @@ localStorage.setItem("choice", "");
 
 \--- task ---
 
-Open `index.html`
+Ouvre `index.html`
 
 Add a new button to your drop-down menu so the user can reset the page.
 
@@ -228,7 +228,7 @@ line_highlights: 5
 
 \--- task ---
 
-**Click Run**
+**Clique sur Run**
 
 - Test your reset button by selecting an option, clicking **Run** again and then resetting.
 
