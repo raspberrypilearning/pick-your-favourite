@@ -172,7 +172,7 @@ Add an appropriate font for your webpage from Google Fonts.
 
 \--- task ---
 
-Open `default.css`.
+Ouvre `default.css`.
 
 Change the `--body-background` and `--body-text` colour variables to new colours of your choice.
 
@@ -209,7 +209,7 @@ Finally, you are going to add a grid to hold the content for each of your option
 
 \--- task ---
 
-Open `index.html`.
+Ouvre `index.html`.
 
 Inside the `<main>` tags, add a new section with the id attribute `content-holder`.
 
