@@ -2,7 +2,7 @@
 
 ---
 
-## legend: Question 2 of 3
+## legend: Question 2 sur 3
 
 In CSS, you can create very specific selectors. If you have an element with an ID attribute `slot-1` and a class `trex`, which of these selectors would you use to style **only** the element with **both** of those attributes?
 
@@ -28,7 +28,7 @@ In CSS, you can create very specific selectors. If you have an element with an I
 
   \--- feedback ---
 
-  Well done! This is correct!
+  Bien joué ! This is correct!
 
   \--- /feedback ---
 
