@@ -138,7 +138,7 @@ slot1observer.observe(slot1);
 
 \--- task ---
 
-**Click Run**
+**Klik op Run**
 
 - Select an option and scroll down, you should see the first slot appear and then animate.
 
@@ -227,7 +227,7 @@ opacity: 0;
 
 \--- /code ---
 
-**Click Run**
+**Klik op Run**
 
 - Scroll to see your animation again. The slot should not appear until it animates.
 
@@ -288,7 +288,7 @@ slot2observer.observe(slot2);
 
 \--- /code ---
 
-**Click Run**
+**Klik op Run**
 
 - Test your second animation.
 
@@ -325,7 +325,7 @@ slot3observer.observe(slot3);
 
 \--- /code ---
 
-**Click Run**
+**Klik op Run**
 
 - Test your third animation.
 
