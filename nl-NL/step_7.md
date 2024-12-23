@@ -155,7 +155,7 @@ option3();
 
 \--- task ---
 
-**Click Run**
+**Klik op Run**
 
 - Select an option.
 
@@ -228,7 +228,7 @@ line_highlights: 5
 
 \--- task ---
 
-**Click Run**
+**Klik op Run**
 
 - Test your reset button by selecting an option, clicking **Run** again and then resetting.
 
