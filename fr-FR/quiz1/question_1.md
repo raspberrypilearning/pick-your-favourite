@@ -1,18 +1,18 @@
-## Reflection
+## Réflexion
 
-Well done, you have learned a lot! Now it's time to reflect - reflecting is an important part of learning because it helps make new connections in your brain.
+Bravo, tu as beaucoup appris ! Maintenant, il est temps de réfléchir - la réflexion est une partie importante de l'apprentissage, car elle aide à établir de nouvelles connexions dans ton cerveau.
 
-Answer the three questions below to reflect on what you've learned.
+Réponds aux trois questions ci-dessous pour réfléchir sur ce que tu as appris.
 
-After each question, press submit. You will be guided towards the correct answer. You can do this activity as many times as you want to.
+Après chaque question, appuie sur Soumettre. Tu seras guidé vers la bonne réponse. Tu peux faire cette activité autant de fois que tu le souhaites.
 
-Have fun!
+Amuse-toi bien !
 
 \--- question ---
 
 ---
 
-## legend: Question 1 of 3
+## legend: Question 1 sur 3
 
 When creating new variables to store colours and fonts, your CSS might look like this...
 
@@ -51,7 +51,7 @@ Which of these would allow you to **use** the `--body-background` variable in an
 
   \--- feedback ---
 
-  Correct!
+  Correct !
 
   \--- /feedback ---
 
