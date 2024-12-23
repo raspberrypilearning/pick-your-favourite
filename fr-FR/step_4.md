@@ -23,7 +23,7 @@ Decide what the titles of each of your content paragraphs will be.
 **The football example has paragraph slots for:**
 
 - Match results
-- News
+- Actualités
 - Top players
 
 The content changes depending on which football **team** the user chooses.
@@ -325,7 +325,7 @@ slot1.innerHTML = "";
 
 \--- task ---
 
-Open `index.html`.
+Ouvre `index.html`.
 
 Highlight and copy (<kbd>Ctrl</kbd>+<kbd>C</kbd> or <kbd>Cmd</kbd>+<kbd>C</kbd>) the content inside the `slot-1` div.
 
@@ -333,7 +333,7 @@ Highlight and copy (<kbd>Ctrl</kbd>+<kbd>C</kbd> or <kbd>Cmd</kbd>+<kbd>C</kbd>)
 
 \--- task ---
 
-Open `scripts.js`.
+Ouvre `scripts.js`.
 
 Paste (<kbd>Ctrl</kbd>+<kbd>V</kbd> or <kbd>Cmd</kbd>+<kbd>V</kbd>) the content in between the speech marks `""`.
 
@@ -594,9 +594,9 @@ display: none;
 
 \--- task ---
 
-### Test your project
+### Teste ton projet
 
-**Click Run**
+**Clique sur Run**
 
 - Select an option and scroll down, make sure the colours and content look how you want them to.
 
