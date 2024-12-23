@@ -287,7 +287,7 @@ Modify the class and content to match your third option.
 
 ### The third slot
 
-You are so close to finishing the content of your webpage! Well done!
+You are so close to finishing the content of your webpage! Молодець!
 
 Now, you are going to add the colours, classes, and code to style and fill the third slot!
 
