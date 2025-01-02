@@ -1,4 +1,4 @@
-## Change the rest of the page
+## Wijzig de rest van de pagina
 
 In this step, you will make your whole webpage change when the user chooses an option.
 
