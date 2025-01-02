@@ -103,7 +103,7 @@ button {
   font-size: 32px;
 }
 
-/* Body Classes */
+/* Alinea Klassen */
 
 
 #slot-1 {
@@ -111,7 +111,7 @@ button {
   grid-row-end: 3;
 }
 
-/* Slot 1 classes */
+/* Slot 1 klassen */
 
 
 #slot-2 {
@@ -119,7 +119,7 @@ button {
   grid-row-end: 5;
 }
 
-/* Slot 2 classes */
+/* Slot 2 klassen */
 
 
 #slot-3 {
@@ -127,7 +127,7 @@ button {
   grid-row-end: 7;
 }
 
-/* Slot 3 classes */
+/* Slot 3 klassen */
 
 
 /* Animaties */
