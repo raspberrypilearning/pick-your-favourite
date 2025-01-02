@@ -106,7 +106,7 @@ button {
   opacity: 0;
 }
 
-/* Body Classes */
+/* Alinea Klassen */
 .seventies {
   background-color: var(--70s-body);
   color: var(--70s-text-colour);
@@ -136,7 +136,7 @@ button {
   grid-row-end: 3;
 }
 
-/* Slot 1 classes */
+/* Slot 1 klassen */
 #slot-1.seventies {
   background-color: var(--slot1-seventies);
   color: white;
@@ -157,7 +157,7 @@ button {
   grid-row-end: 5;
 }
 
-/* Slot 2 classes */
+/* Slot 2 klassen */
 #slot-2.seventies {
   background-color: var(--slot2-seventies);
   color: white;
@@ -178,7 +178,7 @@ button {
   grid-row-end: 7;
 }
 
-/* Slot 3 classes */
+/* Slot 3 klassen */
 #slot-3.seventies {
   background-color: var(--slot3-seventies);
   color: black;
