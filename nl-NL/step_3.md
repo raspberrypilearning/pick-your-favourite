@@ -1,37 +1,37 @@
-## Choose your colours
+## Kies je kleuren
 
-In this step, you will make your webpage colours change for all the options!
+In deze stap zal je de kleuren van je webpagina veranderen voor alle opties!
 
 \--- task ---
 
-**Try it**
+**Probeer het uit**
 
-Click on the options in the dinosaur example to see the colours change!
+Klik op de opties in de dinosaurus voorbeeld om de kleuren te zien veranderen!
 
 <iframe src="https://editor.raspberrypi.org/en/embed/viewer/pick-your-favourite-dinosaur" width="100%" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen> </iframe>
 
 \--- /task ---
 
-For each option you will need colours for:
+Voor elke optie heb je kleuren nodig voor:
 
-- The `<body>` of the webpage
-- The three content slots
-- Heading and text for the slots
+- De `<body>` van de webpagina
+- De drie inhoudsslots
+- Kop en tekst voor de slots
 
-**Tip:** You are going to add a lot of code in this step, so make sure you use copy (<kbd>Ctrl</kbd>+<kbd>C</kbd> or <kbd>Cmd</kbd>+<kbd>C</kbd>) and paste (<kbd>Ctrl</kbd>+<kbd>V</kbd> or <kbd>Cmd</kbd>+<kbd>V</kbd>) to speed the process up.
+**Tip:** In deze stap ga je veel code toevoegen, dus zorg ervoor dat je kopiëren (<kbd>Ctrl</kbd>+<kbd>C</kbd> of <kbd>Cmd</kbd>+<kbd>C</kbd>) en plakken (<kbd>Ctrl</kbd>+<kbd>V</kbd> of <kbd>Cmd</kbd>+<kbd>V</kbd>) gebruikt om het proces te versnellen.
 
-### Create your body colour classes
+### Maak je body kleur klassen aan
 
 \--- task ---
 
-Choose a body colour for each of the three options and note them down.
+Kies voor elk van de drie opties een body kleur en schrijf deze op.
 
-You can use a [colour picker](https://www.w3schools.com/colors/colors_picker.asp){:target="_blank"} to help you choose.
+Je kunt een [kleurenkiezer](https://www.w3schools.com/colors/colors_picker.asp){:target="_blank"} gebruiken om je te helpen bij jouw keuze.
 \--- /task ---
 
 \--- task ---
 
-If you want to add your own colours, you can open `default.css` and add your own variables inside the `:root` selector.
+Als je je eigen kleuren wilt toevoegen, kun je `default.css` openen en je eigen variabelen toevoegen aan de `:root` selector.
 
 ## --- code ---
 
@@ -42,7 +42,7 @@ line_number_start: 5
 line_highlights: 10
 --------------------------------------------------------
 
-/\* Base Colours \*/
+/\* Basiskleuren \*/
 \--body-background: #FFFFFF;
 \--body-text-colour: #000000;
 
@@ -56,15 +56,15 @@ line_highlights: 10
 
 Open `style.css`.
 
-Find the `/* Body Classes */` comment.
+Zoek de opmerking `/* Centrale Gedeelte klassen */`.
 
-Underneath, create a class selector for your first option with the `.` identifier.
+Maak daaronder, maak een class selector voor je eerste optie met de `.` identifier.
 
-Set the `background-color:` property to the body colour for the first option.
+Stel de eigenschap `background-color:` in op de hoofdkleur voor de eerste optie.
 
-You might also want to set a `color:` property to make sure the title text is visible.
+Je kunt ook een `color:` eigenschap instellen om ervoor te zorgen dat de titel tekst zichtbaar is.
 
-You should give this class a name that relates to your option, the **dinosaur** example looks like this:
+Je zou deze klas een naam moeten geven die gerelateerd is aan je optie, het **dinosaurus** voorbeeld ziet er als volgt uit:
 
 ## --- code ---
 
@@ -74,7 +74,7 @@ line_numbers: false
 line_highlights: 2-5
 ---------------------------------------------------------
 
-/\* Body Classes \*/
+/\* Centrale Gedeelte Klassen \*/
 .trex {
 background-color: var(--trex-body);
 color: white;
@@ -86,17 +86,17 @@ color: white;
 
 \--- task ---
 
-Underneath this, create the other **2 class selectors** for your other options.
+Maak daaronder de overige **2 klasseselectoren** aan voor je overige opties.
 
 \--- collapse ---
 
 ---
 
-## title: What should my code look like?
+## title: Hoe zou mijn code er uit moeten zien?
 
-Your CSS should contain three class selectors, with `background-color:` and maybe `color` properties set.
+Je CSS moet drie klasseselectors bevatten, met de eigenschappen `background-color:` en eventueel `color` ingesteld.
 
-This is the **dinosaur** example.
+Dit is het **dinosaurus** voorbeeld.
 
 ## --- code ---
 
@@ -106,7 +106,7 @@ line_numbers: false
 line_highlights:
 -----------------------------------------------------
 
-/\* Body Classes \*/
+/\* Centrale Gedeelte Klassen \*/
 .trex {
 background-color: #41220f;
 color: white;
@@ -128,15 +128,15 @@ color: black;
 
 \--- /task ---
 
-### Creating functions
+### Functies maken
 
-Next, you need to create functions that will make the changes to your page when the options are clicked.
+Vervolgens moet je functies maken die de wijzigingen aan je pagina aanbrengen wanneer op de opties wordt geklikt.
 
 \--- task ---
 
-Open `scripts.js` and find the `// Option 1` comment.
+Open `scripts.js` en zoek het commentaar `// Optie 1`.
 
-Create a function called `option1`.
+Maak een functie met de naam `option1`.
 
 ## --- code ---
 
@@ -146,7 +146,7 @@ line_numbers: false
 line_highlights: 2-4
 ---------------------------------------------------------
 
-// Option 1
+// Optie 1
 function option1(){
 
 }
@@ -157,7 +157,7 @@ function option1(){
 
 \--- task ---
 
-When an option is clicked, you need to clear the page, then hide the instruction and set the `content-holder` to display as a `grid`.
+Wanneer op een optie wordt geklikt, moet je de pagina leegmaken, daarna de instructie verbergen en de `content-holder` instellen om te worden weergegeven als `grid`.
 
 ## --- code ---
 
@@ -167,7 +167,7 @@ line_numbers: false
 line_highlights: 3-6
 ---------------------------------------------------------
 
-// Option 1
+// Optie 1
 function option1(){
 clear();
 
@@ -181,9 +181,9 @@ content.style.display = "grid";
 
 \--- task ---
 
-Next, add the new class you made in `style.css` to the body, and change the title to match your option.
+Voeg vervolgens de nieuwe klasse die je in `style.css` hebt gemaakt toe aan de body en wijzig de titel zodat deze overeenkomt met jouw optie.
 
-The **dinosaur** example looks like this:
+Het **dinosaurus** voorbeeld ziet er zo uit:
 
 ## --- code ---
 
@@ -193,7 +193,7 @@ line_numbers: false
 line_highlights: 8-10
 ----------------------------------------------------------
 
-// Option 1
+// Optie 1
 function option1(){
 clear();
 
@@ -202,23 +202,23 @@ content.style.display = "grid";
 
 body.classList.add("trex");
 
-title.innerHTML = "T-Rex";
+titel.innerHTML = "T-Rex";
 
 \--- /code ---
 
-Make sure you use a title that matches your option!
+Zorg ervoor dat je een titel gebruikt die overeenkomt met jouw keuze!
 
 \--- /task ---
 
 \--- task ---
 
-Copy the `option1()` function underneath the `// Option 2` comment.
+Kopieer de `option1()` functie onder de `// Optie 2` opmerking.
 
-Change:
+Wijzig:
 
-- The function name to `option2`
-- The class name added to `body` to the class you made earlier for option 2
-- The title to match your second option
+- De functienaam naar `option2`
+- De klassenaam die is toegevoegd aan `body` van de klasse die je eerder hebt gemaakt voor optie 2
+- De titel zodat deze bij jouw tweede optie past
 
 ## --- code ---
 
@@ -228,8 +228,8 @@ line_numbers: false
 line_highlights: 2, 8, 10
 --------------------------------------------------------------
 
-// Option 2
-function option2(){
+// Optie 2
+functie option2(){
 clear();
 
 instruction.style.display = 'none';
@@ -237,7 +237,7 @@ content.style.display = "grid";
 
 body.classList.add("triceratops");
 
-title.innerHTML = "Triceratops";
+titel.innerHTML = "Triceratops";
 }
 
 \--- /code ---
@@ -246,19 +246,19 @@ title.innerHTML = "Triceratops";
 
 \--- task ---
 
-Do the same for your third option, underneath the `// Option 3` comment.
+Doe hetzelfde voor je derde optie, onder de opmerking `// Optie 3`.
 
-Make sure to update:
+Zorg ervoor dat je het volgende bijwerkt:
 
-- The function name
-- The class added to body
+- De functienaam
+- De klasse toegevoegd aan de alinea (body)
 - De titel
 
 \--- collapse ---
 
 ---
 
-## title: How should my option3 function look?
+## title: Hoe moet mijn optie3 functie eruit zien?
 
 ## --- code ---
 
@@ -267,8 +267,8 @@ filename: scripts.js
 line_numbers: false
 --------------------------------------------------------
 
-// Option 3
-function option3(){
+// Optie 3
+functie option3(){
 clear();
 
 instruction.style.display = 'none';
@@ -285,15 +285,15 @@ title.innerHTML = "Stegosaurus";
 
 \--- /task ---
 
-### Make the options work
+### Laat de opties werken
 
-To test your code, you need to link the buttons in the drop-down menu to the functions you have just written.
+Om je code te testen moet je de knoppen in het dropdown menu koppelen aan de functies die je zojuist hebt geschreven.
 
 \--- task ---
 
 Open `index.html`.
 
-Add `onclick` properties to each of your drop-down buttons, calling each of the three functions.
+Voeg 'onclick' eigenschappen toe aan elk van je dropdown knoppen, die elk van de drie functies aanroepen.
 
 ## --- code ---
 
@@ -305,9 +305,9 @@ line_highlights: 16-18
 -----------------------------------------------------------
 
 <div id="dropdown-options">
-  <button onclick="option1()">T-Rex</button>
-  <button onclick="option2()">Triceratops</button>
-  <button onclick="option3()">Stegosaurus</button>
+    <button onclick="option1()">T-Rex</button>
+    <button onclick="option2()">Triceratops</button>
+    <button onclick="option3()">Stegosaurus</button>
 </div>
 
 \--- /code ---
@@ -318,10 +318,10 @@ line_highlights: 16-18
 
 **Klik op Run**
 
-- Use the drop-down menu and select your options. You should see the colours change!
+- Gebruik het vervolgkeuzemenu en selecteer je opties. Je zou de kleuren moeten zien veranderen!
 
-**Debug**: If your colours don't change, make sure the class names you added in JavaScript match the ones in your CSS **exactly**!.
+**Fouten opsporen**: Als jouw kleuren niet veranderen, controleer dan of de klassenamen die je in JavaScript hebt toegevoegd, **exact** overeenkomen met de namen in jouw CSS!.
 
 \--- /task ---
 
-Next, you will allow the user to change the content of your webpage when they choose an option!
+Vervolgens kun je de gebruiker toestaan de inhoud van je webpagina te wijzigen wanneer hij een optie kiest!
