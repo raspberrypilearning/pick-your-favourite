@@ -1,10 +1,10 @@
 ## Wat kun je verder nog doen?
 
-If you are following the [More web](https://projects.raspberrypi.org/en/raspberrypi/more-web) path, you can move on to the [Quiz time!](https://projects.raspberrypi.org/en/projects/quiz-time) project. In this project, you will make a web app that lets the user test their knowledge of a topic you are the expert in!
+Als je het [Meer web](https://projects.raspberrypi.org/nl/pathways/meere-web) pad volgt, kun je doorgaan naar het [Tijd voor een Quiz](https://projects.raspberrypi.org/en/projects/quiz-time) project. In dit project maak je een webapp waarmee gebruikers hun kennis kunnen testen over een onderwerp waar jij expert in bent!
 
 \--- print-only ---
 
-![Quiz time!](images/quiztime-project.png)
+![Tijd voor een quiz!](images/quiztime-project.png)
 
 \--- /print-only ---
 
@@ -15,4 +15,4 @@ If you are following the [More web](https://projects.raspberrypi.org/en/raspberr
 
 \--- /no-print ---
 
-If you want to have more fun exploring HTML, CSS, and JavaScript, then you could try out any of [these projects](https://projects.raspberrypi.org/en/projects?software%5B%5D=html-css-javascript).
+Als je meer plezier wilt hebben met het verkennen van HTML, CSS en JavaScript, dan kun je een van de [deze projecten](https://projects.raspberrypi.org/nl/projects?software%5B%5D=html-css-javascript) proberen.
