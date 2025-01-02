@@ -1,28 +1,28 @@
 ## Wijzig de rest van de pagina
 
-In this step, you will make your whole webpage change when the user chooses an option.
+In deze stap ga je ervoor zorgen dat je hele webpagina wijzigt wanneer de gebruiker een optie kiest.
 
-### Add content for slot 2
+### Inhoud toevoegen voor slot 2
 
-The process for adding content to slot 2 is very similar to what you did in the previous step. To make this process quicker, use copy (<kbd>Ctrl</kbd>+<kbd>C</kbd> or <kbd>Cmd</kbd>+<kbd>C</kbd>) and paste (<kbd>Ctrl</kbd>+<kbd>V</kbd> or <kbd>Cmd</kbd>+<kbd>V</kbd>) on the code you have already written, then update it to match the new content.
+Het proces om inhoud toe te voegen aan slot 2 lijkt erg op wat je deed in de vorige stap. Om dit proces sneller te laten verlopen, kopieer je de code (<kbd>Ctrl</kbd>+<kbd>C</kbd> of <kbd>Cmd</kbd>+<kbd>C</kbd>) en plak je de code (<kbd>Ctrl</kbd>+<kbd>V</kbd> of <kbd>Cmd</kbd>+<kbd>V</kbd>) op de code die je al hebt geschreven, werk de code vervolgens bij zodat deze overeenkomt met de nieuwe inhoud.
 
-In the last step, you did each option one at a time. This time, you will do all three options at each step: adding colours, creating classes, and adding the code.
+In de laatste stap heb je elke optie één voor één gedaan. Deze keer zal je alle drie de opties in elke stap tegelijk doen: kleuren toevoegen, klassen maken en de code toevoegen.
 
-### Add colours for slot 2
+### Voeg kleuren toe voor slot 2
 
 \--- task ---
 
 Open `default.css`.
 
-Add **three** new colour variables. Assign colours to them for your slot 2 classes.
+Voeg **drie** nieuwe kleurvariabelen toe. Wijs kleuren toe aan je slot 2-klassen.
 
 \--- collapse ---
 
 ---
 
-## title: An example
+## title: Een voorbeeld
 
-The dinosaur examples slot 2 colours look like this:
+De kleuren van de dinosaurus voorbeelden in vakje 2 zien er als volgt uit:
 
 ## --- code ---
 
@@ -31,7 +31,7 @@ filename: default.css
 line_numbers: false
 --------------------------------------------------------
 
-/\* Slot 2 colours \*/
+/\* Slot 2 kleuren \*/
 \--slot-2-t-rex: #00b2a9;
 \--slot-2-triceratops: #ffc659;
 \--slot-2-stegosaurus: #131f53;
@@ -42,23 +42,23 @@ line_numbers: false
 
 \--- /task ---
 
-### Create classes for slot 2
+### Maak klasses voor slot 2
 
 \--- task ---
 
 Open `style.css`.
 
-Find the `/* Slot 2 classes */` comment.
+Zoek de opmerking `/* Slot 2 klassen */`.
 
-Create **three** classes underneath for slot 2, one for each option.
+Maak **drie** klassen aan voor slot 2, één voor elke optie.
 
 \--- collapse ---
 
 ---
 
-## title: An example
+## title: Een voorbeeld
 
-Here is the slot 2 classes for the dinosaur example.
+Hier zijn de slot 2-klassen voor het dinosaurusvoorbeeld.
 
 ## --- code ---
 
@@ -67,7 +67,7 @@ filename: style.css
 line_numbers: false
 --------------------------------------------------------
 
-/\* Slot 2 Classes \*/
+/\* Slot 2 Klassen \*/
 \#slot-2.trex {
 background-color: var(--slot-2-t-rex);
 color: black;
@@ -85,25 +85,25 @@ color: white;
 
 \--- /code ---
 
-Make sure you are using **your** class names, not the ones in the example.
+Zorg ervoor dat je **jouw** klassenamen gebruikt, niet de namen in het voorbeeld.
 
 \--- /collapse ---
 
 \--- /task ---
 
-### Add code for slot 2
+### Voeg code toe voor vak 2
 
-Now you are going to add to your three `option` functions to apply the classes to slot 2, and then change their `innerHTML`.
+Nu ga je de drie `option`-functies toevoegen om de klassen toe te passen op slot 2 en vervolgens hun `innerHTML` wijzigen.
 
 \--- task ---
 
 Open `scripts.js`.
 
-Find your `option1()` function.
+Zoek je `option1()`-functie.
 
-Add a line that adds your option 1 class to slot 2.
+Voeg een regel toe die je optie 1 klasse toevoegt aan slot 2.
 
-The dinosaur example looked like this:
+Het dinosaurus voorbeeld zag er als volgt uit:
 
 ## --- code ---
 
@@ -113,7 +113,7 @@ line_numbers: false
 line_highlights: 20
 --------------------------------------------------------
 
-// Option 1
+// Optie 1
 function option1() {
 clear();
 
@@ -127,11 +127,11 @@ title.innerHTML = "T-Rex <br> &#129430";
 
 slot1.classList.add("trex");
 slot1.innerHTML =
-  "<h1>Anatomy and Characteristics</h1> \n \
-      <p>One of the largest meat-eating dinosaurs</p> \n \
-      <p>Powerful hind limbs</p> \n \
-      <p>Massive skull with sharp teeth</p> \n \
-      <p>Tiny, two-fingered forelimbs</p>";
+  "<h1>Anatomie en Kenmerken</h1> \n \
+      <p>Een van de grootste vleesetende dinosaurussen</p> \n \
+      <p>Krachtige achterpoten</p> \n \
+      <p>Enorme schedel met scherpe tanden</p> \n \
+      <p>Kleine tweevingerige voorpoten</p>";
 
 slot2.classList.add("trex");
 ```
@@ -140,25 +140,25 @@ slot2.classList.add("trex");
 
 \--- /task ---
 
-What content are you going to put in slot 2?
+Welke inhoud ga je in slot 2 zetten?
 
-In the football example it was **Recent news** and in the dinosaur example it was **Trivia**.
+In het voetbalvoorbeeld was het **Recent nieuws** en in het dinosaurusvoorbeeld was het **Trivia**.
 
 \--- task ---
 
-Next, add the lines needed to change the `innerHTML` of slot 2.
+Vervolgens voeg je de regels toe die nodig zijn om de `innerHTML` van slot 2 te veranderen.
 
-You can copy the line above that does the same thing for slot 1, or write a new set of lines yourself.
+Je kunt de bovenstaande regel kopiëren die hetzelfde doet voor vak 1, of zelf een nieuwe reeks regels schrijven.
 
-**Tip**: Make sure **every** line except the last one has `\n \` at the end.
+**Tip**: Zorg ervoor dat **elke** regel, behalve de laatste `\n \` heeft aan het eind.
 
 \--- collapse ---
 
 ---
 
-## title: An example
+## title: Een voorbeeld
 
-The dinosaur example looks like this:
+Het dinosaurusvoorbeeld ziet er zo uit:
 
 ## --- code ---
 
@@ -168,7 +168,7 @@ line_numbers: false
 line_highlights: 21-24
 -----------------------------------------------------------
 
-// Option 1
+// Optie 1
 function option1() {
 clear();
 
@@ -182,17 +182,17 @@ title.innerHTML = "T-Rex <br> &#129430";
 
 slot1.classList.add("trex");
 slot1.innerHTML =
-  "<h1>Anatomy and Characteristics</h1> \n \
-      <p>One of the largest meat-eating dinosaurs</p> \n \
-      <p>Powerful hind limbs</p> \n \
-      <p>Massive skull with sharp teeth</p> \n \
-      <p>Tiny, two-fingered forelimbs</p>";
+  "<h1>Anatomie en Kenmerken</h1> \n \
+      <p>Een van de grootste vleesetende dinosaurussen</p> \n \
+      <p>Krachtige achterpoten</p> \n \
+      <p>Enorme schedel met scherpe tanden</p> \n \
+      <p>Kleine tweevingerige voorpoten</p>";
 
 slot2.classList.add("trex");
 slot2.innerHTML = "<h1>Trivia</h1> \n \
-  <p>T-Rex had an huge bite force, capable of crushing bone.</p>\n \
-  <p>T-Rex was a fast runner</p>\n \
-  <p>The name Tyrannosaurus Rex means tyrant lizard king in Greek</p>";
+  <p>T-Rex had een enorme bijtkracht, hij was in staat om botten te verbrijzelen.</p>\n \
+  <p>T-Rex was een snelle renner</p>\n \
+  <p>De naam Tyrannosaurus Rex betekent tirannieke hagedissenkoning in het Grieks</p>";
 ```
 
 \--- /code ---
@@ -201,33 +201,33 @@ slot2.innerHTML = "<h1>Trivia</h1> \n \
 
 **Klik op Run**
 
-- Test the content and class by selecting your first option.
+- Test de inhoud en klasse door je eerste optie te selecteren.
 
 \--- /task ---
 
 \--- task ---
 
-Copy those lines and paste them into your `option2()` function.
+Kopieer deze regels en plak ze in je `option2()` functie.
 
 \--- /task ---
 
 \--- task ---
 
-Change the added class to match your second option.
+Verander de toegevoegde klasse zodat deze overeenkomt met je tweede optie.
 
 \--- /task ---
 
 \--- task ---
 
-Change the content to match your second option.
+Wijzig de inhoud zodat deze overeenkomt met je tweede optie.
 
 \--- collapse ---
 
 ---
 
-## title: An example
+## title: Een voorbeeld
 
-The `option2` function for the dinosaur example looked like this:
+De `option2`-functie voor het dinosaurusvoorbeeld zag er als volgt uit:
 
 ## --- code ---
 
@@ -237,7 +237,7 @@ line_numbers: false
 line_highlights: 21-25
 -----------------------------------------------------------
 
-// Option 2
+// Optie 2
 function option2() {
 clear();
 
@@ -251,18 +251,18 @@ title.innerHTML = "Triceratops";
 
 slot1.classList.add("triceratops");
 slot1.innerHTML =
-"<h1>Anatomy and Characteristics</h1> \n \
-    <p>A herbivorous dinosaur</p> \n \
-    <p>Known for its distinctive frill and three facial horns</p> \n \
-    <p>It had a bulky body, a beak-like mouth, and a large bony plate projecting from the back of its skull</p> \n \
-    <p>Triceratops likely lived in herds and used its horns for defense</p>";
+"<h1>Anatomie en Kenmerken</h1> \n \
+    <p>Een plantenetende dinosaurus</p> \n \
+    <p>Bekend om zijn kenmerkende kraag en drie gezichtshoorns</p> \n \
+    <p>Hij had een groot lijf, een bekachtige mond en een grote benige plaat die uit de achterkant van zijn schedel stak</p> \n \
+    <p>Triceratops leefde waarschijnlijk in kuddes en gebruikte zijn hoorns voor verdediging</p>";
 
 slot2.classList.add("triceratops");
 slot2.innerHTML =
 "<h1>Trivia</h1> \n \
-    <p>Triceratops was a bit of a show off, its frill may have been used for display</p>\n \
-    <p>Triceratops roamed North America during the Late Cretaceous period</p>\n \
-    <p>Triceratops means three-horned face in Greek</p>";
+    <p>Triceratops was een beetje een patser, zijn kraag werd mogelijk alleen gebruikt om mee te pronken</p>\n \
+    <p>Triceratops zwierf rond in Noord Amerika tijdens de Laat Krijt periode</p>\n \
+    <p>Triceratops betekent driehoornig gezicht in het Grieks</p>";
 ```
 
 }
@@ -273,37 +273,37 @@ slot2.innerHTML =
 
 **Klik op Run**
 
-- Test your colours and content by selecting your second option.
+- Test je kleuren en inhoud door je tweede optie te selecteren.
 
 \--- /task ---
 
 \--- task ---
 
-Copy the lines again, and add them to your `option3()` function.
+Kopieer de regels opnieuw en voeg ze toe aan je `option3()`-functie.
 
-Modify the class and content to match your third option.
+Pas de klasse en inhoud aan zodat ze overeenkomen met je derde optie.
 
 \--- /task ---
 
-### The third slot
+### Het derde slot
 
-You are so close to finishing the content of your webpage! Goed gedaan!
+Je bent bijna klaar met de inhoud van je webpagina! Goed gedaan!
 
-Now, you are going to add the colours, classes, and code to style and fill the third slot!
+Nu ga je de kleuren, klassen en code toevoegen om het derde slot op te maken en te vullen!
 
-You have done this twice now, so the instructions will just remind you of the steps.
+Je hebt dit nu twee keer gedaan, dus de instructies zullen je slechts herinneren aan de stappen.
 
 \--- task ---
 
-Open `default.css` and add three colours for slot 3 (one for each of your options).
+Open `default.css` en voeg drie kleuren toe voor vak 3 (één voor al je opties).
 
 \--- collapse ---
 
 ---
 
-## title: An example
+## title: Een voorbeeld
 
-These are the colour variables for slot 3 in the dinosaur example:
+Dit zijn de kleurvariabelen voor slot 3 in het dinosaurusvoorbeeld:
 
 ## --- code ---
 
@@ -325,17 +325,17 @@ line_highlights:
 
 \--- task ---
 
-Open `style.css` and find the `/* Slot 3 classes */` comment.
+Open `style.css` en zoek de opmerking `/* Slot 3 klassen */`.
 
-Underneath, create 3 classes for slot 3 (one for each of your options).
+Maak hieronder 3 klassen voor slot 3 (één voor elk van je opties).
 
 \--- collapse ---
 
 ---
 
-## title: An example
+## title: Een voorbeeld
 
-Here are the classes for the **dinosaur** example:
+Hier zijn de klassen voor het **dinosaurus**-voorbeeld:
 
 ## --- code ---
 
@@ -345,7 +345,7 @@ line_numbers: false
 line_highlights:
 -----------------------------------------------------
 
-/\* Slot 3 Classes \*/
+/\* Slot 3 Klassen \*/
 \#slot-3.trex {
 background-color: var(--slot-3-t-rex);
 }
@@ -370,13 +370,13 @@ color: white;
 
 Open `scripts.js`.
 
-Add lines to each of your option functions to apply your new classes and add the content to slot 3.
+Voeg regels toe aan elk van je optiefuncties om je nieuwe klassen toe te passen en voeg de inhoud toe aan vak 3.
 
 \--- collapse ---
 
 ---
 
-## title: An example
+## title: Een voorbeeld
 
 ## --- code ---
 
@@ -385,12 +385,12 @@ filename: scripts.js
 line_numbers: false
 --------------------------------------------------------
 
-// Option 1
+// Optie 1
 function option1() {
 clear();
 
 ```
-instruction.style.display = 'none';
+nstruction.style.display = 'none';
 content.style.display = "grid";
 
 body.classList.add("trex");
@@ -399,32 +399,32 @@ title.innerHTML = "T-Rex <br> &#129430";
 
 slot1.classList.add("trex");
 slot1.innerHTML =
-    "<h1>Anatomy and Characteristics</h1> \n \
-        <p>One of the largest meat-eating dinosaurs</p> \n \
-        <p>Powerful hind limbs</p> \n \
-        <p>Massive skull with sharp teeth</p> \n \
-        <p>Tiny, two-fingered forelimbs</p>";
+    "<h1>Anatomie en Kenmerken</h1> \n \
+        <p>Een van de grootste vleesetende dinosaurussen</p> \n \
+        <p>Krachtige achterpoten</p> \n \
+        <p>Enorme schedel met scherpe tanden</p> \n \
+        <p>Kleine, tweevingerige voorpoten</p>";
 
 slot2.classList.add("trex");
 slot2.innerHTML =
     "<h1>Trivia</h1> \n \
-        <p>T-Rex had an huge bite force, capable of crushing bone.</p>\n \
-        <p>T-Rex was a fast runner</p>\n \
-        <p>The name Tyrannosaurus Rex means tyrant lizard king in Greek</p>";
+        <p>T-Rex  had een enorme bijtkracht, hij was in staat om botten te verbrijzelen.</p>\n \
+        <p>T-Rex was een snelle renner</p>\n \
+        <p>De naam Tyrannosaurus Rex betekent tirannieke hagedissenkoning in het Grieks</p>";
 
 slot3.classList.add("trex");
 slot3.innerHTML =
-    "<h1>Activity</h1> \n \
+    "<h1>Activiteit</h1> \n \
         <ol>\n \
-        <li>Get into teams and line up at a start line</li>\n \
-        <li>Put one toy for each team member at the other end of the room</li>\n \
-        <li>One person from each team races to 'bite' a toy and bring it back to the team</li>\n \
-        <li>The first team to return all their toys wins!</li> </ol>";
+        <li>Vorm teams en ga naast elkaar staat bij een startlijn</li>\n \
+        <li>Leg een speeltje neer voor elk teamlid aan de andere kant van de kamer</li>\n \
+        <li>Een lid van elk team racet om in een speeltje 'bijten' en terug te brengen naar het team</li>\n \
+        <li>Het eerste team dat al hun speeltjes terugbrengt is de winnaar!</li> </ol>";
 ```
 
 }
 
-// Option 2
+// Optie 2
 function option2() {
 clear();
 
@@ -438,34 +438,34 @@ title.innerHTML = "Triceratops";
 
 slot1.classList.add("triceratops");
 slot1.innerHTML =
-    "<h1>Anatomy and Characteristics</h1> \n \
-        <p>A herbivorous dinosaur</p> \n \
-        <p>Known for its distinctive frill and three facial horns</p> \n \
-        <p>It had a bulky body, a beak-like mouth, and a large bony plate projecting from the back of its skull</p> \n \
-        <p>Triceratops likely lived in herds and used its horns for defense</p>";
+    "<h1>Anatomie en Kenmerken</h1> \n \
+        <p>Een plantenetende dinosaurus</p> \n \
+        <p>Bekend om zijn duidelijke kraag en drie gezichtshoorns</p> \n \
+        <p>Hij had een groot lichaam, een bekvormige mond en een grote benige plaat die uit de achterkant van zijn schedel stak</p> \n \
+        <p>Triceratops leefde waarschijnlijk in kuddes en gebruikte zijn hoorns als verdediging</p>";
 
 slot2.classList.add("triceratops");
 slot2.innerHTML =
     "<h1>Trivia</h1> \n \
-        <p>Triceratops was a bit of a show off, its frill may have been used for display</p>\n \
-        <p>Triceratops roamed North America during the Late Cretaceous period</p>\n \
-        <p>Triceratops means three-horned face in Greek</p>";
+        <p>Triceratops was een beetje een patser, zijn kraag werd mogelijk alleen gebruikt om mee te pronken.</p>\n \
+        <p>Triceratops zwierf rond in Noord-Amerika tijdens de Laat-Krijt periode</p>\n \
+        <p>Triceratops betekent driehoornig gezicht in het Grieks</p>";
 
 slot3.classList.add("triceratops");
 slot3.innerHTML =
-    "<h1>Activity</h1> \n \
+    "<h1>Activiteit</h1> \n \
     <ol>\n \
-        <li>Create some Triceratops horns using paper or cardboard</li>\n \
-        <li>Attach them to headbands or make them handheld</li>\n \
-        <li>Place the horns at varying distances on the ground</li>\n \
-        <li>Use hula hoops or create rings from cardboard</li>\n \
-        <li>Take turns tossing the rings onto the Triceratops horns, earning 10 points</li>\n \
-        <li>The person with the most points after all turns wins!</li> </ol>";
+        <li>Maak enkele Triceratops hoorns uit papier of karton</li>\n \
+        <li>Maak ze vast aan hoofdbanden of hou ze vast</li>\n \
+        <li>Zet de hoorns op verschillende afstanden op de grond</li>\n \
+        <li>Gebruik hoelahoeps of maak ringen van karton</li>\n \
+        <li>Gooi om de beurt de ringen om de Triceratops hoorns, en verdien 10 punten</li>\n \
+        <li>Degene die de meeste punten heeft na alle beurten is de winnaar!</li> </ol>";
 ```
 
 }
 
-// Option 3
+// Optie 3
 function option3() {
 clear();
 
@@ -479,26 +479,26 @@ title.innerHTML = "Stegosaurus";
 
 slot1.classList.add("stegosaurus");
 slot1.innerHTML =
-    "<h1>Anatomy and Characteristics</h1> \n \
-        <p>Stegosaurus was a plant eater (a herbivor)</p> \n \
-        <p>It had a double row of large bony plates along its back</p> \n \
-        <p>It had spikes on its tail</p> \n \
-        <p>It a small head, with a small brain compared to its body size</p>";
+    "<h1>Anatomie en kenmerken</h1> \n \
+        <p>Stegosaurus was een planteneter (een herbivoor)</p> \n \
+        <p>Hij had een dubbele rij grote benige platen over zijn rug</p> \n \
+        <p>Hij had stekels op zijn staart</p> \n \
+        <p>Het heeft een klein hoofd, met een klein brein vergeleken met zijn lichaamsgrootte</p>";
 
 slot2.classList.add("stegosaurus");
 slot2.innerHTML =
     "<h1>Trivia</h1> \n \
-        <p>Stegosaurus had a second brain in its hips, assisting in coordinating movement and balance</p>\n \
-        <p>Stegosaurus lived during the Late Jurassic period</p> \n \
-        <p>Stegosaurus means armoured roof lizard in Greek</p> \n \
-        <p>The stop-motion puppet used in the 1933 film King Kong was based on a 1897 illustration of Stegosaurus</p>";
+        <p>Stegosaurus had een tweede brein in zijn heupen, dat hielp bij het coördineren van beweging en evenwicht</p>\n \
+        <p>Stegosaurus leefde tijdens het Laat-Jura</p> \n \
+        <p>Stegosaurus betekent gepantserde dakhagedis in het Grieks</p> \n \
+        <p>De stop-motionpop die in de film King Kong uit 1933 werd gebruikt, was gebaseerd op een illustratie van Stegosaurus uit 1897</p>";
 
 slot3.classList.add("stegosaurus");
 slot3.innerHTML =
-    "<h1>Activity</h1> \n \
-        <ol><li>Decorate some paper plates to make Stegosaurus's bony plates</li>\n \
-        <li>Once the plates are dry, have a 'Stegosaurus Parade' to showcase your plates</li>\n \
-        <li>Share the designs and celebrate the creativity!</li></ol>";
+    "<h1>Activiteit</h1> \n \
+        <ol><li>Versier wat papieren borden om de botten van Stegosaurus te maken</li>\n \
+        <li>Zodra de borden droog zijn, organiseer je een 'Stegosaurus Parade' om je borden te laten zien</li>\n \
+        <li>Deel de ontwerpen en vier de creativiteit!</li></ol>";
 ```
 
 }
@@ -513,10 +513,10 @@ slot3.innerHTML =
 
 **Klik op Run**
 
-- Test all three options, check the content and colours look how you want them to.
+- Probeer alle drie de opties uit en controleer of de inhoud en de kleuren eruitzien zoals je wilt.
 
-You can adjust the text colour to make sure it contrasts with the background enough.
+Je kunt de tekstkleur aanpassen om ervoor te zorgen dat deze met de achtergrond overeenkomt.
 
 \--- /task ---
 
-Next, you will add some sparkle to your webpage using **intersection observers** and animations!
+Vervolgens ga je je webpagina wat sprankelender maken met behulp van **kruispuntobservatoren** en animaties!
