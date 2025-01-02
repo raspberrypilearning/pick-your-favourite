@@ -16,7 +16,7 @@ Maak een nieuwe `IntersectionOberver`-constante met de naam `slot1observer`.
 
 Voeg de entries array en de `if` verklaring toe die controleert of de entry overlapt.
 
-For these observers, you want the **whole** target to be in the viewport, so set the `threshold` to `1`.
+Voor deze waarnemers wil je dat het **hele** target in de viewport staat. Stel daarom de `drempel` in op `1`.
 
 ## --- code ---
 
@@ -26,7 +26,7 @@ line_numbers: false
 line_highlights: 2-9
 ---------------------------------------------------------
 
-// Observers
+// Observatoren
 const slot1observer = new IntersectionObserver(
 (entries) => {
 if (entries[0].isIntersecting) {
@@ -45,7 +45,7 @@ if (entries[0].isIntersecting) {
 
 \--- task ---
 
-Inside the `if` statement, write the code that adds a class to `slot1`. Leave the `""` empty for now.
+Schrijf in de `if`-instructie de code die een klasse toevoegt aan `slot1`. Laat de `""` voorlopig leeg.
 
 ## --- code ---
 
@@ -55,7 +55,7 @@ line_numbers: false
 line_highlights: 5
 -------------------------------------------------------
 
-// Observers
+// Observatoren
 const slot1observer = new IntersectionObserver(
 (entries) => {
 if (entries[0].isIntersecting) {
@@ -71,19 +71,19 @@ slot1.classList.add("");
 
 \--- task ---
 
-**Choose** which animation you would like to use for your first slot.
+**Kies** welke animatie je wilt gebruiken voor je eerste slot.
 
-There are 5 animations which have been pre-defined for you inside **style.css**:
+Er zijn 5 animaties die vooraf voor je zijn gedefinieerd in **style.css**:
 
-1. `fade-in`
-2. `grow-in`
-3. `rise-in`
-4. `slide-left`
-5. `slide-right`
+1. `fade-in` (vervagen)
+2. `grow-in` (groei in)
+3. `rise-in` (opstijgen in)
+4. `slide-left` (schuif naar links)
+5. `slide-right` (schuif naar rechts)
 
-Put the name of your animation in between the `""` inside your observer.
+Zet de naam van je animatie tussen de `""` binnen je waarnemer.
 
-You can always change it later if you want to use a different one.
+Je kunt het later altijd wijzigen als je een andere wilt gebruiken.
 
 ## --- code ---
 
@@ -93,7 +93,7 @@ line_numbers: false
 line_number_start: 5
 ------------------------------------------------------------------------------
 
-// Observers
+// Observatoren
 const slot1observer = new IntersectionObserver(
 (entries) => {
 if (entries[0].isIntersecting) {
@@ -109,9 +109,9 @@ slot1.classList.add("rise-in");
 
 \--- task ---
 
-Now, you need to set your `IntersectionObserver` to observe the page.
+Nu moet je je `IntersectionObserver` instellen om de pagina te observeren.
 
-Add the call.
+Voeg de aanroep toe.
 
 ## --- code ---
 
@@ -121,7 +121,7 @@ line_numbers: false
 line_highlights: 10
 --------------------------------------------------------
 
-// Observers
+// Observatoren
 const slot1observer = new IntersectionObserver(
 (entries) => {
 if (entries[0].isIntersecting) {
@@ -140,17 +140,17 @@ slot1observer.observe(slot1);
 
 **Klik op Run**
 
-- Select an option and scroll down, you should see the first slot appear and then animate.
+- Selecteer een optie en scroll naar beneden, je ziet het eerste slot verschijnen en dan wordt er een animatie op toegepast.
 
 \--- collapse ---
 
 ---
 
-## title: My content is long and my animation isn't working
+## title: Mijn inhoud is lang en mijn animatie werkt niet
 
-If you have a lot of content in your slot, it may never be entirely in the viewport and because your `threshold` is set to `1` (100% of the element), your animation will not trigger.
+Als er veel content in jouw slot staat, wordt deze waarschijnlijk nooit volledig in de viewport weergegeven en omdat je `drempel` is ingesteld op `1` (100% van het element), zal je animatie niet worden geactiveerd.
 
-To fix this, you might want to remove the threshold completely like this:
+Om dit op te lossen, kun je de drempelwaarde als volgt volledig verwijderen:
 
 ## --- code ---
 
@@ -160,7 +160,7 @@ line_numbers: false
 line_highlights: 10
 --------------------------------------------------------
 
-// Observers
+// Observeratoren
 const slot1observer = new IntersectionObserver(
 (entries) => {
 if (entries[0].isIntersecting) {
@@ -172,7 +172,7 @@ slot1observer.observe(slot1);
 
 \--- /code ---
 
-Or you can reduce the amount of the element needed to trigger the animation. For example, this would require half of the element to trigger...
+Of je kunt de hoeveelheid (van het element) die nodig is om de animatie te activeren verminderen. Dit zou bijvoorbeeld de helft van het element vereisen om te activeren...
 
 ## --- code ---
 
@@ -182,7 +182,7 @@ line_numbers: false
 line_highlights: 10
 --------------------------------------------------------
 
-// Observers
+// Observatoren
 const slot1observer = new IntersectionObserver(
 (entries) => {
 if (entries[0].isIntersecting) {
@@ -199,13 +199,13 @@ slot1observer.observe(slot1);
 
 \--- /task ---
 
-It doesn't look very good that your slot appears before animating, so you are going to make your content slots invisible until they animate.
+Het ziet er niet zo mooi uit als je slot zichtbaar is voordat de animatie plaatsvindt, daarom ga je je content slots onzichtbaar maken totdat ze geanimeerd zijn.
 
 \--- task ---
 
-Open `style.css` and find the `.content` selector.
+Open `style.css` en zoek de `.content` selector.
 
-Add an `opacity` property and set it to `0`.
+Voeg de eigenschap `opacity` toe en stel deze in op `0`.
 
 ## --- code ---
 
@@ -229,41 +229,41 @@ opacity: 0;
 
 **Klik op Run**
 
-- Scroll to see your animation again. The slot should not appear until it animates.
+- Scroll om je animatie opnieuw te zien. Het slot mag niet verschijnen totdat deze animeert.
 
 \--- /task ---
 
-### Adding observers for the other two slots
+### Waarnemers toevoegen voor de andere twee slots
 
 \--- task ---
 
 Open `scripts.js`.
 
-Copy your first observer.
+Kopieer je eerste waarnemer.
 
 \--- /task ---
 
 \--- task ---
 
-Paste it underneath.
+Plak het eronder.
 
-Change all the `slot1` references to `slot2`.
+Verander alle `slot1` referenties naar `slot2`.
 
-You can use the same animation or pick another one.
+Je kunt dezelfde animatie gebruiken of een andere kiezen.
 
 \--- collapse ---
 
 ---
 
-## title: The animations
+## title: De animaties
 
-There are 5 animations you can choose from:
+Er zijn 5 animaties waaruit je kunt kiezen:
 
-1. `fade-in`
-2. `grow-in`
-3. `rise-in`
-4. `slide-left`
-5. `slide-right`
+1. `fade-in` (vervagen)
+2. `grow-in` (groei in)
+3. `rise-in` (opstijgen in)
+4. `slide-left` (schuif naar links)
+5. `slide-right` (schuif naar rechts)
 
 \--- /collapse ---
 
@@ -275,7 +275,7 @@ line_numbers: false
 line_highlights: 2, 5, 10
 --------------------------------------------------------------
 
-// Observers
+// Observatoren
 const slot2observer = new IntersectionObserver(
 (entries) => {
 if (entries[0].isIntersecting) {
@@ -290,19 +290,19 @@ slot2observer.observe(slot2);
 
 **Klik op Run**
 
-- Test your second animation.
+- Test je tweede animatie.
 
 \--- /task ---
 
 \--- task ---
 
-Copy the observer again and paste it underneath.
+Kopieer de waarnemer opnieuw en plak hem eronder.
 
 \--- /task ---
 
 \--- task ---
 
-Change all the references so they say `slot3`, and maybe choose a different animation.
+Verander alle verwijzingen zodat er `slot3` staat en kies eventueel een andere animatie.
 
 ## --- code ---
 
@@ -312,7 +312,7 @@ line_numbers: false
 line_highlights: 2, 5, 10
 --------------------------------------------------------------
 
-// Observers
+// Observatoren
 const slot3observer = new IntersectionObserver(
 (entries) => {
 if (entries[0].isIntersecting) {
@@ -327,8 +327,8 @@ slot3observer.observe(slot3);
 
 **Klik op Run**
 
-- Test your third animation.
+- Test je derde animatie.
 
 \--- /task ---
 
-Next, you are going to use `localStorage` to make the user's choice permanent!
+Vervolgens ga je `localStorage` gebruiken om de keuze van de gebruiker definitief te maken!
