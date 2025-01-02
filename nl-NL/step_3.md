@@ -202,7 +202,7 @@ content.style.display = "grid";
 
 body.classList.add("trex");
 
-titel.innerHTML = "T-Rex";
+title.innerHTML = "T-Rex";
 
 \--- /code ---
 
@@ -237,7 +237,7 @@ content.style.display = "grid";
 
 body.classList.add("triceratops");
 
-titel.innerHTML = "Triceratops";
+title.innerHTML = "Triceratops";
 }
 
 \--- /code ---
