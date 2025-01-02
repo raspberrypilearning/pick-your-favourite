@@ -38,24 +38,13 @@ function option1() {
   title.innerHTML = 'Liverpool FC';
   slot1.classList.add('liverpool');
   slot1.innerHTML =
-    '<h1>Recent results</h1> \n \
-        <p>Liverpool 4 - 1 Chelsea</p> \n \
-        <p>Liverpool 5 - 2 Norwich City</p> \n \
-        <p>Fulham 1 - 1 Liverpool</p> \n \
-        <p>Bournemouth 0 - 4 Liverpool</p> \n \
-        <p>Liverpool 2 - 1 Fulham</p>';
+    '<h1>Recente uitslagen</h1> \n         <p>Liverpool 4 - 1 Chelsea</p> \n         <p>Liverpool 5 - 2 Norwich City</p> \n         <p>Fulham 1 - 1 Liverpool</p> \n         <p>Bournemouth 0 - 4 Liverpool</p> \n         <p>Liverpool 2 - 1 Fulham</p>';
   slot2.classList.add('liverpool');
   slot2.innerHTML =
-    '<h1>Recent News</h1> \n \
-        <p>Jurgen Klopp is leaving Liverpool.</p>\n \
-        <p>Alexis MacAllister will probably play against Arsenal.</p>\n \
-        <p>Liverpool still title favourites, but only just.</p>';
+    '<h1>Recent nieuws</h1> \n         <p>Jurgen Klopp verlaat Liverpool.</p>\n         <p>Alexis MacAllister zal waarschijnlijk spelen tegen Arsenal.</p>\n         <p>Liverpool is nog steeds favoriet voor de titel, maar nog maar net.</p>';
   slot3.classList.add('liverpool');
   slot3.innerHTML =
-    '<h1>Top Players</h1> \n \
-        <p>Mohamed Salah</p>\n \
-        <p>Virgil van Dijk</p>\n \
-        <p>Trent Alexander-Arnold</p>';
+    '<h1>Topspelers</h1> \n         <p>Mohamed Salah</p>\n         <p>Virgil van Dijk</p>\n         <p>Trent Alexander-Arnold</p>';
   localStorage.setItem('choice', 'liverpool');
 }
 
@@ -68,24 +57,13 @@ function option2() {
   title.innerHTML = 'Manchester City';
   slot1.classList.add('man-city');
   slot1.innerHTML =
-    '<h1>Recent results</h1> \n \
-        <p>Man City 3 - 1 Burnley</p> \n \
-        <p>Tottenham 0 - 1 Man City</p> \n \
-        <p>Newcastle 2 - 3 Man City</p> \n \
-        <p>Man City 5 - 0 Huddersfield</p> \n \
-        <p>Man City 2 - 0 Sheffield United</p>';
+    '<h1>Recente uitslagen</h1> \n         <p>Man City 3 - 1 Burnley</p> \n         <p>Tottenham 0 - 1 Man City</p> \n         <p>Newcastle 2 - 3 Man City</p> \n         <p>Man City 5 - 0 Huddersfield</p> \n         <p>Man City 2 - 0 Sheffield United</p>';
   slot2.classList.add('man-city');
   slot2.innerHTML =
-    '<h1>Recent News</h1> \n \
-        <p>Kevin De Bruyne is back!</p>\n \
-        <p>Erling Haaland wants to leave Manchester for Real Madrid.</p>\n \
-        <p>Pep Guardiola making exit plans, wants to leave.</p>';
+    '<h1>Recent nieuws</h1> \n         <p>Kevin De Bruyne is terug!</p>\n         <p>Erling Haaland wil Manchester verlaten voor Real Madrid.</p>\n         <p>Pep Guardiola maakt exitplannen, wil vertrekken.</p>';
   slot3.classList.add('man-city');
   slot3.innerHTML =
-    '<h1>Top Players</h1> \n \
-        <p>Erling Haaland</p>\n \
-        <p>Phil Foden</p>\n \
-        <p>Bernardo Silva</p>';
+    '<h1>Topspelers</h1> \n         <p>Erling Haaland</p>\n         <p>Phil Foden</p>\n         <p>Bernardo Silva</p>';
   localStorage.setItem('choice', 'man-city');
 }
 
@@ -98,24 +76,13 @@ function option3() {
   title.innerHTML = 'Tottenham Hotspur';
   slot1.classList.add('tottenham');
   slot1.innerHTML =
-    '<h1>Recent results</h1> \n \
-        <p>Tottenham 3 - 2 Brentford</p> \n \
-        <p>Tottenham 0 - 1 Man City</p> \n \
-        <p>Man United 2 - 2 Tottenham</p> \n \
-        <p>Tottenham 1 - 0 Burnley</p> \n \
-        <p>Tottenham 3 - 1 Bournemouth</p>';
+    '<h1>Recente uitslagen</h1> \n         <p>Tottenham 3 - 2 Brentford</p> \n         <p>Tottenham 0 - 1 Man City</p> \n         <p>Man United 2 - 2 Tottenham</p> \n         <p>Tottenham 1 - 0 Burnley</p> \n         <p>Tottenham 3 - 1 Bournemouth</p>';
   slot2.classList.add('tottenham');
   slot2.innerHTML =
-    '<h1>Recent News</h1> \n \
-        <p>Lucas Bergvall chooses Tottenham over Barcelona.</p>\n \
-        <p>Alfie Dorrington adds to growing list of hamstring injuries at Spurs.</p>\n \
-        <p>Spurs still struggling to replace Harry Kane</p>';
+    '<h1>Recent nieuws</h1> \n         <p>Lucas Bergvall kiest Tottenham boven Barcelona.</p>\n         <p>Alfie Dorrington voegt zich bij de groeiende lijst van hamstringblessures bij Spurs.</p>\n         <p>Spurs worstelen nog steeds om Harry Kane te vervangen</p>';
   slot3.classList.add('tottenham');
   slot3.innerHTML =
-    '<h1>Top Players</h1> \n \
-        <p>Heung-Min Son</p>\n \
-        <p>Richarlison</p>\n \
-        <p>Pedro Porro</p>';
+    '<h1>Top Spelers</h1> \n         <p>Heung-Min Son</p>\n         <p>Richarlison</p>         \n         <p>Pedro Porro</p>';
   localStorage.setItem('choice', 'tottenham');
 }
 
