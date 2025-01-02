@@ -1,25 +1,25 @@
 ## Verbeter je project
 
-In this step, you can upgrade your project by:
+In deze stap kun je jouw project upgraden door:
 
-- Adding more styling to your content slots
-- Adding more options to your drop-down menu
+- Meer styling toevoegen aan je inhoud slots
+- Meer opties toevoegen aan je keuzemenu
 
-You don't have to do both. Choose whichever one appeals to you and fits the time you have.
+Je hoeft het niet allebei te doen. Kies wat je het meest aanspreekt en wat past bij de tijd die je hebt.
 
 \--- collapse ---
 
 ---
 
-## title: Add more styling to your content slots
+## title: Voeg meer styling toe aan inhoudslots
 
-At the moment, your content slots are styled with a `background-color` and maybe `color`.
+Op dit moment zijn jouw content slots gestyled met een `background-color` en eventueel `color`.
 
-You can also add styling to change the colour of your `h1` or any other element.
+Je kunt ook styling toevoegen om de kleur van je `h1` of een ander element te veranderen.
 
-To style a specific element, you can add an element selector inside your class selectors.
+Om een specifiek element op te maken, kun je een element selector toevoegen in je klassenselectors.
 
-For example, the **football** example adds a colour to the `h1` element for each class like this:
+Bijvoorbeeld, het **voetbal** voorbeeld voegt een kleur toe aan het `h1` element voor elke klasse zoals hier:
 
 ## --- code ---
 
@@ -40,9 +40,9 @@ h1 {
 
 \--- /code ---
 
-You can see that it uses the colours from another slot to tie the webpage together.
+Je ziet dat de kleuren uit een ander slot worden gebruikt om de webpagina samenhangend te maken.
 
-You can add any styling you might want to your content. The **dinosaur** example used the `text-align` property to change the alignment in the **activity** content slot, for example.
+Je kunt elke gewenste stijl aan je inhoud toevoegen. Het **dinosaurus** voorbeeld gebruikte de `text-align` eigenschap om de uitlijning in het **activiteit** content slot, bijvoorbeeld te veranderen.
 
 ## --- code ---
 
@@ -68,15 +68,15 @@ text-align: center;
 
 ---
 
-## title: Add another option
+## title: Voeg nog een optie toe
 
-If you have more time, you might want to add more options to your drop-down menu for your user to choose from.
+Als je nog meer tijd hebt, wil je misschien meer opties toevoegen aan jouw drop-down menu voor jouw gebruiker om uit te kiezen.
 
 \--- task ---
 
-Open `default.css` and, for your new option, add new colours for:
+Open `default.css` en voeg voor je nieuwe optie nieuwe kleuren toe:
 
-- The body
+- Het centrale gedeelte
 - Slot 1
 - Slot 2
 - Slot 3
@@ -85,30 +85,30 @@ Open `default.css` and, for your new option, add new colours for:
 
 \--- task ---
 
-Open `style.css` and create new classes for `<body>` and each of your content slots. Use your new colours to style the slots.
+Open `style.css` en maak nieuwe klassen voor `<body>` en elk van je content slots. Gebruik je nieuwe kleuren om de slots op te maken.
 
 \--- /task ---
 
 \--- task ---
 
-Open `scripts.js` and create a new function called `option4()`.
+Open `scripts.js` en maak een nieuwe functie genaamd `option4()`.
 
-You can copy one of your previous functions to make this process easier.
+Je kunt een van je vorige functies kopiëren om dit proces eenvoudiger te maken.
 
-Apply the classes you just made and change the content to match your new option.
+Pas de klassen die je zojuist hebt gemaakt toe en verander de inhoud naar de nieuwe optie.
 
-Make sure you also set the `choice` variable to match the new option at the end of the function.
+Zorg ervoor dat de variabele `keuze` ook overeenkomt met de nieuwe optie aan het einde van de functie.
 
 \--- /task ---
 
 \--- task ---
 
-Open `index.html` and add a new button to the `drop-down-options` `<div>`.
+Open `index.html` en voeg een nieuwe knop toe aan de `drop-down-options`<div>\`.
 
-Add the `onclick` attribute to call your new function that will change the content.
+Voeg het 'onclick'-attribuut toe om de nieuwe functie aan te roepen die de inhoud zal veranderen.
 
 \--- /task ---
 
-You can repeat the steps above for as many options as you would like to add to your webpage!
+Je kunt de bovenstaande stappen voor zoveel opties herhalen als je aan je webpagina wilt toevoegen!
 
 \--- /collapse ---
