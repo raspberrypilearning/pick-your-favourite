@@ -4,7 +4,7 @@
 
 ## legend: Vraag 2 van 3
 
-In CSS, you can create very specific selectors. If you have an element with an ID attribute `slot-1` and a class `trex`, which of these selectors would you use to style **only** the element with **both** of those attributes?
+In CSS kun je heel specifieke selectors maken. Als je een element hebt met een ID attribuut `slot-1` en een klasse `trex`, met welke van deze selectors wil je **alleen** het element met **beide** attributen stijlen?
 
 \--- choices ---
 
@@ -12,7 +12,7 @@ In CSS, you can create very specific selectors. If you have an element with an I
 
   \--- feedback ---
 
-  In this example, the selectors are the wrong way around. `slot-1` is a class and `trex` is an ID.
+  In dit voorbeeld staan de selectoren verkeerd om. `slot-1` is een klasse en `trex` is een ID.
 
   \--- /feedback ---
 
@@ -20,7 +20,7 @@ In CSS, you can create very specific selectors. If you have an element with an I
 
   \--- feedback ---
 
-  This selector would style elements with **either** the ID or the class you want.
+  Deze selector zou de elementen met **of** het ID of de door jou gewenste klasse opmaken.
 
   \--- /feedback ---
 
@@ -28,7 +28,7 @@ In CSS, you can create very specific selectors. If you have an element with an I
 
   \--- feedback ---
 
-  Goed gedaan! This is correct!
+  Goed gedaan! Dat is juist!
 
   \--- /feedback ---
 
