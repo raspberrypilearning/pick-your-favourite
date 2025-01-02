@@ -1,4 +1,4 @@
-## Make the choice permanent
+## Maak de keuze definitief
 
 In this step, you will use the local storage in the user's web browser to save the choice they make, so whenever the page is loaded it keeps the colours and content of their choice!
 
