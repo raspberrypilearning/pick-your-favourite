@@ -32,21 +32,21 @@ De inhoud verandert afhankelijk van het voetbal **team** dat de gebruiker kiest.
 
 - Anatomie en kenmerken
 - Trivia
-- An activity
+- Een activiteit
 
-The content changes depending on which dinosaur **species** the user chooses.
+De inhoud verandert afhankelijk van welke dinosaurus **soort** de gebruiker kiest.
 
 \--- /collapse ---
 
 \--- /task ---
 
-### Creating the text for the first paragraph
+### De tekst voor de eerste alinea maken
 
-You are going to create the content for the first paragraph — for all three options — and also set a colour for it.
+Je gaat de inhoud van de eerste alinea – voor alle drie de opties – maken en er ook een kleur voor instellen.
 
 \--- task ---
 
-Open `index.html` and add a line break in between the opening and closing `<div>` tags (with the id `slot-1`).
+Open `index.html` en voeg een regelafbreking toe tussen de openings- en sluitingstags `<div>` (met de id `slot-1`).
 
 ## --- code ---
 
@@ -68,13 +68,13 @@ line_highlights: 29-31
 
 \--- /code ---
 
-**Tip:** Make sure you put your cursor between the opening `<div>` and the closing `</div>` before putting the line break in.
+**Tip:** Zorg ervoor dat u de cursor tussen de openings `<div>` en de sluitings `</div>` plaatst voordat je de regelafbreking plaatst.
 
 \--- /task ---
 
 \--- task ---
 
-Add a heading for the content slot using `<h1>` tags.
+Voeg een koptekst toe voor het inhoudsslot met behulp van `<h1>`-tags.
 
 ## --- code ---
 
@@ -88,7 +88,7 @@ line_highlights: 30
 <section id="content-holder">
   <h1 id="title">Title</h1>
   <div id="slot-1" class="content">
-    <h1>Slot Heading</h1>
+    <h1>Slot kop</h1>
   </div>
   <div id="slot-2" class="content"></div>
   <div id="slot-3" class="content"></div>
@@ -100,9 +100,9 @@ line_highlights: 30
 
 \--- task ---
 
-Add content for this slot for the **first option** a user can choose.
+Voeg inhoud voor dit slot toe voor de **eerste optie** die een gebruiker kan kiezen.
 
-You can use `<p>`, `<ul>`, `<ol>`, or any other elements you have experience with.
+Je kunt `<p>`, `<ul>`, `<ol>`, gebruiken of eventuele andere elementen waarmee je ervaring hebt.
 
 \--- collapse ---
 
@@ -110,7 +110,7 @@ You can use `<p>`, `<ul>`, `<ol>`, or any other elements you have experience wit
 
 ## title: Enkele voorbeelden
 
-### Dinosaurs
+### Dinosaurussen
 
 ## --- code ---
 
@@ -124,11 +124,11 @@ line_highlights: 30
 <section id="content-holder">
   <h1 id="title">Title</h1>
   <div id="slot-1" class="content">
-    <h1>Anatomy and Characteristics</h1>
-    <p>One of the largest meat-eating dinosaurs</p> 
-    <p>Powerful hind limbs</p> 
-    <p>Massive skull with sharp teeth</p>
-    <p>Tiny, two-fingered forelimbs</p>
+    <h1>Anatomie en Kenmerken</h1>
+    <p>Een van de grootste vleesetende dinosauriërs</p> 
+    <p>Krachtige achterpoten</p> 
+    <p>Enorme schedel met scherpe tanden</p>
+    <p>Kleine, tweevingerige voorpoten</p>
   </div>
   <div id="slot-2" class="content"></div>
   <div id="slot-3" class="content"></div>
@@ -136,7 +136,7 @@ line_highlights: 30
 
 \--- /code ---
 
-### Football
+### Voetbal
 
 ## --- code ---
 
@@ -150,7 +150,7 @@ line_highlights: 30
 <section id="content-holder">
   <h1 id="title">Title</h1>
   <div id="slot-1" class="content">
-    <h1>Recent results</h1>
+    <h1>Recente uitslagen</h1>
     <p>Liverpool 4 - 1 Chelsea</p>
     <p>Liverpool 5 - 2 Norwich City</p>
     <p>Fulham 1 - 1 Liverpool</p>
@@ -165,29 +165,29 @@ line_highlights: 30
 
 \--- /collapse ---
 
-Run your code, and select the first option from your drop-down menu.
+Voer je code uit en selecteer de eerste optie uit jouw drop-down menu.
 
-Make sure that you can see the content you have written.
-
-\--- /task ---
-
-### Add colour to the first slot
-
-The background colour is the same as the webpage. Next, you will add new colours for the first option.
-
-\--- task ---
-
-Open `default.css` and add a new colour for your first option, call the variable `--slot1-classname` — replacing the end with your class for the first option.
+Zorg ervoor dat je de inhoud die je hebt geschreven kunt zien.
 
 \--- /task ---
 
+### Kleur aan eerste slot toevoegen
+
+De achtergrondkleur is hetzelfde als de webpagina. Vervolgens kun je nieuwe kleuren toevoegen voor de eerste optie.
+
 \--- task ---
 
-Open `style.css` and find the `/* Slot 1 classes */` comment on line 128.
+Open `default.css` en voeg een nieuwe kleur toe voor je eerste optie, roep de variabele `--slot1-classname` aan — vervang het einde met jouw klasse voor de eerste optie.
 
-Add a new selector for the `slot-1` ID and add a class for your first option.
+\--- /task ---
 
-The **football** example looked like this:
+\--- task ---
+
+Open `style.css` en zoek de opmerking `/* Slot 1 klassen */` op regel 128.
+
+Voeg een nieuwe selector toe voor het `slot-1` ID en voeg een klasse toe voor je eerste optie.
+
+Het **voetbal** voorbeeld zag er als volgt uit:
 
 ## --- code ---
 
@@ -197,20 +197,20 @@ line_numbers: false
 line_highlights: 2-4
 ---------------------------------------------------------
 
-/\* Slot 1 classes \*/
+/\* Slot 1 klassen \*/
 \#slot-1.liverpool {
 
 }
 
 \--- /code ---
 
-This selector will style the element with id `slot-1` and the class `liverpool`.
+Deze selector zal het element met id 'slot-1' en de klasse 'liverpool' opmaken.
 
 \--- /task ---
 
 \--- task ---
 
-Add your background colour to this selector.
+Voeg je achtergrondkleur toe aan deze selector.
 
 ## --- code ---
 
@@ -220,7 +220,7 @@ line_numbers: false
 line_highlights: 3
 -------------------------------------------------------
 
-/\* Slot 1 classes \*/
+/\* Slot 1 klassen \*/
 \#slot-1.liverpool {
 background-color: var(--slot1-liverpool);
 }
@@ -229,15 +229,15 @@ background-color: var(--slot1-liverpool);
 
 \--- /task ---
 
-### Use JavaScript to add the content and colours
+### Gebruik JavaScript om de inhoud en kleuren toe te voegen
 
-Now, you are going to write the JavaScript that adds the class to slot 1 and fill it with your content.
+Nu ga je de JavaScript schrijven die de klasse toevoegt aan slot 1 en deze vullen met je inhoud.
 
 \--- task ---
 
-Open `scripts.js` and find your `option1` function.
+Open `scripts.js` en zoek je `option1` functie.
 
-Use the constant `slot1` to add your class to the content slot.
+Gebruik de constante `slot1` om je klasse toe te voegen aan het inhoudsvak.
 
 ## --- code ---
 
@@ -263,9 +263,9 @@ slot1.classList.add("liverpool");
 
 \--- /code ---
 
-Run your code, and select the first option.
+Voer je code uit en selecteer de eerste optie.
 
-You should see the colour you chose now!
+Je zou nu de kleur moeten zien die je kiest!
 
 \--- /task ---
 
@@ -273,15 +273,15 @@ You should see the colour you chose now!
 
 ---
 
-## title: My text colour isn't very visible
+## title: Mijn tekstkleur is niet erg zichtbaar
 
-When you see your colours, you might want to change the text colour of your content.
+Als je kleuren ziet, wil je misschien de tekstkleur van je content wijzigen.
 
-Make sure they contrast well with the background colour you have chosen.
+Zorg ervoor dat ze goed contrasteren met de achtergrondkleur die je hebt gekozen.
 
-**Tip:** To make life easier, choose `black` or `white` text.
+**Tip:** Om het gemakkelijker te maken, kies `zwarte` of `witte` tekst.
 
-Add the `color` property to your selector.
+Voeg de `color` eigenschap toe aan je selector.
 
 ## --- code ---
 
@@ -292,7 +292,7 @@ line_number_start: 128
 line_highlights: 131
 ---------------------------------------------------------
 
-/\* Slot 1 classes \*/
+/\* Slot 1 klassen \*/
 \#slot-1.liverpool {
 background-color: var(--slot1-liverpool);
 color: white;
@@ -304,7 +304,7 @@ color: white;
 
 \--- task ---
 
-Add a line to change the `innerHTML` of `slot1`.
+Voeg een regel toe om de `innerHTML` van `slot1` te wijzigen.
 
 ## --- code ---
 
@@ -327,7 +327,7 @@ slot1.innerHTML = "";
 
 Open `index.html`.
 
-Highlight and copy (<kbd>Ctrl</kbd>+<kbd>C</kbd> or <kbd>Cmd</kbd>+<kbd>C</kbd>) the content inside the `slot-1` div.
+Markeer en kopieer (<kbd>Ctrl</kbd>+<kbd>C</kbd> of <kbd>Cmd</kbd>+<kbd>C</kbd>) de inhoud in de `slot-1` div.
 
 \--- /task ---
 
@@ -335,7 +335,7 @@ Highlight and copy (<kbd>Ctrl</kbd>+<kbd>C</kbd> or <kbd>Cmd</kbd>+<kbd>C</kbd>)
 
 Open `scripts.js`.
 
-Paste (<kbd>Ctrl</kbd>+<kbd>V</kbd> or <kbd>Cmd</kbd>+<kbd>V</kbd>) the content in between the speech marks `""`.
+Plak (<kbd>Ctrl</kbd>+<kbd>V</kbd> of <kbd>Cmd</kbd>+<kbd>V</kbd>) de inhoud tussen de aanhalingstekens `""`.
 
 ## --- code ---
 
@@ -347,7 +347,7 @@ line_highlights: 47-52
 -----------------------------------------------------------
 
 slot1.classList.add("liverpool")
-slot1.innerHTML = "<h1>Recent results</h1><p>Liverpool 4 - 1 Chelsea</p>
+slot1.innerHTML = "<h1>Recente uitslagen</h1><p>Liverpool 4 - 1 Chelsea</p>
 <p>Liverpool 5 - 2 Norwich City</p>
 <p>Fulham 1 - 1 Liverpool</p>
 <p>Bournemouth 0 - 4 Liverpool</p>
@@ -360,7 +360,7 @@ slot1.innerHTML = "<h1>Recent results</h1><p>Liverpool 4 - 1 Chelsea</p>
 
 \--- task ---
 
-Add `\n \` to add a line break to the end of every line, **except** the last one.
+Voeg `\n \` toe om een regelafbreking toe te voegen aan het einde van elke regel, **behalve** de laatste.
 
 ## --- code ---
 
@@ -372,7 +372,7 @@ line_highlights: 47-51
 -----------------------------------------------------------
 
 slot1.classList.add("liverpool")
-slot1.innerHTML = "<h1>Recent results</h1> \n \<p>Liverpool 4 - 1 Chelsea</p> \n \
+slot1.innerHTML = "<h1>Recente uitslagen</h1> \n \<p>Liverpool 4 - 1 Chelsea</p> \n \
 <p>Liverpool 5 - 2 Norwich City</p> \n \
 <p>Fulham 1 - 1 Liverpool</p> \n \
 <p>Bournemouth 0 - 4 Liverpool</p>\n \
@@ -385,7 +385,7 @@ slot1.innerHTML = "<h1>Recent results</h1> \n \<p>Liverpool 4 - 1 Chelsea</p> \n
 
 \--- task ---
 
-Now, open `index.html` and delete the content inside the `slot-1` div.
+Open nu `index.html` en verwijder de inhoud in de `slot-1` div.
 
 ## --- code ---
 
@@ -408,23 +408,23 @@ line_highlights: 29
 
 \--- /task ---
 
-### Change the content for options 2 and 3
+### Wijzig de inhoud voor opties 2 en 3
 
-Now that option 1 works for your first slot, it is time to add the content and colours for your second option.
+Nu optie 1 werkt voor je eerste vakje, ga je de inhoud en kleuren toevoegen voor je tweede optie.
 
 \--- task ---
 
-Add a slot 1 colour to `default.css` for your second option.
+Voeg een slot 1 kleur toe aan `default.css` voor je tweede optie.
 
 \--- /task ---
 
 \--- task ---
 
-Open `style.css` and underneath your first slot1 selector, add a new one for your second option.
+Open `style.css` en onder je eerste slot1 selector, voeg een nieuwe toe voor je tweede optie.
 
-The selector must start with `#slot-1.` and end with your second option class.
+De selector moet beginnen met `#slot-1.` en eindigen met je tweede optie klasse.
 
-The football one looks like this:
+De voetbalversie ziet er zo uit:
 
 ## --- code ---
 
@@ -434,7 +434,7 @@ line_numbers: false
 line_highlights: 6-8
 ---------------------------------------------------------
 
-/\* Slot 1 classes \*/
+/\* Slot 1 klassen \*/
 \#slot-1.liverpool {
 background-color: var(--slot1-liverpool);
 }
@@ -449,7 +449,7 @@ background-color: var(--slot1-liverpool);
 
 \--- task ---
 
-Set the `background-color` property in your new selector to the colour variable you made for it.
+Stel de eigenschap `background-color` in je nieuwe selector in op de kleurvariabele die je ervoor hebt gemaakt.
 
 ## --- code ---
 
@@ -467,15 +467,15 @@ background-color: var(--slot-1-man-city);
 
 \--- /task ---
 
-Now, you are going to add to your `option2()` function, so it applies the class and changes the content.
+Nu ga je de `option2()` functie toevoegen, zodat deze de klasse toepast en de inhoud wijzigt.
 
 \--- task ---
 
-Find your `option2()` function in `scripts.js`.
+Zoek je `option2()` functie in `scripts.js`.
 
-Add a line to apply your new class to it.
+Voeg een regel toe om je nieuwe klasse erop toe te passen.
 
-The **football** example looked like this:
+Het **voetbal** voorbeeld zag er als volgt uit:
 
 ## --- code ---
 
@@ -505,11 +505,11 @@ slot1.classList.add("man-city");
 
 \--- task ---
 
-In your `option1` function, copy the lines that changed the `innerHTML` for slot 1.
+In je `option1` functie kopieer je de regels die de `innerHTML` voor slot 1 hebben gewijzigd.
 
-Paste them inside the `option2` function.
+Plak ze in de `option2` functie.
 
-Edit the lines of text so they are about your second option. The football example looked like this (with Manchester City's results instead of Liverpool's):
+Bewerk de regels tekst zodat ze over je tweede optie gaan. Het voetbalvoorbeeld zag er als volgt uit (met de resultaten van Manchester City in plaats van die van Liverpool):
 
 ## --- code ---
 
@@ -521,7 +521,7 @@ line_highlights: 48-52
 -----------------------------------------------------------
 
 slot1.classList.add("man-city");
-slot1.innerHTML = "<h1>Recent results</h1> \n \<p>Man City 3 - 1 Burnley</p> \n \
+slot1.innerHTML = "<h1>Recente uitslagen</h1> \n \<p>Man City 3 - 1 Burnley</p> \n \
 <p>Tottenham 0 - 1 Man City</p> \n \
 <p>Newcastle 2 - 3 Man City</p> \n \
 <p>Man City 5 - 0 Huddersfield</p> \n \
@@ -534,45 +534,45 @@ slot1.innerHTML = "<h1>Recent results</h1> \n \<p>Man City 3 - 1 Burnley</p> \n 
 
 \--- task ---
 
-Run your code and select your second option. You should see your new colour and content appear!
+Voer je code uit en selecteer je tweede optie. Je zou je nieuwe kleur en inhoud moeten zien!
 
-You might want to add a `color` property to the class to change the text colour to make it more visible.
-
-\--- /task ---
-
-To finish this step, you are going to repeat the same process again but for the **third option**.
-
-\--- task ---
-
-Add a new colour to `default.css`.
-
-Open `style.css` and add a new selector for `#slot-1` using your third class name.
+Je wilt misschien een `color` eigenschap toevoegen aan de klasse om de kleur van de tekst te wijzigen om deze zichtbaarder te maken.
 
 \--- /task ---
 
+Om deze stap af te maken ga je hetzelfde proces opnieuw herhalen, maar dan voor de **derde optie**.
+
 \--- task ---
 
-Open `scripts.js` and copy all the slot 1 lines from your `option2` function.
+Voeg een nieuwe kleur toe aan `default.css`.
 
-Paste them at the bottom of your `option3` function.
+Open `style.css` en voeg een nieuwe selector toe voor `#slot-1` met behulp van je derde klasse naam.
 
 \--- /task ---
 
 \--- task ---
 
-Change the name of the class to your third option class.
+Open `scripts.js` en kopieer alle regels van het slot 1 uit je `option2` functie.
 
-Update the content to match your third option.
+Plak ze onderaan je `option3` functie.
 
 \--- /task ---
 
-Now that you have functions to show your content, you want to hide it before the user chooses an option.
+\--- task ---
+
+Verander de naam van de klasse in de klasse van de derde optie.
+
+Werk de inhoud bij zodat deze overeenkomt met je derde optie.
+
+\--- /task ---
+
+Nu je functies hebt om je inhoud weer te geven, wil je deze verbergen voordat de gebruiker een optie kiest.
 
 \--- task ---
 
-Open `style.css` and find the `#content-holder` selector.
+Open `style.css` en zoek de `#content-holder` selector.
 
-Set its `display` property to `none`.
+Zet de `display` eigenschap op `none`.
 
 ## --- code ---
 
@@ -598,8 +598,8 @@ display: none;
 
 **Klik op Run**
 
-- Select an option and scroll down, make sure the colours and content look how you want them to.
+- Selecteer een optie en scroll naar beneden, zorg ervoor dat de kleuren en inhoud er uitzien zoals je dat wilt.
 
 \--- /task ---
 
-Next, you will add the colours, classes, and code for the second and third content slots. Then you will have a whole webpage that changes, not just one slot!
+Vervolgens voeg je de kleuren, klassen en code toe voor de vakjes met tweede en derde inhoud. Dan heb je een hele webpagina die verandert, niet slechts één slot!
