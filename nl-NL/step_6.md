@@ -1,20 +1,20 @@
 ## Animeer de secties
 
-In this step, you will make **three** intersection observers that will detect when your slots enter the viewport and apply animations to them.
+In deze stap maak je **drie** kruispuntobservatoren die detecteren wanneer je slots de viewport binnenkomen en er dan animaties op toepassen.
 
-### Create the first observer
+### Maak de eerste waarnemer aan
 
 \--- task ---
 
-Open `scripts.js` and find the `// Observers` comment.
+Open `scripts.js` en zoek het commentaar `// Observatoren`.
 
 \--- /task ---
 
 \--- task ---
 
-Create a new `IntersectionOberver` constant, called `slot1observer`.
+Maak een nieuwe `IntersectionOberver`-constante met de naam `slot1observer`.
 
-Add the entries array and the `if` statement that checks whether the entry is intersecting.
+Voeg de entries array en de `if` verklaring toe die controleert of de entry overlapt.
 
 For these observers, you want the **whole** target to be in the viewport, so set the `threshold` to `1`.
 
