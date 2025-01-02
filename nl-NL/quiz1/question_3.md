@@ -4,9 +4,9 @@
 
 ## legend: Vraag 3 van 3
 
-In JavaScript, you can use **properties** to change elements.
+In JavaScript kun je **eigenschappen** gebruiken om elementen te wijzigen.
 
-Which of these properties allows you to insert new **tags** inside an element?
+Met welke van deze eigenschappen kun je nieuwe **tags** in een element invoegen?
 
 \--- choices ---
 
@@ -14,7 +14,7 @@ Which of these properties allows you to insert new **tags** inside an element?
 
   \--- feedback ---
 
-  This property is used to add **text** inside an element.
+  Deze eigenschap wordt gebruikt om **tekst** binnen een element toe te voegen.
 
   \--- /feedback ---
 
@@ -22,7 +22,7 @@ Which of these properties allows you to insert new **tags** inside an element?
 
   \--- feedback ---
 
-  Correct, this property lets you add new tags inside an element.
+  Klopt, met deze eigenschap kun je nieuwe tags aan een element toevoegen.
 
   \--- /feedback ---
 
@@ -30,7 +30,7 @@ Which of these properties allows you to insert new **tags** inside an element?
 
   \--- feedback ---
 
-  This property lets you add, remove, and read the class attribute of an element.
+  Met deze eigenschap kun je het klasse attribuut van een element toevoegen, verwijderen en lezen.
 
   \--- /feedback ---
 
