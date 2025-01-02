@@ -1,61 +1,61 @@
-## Create the frame
+## Maak het frame
 
-In this step, you will create the frame for your fan website. You will also choose a starting background colour and the drop-down menu that allows users to change the webpage.
+In deze stap maak je het kader voor je fan website. Je kiest ook een startkleur voor de achtergrond en het keuzemenu waarmee gebruikers de webpagina kunnen wijzigen.
 
-### What will the webpage be about?
+### Waar gaat de webpagina over?
 
 \--- task ---
 
-What hobby or interest will you choose for your website?
+Welke hobby of interesse kies je voor je website?
 
-- ⚽️ **Sports**: Teams, players, or leagues?
-- 👗 **Fashion**: Brands, trends, influencers, or decades?
-- 🔬 **Science**: Wildlife, climate, or theories?
-- 🎥 **TV & film**: Anime, series, movies, characters, or settings?
-- 🖥️ **Coding**: Languages, devices, or software?
-- 🕹️ **Video games**: Franchises, characters, genres, or consoles?
-- 🎨 **Art**: Art works, mediums, artists, or museums?
-- 👥 **Culture**: Festivals, holidays, or historical events?
+- ⚽️ **Sport**: Teams, spelers of competities?
+- 👗 **Mode**: Merken, trends, influencers of decennia?
+- 🔬 **Wetenschap**: Wilde dieren, klimaat of theorieën?
+- 🎥 **TV & film**: Anime, series, films, personages of settings?
+- 🖥️ **Coderen**: Talen, apparaten of software?
+- 🕹️ **Video spellen**: Franchises, karakters, genres, of consoles?
+- 🎨 **Kunst**: Kunstwerken, mediums, kunstenaars of musea?
+- 👥 **Cultuur**: Festivals, feestdagen of historische gebeurtenissen?
 
-For this project, you need to pick a theme and three choices for the user to make within that theme.
+Voor dit project moet je een thema kiezen en drie keuzes maken voor de gebruiker binnen dat thema.
 
 \--- collapse ---
 
 ---
 
-## title: Some examples...
+## title: Enkele voorbeelden...
 
-The example project uses **football** as its theme, and gives the user a choice between three teams:
+Het voorbeeldproject gebruikt **voetbal** als thema en geeft de gebruiker een keuze tussen drie teams:
 
 1. Liverpool
 2. Manchester City
 3. Tottenham Hotspur
 
-The **dinosaur** example lets the user choose between different species of dinosaur:
+In het **dinosaurus**-voorbeeld kan de gebruiker kiezen uit verschillende soorten dinosaurussen:
 
 1. Tyrannosaurus Rex
 2. Triceratops
 3. Stegosaurus
 
-There are many choices of themes, and options within those themes. Pick something you would love to show to your friends or family!
+Er zijn veel verschillende thema's en opties binnen die thema's. Kies iets dat je graag aan je vrienden of familie zou willen laten zien!
 
 \--- /collapse ---
 
-Choose your theme and three options within that theme.
+Kies je thema en drie opties binnen dat thema.
 
 \--- /task ---
 
 \--- task ---
 
-Open the [Pick your favourite starter project](https://editor.raspberrypi.org/en/projects/pick-your-favourite-starter){:target="_blank"}
+Open [Kies je favoriet startproject](https://editor.raspberrypi.org/en/projects/pick-your-favourite-starter){:target="_blank"}
 
-If you are logged in, save the project to your account and change the name.
+Als je bent ingelogd, sla het project op jouw account op en wijzig de naam.
 
 \--- /task ---
 
 \--- task ---
 
-Change the title of your webpage in the `<head>` section.
+Wijzig de titel van jouw webpagina in het `<head>` gedeelte.
 
 ## --- code ---
 
@@ -65,19 +65,19 @@ line_numbers: true
 line_number_start: 8
 ------------------------------------------------------------------------------
 
-<title>Give your page a title</title>
+<title>Geef je pagina een titel</title>
 
 \--- /code ---
 
 \--- /task ---
 
-### Create your options
+### Maak je opties aan
 
 \--- task ---
 
-Change the text in the button and drop-down options to match your idea!
+Wijzig de tekst in de knop en vervolgkeuze opties zodat ze passen bij jouw idee!
 
-**Make sure** to leave the unicode for the arrow  — `&#9207;` — at the end.
+**Zorg ervoor** dat je de unicode voor de pijl — `&#9207;` — aan het einde laat staan.
 
 ## --- code ---
 
@@ -89,7 +89,7 @@ line_highlights: 14, 16-18
 ---------------------------------------------------------------
 
 <div class="dropdown">
-  <button>Choose a dinosaur ⏷</button>
+  <button>Kies een dinosaurus ⏷</button>
   <div id="dropdown-options">
     <button>T-Rex</button>
     <button>Triceratops</button>
@@ -99,15 +99,15 @@ line_highlights: 14, 16-18
 
 \--- /code ---
 
-**Tip:** Make sure you add your options (unless you are also doing dinosaurs)!
+**Tip:** Zorg ervoor dat je jouw eigen opties toevoegt (tenzij je ook dinosaurs wilt maken)!
 
 \--- /task ---
 
-At the moment, the drop-down menu doesn't open. There is a function to open and close it in the `scripts.js` file.
+Op dit moment kan het dropdownmenu nog niet geopend worden. Er staat een functie om het te openen en te sluiten in het bestand `scripts.js`.
 
 \--- task ---
 
-Add the function to open the drop-down menu, using the `onclick` attribute.
+Voeg de functie toe om het vervolgkeuzemenu te openen met behulp van het kenmerk `onclick`.
 
 ## --- code ---
 
@@ -119,7 +119,7 @@ line_highlights: 14
 --------------------------------------------------------
 
 <div class="dropdown">
-  <button onclick="openDropdown()">Choose a dinosaur ⏷</button>
+  <button onclick="openDropdown()">Kies een dinosaurus ⏷</button>
   <div id="dropdown-options">
     <button>T-Rex</button>
     <button>Triceratops</button>
@@ -131,13 +131,13 @@ line_highlights: 14
 
 \--- /task ---
 
-### Add some instructions
+### Voeg wat instructies toe
 
-Your user won't know what to do unless you tell them!
+Je gebruiker weet niet wat hij moet doen, tenzij je hem vertelt!
 
 \--- task ---
 
-Add the instructions in a `<section>` using a `<h1>` element:
+Voeg de instructies toe in een `<section>` met behulp van een `<h1>` element:
 
 ## --- code ---
 
@@ -158,13 +158,13 @@ line_highlights: 24-26
 
 \--- /task ---
 
-### Make the page your own
+### Maak je eigen pagina
 
-Now it is time to style your web page with different fonts and colours.
+Het is nu tijd om je webpagina met verschillende lettertypen en kleuren op te maken.
 
 \--- task ---
 
-Add an appropriate font for your webpage from Google Fonts.
+Voeg een passend lettertype toe voor jouw webpagina vanuit Google Fonts.
 
 [[[google-fonts]]]
 
@@ -174,7 +174,7 @@ Add an appropriate font for your webpage from Google Fonts.
 
 Open `default.css`.
 
-Change the `--body-background` and `--body-text` colour variables to new colours of your choice.
+Wijzig de kleurvariabelen `--body-background` en `--body-text` naar de nieuwe kleuren van jouw keuze.
 
 ## --- code ---
 
@@ -185,7 +185,7 @@ line_number_start: 5
 line_highlights: 6-8
 ---------------------------------------------------------
 
-/\* Base Colours \*/
+/\* Basiskleuren \*/
 \--body-background: #FFFFFF;
 \--body-text-colour: #000000;
 
@@ -197,21 +197,21 @@ line_highlights: 6-8
 
 \--- task ---
 
-Run your code to see your changes.
+Voer je code uit om je wijzigingen te zien.
 
-Adjust the colours if you want to.
+Pas de kleuren aan als je dat wilt.
 
 \--- /task ---
 
-### Add the content holder
+### Voeg de content holder (plek voor de inhoud) toe
 
-Finally, you are going to add a grid to hold the content for each of your options. This won't contain anything yet.
+Tot slot ga je een raster toevoegen om de inhoud van al je opties in op te slaan. Dit zal nog niets bevatten.
 
 \--- task ---
 
 Open `index.html`.
 
-Inside the `<main>` tags, add a new section with the id attribute `content-holder`.
+Voeg binnen de `<main>`-tags een nieuwe sectie toe met het id-kenmerk `content-holder`.
 
 ## --- code ---
 
@@ -225,7 +225,7 @@ line_highlights: 27-29
 ```
 <main>
   <section id="instruction">
-    <h1>Select a team!</h1>
+    <h1>Kies een team!</h1>
   </section>
   <section id="content-holder">
   
@@ -239,9 +239,9 @@ line_highlights: 27-29
 
 \--- task ---
 
-Inside the new section, add a title and three slots for content.
+In het nieuwe deel voeg je een titel en drie slots toe voor inhoud.
 
-Use `id` attributes for the slots, you will use these later!
+Gebruik `id` attributen voor de slots, je zal deze later gebruiken!
 
 ## --- code ---
 
@@ -254,7 +254,7 @@ line_highlights: 28-31
 
 ```
   <section id="content-holder">
-    <h1 id="title">Title</h1>
+    <h1 id="title">Titel</h1>
     <div id="slot-1" class="content"></div>
     <div id="slot-2" class="content"></div>
     <div id="slot-3" class="content"></div>
@@ -266,4 +266,4 @@ line_highlights: 28-31
 
 \--- /task ---
 
-Next, you will add even more colours that will change depending on which option the user chooses!
+Vervolgens voeg je nog meer kleuren toe die zullen veranderen afhankelijk van welke optie de gebruiker kiest!
