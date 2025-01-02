@@ -1,4 +1,4 @@
-## Animate the sections
+## Animeer de secties
 
 In this step, you will make **three** intersection observers that will detect when your slots enter the viewport and apply animations to them.
 
