@@ -1,36 +1,36 @@
-## Change some content
+## Verander wat inhoud
 
-In this step, you will add the text content and colours to the first paragraph on your webpage for each of the options.
+In deze stap voeg je de tekst inhoud en kleuren toe aan de eerste alinea op jouw webpagina voor elk van de opties.
 
-### What content will you add?
+### Welke inhoud wil je toevoegen?
 
 \--- task ---
 
-Decide what the titles of each of your content paragraphs will be.
+Bepaal wat de titels van elk van jouw inhoudelijke paragrafen zullen zijn.
 
 **Denk aan**
 
-- What three things should all fans of your theme know about?
-- What categories could you write about for each option?
-- What three things do all three options share?
+- Welke drie dingen moeten alle fans van jouw thema weten?
+- Over welke categorieën zou je kunnen schrijven voor elke optie?
+- Welke drie dingen hebben alle drie de opties gemeen?
 
 \--- collapse ---
 
 ---
 
-## title: Some examples
+## title: Enkele voorbeelden
 
-**The football example has paragraph slots for:**
+**Het voetbalvoorbeeld heeft alinea-slots voor:**
 
-- Match results
+- Wedstrijdresultaten
 - Nieuws
-- Top players
+- Topspelers
 
-The content changes depending on which football **team** the user chooses.
+De inhoud verandert afhankelijk van het voetbal **team** dat de gebruiker kiest.
 
-**The dinosaur example has paragraph slots for:**
+**Het dinosaurusvoorbeeld heeft alinea-slots voor:**
 
-- Anatomy and characteristics
+- Anatomie en kenmerken
 - Trivia
 - An activity
 
@@ -108,7 +108,7 @@ You can use `<p>`, `<ul>`, `<ol>`, or any other elements you have experience wit
 
 ---
 
-## title: Some examples
+## title: Enkele voorbeelden
 
 ### Dinosaurs
 
