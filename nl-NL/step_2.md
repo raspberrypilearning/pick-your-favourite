@@ -150,7 +150,7 @@ line_highlights: 24-26
 
 <main>
   <section id="instruction">
-    <h1>Select a team!</h1>
+    <h1>Kies een team!</h1>
   </section>
 </main>
 
