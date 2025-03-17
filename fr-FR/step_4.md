@@ -273,6 +273,7 @@ Tu devrais maintenant voir la couleur que tu as choisie !
 
 ---
 title: Ma couleur de texte n'est pas très visible
+---
 
 Lorsque tu vois tes couleurs, tu peux modifier la couleur du texte de ton contenu.
 
@@ -433,14 +434,14 @@ language: css
 filename: style.css
 line_numbers: false
 line_highlights: 6-8
--
+---
 
-/\*Classes Slot 1 \*/
-\#slot-1.liverpool {
-background-color: var(--slot1-liverpool);
+/* Classes Slot 1 */
+#slot-1.liverpool {
+  background-color: var(--slot1-liverpool);
 }
 
-\#slot-1.man-city {
+#slot-1.man-city {
 
 }
 
