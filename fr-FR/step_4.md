@@ -1,52 +1,52 @@
-## Change some content
+## Modifier du contenu
 
-In this step, you will add the text content and colours to the first paragraph on your webpage for each of the options.
+Dans cette étape, tu ajouteras le contenu textuel et les couleurs au premier paragraphe de ta page web pour chacune des options.
 
-### What content will you add?
+### Quel contenu vas-tu ajouter ?
 
 \--- task ---
 
-Decide what the titles of each of your content paragraphs will be.
+Décide quels seront les titres de chacun de tes paragraphes de contenu.
 
-**Think about**
+**Pense à**
 
-- What three things should all fans of your theme know about?
-- What categories could you write about for each option?
-- What three things do all three options share?
+- Quelles sont les trois choses que tous les fans de ton thème devraient savoir ?
+- Quelles catégories peux-tu écrire pour chaque option ?
+- Quelles sont les trois choses que les trois options partagent ?
 
 \--- collapse ---
 
 ---
 
-## title: Some examples
+## title: Quelques exemples
 
-**The football example has paragraph slots for:**
+**L'exemple de football a des slots de paragraphe pour :**
 
-- Match results
+- Résultats du match
 - Actualités
-- Top players
+- Meilleurs joueurs
 
-The content changes depending on which football **team** the user chooses.
+Le contenu change en fonction de l'équipe de football choisie par l'utilisateur.
 
-**The dinosaur example has paragraph slots for:**
+**L'exemple de dinosaure a des slots de paragraphe pour :**
 
-- Anatomy and characteristics
-- Trivia
-- An activity
+- Anatomie et caractéristiques
+- Anecdotes
+- Une activité
 
-The content changes depending on which dinosaur **species** the user chooses.
+Le contenu change selon l'**espèce** de dinosaure que l'utilisateur choisit.
 
 \--- /collapse ---
 
 \--- /task ---
 
-### Creating the text for the first paragraph
+### Créer le texte du premier paragraphe
 
-You are going to create the content for the first paragraph — for all three options — and also set a colour for it.
+Tu vas créer le contenu du premier paragraphe pour les trois options et également lui définir une couleur.
 
 \--- task ---
 
-Open `index.html` and add a line break in between the opening and closing `<div>` tags (with the id `slot-1`).
+Ouvre `index.html` et ajoute un saut de ligne entre les balises d'ouverture et de fermeture `<div>` (avec l'id `slot-1`).
 
 ## --- code ---
 
@@ -68,13 +68,13 @@ line_highlights: 29-31
 
 \--- /code ---
 
-**Tip:** Make sure you put your cursor between the opening `<div>` and the closing `</div>` before putting the line break in.
+**Astuce :** assure-toi de placer ton curseur entre le `<div>` d'ouverture et le `</div>` de fermeture avant de placer le saut de ligne.
 
 \--- /task ---
 
 \--- task ---
 
-Add a heading for the content slot using `<h1>` tags.
+Ajoute un titre pour le slot de contenu en utilisant les balises `<h1>`.
 
 ## --- code ---
 
@@ -88,7 +88,7 @@ line_highlights: 30
 <section id="content-holder">
   <h1 id="title">Title</h1>
   <div id="slot-1" class="content">
-    <h1>Slot Heading</h1>
+    <h1>Titre du slot</h1>
   </div>
   <div id="slot-2" class="content"></div>
   <div id="slot-3" class="content"></div>
@@ -100,17 +100,17 @@ line_highlights: 30
 
 \--- task ---
 
-Add content for this slot for the **first option** a user can choose.
+Ajoute du contenu pour ce slot pour la **première option** qu'un utilisateur peut choisir.
 
-You can use `<p>`, `<ul>`, `<ol>`, or any other elements you have experience with.
+Tu peux utiliser `<p>`, `<ul>`, `<ol>`, ou tout autre élément avec lequel tu as de l'expérience.
 
 \--- collapse ---
 
 ---
 
-## title: Some examples
+## title: Quelques exemples
 
-### Dinosaurs
+### Dinosaures
 
 ## --- code ---
 
@@ -124,11 +124,11 @@ line_highlights: 30
 <section id="content-holder">
   <h1 id="title">Title</h1>
   <div id="slot-1" class="content">
-    <h1>Anatomy and Characteristics</h1>
-    <p>One of the largest meat-eating dinosaurs</p> 
-    <p>Powerful hind limbs</p> 
-    <p>Massive skull with sharp teeth</p>
-    <p>Tiny, two-fingered forelimbs</p>
+    <h1>Anatomie et caractéristiques</h1>
+    <p>L'un des plus grands dinosaures carnivores</p> 
+    <p>Membres postérieurs puissants</p> 
+    <p>Crâne massif avec des dents acérées</p>
+    <p>Membres antérieurs minuscules à deux doigts</p>
   </div>
   <div id="slot-2" class="content"></div>
   <div id="slot-3" class="content"></div>
@@ -150,7 +150,7 @@ line_highlights: 30
 <section id="content-holder">
   <h1 id="title">Title</h1>
   <div id="slot-1" class="content">
-    <h1>Recent results</h1>
+    <h1>Résultats récents</h1>
     <p>Liverpool 4 - 1 Chelsea</p>
     <p>Liverpool 5 - 2 Norwich City</p>
     <p>Fulham 1 - 1 Liverpool</p>
@@ -165,29 +165,29 @@ line_highlights: 30
 
 \--- /collapse ---
 
-Run your code, and select the first option from your drop-down menu.
+Exécute ton code et sélectionne la première option dans ton menu déroulant.
 
-Make sure that you can see the content you have written.
-
-\--- /task ---
-
-### Add colour to the first slot
-
-The background colour is the same as the webpage. Next, you will add new colours for the first option.
-
-\--- task ---
-
-Open `default.css` and add a new colour for your first option, call the variable `--slot1-classname` — replacing the end with your class for the first option.
+Assure-toi que tu peux voir le contenu que tu as écrit.
 
 \--- /task ---
 
+### Ajouter une couleur au premier slot
+
+La couleur d'arrière-plan est la même que celle de la page web. Ensuite, tu ajouteras de nouvelles couleurs pour la première option.
+
 \--- task ---
 
-Open `style.css` and find the `/* Slot 1 classes */` comment on line 128.
+Ouvre `default.css` et ajoute une nouvelle couleur pour ta première option, appelle la variable `--slot1-classname` en remplaçant la fin par ta classe pour la première option.
 
-Add a new selector for the `slot-1` ID and add a class for your first option.
+\--- /task ---
 
-The **football** example looked like this:
+\--- task ---
+
+Ouvre `style.css` et trouve le commentaire `/* Classes Slot 1 */` à la ligne 128.
+
+Ajoute un nouveau sélecteur pour l'ID `slot-1` et ajoute une classe pour ta première option.
+
+L'exemple du **football** ressemblait à ceci :
 
 ## --- code ---
 
@@ -197,20 +197,20 @@ line_numbers: false
 line_highlights: 2-4
 ---------------------------------------------------------
 
-/\* Slot 1 classes \*/
+/\* Classes Slot 1 \*/
 \#slot-1.liverpool {
 
 }
 
 \--- /code ---
 
-This selector will style the element with id `slot-1` and the class `liverpool`.
+Ce sélecteur stylisera l'élément avec l'id `slot-1` et la classe `liverpool`.
 
 \--- /task ---
 
 \--- task ---
 
-Add your background colour to this selector.
+Ajoute ta couleur d'arrière-plan à ce sélecteur.
 
 ## --- code ---
 
@@ -220,7 +220,7 @@ line_numbers: false
 line_highlights: 3
 -------------------------------------------------------
 
-/\* Slot 1 classes \*/
+/\* Classes Slot 1 \*/
 \#slot-1.liverpool {
 background-color: var(--slot1-liverpool);
 }
@@ -229,15 +229,15 @@ background-color: var(--slot1-liverpool);
 
 \--- /task ---
 
-### Use JavaScript to add the content and colours
+### Utiliser JavaScript pour ajouter le contenu et les couleurs
 
-Now, you are going to write the JavaScript that adds the class to slot 1 and fill it with your content.
+Maintenant, tu vas écrire le JavaScript qui ajoute la classe au slot 1 et le remplir avec ton contenu.
 
 \--- task ---
 
-Open `scripts.js` and find your `option1` function.
+Ouvre `scripts.js` et recherche ta fonction `option1`.
 
-Use the constant `slot1` to add your class to the content slot.
+Utilise la constante `slot1` pour ajouter ta classe au slot de contenu.
 
 ## --- code ---
 
@@ -263,9 +263,9 @@ slot1.classList.add("liverpool");
 
 \--- /code ---
 
-Run your code, and select the first option.
+Exécute ton code et sélectionne la première option.
 
-You should see the colour you chose now!
+Tu devrais maintenant voir la couleur que tu as choisie !
 
 \--- /task ---
 
@@ -273,15 +273,15 @@ You should see the colour you chose now!
 
 ---
 
-## title: My text colour isn't very visible
+## title: Ma couleur de texte n'est pas très visible
 
-When you see your colours, you might want to change the text colour of your content.
+Lorsque tu vois tes couleurs, tu peux modifier la couleur du texte de ton contenu.
 
-Make sure they contrast well with the background colour you have chosen.
+Assure-toi qu'ils contrastent bien avec la couleur d'arrière-plan que tu as choisie.
 
-**Tip:** To make life easier, choose `black` or `white` text.
+**Astuce :** pour te simplifier la vie, choisis un texte `black` (noir) ou `white` (blanc).
 
-Add the `color` property to your selector.
+Ajoute la propriété `color` à ton sélecteur.
 
 ## --- code ---
 
@@ -292,7 +292,7 @@ line_number_start: 128
 line_highlights: 131
 ---------------------------------------------------------
 
-/\* Slot 1 classes \*/
+/\* Classes Slot 1 \*/
 \#slot-1.liverpool {
 background-color: var(--slot1-liverpool);
 color: white;
@@ -304,7 +304,7 @@ color: white;
 
 \--- task ---
 
-Add a line to change the `innerHTML` of `slot1`.
+Ajoute une ligne pour modifier le `innerHTML` de `slot1`.
 
 ## --- code ---
 
@@ -327,7 +327,7 @@ slot1.innerHTML = "";
 
 Ouvre `index.html`.
 
-Highlight and copy (<kbd>Ctrl</kbd>+<kbd>C</kbd> or <kbd>Cmd</kbd>+<kbd>C</kbd>) the content inside the `slot-1` div.
+Sélectionne et copie (<kbd>Ctrl</kbd>+<kbd>C</kbd> ou <kbd>Cmd</kbd>+<kbd>C</kbd>) le contenu à l'intérieur du div `slot-1`.
 
 \--- /task ---
 
@@ -335,7 +335,7 @@ Highlight and copy (<kbd>Ctrl</kbd>+<kbd>C</kbd> or <kbd>Cmd</kbd>+<kbd>C</kbd>)
 
 Ouvre `scripts.js`.
 
-Paste (<kbd>Ctrl</kbd>+<kbd>V</kbd> or <kbd>Cmd</kbd>+<kbd>V</kbd>) the content in between the speech marks `""`.
+Colle (<kbd>Ctrl</kbd>+<kbd>V</kbd> ou <kbd>Cmd</kbd>+<kbd>V</kbd>) le contenu entre les guillemets `""`.
 
 ## --- code ---
 
@@ -347,7 +347,7 @@ line_highlights: 47-52
 -----------------------------------------------------------
 
 slot1.classList.add("liverpool")
-slot1.innerHTML = "<h1>Recent results</h1><p>Liverpool 4 - 1 Chelsea</p>
+slot1.innerHTML = "<h1>Résultats récents</h1><p>Liverpool 4 - 1 Chelsea</p>
 <p>Liverpool 5 - 2 Norwich City</p>
 <p>Fulham 1 - 1 Liverpool</p>
 <p>Bournemouth 0 - 4 Liverpool</p>
@@ -360,7 +360,7 @@ slot1.innerHTML = "<h1>Recent results</h1><p>Liverpool 4 - 1 Chelsea</p>
 
 \--- task ---
 
-Add `\n \` to add a line break to the end of every line, **except** the last one.
+Ajoute `\n \` pour ajouter un saut de ligne à la fin de chaque ligne, **sauf** la dernière.
 
 ## --- code ---
 
@@ -372,7 +372,7 @@ line_highlights: 47-51
 -----------------------------------------------------------
 
 slot1.classList.add("liverpool")
-slot1.innerHTML = "<h1>Recent results</h1> \n \<p>Liverpool 4 - 1 Chelsea</p> \n \
+slot1.innerHTML = "<h1>Résultats récents</h1> \n \<p>Liverpool 4 - 1 Chelsea</p> \n \
 <p>Liverpool 5 - 2 Norwich City</p> \n \
 <p>Fulham 1 - 1 Liverpool</p> \n \
 <p>Bournemouth 0 - 4 Liverpool</p>\n \
@@ -385,7 +385,7 @@ slot1.innerHTML = "<h1>Recent results</h1> \n \<p>Liverpool 4 - 1 Chelsea</p> \n
 
 \--- task ---
 
-Now, open `index.html` and delete the content inside the `slot-1` div.
+Maintenant, ouvre `index.html` et supprime le contenu à l’intérieur du div `slot-1`.
 
 ## --- code ---
 
@@ -408,23 +408,23 @@ line_highlights: 29
 
 \--- /task ---
 
-### Change the content for options 2 and 3
+### Modifier le contenu des options 2 et 3
 
-Now that option 1 works for your first slot, it is time to add the content and colours for your second option.
+Maintenant que l’option 1 fonctionne pour ton premier slot, il est temps d’ajouter le contenu et les couleurs pour ta deuxième option.
 
 \--- task ---
 
-Add a slot 1 colour to `default.css` for your second option.
+Ajoute un slot de couleur 1 à `default.css` pour ta deuxième option.
 
 \--- /task ---
 
 \--- task ---
 
-Open `style.css` and underneath your first slot1 selector, add a new one for your second option.
+Ouvre `style.css` et sous ton premier sélecteur slot1, ajoutes-en un nouveau pour ta deuxième option.
 
-The selector must start with `#slot-1.` and end with your second option class.
+Le sélecteur doit commencer par `#slot-1.` et se terminer par ta deuxième classe d’option.
 
-The football one looks like this:
+Celui du football ressemble à ceci :
 
 ## --- code ---
 
@@ -434,7 +434,7 @@ line_numbers: false
 line_highlights: 6-8
 ---------------------------------------------------------
 
-/\* Slot 1 classes \*/
+/\* Classes Slot 1 \*/
 \#slot-1.liverpool {
 background-color: var(--slot1-liverpool);
 }
@@ -449,7 +449,7 @@ background-color: var(--slot1-liverpool);
 
 \--- task ---
 
-Set the `background-color` property in your new selector to the colour variable you made for it.
+Définis la propriété `background-color` de ton nouveau sélecteur sur la variable de couleur que tu as créée pour celui-ci.
 
 ## --- code ---
 
@@ -467,15 +467,15 @@ background-color: var(--slot-1-man-city);
 
 \--- /task ---
 
-Now, you are going to add to your `option2()` function, so it applies the class and changes the content.
+Maintenant, tu vas ajouter quelque chose à ta fonction `option2()`, afin qu'elle applique la classe et modifie le contenu.
 
 \--- task ---
 
-Find your `option2()` function in `scripts.js`.
+Trouve ta fonction `option2()` dans `scripts.js`.
 
-Add a line to apply your new class to it.
+Ajoute une ligne pour lui appliquer ta nouvelle classe.
 
-The **football** example looked like this:
+L'exemple du **football** ressemblait à ceci :
 
 ## --- code ---
 
@@ -505,11 +505,11 @@ slot1.classList.add("man-city");
 
 \--- task ---
 
-In your `option1` function, copy the lines that changed the `innerHTML` for slot 1.
+Dans ta fonction `option1`, copie les lignes qui ont modifié le `innerHTML` pour slot 1.
 
-Paste them inside the `option2` function.
+Colle-les dans la fonction `option2`.
 
-Edit the lines of text so they are about your second option. The football example looked like this (with Manchester City's results instead of Liverpool's):
+Modifie les lignes de texte afin qu'elles concernent ta deuxième option. L'exemple du football ressemblait à cela (avec les résultats de la ville de Manchester au lieu de ceux de Liverpools) :
 
 ## --- code ---
 
@@ -521,7 +521,7 @@ line_highlights: 48-52
 -----------------------------------------------------------
 
 slot1.classList.add("man-city");
-slot1.innerHTML = "<h1>Recent results</h1> \n \<p>Man City 3 - 1 Burnley</p> \n \
+slot1.innerHTML = "<h1>Résultats récents</h1> \n \<p>Man City 3 - 1 Burnley</p> \n \
 <p>Tottenham 0 - 1 Man City</p> \n \
 <p>Newcastle 2 - 3 Man City</p> \n \
 <p>Man City 5 - 0 Huddersfield</p> \n \
@@ -534,45 +534,45 @@ slot1.innerHTML = "<h1>Recent results</h1> \n \<p>Man City 3 - 1 Burnley</p> \n 
 
 \--- task ---
 
-Run your code and select your second option. You should see your new colour and content appear!
+Exécute ton code et sélectionne ta deuxième option. Tu devrais voir ta nouvelle couleur et ton nouveau contenu apparaître !
 
-You might want to add a `color` property to the class to change the text colour to make it more visible.
-
-\--- /task ---
-
-To finish this step, you are going to repeat the same process again but for the **third option**.
-
-\--- task ---
-
-Add a new colour to `default.css`.
-
-Open `style.css` and add a new selector for `#slot-1` using your third class name.
+Tu peux ajouter une propriété `color` à la classe pour modifier la couleur du texte pour la rendre plus visible.
 
 \--- /task ---
 
+Pour terminer cette étape, tu vas répéter le même processus à nouveau, mais pour la **troisième option**.
+
 \--- task ---
 
-Open `scripts.js` and copy all the slot 1 lines from your `option2` function.
+Ajoute une nouvelle couleur à `default.css`.
 
-Paste them at the bottom of your `option3` function.
+Ouvre `style.css` et ajoute un nouveau sélecteur pour `#slot-1` en utilisant le nom de ta troisième classe.
 
 \--- /task ---
 
 \--- task ---
 
-Change the name of the class to your third option class.
+Ouvre `scripts.js` et copie toutes les lignes du slot 1 de ta fonction `option2`.
 
-Update the content to match your third option.
+Colle-les en bas de ta fonction `option3`.
 
 \--- /task ---
 
-Now that you have functions to show your content, you want to hide it before the user chooses an option.
+\--- task ---
+
+Modifie le nom de la classe pour la classe de ta troisième option.
+
+Mets à jour le contenu pour qu’il corresponde à ta troisième option.
+
+\--- /task ---
+
+Maintenant que tu as des fonctions pour afficher ton contenu, tu veux le masquer avant que l'utilisateur choisisse une option.
 
 \--- task ---
 
-Open `style.css` and find the `#content-holder` selector.
+Ouvre `style.css` et recherche le sélecteur `#content-holder`.
 
-Set its `display` property to `none`.
+Définis sa propriété `display` sur `none`.
 
 ## --- code ---
 
@@ -598,8 +598,8 @@ display: none;
 
 **Clique sur Run**
 
-- Select an option and scroll down, make sure the colours and content look how you want them to.
+- Sélectionne une option et fais défiler vers le bas, assure-toi que les couleurs et le contenu ressemblent à ce que tu souhaites.
 
 \--- /task ---
 
-Next, you will add the colours, classes, and code for the second and third content slots. Then you will have a whole webpage that changes, not just one slot!
+Ensuite, tu ajouteras les couleurs, les classes et le code pour les deuxième et troisième slots de contenu. Tu auras alors une page web toute entière qui changera et pas seulement un slot !
