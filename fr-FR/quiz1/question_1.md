@@ -14,7 +14,7 @@ Amuse-toi bien !
 
 ## legend: Question 1 sur 3
 
-When creating new variables to store colours and fonts, your CSS might look like this...
+Lors de la création de nouvelles variables pour stocker des couleurs et des polices, ton CSS pourrait ressembler à ceci...
 
 ## --- code ---
 
@@ -27,7 +27,7 @@ line_numbers: false
 /\* Font variable \*/
 \--main-font: 'sans-serif';
 
-/\* Base Colours \*/
+/\* Couleurs de base \*/
 \--body-background: #FFFFFF;
 \--body-text-colour: #000000;
 \--nav-bar: #FFFFFF;
@@ -35,7 +35,7 @@ line_numbers: false
 
 \--- /code ---
 
-Which of these would allow you to **use** the `--body-background` variable in another CSS selector?
+Lequel de ces éléments te permettrait **d'utiliser** la variable `--body-background` dans un autre sélecteur CSS ?
 
 \--- choices ---
 
@@ -43,7 +43,7 @@ Which of these would allow you to **use** the `--body-background` variable in an
 
   \--- feedback ---
 
-  You need to tell CSS that you are using a variable.
+  Tu dois indiquer dans le CSS que tu utilises une variable.
 
   \--- /feedback ---
 
@@ -59,7 +59,7 @@ Which of these would allow you to **use** the `--body-background` variable in an
 
   \--- feedback ---
 
-  The `:root` selector is used to create variables for your whole webpage, but when you use them you need to use another keyword.
+  Le sélecteur `:root` est utilisé pour créer des variables pour toute ta page web, mais lorsque tu les utilises, tu dois utiliser un autre mot clé.
 
   \--- /feedback ---
 
