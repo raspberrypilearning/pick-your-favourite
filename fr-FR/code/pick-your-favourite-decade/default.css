@@ -1,9 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Bungee+Hairline&display=swap');
 :root {
-  /* Font variable */
+  /* Variable de police */
   --main-font: "Bungee Hairline", sans-serif;
   
-  /* Base Colours */
+  /* Couleurs de base */
   --body-background: #3f3f3f;
   --body-text-colour: #FFFFFF;
   --nav-bar: #000000;
