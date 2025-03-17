@@ -40,25 +40,13 @@ function option1() {
   title.innerHTML = 'T-Rex <br> &#129430';
   slot1.classList.add('trex');
   slot1.innerHTML =
-    '<h1>Anatomy and Characteristics</h1> \n \
-      <p>One of the largest meat-eating dinosaurs</p> \n \
-      <p>Powerful hind limbs</p> \n \
-      <p>Massive skull with sharp teeth</p> \n \
-      <p>Tiny, two-fingered forelimbs</p>';
+    "<h1>Anatomie et caractéristiques</h1> \n       <p>L'un des plus grands dinosaures carnivores</p> \n       <p>Membres postérieurs puissants</p> \n       <p>Crâne massif avec des dents acérées</p> \n       <p>Petits membres antérieurs à deux doigts</p>";
   slot2.classList.add('trex');
   slot2.innerHTML =
-    '<h1>Trivia</h1> \n \
-      <p>T-Rex had an huge bite force, capable of crushing bone</p> \n \
-      <p>T-Rex was a fast runner</p> \n \
-      <p>The name Tyrannosaurus Rex means tyrant lizard king in Greek</p>';
+    "<h1>Anecdotes</h1> \n       <p>Le T-Rex avait une force de morsure énorme, capable d'écraser les os.</p> \n       <p>Il courait vite.</p> \n       <p>Le nom Tyrannosaurus Rex signifie en grec « roi des lézards tyrans ».</p>";
   slot3.classList.add('trex');
   slot3.innerHTML =
-    "<h1>Activity</h1> \n \
-      <ol>\n \
-      <li>Get into teams and line up at a start line</li> \n \
-      <li>Put one toy for each team member at the other end of the room</li> \n \
-      <li>One person from each team races to 'bite' a toy and bring it back to the team</li> \n \
-      <li>The first team to return all their toys wins!</li> </ol>";
+    "<h1>Activité</h1> \n       <ol>\n       <li>Forme des équipes et aligne-les sur une ligne de départ.</li> \n       <li>Place un jouet pour chaque membre de l'équipe à l'autre bout de la pièce.</li> \n       <li>Une personne de chaque équipe court pour « mordre » un jouet et le rapporter à l'équipe.</li> \n       <li>La première équipe à rendre tous ses jouets gagne !</li> </ol>";
   localStorage.setItem('choice', 'trex');
 }
 
@@ -68,30 +56,16 @@ function option2() {
   instruction.style.display = 'none';
   content.style.display = 'grid';
   body.classList.add('triceratops');
-  title.innerHTML = 'Triceratops';
+  title.innerHTML = 'Tricératops';
   slot1.classList.add('triceratops');
   slot1.innerHTML =
-    '<h1>Anatomy and Characteristics</h1> \n \
-      <p>A herbivorous dinosaur</p> \n \
-      <p>Known for its distinctive frill and three facial horns</p> \n \
-      <p>It had a bulky body, a beak-like mouth, and a large bony plate projecting from the back of its skull</p> \n \
-      <p>Triceratops likely lived in herds and used its horns for defense</p>';
+    "<h1>Anatomie et caractéristiques</h1> \n       <p>Un dinosaure herbivore</p> \n       <p>Connu pour sa collerette distinctive et ses trois cornes faciales</p> \n       <p>Il avait un corps volumineux, une bouche en forme de bec et une grande plaque osseuse dépassant de l'arrière de son crâne</p> \n       <p>Le tricératops vivait probablement en troupeau et utilisait ses cornes pour se défendre</p>";
   slot2.classList.add('triceratops');
   slot2.innerHTML =
-    '<h1>Trivia</h1> \n \
-      <p>Triceratops was a bit of a show off, its frill may have been used for display</p>\n \
-      <p>Triceratops roamed North America during the Late Cretaceous period</p>\n \
-      <p>Triceratops means three-horned face in Greek</p>';
+    "<h1>Anecdotes</h1> \n       <p>Le Triceratops était un petit frimeur, sa collerette était peut-être utilisée pour faire le beau.</p>\n       <p>Le Triceratops parcourait l'Amérique du Nord pendant la période du Crétacé supérieur.</p>\n       <p>Triceratops signifie visage à trois cornes en grec.</p>";
   slot3.classList.add('triceratops');
   slot3.innerHTML =
-    '<h1>Activity</h1> \n \
-      <ol>\n \
-        <li>Create some Triceratops horns using paper or cardboard</li>\n \
-        <li>Attach them to headbands or make them handheld</li>\n \
-        <li>Place the horns at varying distances on the ground</li>\n \
-        <li>Use hula hoops or create rings from cardboard</li>\n \
-        <li>Take turns tossing the rings onto the Triceratops horns, earning 10 points!</li>\n \
-        <li>The person with the most points after all turns wins!</li> </ol>';
+    '<h1>Activité</h1> \n       <ol>\n         <li>Crée des cornes de Triceratops en utilisant du papier ou du carton</li>\n         <li>Attache-les à des bandeaux ou transforme-les en objets à tenir à la main</li>\n         <li>Place les cornes à différentes distances sur le sol</li>\n         <li>Utilise des cerceaux ou crée des anneaux en carton</li>\n         <li>Lancez à tour de rôle les anneaux sur les cornes du Triceratops pour gagner 10 points !</li>\n         <li>La personne avec le plus de points après tous les tours gagne !</li> </ol>';
   localStorage.setItem('choice', 'triceratops');
 }
 
@@ -101,27 +75,16 @@ function option3() {
   instruction.style.display = 'none';
   content.style.display = 'grid';
   body.classList.add('stegosaurus');
-  title.innerHTML = 'Stegosaurus';
+  title.innerHTML = 'Stégosaure';
   slot1.classList.add('stegosaurus');
   slot1.innerHTML =
-    '<h1>Anatomy and Characteristics</h1> \n \
-      <p>Stegosaurus was a plant eater (a herbivor)</p> \n \
-      <p>It had a double row of large bony plates along its back</p> \n \
-      <p>It had spikes on its tail</p> \n \
-      <p>It a small head, with a small brain compared to its body size</p>';
+    '<h1>Anatomie et caractéristiques</h1> \n       <p>Le stégosaure était un herbivore.</p> \n       <p>Il avait une double rangée de grandes plaques osseuses le long de son dos.</p> \n       <p>Il avait des pointes sur sa queue.</p> \n       <p>Il avait une petite tête, avec un petit cerveau par rapport à la taille de son corps.</p>';
   slot2.classList.add('stegosaurus');
   slot2.innerHTML =
-    '<h1>Trivia</h1> \n \
-      <p>Stegosaurus had a second brain in its hips, assisting in coordinating movement and balance</p>\n \
-      <p>Stegosaurus lived during the Late Jurassic period</p> \n \
-      <p>Stegosaurus means armoured roof lizard in Greek</p> \n \
-      <p>The stop-motion puppet used in the 1933 film King Kong was based on a 1897 illustration of Stegosaurus</p>';
+    "<h1>Anecdotes</h1> \n       <p>Le stégosaure avait un deuxième cerveau dans ses hanches, l'aidant à coordonner ses mouvements et son équilibre.</p>\n       <p>Le stégosaure a vécu à la fin du Jurassique.</p> \n       <p>Le stégosaure signifie en grec « lézard à toit ».</p> \n       <p>La marionnette en stop-motion utilisée dans le film King Kong de 1933 était basée sur une illustration de stégosaure de 1897.</p>";
   slot3.classList.add('stegosaurus');
   slot3.innerHTML =
-    "<h1>Activity</h1> \n \
-      <ol><li>Decorate some paper plates to make Stegosaurus's bony plates</li>\n \
-      <li>Once the plates are dry, have a 'Stegosaurus Parade' to showcase your plates</li>\n \
-      <li>Share the designs and celebrate the creativity!</li></ol>";
+    '<h1>Activité</h1> \n       <ol><li>Décore des assiettes en carton pour fabriquer les plaques osseuses du stégosaure.</li>\n       <li>Une fois les assiettes sèches, organise un « défilé de stégosaures » pour mettre en valeur tes assiettes.</li>\n       <li>Partage les créations et célèbre la créativité !</li></ol>';
   localStorage.setItem('choice', 'stegosaurus');
 }
 
