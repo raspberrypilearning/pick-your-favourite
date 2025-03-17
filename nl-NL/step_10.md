@@ -1,6 +1,6 @@
 ## Wat kun je verder nog doen?
 
-Als je het [Meer web](https://projects.raspberrypi.org/nl/pathways/meere-web) pad volgt, kun je doorgaan naar het [Tijd voor een Quiz](https://projects.raspberrypi.org/en/projects/quiz-time) project. In dit project maak je een webapp waarmee gebruikers hun kennis kunnen testen over een onderwerp waar jij expert in bent!
+Als je het [Meer web](https://projects.raspberrypi.org/en/raspberrypi/more-web) pad volgt, kun je doorgaan naar het [Tijd voor een Quiz](https://projects.raspberrypi.org/en/projects/quiz-time) project. In dit project maak je een webapp waarmee gebruikers hun kennis kunnen testen over een onderwerp waar jij expert in bent!
 
 \--- print-only ---
 
