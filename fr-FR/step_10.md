@@ -1,10 +1,10 @@
 ## Et ensuite ?
 
-If you are following the [More web](https://projects.raspberrypi.org/en/raspberrypi/more-web) path, you can move on to the [Quiz time!](https://projects.raspberrypi.org/en/projects/quiz-time) project. In this project, you will make a web app that lets the user test their knowledge of a topic you are the expert in!
+Si tu suis le parcours [Plus de web](https://projects.raspberrypi.org/en/raspberrypi/more-web), tu peux passer au projet [Quiz !](https://projects.raspberrypi.org/en/projects/quiz-time). Dans ce projet, tu créeras une application web qui permettra à l'utilisateur de tester ses connaissances sur un sujet dans lequel tu es expert !
 
 \--- print-only ---
 
-![Quiz time!](images/quiztime-project.png)
+![Quiz !](images/quiztime-project.png)
 
 \--- /print-only ---
 
@@ -15,4 +15,4 @@ If you are following the [More web](https://projects.raspberrypi.org/en/raspberr
 
 \--- /no-print ---
 
-If you want to have more fun exploring HTML, CSS, and JavaScript, then you could try out any of [these projects](https://projects.raspberrypi.org/en/projects?software%5B%5D=html-css-javascript).
+Si tu souhaites t'amuser davantage en explorant HTML, CSS et JavaScript, tu peux essayer l'un de [ces projets](https://projects.raspberrypi.org/en/projects?software%5B%5D=html-css-javascript).
