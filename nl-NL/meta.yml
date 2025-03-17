@@ -1,0 +1,30 @@
+---
+title: Kies je favoriet
+hero_image: images/banner.png
+description: Maak een fanwebsite die gebruikers een keuze voor inhoud biedt
+version: 4
+listed: true
+copyedit: false
+last_tested: '2021-03-26'
+steps:
+  - title: Inleiding
+  - title: Maak het frame
+  - title: Kies je paginakleur
+    completion:
+      - engaged
+  - title: Verander wat inhoud
+  - title: Wijzig de rest van de pagina
+  - title: Animeer de secties
+  - title: Maak de keuze definitief
+    completion:
+      - internal
+  - title: Reflectie
+    knowledge_quiz:
+      path: quiz1
+      version: 1
+      questions: 3
+      passing_score: 3
+    completion:
+      - external
+  - title: Verbeter je project
+  - title: Wat kun je verder nog doen?
