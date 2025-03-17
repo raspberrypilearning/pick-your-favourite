@@ -22,7 +22,7 @@ Je gaat:
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 175px; flex-grow: 1">  
-Het volgen van een sport is een geweldige manier om in contact te komen met vrienden. Soms ben je fan van hetzelfde team, maar door de vele keuzes kan het zijn dat jij en je vrienden voor verschillende teams supporteren. Dit is een website die jullie allemaal kunnen gebruiken. Klik op het keuzelijst menu bovenaan om van team te wisselen!
+Het volgen van een sport is een geweldige manier om in contact te komen met vrienden. Soms ben je fan van hetzelfde team, maar door de vele keuzes kan het zijn dat jij en je vrienden verschillende teams steunen. Dit is een website die jullie allemaal kunnen gebruiken. Klik op het keuzelijst menu bovenaan om van team te wisselen!
 
 <iframe src="https://editor.raspberrypi.org/en/embed/viewer/pick-your-favourite-football" width="100%" height="900" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen> 
 </iframe>
