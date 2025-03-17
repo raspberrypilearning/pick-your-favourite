@@ -1,0 +1,9 @@
+:root {
+  /* Lettertypevariabele */
+  --main-font: 'sans-serif';
+
+  /* Basis kleuren */
+  --body-background: #FFFFFF;
+  --body-text-colour: #000000;
+
+}
