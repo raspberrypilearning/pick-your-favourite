@@ -89,7 +89,7 @@ line_highlights: 14, 16-18
 ---------------------------------------------------------------
 
 <div class="dropdown">
-  <button>Choose a dinosaur ⏷</button>
+  <button>Choose a dinosaur &#9207;</button>
   <div id="dropdown-options">
     <button>T-Rex</button>
     <button>Triceratops</button>
@@ -119,7 +119,7 @@ line_highlights: 14
 --------------------------------------------------------
 
 <div class="dropdown">
-  <button onclick="openDropdown()">Choose a dinosaur ⏷</button>
+  <button onclick="openDropdown()">Choose a dinosaur &#9207;</button>
   <div id="dropdown-options">
     <button>T-Rex</button>
     <button>Triceratops</button>
