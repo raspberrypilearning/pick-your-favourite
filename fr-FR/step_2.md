@@ -1,61 +1,61 @@
-## Create the frame
+## Créer le cadre
 
-In this step, you will create the frame for your fan website. You will also choose a starting background colour and the drop-down menu that allows users to change the webpage.
+Dans cette étape, tu vas créer le cadre de ton site web de fan. Tu choisiras également une couleur d'arrière-plan de départ et le menu déroulant qui permet aux utilisateurs de modifier la page web.
 
-### What will the webpage be about?
+### De quoi parlera la page web ?
 
 \--- task ---
 
-What hobby or interest will you choose for your website?
+Quel hobby ou intérêt choisiras-tu pour ton site web ?
 
-- ⚽️ **Sports**: Teams, players, or leagues?
-- 👗 **Fashion**: Brands, trends, influencers, or decades?
-- 🔬 **Science**: Wildlife, climate, or theories?
-- 🎥 **TV & film**: Anime, series, movies, characters, or settings?
-- 🖥️ **Coding**: Languages, devices, or software?
-- 🕹️ **Video games**: Franchises, characters, genres, or consoles?
-- 🎨 **Art**: Art works, mediums, artists, or museums?
-- 👥 **Culture**: Festivals, holidays, or historical events?
+- ⚽ **Sports** : équipes, joueurs, ou ligues ?
+- 👗 **Mode** : marques, tendances, influenceurs ou décennies ?
+- 🔬 **Sciences** : faune, climat ou théories ?
+- 🎥 **TV et cinéma** : anime, séries, films, personnages ou décors ?
+- 🖥️ **Codage** : langages, appareils ou logiciels ?
+- 🕹️ **Jeux vidéo** : franchises, personnages, genres ou consoles ?
+- 🎨 **Art** : œuvres d’art, médiums, artistes ou musées ?
+- 👥 **Culture** : festivals, fêtes, jours fériés ou événements historiques ?
 
-For this project, you need to pick a theme and three choices for the user to make within that theme.
+Pour ce projet, tu dois choisir un thème et trois choix que l'utilisateur peut faire dans ce thème.
 
 \--- collapse ---
 
 ---
 
-## title: Some examples...
+## title: Quelques exemples...
 
-The example project uses **football** as its theme, and gives the user a choice between three teams:
+L'exemple de projet utilise **le football** comme thème et donne à l'utilisateur le choix entre trois équipes :
 
 1. Liverpool
 2. Manchester City
 3. Tottenham Hotspur
 
-The **dinosaur** example lets the user choose between different species of dinosaur:
+L'exemple **dinosaure** permet à l'utilisateur de choisir entre différentes espèces de dinosaures :
 
-1. Tyrannosaurus Rex
-2. Triceratops
-3. Stegosaurus
+1. Tyrannosaurus rex
+2. Tricératops
+3. Stégosaure
 
-There are many choices of themes, and options within those themes. Pick something you would love to show to your friends or family!
+Il y a de nombreux choix de thèmes, et des options dans ces thèmes. Choisis quelque chose que tu aimerais montrer à tes amis ou à ta famille !
 
 \--- /collapse ---
 
-Choose your theme and three options within that theme.
+Choisis ton thème et trois options au sein de ce thème.
 
 \--- /task ---
 
 \--- task ---
 
-Open the [Pick your favourite starter project](https://editor.raspberrypi.org/en/projects/pick-your-favourite-starter){:target="_blank"}
+Ouvre le [projet de démarrage Choisir ton favori](https://editor.raspberrypi.org/en/projects/pick-your-favourite-starter){:target="_blank"}
 
-If you are logged in, save the project to your account and change the name.
+Si tu es connecté, enregistre le projet sur ton compte et modifie le nom.
 
 \--- /task ---
 
 \--- task ---
 
-Change the title of your webpage in the `<head>` section.
+Modifie le titre de ta page web dans la section `<head>`.
 
 ## --- code ---
 
@@ -65,19 +65,19 @@ line_numbers: true
 line_number_start: 8
 ------------------------------------------------------------------------------
 
-<title>Give your page a title</title>
+<title>Donner un titre à ta page</title>
 
 \--- /code ---
 
 \--- /task ---
 
-### Create your options
+### Créer tes options
 
 \--- task ---
 
-Change the text in the button and drop-down options to match your idea!
+Modifie le texte du bouton et des options déroulantes pour qu'il corresponde à ton idée !
 
-**Make sure** to leave the unicode for the arrow  — `&#9207;` — at the end.
+**Assure-toi** de laisser l'unicode pour la flèche — `&#9207;` — à la fin.
 
 ## --- code ---
 
@@ -89,25 +89,25 @@ line_highlights: 14, 16-18
 ---------------------------------------------------------------
 
 <div class="dropdown">
-  <button>Choose a dinosaur ⏷</button>
+  <button>Choisir un dinosaure &#9207;</button>
   <div id="dropdown-options">
     <button>T-Rex</button>
-    <button>Triceratops</button>
-    <button>Stegosaurus</button>
+    <button>Tricératops</button>
+    <button>Stégosaure</button>
   </div>
 </div>
 
 \--- /code ---
 
-**Tip:** Make sure you add your options (unless you are also doing dinosaurs)!
+**Astuce :** assure-toi d’ajouter tes options (à moins que tu ne fasses également des dinosaures) !
 
 \--- /task ---
 
-At the moment, the drop-down menu doesn't open. There is a function to open and close it in the `scripts.js` file.
+Pour le moment, le menu déroulant ne s'ouvre pas. Il existe une fonction pour l'ouvrir et le fermer dans le fichier `scripts.js`.
 
 \--- task ---
 
-Add the function to open the drop-down menu, using the `onclick` attribute.
+Ajoute la fonction pour ouvrir le menu déroulant, en utilisant l'attribut `onclick`.
 
 ## --- code ---
 
@@ -119,11 +119,11 @@ line_highlights: 14
 --------------------------------------------------------
 
 <div class="dropdown">
-  <button onclick="openDropdown()">Choose a dinosaur ⏷</button>
+  <button onclick="openDropdown()">Choisir un dinosaure &#9207;</button>
   <div id="dropdown-options">
     <button>T-Rex</button>
-    <button>Triceratops</button>
-    <button>Stegosaurus</button>
+    <button>Tricératops</button>
+    <button>Stégosaure</button>
   </div>
 </div>
 
@@ -131,13 +131,13 @@ line_highlights: 14
 
 \--- /task ---
 
-### Add some instructions
+### Ajouter des instructions
 
-Your user won't know what to do unless you tell them!
+Ton utilisateur ne saura pas quoi faire à moins que tu ne le lui dises !
 
 \--- task ---
 
-Add the instructions in a `<section>` using a `<h1>` element:
+Ajoute les instructions dans un élément `<section>` en utilisant un élément `<h1>` :
 
 ## --- code ---
 
@@ -150,7 +150,7 @@ line_highlights: 24-26
 
 <main>
   <section id="instruction">
-    <h1>Select a team!</h1>
+    <h1>Sélectionne une équipe !</h1>
   </section>
 </main>
 
@@ -158,13 +158,13 @@ line_highlights: 24-26
 
 \--- /task ---
 
-### Make the page your own
+### Personnaliser ta page
 
-Now it is time to style your web page with different fonts and colours.
+Il est maintenant temps de styliser ta page web avec différentes polices et couleurs.
 
 \--- task ---
 
-Add an appropriate font for your webpage from Google Fonts.
+Ajoute une police appropriée pour ta page web à partir de Google Fonts.
 
 [[[google-fonts]]]
 
@@ -174,7 +174,7 @@ Add an appropriate font for your webpage from Google Fonts.
 
 Ouvre `default.css`.
 
-Change the `--body-background` and `--body-text` colour variables to new colours of your choice.
+Modifie les variables de couleur `--body-background` et `--body-text` par les nouvelles couleurs de ton choix.
 
 ## --- code ---
 
@@ -185,7 +185,7 @@ line_number_start: 5
 line_highlights: 6-8
 ---------------------------------------------------------
 
-/\* Base Colours \*/
+/\* Couleurs de base \*/
 \--body-background: #FFFFFF;
 \--body-text-colour: #000000;
 
@@ -197,21 +197,21 @@ line_highlights: 6-8
 
 \--- task ---
 
-Run your code to see your changes.
+Exécute ton code pour voir tes modifications.
 
-Adjust the colours if you want to.
+Ajuste les couleurs si tu le souhaites.
 
 \--- /task ---
 
-### Add the content holder
+### Ajouter le content holder (conteneur de contenu)
 
-Finally, you are going to add a grid to hold the content for each of your options. This won't contain anything yet.
+Enfin, tu vas ajouter une grille pour contenir le contenu de chacune de tes options. Cela ne contiendra rien pour le moment.
 
 \--- task ---
 
 Ouvre `index.html`.
 
-Inside the `<main>` tags, add a new section with the id attribute `content-holder`.
+À l'intérieur des balises `<main>`, ajoute une nouvelle section avec l'attribut id `content-holder`.
 
 ## --- code ---
 
@@ -225,7 +225,7 @@ line_highlights: 27-29
 ```
 <main>
   <section id="instruction">
-    <h1>Select a team!</h1>
+    <h1>Sélectionne une équipe !</h1>
   </section>
   <section id="content-holder">
   
@@ -239,9 +239,9 @@ line_highlights: 27-29
 
 \--- task ---
 
-Inside the new section, add a title and three slots for content.
+À l’intérieur de la nouvelle section, ajoute un titre et trois slots pour le contenu.
 
-Use `id` attributes for the slots, you will use these later!
+Utilise les attributs `id` pour les slots, tu les utiliseras plus tard !
 
 ## --- code ---
 
@@ -254,7 +254,7 @@ line_highlights: 28-31
 
 ```
   <section id="content-holder">
-    <h1 id="title">Title</h1>
+    <h1 id="title">Titre</h1>
     <div id="slot-1" class="content"></div>
     <div id="slot-2" class="content"></div>
     <div id="slot-3" class="content"></div>
@@ -266,4 +266,4 @@ line_highlights: 28-31
 
 \--- /task ---
 
-Next, you will add even more colours that will change depending on which option the user chooses!
+Ensuite, tu ajouteras encore plus de couleurs qui changeront en fonction de l’option choisie par l’utilisateur !
