@@ -1,4 +1,4 @@
-## Change some content
+## 更改一些内容
 
 In this step, you will add the text content and colours to the first paragraph on your webpage for each of the options.
 
@@ -58,7 +58,7 @@ line_highlights: 29-31
 -----------------------------------------------------------
 
 <section id="content-holder">
-  <h1 id="title">Title</h1>
+  <h1 id="title">标题</h1>
   <div id="slot-1" class="content">
 
   </div>
@@ -86,7 +86,7 @@ line_highlights: 30
 --------------------------------------------------------
 
 <section id="content-holder">
-  <h1 id="title">Title</h1>
+  <h1 id="title">标题</h1>
   <div id="slot-1" class="content">
     <h1>Slot Heading</h1>
   </div>
@@ -122,7 +122,7 @@ line_highlights: 30
 --------------------------------------------------------
 
 <section id="content-holder">
-  <h1 id="title">Title</h1>
+  <h1 id="title">标题</h1>
   <div id="slot-1" class="content">
     <h1>Anatomy and Characteristics</h1>
     <p>One of the largest meat-eating dinosaurs</p> 
@@ -148,7 +148,7 @@ line_highlights: 30
 --------------------------------------------------------
 
 <section id="content-holder">
-  <h1 id="title">Title</h1>
+  <h1 id="title">标题</h1>
   <div id="slot-1" class="content">
     <h1>Recent results</h1>
     <p>Liverpool 4 - 1 Chelsea</p>
@@ -397,7 +397,7 @@ line_highlights: 29
 --------------------------------------------------------
 
   <section id="content-holder">
-    <h1 id="title">Title</h1>
+    <h1 id="title">标题</h1>
     <div id="slot-1" class="content"></div>
     <div id="slot-2" class="content"></div>
     <div id="slot-3" class="content"></div>
