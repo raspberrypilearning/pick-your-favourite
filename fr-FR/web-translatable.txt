@@ -1,8 +1,8 @@
-Dropdown function
+Fonction du menu déroulant
 
-Constants
+Constantes
 
-Clear function
+Fonction d'effacement
 
 Option 1
 
@@ -10,8 +10,8 @@ Option 2
 
 Option 3
 
-Observers
+Observateurs
 
-Loading event
+Chargement de l'événement
 
-Reset
+Réinitialiser
