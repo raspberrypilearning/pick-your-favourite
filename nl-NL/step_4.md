@@ -68,7 +68,7 @@ line_highlights: 29-31
 
 \--- /code ---
 
-**Tip:** Zorg ervoor dat u de cursor tussen de openings `<div>` en de sluitings `</div>` plaatst voordat je de regelafbreking plaatst.
+**Tip:** Zorg ervoor dat je de cursor tussen de openingstag `<div>` en de sluitingstag `</div>` plaatst voordat je de regelafbreking plaatst.
 
 \--- /task ---
 
@@ -165,7 +165,7 @@ line_highlights: 30
 
 \--- /collapse ---
 
-Voer je code uit en selecteer de eerste optie uit jouw drop-down menu.
+Voer je code uit en selecteer de eerste optie uit jouw keuzelijst.
 
 Zorg ervoor dat je de inhoud die je hebt geschreven kunt zien.
 
