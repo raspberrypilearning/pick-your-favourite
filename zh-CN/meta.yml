@@ -1,32 +1,32 @@
 ---
-title: Pick your favourite
+title: 选择你最喜欢的
 hero_image: images/banner.png
-description: Create a fan website that gives users a choice of content
+description: 创建一个可供用户选择内容的粉丝网站
 version: 4
 listed: true
 copyedit: false
 last_tested: '2021-03-26'
 steps:
   - 
-    title: Introduction
+    title: 介绍
   - 
-    title: Create the frame
+    title: 创建框架
   - 
-    title: Choose your page colour
+    title: 选择你的页面颜色
     completion:
       - engaged
   - 
-    title: Change some content
+    title: 更改一些内容
   - 
-    title: Change the rest of the page
+    title: 更改页面的其余部分
   - 
-    title: Animate the sections
+    title: 为各个部分添加动画
   - 
-    title: Make the choice permanent
+    title: 让选择永久生效
     completion:
       - internal
   - 
-    title: Reflection
+    title: 回顾与思考
     knowledge_quiz:
       path: quiz1
       version: 1
@@ -35,6 +35,6 @@ steps:
     completion:
       - external
   - 
-    title: Upgrade your project
+    title: 升级你的项目
   - 
-    title: What next?
+    title: 接下来还有什么？
