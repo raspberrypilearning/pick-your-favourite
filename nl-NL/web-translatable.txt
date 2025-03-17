@@ -1,17 +1,17 @@
-Dropdown function
+Functie voor de vervolgkeuzelijst
 
-Constants
+Constanten
 
-Clear function
+Wisfunctie
 
-Option 1
+Optie 1
 
-Option 2
+Optie 2
 
-Option 3
+Optie 3
 
-Observers
+Waarnemers
 
-Loading event
+Laden gebeurtenis
 
-Reset
+Resetten
