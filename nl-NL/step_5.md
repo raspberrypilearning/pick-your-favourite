@@ -91,7 +91,7 @@ Zorg ervoor dat je **jouw** klassenamen gebruikt, niet de namen in het voorbeeld
 
 \--- /task ---
 
-### Voeg code toe voor vak 2
+### Voeg code toe voor slot 2
 
 Nu ga je de drie `option`-functies toevoegen om de klassen toe te passen op slot 2 en vervolgens hun `innerHTML` wijzigen.
 
@@ -150,7 +150,7 @@ Vervolgens voeg je de regels toe die nodig zijn om de `innerHTML` van slot 2 te 
 
 Je kunt de bovenstaande regel kopiëren die hetzelfde doet voor vak 1, of zelf een nieuwe reeks regels schrijven.
 
-**Tip**: Zorg ervoor dat **elke** regel, behalve de laatste `\n \` heeft aan het eind.
+**Tip**: Zorg ervoor dat **elke** regel, behalve de laatste, `\n \` heeft aan het eind.
 
 \--- collapse ---
 
