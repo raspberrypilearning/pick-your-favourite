@@ -1,22 +1,22 @@
-## Animate the sections
+## Animer les sections
 
-In this step, you will make **three** intersection observers that will detect when your slots enter the viewport and apply animations to them.
+Dans cette étape, tu vas créer **trois** Intersection Observers qui détecteront lorsque tes slots entrent dans la fenêtre d’affichage et leur appliqueront des animations.
 
-### Create the first observer
+### Créer le premier observateur
 
 \--- task ---
 
-Open `scripts.js` and find the `// Observers` comment.
+Ouvre `scripts.js` et trouve le commentaire `// Observateurs`.
 
 \--- /task ---
 
 \--- task ---
 
-Create a new `IntersectionOberver` constant, called `slot1observer`.
+Crée une nouvelle constante `IntersectionOberver`, appelée `slot1observer`.
 
-Add the entries array and the `if` statement that checks whether the entry is intersecting.
+Ajoute le tableau d'entrées et l'instruction `if` qui vérifie si l'entrée se croise.
 
-For these observers, you want the **whole** target to be in the viewport, so set the `threshold` to `1`.
+Pour ces observateurs, tu veux que la cible **entière** soit dans la fenêtre d'affichage, alors définis le `threshold` à `1`.
 
 ## --- code ---
 
@@ -26,7 +26,7 @@ line_numbers: false
 line_highlights: 2-9
 ---------------------------------------------------------
 
-// Observers
+// Observateurs
 const slot1observer = new IntersectionObserver(
 (entries) => {
 if (entries[0].isIntersecting) {
@@ -45,7 +45,7 @@ if (entries[0].isIntersecting) {
 
 \--- task ---
 
-Inside the `if` statement, write the code that adds a class to `slot1`. Leave the `""` empty for now.
+Dans l'instruction `if`, écris le code qui ajoute une classe à `slot1`. Laisse le champ `""` vide pour le moment.
 
 ## --- code ---
 
@@ -55,7 +55,7 @@ line_numbers: false
 line_highlights: 5
 -------------------------------------------------------
 
-// Observers
+// Observateurs
 const slot1observer = new IntersectionObserver(
 (entries) => {
 if (entries[0].isIntersecting) {
@@ -71,19 +71,19 @@ slot1.classList.add("");
 
 \--- task ---
 
-**Choose** which animation you would like to use for your first slot.
+**Choisis** l'animation que tu souhaites utiliser pour ton premier slot.
 
-There are 5 animations which have been pre-defined for you inside **style.css**:
+Il y a 5 animations qui ont été prédéfinies pour toi dans **style.css** :
 
-1. `fade-in`
-2. `grow-in`
-3. `rise-in`
-4. `slide-left`
-5. `slide-right`
+1. `fade-in` (fondu enchaîné)
+2. `grow-in` (apparition progressive)
+3. `rise-in` (montée progressive)
+4. `slide-left` (glissement vers la gauche)
+5. `slide-right` (glissement vers la droite)
 
-Put the name of your animation in between the `""` inside your observer.
+Insère le nom de ton animation entre le `""` à l'intérieur de ton observateur.
 
-You can always change it later if you want to use a different one.
+Tu peux toujours le modifier ultérieurement si tu souhaites en utiliser un autre.
 
 ## --- code ---
 
@@ -93,7 +93,7 @@ line_numbers: false
 line_number_start: 5
 ------------------------------------------------------------------------------
 
-// Observers
+// Observateurs
 const slot1observer = new IntersectionObserver(
 (entries) => {
 if (entries[0].isIntersecting) {
@@ -109,9 +109,9 @@ slot1.classList.add("rise-in");
 
 \--- task ---
 
-Now, you need to set your `IntersectionObserver` to observe the page.
+Maintenant, tu dois configurer ton `IntersectionObserver` pour observer la page.
 
-Add the call.
+Ajoute l'appel.
 
 ## --- code ---
 
@@ -121,7 +121,7 @@ line_numbers: false
 line_highlights: 10
 --------------------------------------------------------
 
-// Observers
+// Observateurs
 const slot1observer = new IntersectionObserver(
 (entries) => {
 if (entries[0].isIntersecting) {
@@ -140,17 +140,17 @@ slot1observer.observe(slot1);
 
 **Clique sur Run**
 
-- Select an option and scroll down, you should see the first slot appear and then animate.
+- Sélectionne une option et fais défiler vers le bas, tu devrais voir le premier slot apparaître puis s'animer.
 
 \--- collapse ---
 
 ---
 
-## title: My content is long and my animation isn't working
+## title: Mon contenu est long et mon animation ne fonctionne pas
 
-If you have a lot of content in your slot, it may never be entirely in the viewport and because your `threshold` is set to `1` (100% of the element), your animation will not trigger.
+Si tu as beaucoup de contenu dans ton slot, il ne peut jamais être entièrement dans la fenêtre d'affichage, et comme ton `threshold` est défini à `1` (100 % de l'élément), ton animation ne se déclenchera pas.
 
-To fix this, you might want to remove the threshold completely like this:
+Pour résoudre ce problème, tu peux supprimer complètement le threshold comme suit :
 
 ## --- code ---
 
@@ -160,7 +160,7 @@ line_numbers: false
 line_highlights: 10
 --------------------------------------------------------
 
-// Observers
+// Observateurs
 const slot1observer = new IntersectionObserver(
 (entries) => {
 if (entries[0].isIntersecting) {
@@ -172,7 +172,7 @@ slot1observer.observe(slot1);
 
 \--- /code ---
 
-Or you can reduce the amount of the element needed to trigger the animation. For example, this would require half of the element to trigger...
+Tu peux également réduire la quantité (de l'élément) nécessaire pour déclencher l'animation. Par exemple, il ne faudrait que la moitié de l'élément pour se déclencher...
 
 ## --- code ---
 
@@ -182,7 +182,7 @@ line_numbers: false
 line_highlights: 10
 --------------------------------------------------------
 
-// Observers
+// Observateurs
 const slot1observer = new IntersectionObserver(
 (entries) => {
 if (entries[0].isIntersecting) {
@@ -199,13 +199,13 @@ slot1observer.observe(slot1);
 
 \--- /task ---
 
-It doesn't look very good that your slot appears before animating, so you are going to make your content slots invisible until they animate.
+Il n'est pas très agréable de voir son slot visible avant que l'animation n'ait lieu, c'est pourquoi tu vas rendre tes slots de contenu invisibles jusqu'à ce qu'ils soient animés.
 
 \--- task ---
 
-Open `style.css` and find the `.content` selector.
+Ouvre `style.css` et trouve le sélecteur `.content`.
 
-Add an `opacity` property and set it to `0`.
+Ajoute une propriété `opacity` et mets-la à `0`.
 
 ## --- code ---
 
@@ -229,41 +229,41 @@ opacity: 0;
 
 **Clique sur Run**
 
-- Scroll to see your animation again. The slot should not appear until it animates.
+- Fais défiler pour voir à nouveau ton animation. Le slot ne devrait pas apparaître tant qu'il n'est pas animé.
 
 \--- /task ---
 
-### Adding observers for the other two slots
+### Ajouter des observateurs pour les deux autres slots
 
 \--- task ---
 
 Ouvre `scripts.js`.
 
-Copy your first observer.
+Copie ton premier observateur.
 
 \--- /task ---
 
 \--- task ---
 
-Paste it underneath.
+Colle-le en dessous.
 
-Change all the `slot1` references to `slot2`.
+Modifie toutes les références `slot1` par `slot2`.
 
-You can use the same animation or pick another one.
+Tu peux utiliser la même animation ou en choisir une autre.
 
 \--- collapse ---
 
 ---
 
-## title: The animations
+## title: Les animations
 
-There are 5 animations you can choose from:
+Tu as le choix entre 5 animations :
 
-1. `fade-in`
-2. `grow-in`
-3. `rise-in`
-4. `slide-left`
-5. `slide-right`
+1. `fade-in` (fondu enchaîné)
+2. `grow-in` (apparition progressive)
+3. `rise-in` (montée progressive)
+4. `slide-left` (glissement vers la gauche)
+5. `slide-right` (glissement vers la droite)
 
 \--- /collapse ---
 
@@ -275,7 +275,7 @@ line_numbers: false
 line_highlights: 2, 5, 10
 --------------------------------------------------------------
 
-// Observers
+// Observateurs
 const slot2observer = new IntersectionObserver(
 (entries) => {
 if (entries[0].isIntersecting) {
@@ -290,19 +290,19 @@ slot2observer.observe(slot2);
 
 **Clique sur Run**
 
-- Test your second animation.
+- Teste ta deuxième animation.
 
 \--- /task ---
 
 \--- task ---
 
-Copy the observer again and paste it underneath.
+Copie à nouveau l'observateur et colle-le en dessous.
 
 \--- /task ---
 
 \--- task ---
 
-Change all the references so they say `slot3`, and maybe choose a different animation.
+Modifie toutes les références de manière à ce qu'il soit indiqué `slot3` et choisis une animation différente si nécessaire.
 
 ## --- code ---
 
@@ -312,7 +312,7 @@ line_numbers: false
 line_highlights: 2, 5, 10
 --------------------------------------------------------------
 
-// Observers
+// Observateurs
 const slot3observer = new IntersectionObserver(
 (entries) => {
 if (entries[0].isIntersecting) {
@@ -327,8 +327,8 @@ slot3observer.observe(slot3);
 
 **Clique sur Run**
 
-- Test your third animation.
+- Teste ta troisième animation.
 
 \--- /task ---
 
-Next, you are going to use `localStorage` to make the user's choice permanent!
+Ensuite, tu vas utiliser `localStorage` pour rendre le choix de l'utilisateur permanent !
