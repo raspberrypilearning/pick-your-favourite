@@ -1,4 +1,4 @@
-## Change the rest of the page
+## 更改页面的其余部分
 
 In this step, you will make your whole webpage change when the user chooses an option.
 
