@@ -42,7 +42,7 @@ h1 {
 
 Je ziet dat de kleuren uit een ander slot worden gebruikt om de webpagina samenhangend te maken.
 
-Je kunt elke gewenste stijl aan je inhoud toevoegen. Het **dinosaurus** voorbeeld gebruikte de `text-align` eigenschap om de uitlijning in het **activiteit** content slot, bijvoorbeeld te veranderen.
+Je kunt elke gewenste stijl aan je inhoud toevoegen. Het **dinosaurus** voorbeeld gebruikte de `text-align` eigenschap om de uitlijning in het **activiteit** content slot bijvoorbeeld te veranderen.
 
 ## --- code ---
 
@@ -70,7 +70,7 @@ text-align: center;
 
 ## title: Voeg nog een optie toe
 
-Als je nog meer tijd hebt, wil je misschien meer opties toevoegen aan jouw drop-down menu voor jouw gebruiker om uit te kiezen.
+Als je nog meer tijd hebt, wil je misschien meer opties toevoegen aan jouw keuzemenu voor jouw gebruiker om uit te kiezen.
 
 \--- task ---
 
