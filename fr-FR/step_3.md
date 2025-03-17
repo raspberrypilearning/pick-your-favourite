@@ -1,37 +1,37 @@
-## Choose your colours
+## Choisir tes couleurs
 
-In this step, you will make your webpage colours change for all the options!
+Dans cette étape, tu vas modifier les couleurs de ta page web pour toutes les options !
 
 \--- task ---
 
-**Try it**
+**Essaie-le**
 
-Click on the options in the dinosaur example to see the colours change!
+Clique sur les options de l'exemple de dinosaure pour voir les couleurs changer !
 
 <iframe src="https://editor.raspberrypi.org/en/embed/viewer/pick-your-favourite-dinosaur" width="100%" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen> </iframe>
 
 \--- /task ---
 
-For each option you will need colours for:
+Pour chaque option, tu auras besoin de couleurs pour :
 
-- The `<body>` of the webpage
-- The three content slots
-- Heading and text for the slots
+- Le `<body>` de la page web
+- Les trois slots de contenu
+- Le titre et le texte des slots
 
-**Tip:** You are going to add a lot of code in this step, so make sure you use copy (<kbd>Ctrl</kbd>+<kbd>C</kbd> or <kbd>Cmd</kbd>+<kbd>C</kbd>) and paste (<kbd>Ctrl</kbd>+<kbd>V</kbd> or <kbd>Cmd</kbd>+<kbd>V</kbd>) to speed the process up.
+**Astuce :** tu vas ajouter beaucoup de code dans cette étape, alors assure-toi d'utiliser la fonction copier (<kbd>Ctrl</kbd>+<kbd>C</kbd> ou <kbd>Cmd</kbd>+<kbd>C</kbd>) et coller (<kbd>Ctrl</kbd>+<kbd>V</kbd> ou <kbd>Cmd</kbd>+<kbd>V</kbd>) pour accélérer le processus.
 
-### Create your body colour classes
+### Créer tes classes de couleurs de body
 
 \--- task ---
 
-Choose a body colour for each of the three options and note them down.
+Choisis une couleur de body pour chacune des trois options et note-les.
 
-You can use a [colour picker](https://www.w3schools.com/colors/colors_picker.asp){:target="_blank"} to help you choose.
+Tu peux utiliser un [sélecteur de couleurs](https://www.w3schools.com/colors/colors_picker.asp){:target="_blank"} pour t'aider à choisir.
 \--- /task ---
 
 \--- task ---
 
-If you want to add your own colours, you can open `default.css` and add your own variables inside the `:root` selector.
+Si tu souhaites ajouter tes propres couleurs, tu peux ouvrir `default.css` et ajouter tes propres variables à l'intérieur du sélecteur `:root`.
 
 ## --- code ---
 
@@ -42,7 +42,7 @@ line_number_start: 5
 line_highlights: 10
 --------------------------------------------------------
 
-/\* Base Colours \*/
+/\* Couleurs de base \*/
 \--body-background: #FFFFFF;
 \--body-text-colour: #000000;
 
@@ -56,15 +56,15 @@ line_highlights: 10
 
 Ouvre `style.css`.
 
-Find the `/* Body Classes */` comment.
+Trouve le commentaire `/* Classes Body */`.
 
-Underneath, create a class selector for your first option with the `.` identifier.
+En dessous, crée un sélecteur de classe pour ta première option avec l'identifiant `.`.
 
-Set the `background-color:` property to the body colour for the first option.
+Définis la propriété `background-color:` sur la couleur de body pour la première option.
 
-You might also want to set a `color:` property to make sure the title text is visible.
+Tu peux également définir une propriété `color:` pour t'assurer que le texte du titre est visible.
 
-You should give this class a name that relates to your option, the **dinosaur** example looks like this:
+Tu dois donner à cette classe un nom qui correspond à ton option, l'exemple **dinosaure** ressemble à ceci :
 
 ## --- code ---
 
@@ -74,7 +74,7 @@ line_numbers: false
 line_highlights: 2-5
 ---------------------------------------------------------
 
-/\* Body Classes \*/
+/\* Classes Body \*/
 .trex {
 background-color: var(--trex-body);
 color: white;
@@ -86,17 +86,17 @@ color: white;
 
 \--- task ---
 
-Underneath this, create the other **2 class selectors** for your other options.
+En dessous, crée les **2 autres sélecteurs de classe** pour tes autres options.
 
 \--- collapse ---
 
 ---
 
-## title: What should my code look like?
+## title: À quoi devrait ressembler mon code ?
 
-Your CSS should contain three class selectors, with `background-color:` and maybe `color` properties set.
+Ton CSS doit contenir trois sélecteurs de classe, avec les propriétés `background-color:` et peut-être `color` définies.
 
-This is the **dinosaur** example.
+Ceci est l'exemple du **dinosaure**.
 
 ## --- code ---
 
@@ -106,7 +106,7 @@ line_numbers: false
 line_highlights:
 -----------------------------------------------------
 
-/\* Body Classes \*/
+/\* Classes Body \*/
 .trex {
 background-color: #41220f;
 color: white;
@@ -128,15 +128,15 @@ color: black;
 
 \--- /task ---
 
-### Creating functions
+### Créer des fonctions
 
-Next, you need to create functions that will make the changes to your page when the options are clicked.
+Ensuite, tu dois créer des fonctions qui apporteront les modifications à ta page lorsque les options seront cliquées.
 
 \--- task ---
 
-Open `scripts.js` and find the `// Option 1` comment.
+Ouvre `scripts.js` et trouve le commentaire `// Option 1`.
 
-Create a function called `option1`.
+Crée une fonction appelée `option1`.
 
 ## --- code ---
 
@@ -157,7 +157,7 @@ function option1(){
 
 \--- task ---
 
-When an option is clicked, you need to clear the page, then hide the instruction and set the `content-holder` to display as a `grid`.
+Lorsqu'une option est cliquée, tu dois effacer la page, puis masquer l'instruction et définir le `content-holder` pour qu'il s'affiche sous forme de `grid`.
 
 ## --- code ---
 
@@ -181,9 +181,9 @@ content.style.display = "grid";
 
 \--- task ---
 
-Next, add the new class you made in `style.css` to the body, and change the title to match your option.
+Ensuite, ajoute la nouvelle classe que tu as créée dans `style.css` au body et modifie le titre pour qu'il corresponde à ton option.
 
-The **dinosaur** example looks like this:
+L'exemple du **dinosaure** ressemble à ceci :
 
 ## --- code ---
 
@@ -206,19 +206,19 @@ title.innerHTML = "T-Rex";
 
 \--- /code ---
 
-Make sure you use a title that matches your option!
+Veille à utiliser un titre qui corresponde à ton option !
 
 \--- /task ---
 
 \--- task ---
 
-Copy the `option1()` function underneath the `// Option 2` comment.
+Copie la fonction `option1()` sous le commentaire `// Option 2`.
 
-Change:
+Modifie :
 
-- The function name to `option2`
-- The class name added to `body` to the class you made earlier for option 2
-- The title to match your second option
+- Le nom de la fonction à `option2`
+- Le nom de la classe ajouté à la classe que tu as créée précédemment pour l'option 2
+- Le titre pour correspondre à ta deuxième option
 
 ## --- code ---
 
@@ -237,7 +237,7 @@ content.style.display = "grid";
 
 body.classList.add("triceratops");
 
-title.innerHTML = "Triceratops";
+title.innerHTML = "Tricératops";
 }
 
 \--- /code ---
@@ -246,19 +246,19 @@ title.innerHTML = "Triceratops";
 
 \--- task ---
 
-Do the same for your third option, underneath the `// Option 3` comment.
+Fais la même chose pour ta troisième option, sous le commentaire `// Option 3`.
 
-Make sure to update:
+Assure-toi de mettre à jour :
 
-- The function name
-- The class added to body
+- Le nom de la fonction
+- La classe ajoutée au body
 - Le titre
 
 \--- collapse ---
 
 ---
 
-## title: How should my option3 function look?
+## title: À quoi devrait ressembler ma fonction option3 ?
 
 ## --- code ---
 
@@ -276,7 +276,7 @@ content.style.display = "grid";
 
 body.classList.add("stegosaurus");
 
-title.innerHTML = "Stegosaurus";
+title.innerHTML = "Stégosaure";
 }
 
 \--- /code ---
@@ -285,15 +285,15 @@ title.innerHTML = "Stegosaurus";
 
 \--- /task ---
 
-### Make the options work
+### Faire fonctionner les options
 
-To test your code, you need to link the buttons in the drop-down menu to the functions you have just written.
+Pour tester ton code, tu dois lier les boutons du menu déroulant aux fonctions que tu viens d'écrire.
 
 \--- task ---
 
 Ouvre `index.html`.
 
-Add `onclick` properties to each of your drop-down buttons, calling each of the three functions.
+Ajoute les propriétés `onclick` à chacun de tes boutons déroulants, en appelant chacune des trois fonctions.
 
 ## --- code ---
 
@@ -305,9 +305,9 @@ line_highlights: 16-18
 -----------------------------------------------------------
 
 <div id="dropdown-options">
-  <button onclick="option1()">T-Rex</button>
-  <button onclick="option2()">Triceratops</button>
-  <button onclick="option3()">Stegosaurus</button>
+    <button onclick="option1()">T-Rex</button>
+    <button onclick="option2()">Tricératops</button>
+    <button onclick="option3()">Stégosaure</button>
 </div>
 
 \--- /code ---
@@ -318,10 +318,10 @@ line_highlights: 16-18
 
 **Clique sur Run**
 
-- Use the drop-down menu and select your options. You should see the colours change!
+- Utilise le menu déroulant et sélectionne tes options. Tu devrais voir les couleurs changer !
 
-**Debug**: If your colours don't change, make sure the class names you added in JavaScript match the ones in your CSS **exactly**!.
+**Débogage** : si tes couleurs ne changent pas, assure-toi que les noms de classe que tu as ajoutés dans JavaScript correspondent **exactement** à ceux de ton CSS !
 
 \--- /task ---
 
-Next, you will allow the user to change the content of your webpage when they choose an option!
+Ensuite, tu permettras à l’utilisateur de modifier le contenu de ta page web lorsqu’il choisit une option !
