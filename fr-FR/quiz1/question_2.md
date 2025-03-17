@@ -4,7 +4,7 @@
 
 ## legend: Question 2 sur 3
 
-In CSS, you can create very specific selectors. If you have an element with an ID attribute `slot-1` and a class `trex`, which of these selectors would you use to style **only** the element with **both** of those attributes?
+En CSS, tu peux créer des sélecteurs très spécifiques. Si tu as un élément avec un attribut ID `slot-1` et une classe `trex`, lequel de ces sélecteurs utiliserais-tu pour styliser **uniquement** l'élément avec **les deux** de ces attributs ?
 
 \--- choices ---
 
@@ -12,7 +12,7 @@ In CSS, you can create very specific selectors. If you have an element with an I
 
   \--- feedback ---
 
-  In this example, the selectors are the wrong way around. `slot-1` is a class and `trex` is an ID.
+  Dans cet exemple, les sélecteurs sont inversés. `slot-1` est une classe et `trex` est un ID.
 
   \--- /feedback ---
 
@@ -20,7 +20,7 @@ In CSS, you can create very specific selectors. If you have an element with an I
 
   \--- feedback ---
 
-  This selector would style elements with **either** the ID or the class you want.
+  Ce sélecteur styliserait les éléments avec **soit** l'ID ou la classe souhaitée.
 
   \--- /feedback ---
 
@@ -28,7 +28,7 @@ In CSS, you can create very specific selectors. If you have an element with an I
 
   \--- feedback ---
 
-  Bien joué ! This is correct!
+  Bien joué ! C'est correct !
 
   \--- /feedback ---
 
