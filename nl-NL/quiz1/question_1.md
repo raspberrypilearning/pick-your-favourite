@@ -35,7 +35,7 @@ line_numbers: false
 
 \--- /code ---
 
-Welke van deze opties geeft je de mogelijkheid om de `--body-background` variabele in een andere CSS-selector te \*\*gebruiken?
+Welke van deze opties geeft je de mogelijkheid om de `--body-background` variabele in een andere CSS-selector te **gebruiken**?
 
 \--- choices ---
 
