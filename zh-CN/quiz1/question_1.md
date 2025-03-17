@@ -1,20 +1,20 @@
-## Reflection
+## 回顾与思考
 
-Well done, you have learned a lot! Now it's time to reflect - reflecting is an important part of learning because it helps make new connections in your brain.
+做得好，你学到了很多东西！ 现在是时候静下心来想一想了——思考我们学过的东西是很重要的，因为这能帮助我们更好地理解和记住新知识。
 
-Answer the three questions below to reflect on what you've learned.
+回答以下三个问题来帮助自己回顾并思考所学的内容。
 
-After each question, press submit. You will be guided towards the correct answer. You can do this activity as many times as you want to.
+每完成一个问题，点击提交。 我们会引导你找到正确答案。 你可以根据需要多次尝试。
 
-Have fun!
+玩得开心！
 
 \--- question ---
 
 ---
 
-## legend: Question 1 of 3
+## legend: 问题 1/3
 
-When creating new variables to store colours and fonts, your CSS might look like this...
+当创建新变量来存储颜色和字体时，你的 CSS 可能看起来像这样...
 
 ## --- code ---
 
@@ -24,10 +24,10 @@ line_numbers: false
 --------------------------------------------------------
 
 :root {
-/\* Font variable \*/
+/\* 字体变量 \*/
 \--main-font: 'sans-serif';
 
-/\* Base Colours \*/
+/\* 基本颜色 \*/
 \--body-background: #FFFFFF;
 \--body-text-colour: #000000;
 \--nav-bar: #FFFFFF;
@@ -51,7 +51,7 @@ Which of these would allow you to **use** the `--body-background` variable in an
 
   \--- feedback ---
 
-  Correct!
+  正确！
 
   \--- /feedback ---
 
