@@ -1,27 +1,27 @@
-## Make the choice permanent
+## Rendre le choix permanent
 
-In this step, you will use the local storage in the user's web browser to save the choice they make, so whenever the page is loaded it keeps the colours and content of their choice!
+Dans cette étape, tu utiliseras le stockage local dans le navigateur web de l'utilisateur pour enregistrer le choix qu'il fait, de sorte que chaque fois que la page est chargée, elle conserve les couleurs et le contenu de son choix !
 
-### Saving the user's choice
+### Enregistrer le choix de l'utilisateur
 
-You are going to add lines to each of your option functions to set a variable in localStorage when the user selects an option.
+Tu vas ajouter des lignes à chacune de tes fonctions d'option pour définir une variable dans localStorage lorsque l'utilisateur sélectionne une option.
 
 \--- task ---
 
-Open `scripts.js` and find your `option1()` function.
+Ouvre `scripts.js` et trouve ta fonction `option1()`.
 
 \--- /task ---
 
 \--- task ---
 
-At the bottom of the function, add `localStorage.setItem()`, which creates a storage variable.
+En bas de la fonction, ajoute `localStorage.setItem()`, qui crée une variable de stockage.
 
-Inside the brackets:
+Entre les parenthèses :
 
-- Provide the name of the variable: `"choice"`
-- Add the name of your first option in quotes `""`, separated by a comma.
+- Indique le nom de la variable : `"choice"`
+- Ajoute le nom de ta première option entre guillemets `""`, séparé par une virgule.
 
-The football example looks like this:
+L'exemple du football ressemble à ceci :
 
 ## --- code ---
 
@@ -32,7 +32,7 @@ line_highlights: 7
 -------------------------------------------------------
 
 slot3.classList.add("liverpool");
-slot3.innerHTML = "<h1>Top Players</h1> \n \<p>Mohamed Salah</p>\n \
+slot3.innerHTML = "<h1>Meilleurs joueurs</h1> \n \<p>Mohamed Salah</p>\n \
 <p>Virgil van Dijk</p>\n \
 <p>Trent Alexander-Arnold</p>";
 
@@ -45,19 +45,19 @@ localStorage.setItem("choice", "liverpool");
 
 \--- task ---
 
-Copy the line and place it at the bottom of your `option2()` and `option3()` functions, changing the value of the variable to match those choices.
+Copie la ligne et place-la en bas de tes fonctions `option2()` et `option3()`, en modifiant la valeur de la variable pour qu'elle corresponde à ces choix.
 
 \--- /task ---
 
-### Check the choice when the page is loaded
+### Vérifier le choix quand la page est chargée
 
-Next, you are going to create a function to check if the variable has been set when the page loads.
+Ensuite, tu vas créer une fonction pour vérifier si la variable a été définie lors du chargement de la page.
 
 \--- task ---
 
-In `scripts.js`, find the `// Loading event` comment.
+Dans `scripts.js`, trouve le commentaire `// Chargement de l'événement`.
 
-Underneath, use `document.addEventListener()` to create a function that will run when the page is loaded.
+En dessous, utilise `document.addEventListener()` pour créer une fonction qui s'exécutera lorsque la page sera chargée.
 
 ## --- code ---
 
@@ -67,7 +67,7 @@ line_numbers: false
 line_highlights: 2-3
 ---------------------------------------------------------
 
-// Loading event
+// Chargement de l'événement
 document.addEventListener("DOMContentLoaded", function () {
 
 });
@@ -78,7 +78,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
 \--- task ---
 
-Inside the event listener, create a new `constant` to hold the value contained in the `choice` variable in `localStorage`.
+À l'intérieur du event listener, crée une nouvelle `constant` pour conserver la valeur contenue dans la variable `choice` dans `localStorage`.
 
 ## --- code ---
 
@@ -88,7 +88,7 @@ line_numbers: false
 line_highlights: 3
 -------------------------------------------------------
 
-// Loading event
+// Chargement de l'événement
 document.addEventListener("DOMContentLoaded", function () {
 const choice = localStorage.getItem("choice");
 });
@@ -99,9 +99,9 @@ const choice = localStorage.getItem("choice");
 
 \--- task ---
 
-Create an `if` statement to check if the `choice` value is the first option.
+Crée une instruction `if` pour vérifier si la valeur `choice` est la première option.
 
-If it is, then call your `option1()` function.
+Si c'est le cas, appelle ta fonction `option1()`.
 
 ## --- code ---
 
@@ -111,7 +111,7 @@ line_numbers: false
 line_highlights: 4-6
 ---------------------------------------------------------
 
-// Loading event
+// Chargement de l'événement
 document.addEventListener("DOMContentLoaded", function () {
 const choice = localStorage.getItem("choice");
 
@@ -126,7 +126,7 @@ option1();
 
 \--- task ---
 
-Finally, add two `else if` statements to check for the other two options, calling their functions.
+Enfin, ajoute deux instructions `else if` pour vérifier si les deux autres options, en appelant leurs fonctions.
 
 ## --- code ---
 
@@ -136,7 +136,7 @@ line_numbers: false
 line_highlights: 7-10
 ----------------------------------------------------------
 
-// Loading event
+// Chargement de l'événement
 document.addEventListener("DOMContentLoaded", function () {
 const choice = localStorage.getItem("choice");
 
@@ -157,27 +157,27 @@ option3();
 
 **Clique sur Run**
 
-- Select an option.
+- Selectionne une option.
 
-**Click Run** (again)
+**Clique sur Run** (à nouveau)
 
-- The page should stay the same.
+- La page devrait rester la même.
 
-Try changing options and then click **Run** again, the page should keep the last option you chose.
+Essaie de modifier les options, puis clique à nouveau sur **Run**, la page devrait conserver la dernière option que tu as choisie.
 
 \--- /task ---
 
-### Reset the choice
+### Réinitialiser le choix
 
-You also need to create an option for the user to reset their choice and see the instructions again.
+Tu dois également créer une option permettant à l’utilisateur de réinitialiser son choix et de revoir les instructions.
 
 \--- task ---
 
-In `scripts.js`, find the `// Reset` comment.
+Dans `scripts.js`, trouve le commentaire `// Réinitialiser`.
 
-Create a new function called `reset`.
+Crée une nouvelle fonction appelée `reset`.
 
-This function will clear the choices, hide the content, show the instructions, and clear the `localStorage` variable.
+Cette fonction effacera les choix, masquera le contenu, affichera les instructions et effacera la variable `localStorage`.
 
 ## --- code ---
 
@@ -187,7 +187,7 @@ line_numbers: false
 line_highlights: 2-7
 ---------------------------------------------------------
 
-// Reset
+// Réinitialiser
 function reset(){
 clear();
 content.style.display = "";
@@ -203,7 +203,7 @@ localStorage.setItem("choice", "");
 
 Ouvre `index.html`
 
-Add a new button to your drop-down menu so the user can reset the page.
+Ajoute un nouveau bouton à ton menu déroulant afin que l'utilisateur puisse réinitialiser la page.
 
 ## --- code ---
 
@@ -218,7 +218,7 @@ line_highlights: 5
       <button onclick="option1()">Liverpool</button>
       <button onclick="option2()">Manchester City</button>
       <button onclick="option3()">Tottenham</button>
-      <button onclick="reset()">Reset</button>
+      <button onclick="reset()">Réinitialiser</button>
     </div>
 ```
 
@@ -230,8 +230,8 @@ line_highlights: 5
 
 **Clique sur Run**
 
-- Test your reset button by selecting an option, clicking **Run** again and then resetting.
+- Teste ton bouton de réinitialisation en sélectionnant une option, en cliquant à nouveau sur **Run** puis en réinitialisant.
 
 \--- /task ---
 
-Well done, you have made an awesome fan webpage, and used your new CSS and JavaScript skills to make it amazing!
+Bravo, tu as créé une page web de fan géniale et utilisé tes nouvelles compétences CSS et JavaScript pour la rendre incroyable !
