@@ -1,7 +1,7 @@
 ---
-title: Pick your favourite
+title: Choisir ton favori
 hero_image: images/banner.png
-description: Create a fan website that gives users a choice of content
+description: Crée un site web de fans qui offre aux utilisateurs un choix de contenu
 version: 4
 listed: true
 copyedit: false
@@ -10,19 +10,19 @@ steps:
   - 
     title: Introduction
   - 
-    title: Create the frame
+    title: Créer le cadre
   - 
-    title: Choose your page colour
+    title: Choisir les couleurs de ta page
     completion:
       - engaged
   - 
-    title: Change some content
+    title: Modifier du contenu
   - 
-    title: Change the rest of the page
+    title: Modifier le reste de la page
   - 
-    title: Animate the sections
+    title: Animer les sections
   - 
-    title: Make the choice permanent
+    title: Rendre le choix permanent
     completion:
       - internal
   - 
