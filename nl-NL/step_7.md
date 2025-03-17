@@ -203,7 +203,7 @@ localStorage.setItem("keuze", "");
 
 Open `index.html`
 
-Voeg een nieuwe knop toe aan je vervolgkeuzemenu, zodat de gebruiker de pagina opnieuw kan instellen.
+Voeg een nieuwe knop toe aan je keuzelijst, zodat de gebruiker de pagina opnieuw kan instellen.
 
 ## --- code ---
 
