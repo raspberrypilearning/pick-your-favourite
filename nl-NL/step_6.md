@@ -16,7 +16,7 @@ Maak een nieuwe `IntersectionOberver`-constante met de naam `slot1observer`.
 
 Voeg de entries array en de `if` verklaring toe die controleert of de entry overlapt.
 
-Voor deze waarnemers wil je dat het **hele** target in de viewport staat. Stel daarom de `drempel` in op `1`.
+Voor deze observatoren wil je dat het **hele** target in de viewport staat. Stel daarom de `drempel` in op `1`.
 
 ## --- code ---
 
@@ -81,7 +81,7 @@ Er zijn 5 animaties die vooraf voor je zijn gedefinieerd in **style.css**:
 4. `slide-left` (schuif naar links)
 5. `slide-right` (schuif naar rechts)
 
-Zet de naam van je animatie tussen de `""` binnen je waarnemer.
+Zet de naam van je animatie tussen de `""` binnen je observator.
 
 Je kunt het later altijd wijzigen als je een andere wilt gebruiken.
 
@@ -233,13 +233,13 @@ opacity: 0;
 
 \--- /task ---
 
-### Waarnemers toevoegen voor de andere twee slots
+### Observatoren toevoegen voor de andere twee slots
 
 \--- task ---
 
 Open `scripts.js`.
 
-Kopieer je eerste waarnemer.
+Kopieer je eerste observator.
 
 \--- /task ---
 
@@ -296,7 +296,7 @@ slot2observer.observe(slot2);
 
 \--- task ---
 
-Kopieer de waarnemer opnieuw en plak hem eronder.
+Kopieer de observator opnieuw en plak hem eronder.
 
 \--- /task ---
 
