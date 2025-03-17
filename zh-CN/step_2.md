@@ -1,4 +1,4 @@
-## Create the frame
+## 创建框架
 
 In this step, you will create the frame for your fan website. You will also choose a starting background colour and the drop-down menu that allows users to change the webpage.
 
@@ -89,7 +89,7 @@ line_highlights: 14, 16-18
 ---------------------------------------------------------------
 
 <div class="dropdown">
-  <button>Choose a dinosaur ⏷</button>
+  <button>Choose a dinosaur &#9207;</button>
   <div id="dropdown-options">
     <button>T-Rex</button>
     <button>Triceratops</button>
@@ -119,7 +119,7 @@ line_highlights: 14
 --------------------------------------------------------
 
 <div class="dropdown">
-  <button onclick="openDropdown()">Choose a dinosaur ⏷</button>
+  <button onclick="openDropdown()">Choose a dinosaur &#9207;</button>
   <div id="dropdown-options">
     <button>T-Rex</button>
     <button>Triceratops</button>
