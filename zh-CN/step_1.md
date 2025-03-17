@@ -1,12 +1,12 @@
-## Introduction
+## 介绍
 
-In this project, you will create a fan website that lets a user make choices that change the content of the webpage! You could make a webpage with content about different sports teams, fashion brands, TV shows, or anything else you and your friends are fans of!
+在这个项目中，你将创建一个粉丝网站，让用户可以通过做出选择来改变网页的内容！ You could make a webpage with content about different sports teams, fashion brands, TV shows, or anything else you and your friends are fans of!
 
 <p style="border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;">
 Bonding over <span style="color: #0faeb0">**shared interests**</span> is what the internet was built for! From the earliest message boards to modern sites like Reddit, people love to read about and discuss their favourite hobbies and forms of entertainment!
 </p>
 
-You will:
+你将要：
 
 - Choose three options for colours and content
 - Use buttons, CSS, and JavaScript to change the whole webpage
