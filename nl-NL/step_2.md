@@ -75,7 +75,7 @@ line_number_start: 8
 
 \--- task ---
 
-Wijzig de tekst in de knop en vervolgkeuze opties zodat ze passen bij jouw idee!
+Wijzig de tekst in de knop en keuzelijst opties zodat ze passen bij jouw idee!
 
 **Zorg ervoor** dat je de unicode voor de pijl — `&#9207;` — aan het einde laat staan.
 
@@ -89,7 +89,7 @@ line_highlights: 14, 16-18
 ---------------------------------------------------------------
 
 <div class="dropdown">
-  <button>Kies een dinosaurus ⏷</button>
+  <button>Kies een dinosaurus &#9207;</button>
   <div id="dropdown-options">
     <button>T-Rex</button>
     <button>Triceratops</button>
@@ -99,15 +99,15 @@ line_highlights: 14, 16-18
 
 \--- /code ---
 
-**Tip:** Zorg ervoor dat je jouw eigen opties toevoegt (tenzij je ook dinosaurs wilt maken)!
+**Tip:** Zorg ervoor dat je jouw eigen opties toevoegt (tenzij je ook dinosaurussen wilt maken)!
 
 \--- /task ---
 
-Op dit moment kan het dropdownmenu nog niet geopend worden. Er staat een functie om het te openen en te sluiten in het bestand `scripts.js`.
+Op dit moment kan de keuzelijst nog niet geopend worden. Er staat een functie om het te openen en te sluiten in het bestand `scripts.js`.
 
 \--- task ---
 
-Voeg de functie toe om het vervolgkeuzemenu te openen met behulp van het kenmerk `onclick`.
+Voeg de functie toe om de keuzelijst te openen met behulp van het kenmerk `onclick`.
 
 ## --- code ---
 
@@ -119,7 +119,7 @@ line_highlights: 14
 --------------------------------------------------------
 
 <div class="dropdown">
-  <button onclick="openDropdown()">Kies een dinosaurus ⏷</button>
+  <button onclick="openDropdown()">Kies een dinosaurus &#9207;</button>
   <div id="dropdown-options">
     <button>T-Rex</button>
     <button>Triceratops</button>
