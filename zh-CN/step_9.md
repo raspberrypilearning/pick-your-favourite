@@ -1,4 +1,4 @@
-## Upgrade your project
+## 升级你的项目
 
 In this step, you can upgrade your project by:
 
