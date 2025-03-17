@@ -1,4 +1,4 @@
-## Animate the sections
+## 为各个部分添加动画
 
 In this step, you will make **three** intersection observers that will detect when your slots enter the viewport and apply animations to them.
 
