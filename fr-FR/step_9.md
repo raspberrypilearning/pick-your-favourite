@@ -1,25 +1,25 @@
 ## Améliorer ton projet
 
-In this step, you can upgrade your project by:
+Dans cette étape, tu peux améliorer ton projet en :
 
-- Adding more styling to your content slots
-- Adding more options to your drop-down menu
+- Ajoutant plus de style à tes slots de contenu
+- Ajoutant plus d'options à ton menu déroulant
 
-You don't have to do both. Choose whichever one appeals to you and fits the time you have.
+Tu n'es pas obligé de faire les deux. Choisis celui qui te plaît et qui correspond au temps dont tu disposes.
 
 \--- collapse ---
 
 ---
 
-## title: Add more styling to your content slots
+## title: Ajouter plus de style à tes slots de contenu
 
-At the moment, your content slots are styled with a `background-color` and maybe `color`.
+Pour le moment, tes slots de contenu sont stylisés avec un `background-color` et peut-être `color`.
 
-You can also add styling to change the colour of your `h1` or any other element.
+Tu peux également ajouter un style pour changer la couleur de ton `h1` ou de tout autre élément.
 
-To style a specific element, you can add an element selector inside your class selectors.
+Pour styliser un élément spécifique, tu peux ajouter un sélecteur d'élément dans tes sélecteurs de classe.
 
-For example, the **football** example adds a colour to the `h1` element for each class like this:
+Par exemple, l'exemple **football** ajoute une couleur à l'élément `h1` pour chaque classe comme ceci :
 
 ## --- code ---
 
@@ -40,9 +40,9 @@ h1 {
 
 \--- /code ---
 
-You can see that it uses the colours from another slot to tie the webpage together.
+Tu peux voir qu'il utilise les couleurs d'un autre slot pour lier la page web ensemble.
 
-You can add any styling you might want to your content. The **dinosaur** example used the `text-align` property to change the alignment in the **activity** content slot, for example.
+Tu peux ajouter le style que tu souhaites à ton contenu. L'exemple **dinosaure** a utilisé la propriété `text-align` pour modifier l'alignement dans le slot de contenu **activité**, par exemple.
 
 ## --- code ---
 
@@ -68,15 +68,15 @@ text-align: center;
 
 ---
 
-## title: Add another option
+## title: Ajouter une autre option
 
-If you have more time, you might want to add more options to your drop-down menu for your user to choose from.
+Si tu as plus de temps, tu peux ajouter plus d'options à ton menu déroulant pour que ton utilisateur puisse choisir.
 
 \--- task ---
 
-Open `default.css` and, for your new option, add new colours for:
+Ouvre `default.css` et, pour ta nouvelle option, ajoute de nouvelles couleurs pour :
 
-- The body
+- Le body
 - Slot 1
 - Slot 2
 - Slot 3
@@ -85,30 +85,30 @@ Open `default.css` and, for your new option, add new colours for:
 
 \--- task ---
 
-Open `style.css` and create new classes for `<body>` and each of your content slots. Use your new colours to style the slots.
+Ouvre `style.css` et crée de nouvelles classes pour `<body>` et chacun de tes slots de contenu. Utilise tes nouvelles couleurs pour styliser les slots.
 
 \--- /task ---
 
 \--- task ---
 
-Open `scripts.js` and create a new function called `option4()`.
+Ouvre `scripts.js` et crée une nouvelle fonction appelée `option4()`.
 
-You can copy one of your previous functions to make this process easier.
+Tu peux copier une de tes fonctions précédentes pour faciliter ce processus.
 
-Apply the classes you just made and change the content to match your new option.
+Applique les classes que tu viens de créer et modifie le contenu pour correspondre à ta nouvelle option.
 
-Make sure you also set the `choice` variable to match the new option at the end of the function.
+Assure-toi également de définir la variable `choice` pour qu'elle corresponde à la nouvelle option à la fin de la fonction.
 
 \--- /task ---
 
 \--- task ---
 
-Open `index.html` and add a new button to the `drop-down-options` `<div>`.
+Ouvre `index.html` et ajoute un nouveau bouton à `drop-down-options`<div>\`.
 
-Add the `onclick` attribute to call your new function that will change the content.
+Ajoute l'attribut `onclick` pour appeler ta nouvelle fonction qui va changer le contenu.
 
 \--- /task ---
 
-You can repeat the steps above for as many options as you would like to add to your webpage!
+Tu peux répéter les étapes ci-dessus pour autant d'options que tu souhaites ajouter à ta page web !
 
 \--- /collapse ---
