@@ -58,7 +58,7 @@ Open `style.css`.
 
 Zoek de opmerking `/* Centrale Gedeelte klassen */`.
 
-Maak daaronder, maak een class selector voor je eerste optie met de `.` identifier.
+Maak daaronder een class selector voor je eerste optie met de `.` identifier.
 
 Stel de eigenschap `background-color:` in op de hoofdkleur voor de eerste optie.
 
@@ -287,7 +287,7 @@ title.innerHTML = "Stegosaurus";
 
 ### Laat de opties werken
 
-Om je code te testen moet je de knoppen in het dropdown menu koppelen aan de functies die je zojuist hebt geschreven.
+Om je code te testen moet je de knoppen in de keuzelijst koppelen aan de functies die je zojuist hebt geschreven.
 
 \--- task ---
 
@@ -318,7 +318,7 @@ line_highlights: 16-18
 
 **Klik op Run**
 
-- Gebruik het vervolgkeuzemenu en selecteer je opties. Je zou de kleuren moeten zien veranderen!
+- Gebruik de keuzelijst en selecteer je opties. Je zou de kleuren moeten zien veranderen!
 
 **Fouten opsporen**: Als jouw kleuren niet veranderen, controleer dan of de klassenamen die je in JavaScript hebt toegevoegd, **exact** overeenkomen met de namen in jouw CSS!.
 
