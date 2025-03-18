@@ -221,6 +221,7 @@ Wijzig de inhoud zodat deze overeenkomt met je tweede optie.
 
 ---
 title: Een voorbeeld
+---
 
 De `option2`-functie voor het dinosaurusvoorbeeld zag er als volgt uit:
 
@@ -230,7 +231,7 @@ language: js
 filename: scripts.js
 line_numbers: false
 line_highlights: 21-25
-----
+---
 
   // Optie 2
   function option2() {
