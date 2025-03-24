@@ -72,19 +72,7 @@ function option3() {
   title.innerHTML = '二十世纪九十年代';
   slot1.classList.add('nineties');
   slot1.innerHTML =
-    '<h1>Fashion</h1> \n \
-          <p> \n \
-            <strong>Grungy Chic:</strong> The 1990s saw the rise of grunge fashion, influenced by the music scene in Seattle and characterised by its casual, unkempt aesthetic. Flannel shirts, ripped jeans, combat boots, and band t-shirts were emblematic of the grunge look. Layering was key, with oversized sweaters worn over t-shirts and topped with a denim jacket. This anti-establishment style rejected the flashy excess of the 1980s in favor of a more laid-back and authentic vibe. \n \
-          </p> \n \
-          <p> \n \
-            <strong>Minimalist Elegance:</strong> Minimalism emerged as a dominant trend in 1990s fashion, characterised by clean lines, neutral colors, and understated sophistication. Simple silhouettes such as slip dresses, tailored blazers, and high-waisted trousers were favored by minimalist fashionistas. Fabrics like silk, satin, and cashmere added a touch of luxury to the minimalist wardrobe, while accessories were kept minimal to maintain a sleek and refined look. \n \
-          </p> \n \
-          <p> \n \
-            <strong>Retro Revival:</strong> The 1990s witnessed a resurgence of interest in fashion from past decades, particularly the 1960s and 1970s. This retro revival manifested in trends like babydoll dresses, platform shoes, and psychedelic prints. Vintage clothing stores became popular destinations for fashion enthusiasts seeking unique and nostalgic pieces. Mixing and matching vintage items with contemporary staples allowed individuals to express their individuality while paying homage to fashion history. \n \
-          </p> \n \
-          <p> \n \
-            <strong>Streetwear Culture:</strong> Streetwear culture flourished in the 1990s, fueled by the rise of hip-hop and urban youth subcultures. Baggy jeans, oversized hoodies, and graphic t-shirts became iconic elements of streetwear fashion. Sneakers played a crucial role in street style, with brands like Nike and Adidas dominating the market. Bold logos, graffiti-inspired graphics, and sporty accents were hallmarks of streetwear brands, reflecting the influence of urban culture on mainstream fashion. \n \
-          </p>';
+    '<h1>时尚</h1> \n           <p> \n             <strong>颓废风：</strong> 二十世纪90年代，受西雅图音乐现场的影响，以随意、凌乱的审美为特征的颓废风（Grunge）兴起。法兰绒衬衫、破洞牛仔裤、战斗靴和乐队T恤是垃圾摇滚风格的象征。分层是关键，大号毛衣穿在T恤外面，外面再穿一件牛仔夹克。这种反建制风格排斥了二十世纪八十年代的浮华过度，倾向于一种更悠闲、更真实的氛围。 \n           </p> \n           <p> \n             <strong>极简主义：</strong> 极简主义成为二十世纪九十年代时尚的主导趋势，其特点是简洁的线条，中性的颜色和低调的精致。吊带裙、剪裁合身的运动上衣和高腰裤等简单的款式受到极简主义时尚人士的青睐。丝绸、缎子和羊绒等面料为极简主义的衣橱增添了一丝奢华，而配饰则保持最少，以保持时尚精致的外观。 \n           </p> \n           <p> \n             <strong>复古风兴起：</strong> 二十纪九十年代见证了过去几十年，特别是二十世纪六十年代和七十年代对时尚的兴趣的复苏。这种复古的复兴体现在娃娃裙、厚底鞋和迷幻印花等潮流中。复古服装店成为时尚爱好者寻找独特和怀旧服装的热门目的地。将复古单品与当代主打品混搭，让个人在表达个性的同时向时尚历史致敬。\n           </p> \n           <p> \n             <strong>街头文化：</strong> 在嘻哈和城市青年亚文化兴起的推动下，街头服饰文化在二十世纪九十年代蓬勃发展。宽松的牛仔裤、超大的卫衣和图案T恤成为街头时尚的标志性元素。运动鞋在街头时尚中扮演着至关重要的角色，耐克（Nike）和阿迪达斯（Adidas）等品牌主导了市场。大胆的标志、涂鸦风格的图形和运动风格是街头服饰品牌的标志，反映了城市文化对主流时尚的影响。 \n           </p>';
   slot2.classList.add('nineties');
   slot2.innerHTML =
     "<h1>Music</h1> \n \
