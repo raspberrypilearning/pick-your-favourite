@@ -35,27 +35,16 @@ function option1() {
   instruction.style.display = 'none';
   content.style.display = 'grid';
   body.classList.add('liverpool');
-  title.innerHTML = 'Liverpool FC';
+  title.innerHTML = '利物浦足球俱乐部';
   slot1.classList.add('liverpool');
   slot1.innerHTML =
-    '<h1>Recent results</h1> \n \
-        <p>Liverpool 4 - 1 Chelsea</p> \n \
-        <p>Liverpool 5 - 2 Norwich City</p> \n \
-        <p>Fulham 1 - 1 Liverpool</p> \n \
-        <p>Bournemouth 0 - 4 Liverpool</p> \n \
-        <p>Liverpool 2 - 1 Fulham</p>';
+    '<h1>最近结果</h1> \n         <p>利物浦 4 - 1 切尔西</p> \n         <p>利物浦 5 - 2 诺维奇城</p> \n         <p>富勒姆 1 - 1 利物浦</p> \n         <p>伯恩茅斯 0 - 4 利物浦</p> \n         <p>利物浦 2 - 1 富勒姆</p>';
   slot2.classList.add('liverpool');
   slot2.innerHTML =
-    '<h1>Recent News</h1> \n \
-        <p>Jurgen Klopp is leaving Liverpool.</p>\n \
-        <p>Alexis MacAllister will probably play against Arsenal.</p>\n \
-        <p>Liverpool still title favourites, but only just.</p>';
+    '<h1>最新消息</h1> \n         <p>尤尔根·克洛普将离开利物浦。</p>\n         <p>阿莱克西斯·麦卡利斯特可能会对阵阿森纳。</p>\n         <p>利物浦仍是夺冠热门，但仅此而已。</p>';
   slot3.classList.add('liverpool');
   slot3.innerHTML =
-    '<h1>Top Players</h1> \n \
-        <p>Mohamed Salah</p>\n \
-        <p>Virgil van Dijk</p>\n \
-        <p>Trent Alexander-Arnold</p>';
+    '<h1>顶级球员</h1> \n         <p>穆罕默德·萨拉赫</p>\n         <p>维吉尔·范戴克</p>\n         <p>特伦特·亚历山大-阿诺德</p>';
   localStorage.setItem('choice', 'liverpool');
 }
 
@@ -65,27 +54,16 @@ function option2() {
   instruction.style.display = 'none';
   content.style.display = 'grid';
   body.classList.add('man-city');
-  title.innerHTML = 'Manchester City';
+  title.innerHTML = '曼城';
   slot1.classList.add('man-city');
   slot1.innerHTML =
-    '<h1>Recent results</h1> \n \
-        <p>Man City 3 - 1 Burnley</p> \n \
-        <p>Tottenham 0 - 1 Man City</p> \n \
-        <p>Newcastle 2 - 3 Man City</p> \n \
-        <p>Man City 5 - 0 Huddersfield</p> \n \
-        <p>Man City 2 - 0 Sheffield United</p>';
+    '<h1>最近的结果</h1> \n         <p>曼城 3 - 1 伯恩利</p> \n         <p>热刺 0 - 1 曼城</p> \n         <p>纽卡斯尔 2 - 3 曼城</p> \n         <p>曼城 5 - 0 哈德斯菲尔德</p> \n         <p>曼城 2 - 0 谢菲尔德联队</p>';
   slot2.classList.add('man-city');
   slot2.innerHTML =
-    '<h1>Recent News</h1> \n \
-        <p>Kevin De Bruyne is back!</p>\n \
-        <p>Erling Haaland wants to leave Manchester for Real Madrid.</p>\n \
-        <p>Pep Guardiola making exit plans, wants to leave.</p>';
+    '<h1>最新消息</h1> \n         <p>凯文·德布劳内回来了！</p>\n         <p>艾尔林·哈兰德想离开曼彻斯特加盟皇家马德里。</p>\n         <p>佩普·瓜迪奥拉正在制定离队计划，想要离开。</p>';
   slot3.classList.add('man-city');
   slot3.innerHTML =
-    '<h1>Top Players</h1> \n \
-        <p>Erling Haaland</p>\n \
-        <p>Phil Foden</p>\n \
-        <p>Bernardo Silva</p>';
+    '<h1>顶级球员</h1> \n         <p>埃尔林·哈兰德</p>\n         <p>菲尔·福登</p>\n         <p>贝尔纳多·席尔瓦</p>';
   localStorage.setItem('choice', 'man-city');
 }
 
@@ -95,27 +73,15 @@ function option3() {
   instruction.style.display = 'none';
   content.style.display = 'grid';
   body.classList.add('tottenham');
-  title.innerHTML = 'Tottenham Hotspur';
+  title.innerHTML = '托特纳姆热刺';
   slot1.classList.add('tottenham');
   slot1.innerHTML =
-    '<h1>Recent results</h1> \n \
-        <p>Tottenham 3 - 2 Brentford</p> \n \
-        <p>Tottenham 0 - 1 Man City</p> \n \
-        <p>Man United 2 - 2 Tottenham</p> \n \
-        <p>Tottenham 1 - 0 Burnley</p> \n \
-        <p>Tottenham 3 - 1 Bournemouth</p>';
+    '<h1>最近结果</h1> \n         <p>热刺 3 - 2 布伦特福德</p> \n         <p>热刺 0 - 1 曼城</p> \n         <p>曼联 2 - 2 热刺</p> \n         <p>热刺 1 - 0 伯恩利</p> \n         <p>热刺 3 - 1 伯恩茅斯</p>';
   slot2.classList.add('tottenham');
   slot2.innerHTML =
-    '<h1>Recent News</h1> \n \
-        <p>Lucas Bergvall chooses Tottenham over Barcelona.</p>\n \
-        <p>Alfie Dorrington adds to growing list of hamstring injuries at Spurs.</p>\n \
-        <p>Spurs still struggling to replace Harry Kane</p>';
+    '<h1>最新消息</h1> \n         <p>卢卡斯·伯格瓦尔选择托特纳姆热刺而不是巴塞罗那。</p>\n         <p>阿尔菲·多林顿成为热刺腿筋受伤的球员之一。</p>\n         <p>热刺仍在努力寻找哈里·凯恩的替代者</p>';
   slot3.classList.add('tottenham');
-  slot3.innerHTML =
-    '<h1>Top Players</h1> \n \
-        <p>Heung-Min Son</p>\n \
-        <p>Richarlison</p>\n \
-        <p>Pedro Porro</p>';
+  slot3.innerHTML = '<h1>顶级球员</h1> \n         <p>孙兴慜</p>\n         <p>里查利松</p>\n         <p>佩德罗·波罗</p>';
   localStorage.setItem('choice', 'tottenham');
 }
 
