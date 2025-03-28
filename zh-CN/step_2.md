@@ -28,14 +28,14 @@ For this project, you need to pick a theme and three choices for the user to mak
 The example project uses **football** as its theme, and gives the user a choice between three teams:
 
 1. Liverpool
-2. Manchester City
-3. Tottenham Hotspur
+2. 曼城
+3. 托特纳姆热刺
 
 The **dinosaur** example lets the user choose between different species of dinosaur:
 
 1. Tyrannosaurus Rex
-2. Triceratops
-3. Stegosaurus
+2. 三角龙
+3. 剑龙
 
 There are many choices of themes, and options within those themes. Pick something you would love to show to your friends or family!
 
@@ -150,7 +150,7 @@ line_highlights: 24-26
 
 <main>
   <section id="instruction">
-    <h1>Select a team!</h1>
+    <h1>选择一个球队！</h1>
   </section>
 </main>
 
