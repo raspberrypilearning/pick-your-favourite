@@ -35,7 +35,7 @@ line_numbers: false
 
 \--- /code ---
 
-Which of these would allow you to **use** the `--body-background` variable in another CSS selector?
+其中哪一个允许你在另一个 CSS 选择器中**使用** `--body-background` 变量？
 
 \--- choices ---
 
@@ -43,7 +43,7 @@ Which of these would allow you to **use** the `--body-background` variable in an
 
   \--- feedback ---
 
-  You need to tell CSS that you are using a variable.
+  你需要告诉 CSS 你正在使用一个变量。
 
   \--- /feedback ---
 
@@ -59,7 +59,7 @@ Which of these would allow you to **use** the `--body-background` variable in an
 
   \--- feedback ---
 
-  The `:root` selector is used to create variables for your whole webpage, but when you use them you need to use another keyword.
+  `:root` 选择器用于为整个网页创建变量，但是使用它们时你需要使用另一个关键字。
 
   \--- /feedback ---
 
