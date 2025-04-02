@@ -65,7 +65,7 @@ line_numbers: true
 line_number_start: 8
 ------------------------------------------------------------------------------
 
-<title>Give your page a title</title>
+<title>给你的页面起一个标题</title>
 
 \--- /code ---
 
