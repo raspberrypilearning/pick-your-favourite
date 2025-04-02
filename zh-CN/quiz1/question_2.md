@@ -2,9 +2,9 @@
 
 ---
 
-## legend: Question 2 of 3
+## legend: 问题 2/3
 
-In CSS, you can create very specific selectors. If you have an element with an ID attribute `slot-1` and a class `trex`, which of these selectors would you use to style **only** the element with **both** of those attributes?
+在 CSS 中，你可以创建非常具体的选择器。 如果你有一个元素的属性具有 ID `slot-1` 和类 `trex`, 你将使用哪一个选择器来针对同时具有这两个属性的元素设置样式？
 
 \--- choices ---
 
@@ -12,7 +12,7 @@ In CSS, you can create very specific selectors. If you have an element with an I
 
   \--- feedback ---
 
-  In this example, the selectors are the wrong way around. `slot-1` is a class and `trex` is an ID.
+  在这个例子中，选择器是错误的。 `slot-1` 是一个类， `trex` 是一个 ID。
 
   \--- /feedback ---
 
@@ -20,7 +20,7 @@ In CSS, you can create very specific selectors. If you have an element with an I
 
   \--- feedback ---
 
-  This selector would style elements with **either** the ID or the class you want.
+  这个选择器将使用你想要的 **ID 或类** 来样式化元素。
 
   \--- /feedback ---
 
@@ -28,7 +28,7 @@ In CSS, you can create very specific selectors. If you have an element with an I
 
   \--- feedback ---
 
-  Well done! This is correct!
+  太棒了！ 这是正确的！
 
   \--- /feedback ---
 
