@@ -4,9 +4,9 @@
 
 ## legend: 问题 3/3
 
-In JavaScript, you can use **properties** to change elements.
+在 JavaScript 中，你可以使用**属性**来改变元素。
 
-Which of these properties allows you to insert new **tags** inside an element?
+以下哪一个属性允许你在元素内插入新的**标签**？
 
 \--- choices ---
 
@@ -14,7 +14,7 @@ Which of these properties allows you to insert new **tags** inside an element?
 
   \--- feedback ---
 
-  This property is used to add **text** inside an element.
+  此属性用于在元素内添加**文本**。
 
   \--- /feedback ---
 
@@ -22,7 +22,7 @@ Which of these properties allows you to insert new **tags** inside an element?
 
   \--- feedback ---
 
-  Correct, this property lets you add new tags inside an element.
+  正确，此属性允许你在元素内添加新标签。
 
   \--- /feedback ---
 
@@ -30,7 +30,7 @@ Which of these properties allows you to insert new **tags** inside an element?
 
   \--- feedback ---
 
-  This property lets you add, remove, and read the class attribute of an element.
+  此属性允许你添加、删除和读取元素的类属性。
 
   \--- /feedback ---
 
