@@ -12,7 +12,7 @@ In the last step, you did each option one at a time. This time, you will do all 
 
 \--- task ---
 
-Open `default.css`.
+打开 `default.css`.
 
 Add **three** new colour variables. Assign colours to them for your slot 2 classes.
 
