@@ -49,13 +49,13 @@
 
 打开[选择你最喜欢的入门项目](https://editor.raspberrypi.org/en/projects/pick-your-favourite-starter){:target="_blank"}
 
-If you are logged in, save the project to your account and change the name.
+如果你已经登录，请将项目保存到你的帐户并更改名称。
 
 \--- /task ---
 
 \--- task ---
 
-Change the title of your webpage in the `<head>` section.
+在 `<head>` 部分更改你的网页标题
 
 ## --- code ---
 
@@ -71,13 +71,13 @@ line_number_start: 8
 
 \--- /task ---
 
-### Create your options
+### 创建你的选项
 
 \--- task ---
 
-Change the text in the button and drop-down options to match your idea!
+更改按钮和下拉选项中的文本以匹配你的想法！
 
-**Make sure** to leave the unicode for the arrow  — `&#9207;` — at the end.
+**确保**在末尾保留箭头的 unicode — `&#9207;`。
 
 ## --- code ---
 
@@ -89,7 +89,7 @@ line_highlights: 14, 16-18
 ---------------------------------------------------------------
 
 <div class="dropdown">
-  <button>Choose a dinosaur &#9207;</button>
+  <button>选择一个恐龙 &#9207;</button>
   <div id="dropdown-options">
     <button>T-Rex</button>
     <button>Triceratops</button>
@@ -172,7 +172,7 @@ Add an appropriate font for your webpage from Google Fonts.
 
 \--- task ---
 
-Open `default.css`.
+打开 `default.css`.
 
 Change the `--body-background` and `--body-text` colour variables to new colours of your choice.
 
