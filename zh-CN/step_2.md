@@ -1,53 +1,53 @@
 ## 创建框架
 
-In this step, you will create the frame for your fan website. You will also choose a starting background colour and the drop-down menu that allows users to change the webpage.
+在这个步骤中，你将为你的粉丝网站创建框架。 你还将选择一个起始背景颜色和下拉菜单，允许用户更改网页。
 
-### What will the webpage be about?
+### 这个网页是关于什么的？
 
 \--- task ---
 
-What hobby or interest will you choose for your website?
+你会为你的网站选择什么兴趣爱好？
 
-- ⚽️ **Sports**: Teams, players, or leagues?
-- 👗 **Fashion**: Brands, trends, influencers, or decades?
-- 🔬 **Science**: Wildlife, climate, or theories?
-- 🎥 **TV & film**: Anime, series, movies, characters, or settings?
-- 🖥️ **Coding**: Languages, devices, or software?
-- 🕹️ **Video games**: Franchises, characters, genres, or consoles?
-- 🎨 **Art**: Art works, mediums, artists, or museums?
-- 👥 **Culture**: Festivals, holidays, or historical events?
+- ⚽️ **体育**：球队、球员还是联盟？
+- 👗 **时尚**：品牌、趋势、影响者还是年代？
+- 🔬 **科学**：野生动物、气候还是理论？
+- 🎥 **电视和电影**：动漫、连续剧、电影、角色或场景？
+- 🖥️ **编码**：语言、设备还是软件？
+- 🕹️ **电子游戏**：系列、角色、类型还是游戏机？
+- 🎨 **艺术**：艺术作品、媒介、艺术家还是博物馆？
+- 👥 **文化**：节日、假期还是历史事件？
 
-For this project, you need to pick a theme and three choices for the user to make within that theme.
+对于这个项目，你需要选择一个主题，并在这个主题内提供三个选项给用户选择
 
 \--- collapse ---
 
 ---
 
-## title: Some examples...
+## title: 一些示例...
 
-The example project uses **football** as its theme, and gives the user a choice between three teams:
+示例项目使用**足球**作为主题，并让用户在三支球队之间做出选择：
 
 1. Liverpool
 2. 曼城
 3. 托特纳姆热刺
 
-The **dinosaur** example lets the user choose between different species of dinosaur:
+**恐龙**示例让用户可以在不同种类的恐龙之间进行选择：
 
-1. Tyrannosaurus Rex
+1. 霸王龙
 2. 三角龙
 3. 剑龙
 
-There are many choices of themes, and options within those themes. Pick something you would love to show to your friends or family!
+有很多主题以及这些主题中的选项可供选择 选择某个你想要向朋友或者家人展示的东西！
 
 \--- /collapse ---
 
-Choose your theme and three options within that theme.
+选择你的主题和该主题内的三个选项。
 
 \--- /task ---
 
 \--- task ---
 
-Open the [Pick your favourite starter project](https://editor.raspberrypi.org/en/projects/pick-your-favourite-starter){:target="_blank"}
+打开[选择你最喜欢的入门项目](https://editor.raspberrypi.org/en/projects/pick-your-favourite-starter){:target="_blank"}
 
 If you are logged in, save the project to your account and change the name.
 
