@@ -1,0 +1,30 @@
+---
+title: 选择你最喜欢的
+hero_image: images/banner.png
+description: 创建一个可供用户选择内容的粉丝网站
+version: 4
+listed: true
+copyedit: false
+last_tested: '2021-03-26'
+steps:
+  - title: 介绍
+  - title: 创建框架
+  - title: 选择你的页面颜色
+    completion:
+      - engaged
+  - title: 更改一些内容
+  - title: 更改页面的其余部分
+  - title: 为各个部分添加动画
+  - title: 让选择永久生效
+    completion:
+      - internal
+  - title: 回顾与思考
+    knowledge_quiz:
+      path: quiz1
+      version: 1
+      questions: 3
+      passing_score: 3
+    completion:
+      - external
+  - title: 升级你的项目
+  - title: 接下来还有什么？
