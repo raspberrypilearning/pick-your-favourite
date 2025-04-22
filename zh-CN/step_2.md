@@ -1,6 +1,6 @@
 ## 创建框架
 
-在这个步骤中，你将为你的粉丝网站创建框架。 你还将选择一个起始背景颜色和下拉菜单，允许用户更改网页。
+在此步骤中，你将为你的粉丝网站创建框架。 你还将选择一个起始背景颜色和下拉菜单，允许用户更改网页。
 
 ### 这个网页是关于什么的？
 
@@ -37,7 +37,7 @@
 2. 三角龙
 3. 剑龙
 
-有很多主题以及这些主题中的选项可供选择 选择某个你想要向朋友或者家人展示的东西！
+有很多主题以及这些主题中的选项可供选择。 选择某个你想要向朋友或者家人展示的东西！
 
 \--- /collapse ---
 
@@ -55,7 +55,7 @@
 
 \--- task ---
 
-在 `<head>` 部分更改你的网页标题
+在 `<head>` 部分更改你的网页标题。
 
 ## --- code ---
 
@@ -91,23 +91,23 @@ line_highlights: 14, 16-18
 <div class="dropdown">
   <button>选择一个恐龙 &#9207;</button>
   <div id="dropdown-options">
-    <button>T-Rex</button>
-    <button>Triceratops</button>
-    <button>Stegosaurus</button>
+    <button>霸王龙</button>
+    <button>三角龙</button>
+    <button>剑龙</button>
   </div>
 </div>
 
 \--- /code ---
 
-**Tip:** Make sure you add your options (unless you are also doing dinosaurs)!
+\*\*提示：\*\*确保你添加了你的选项（除非你还在处理恐龙）！
 
 \--- /task ---
 
-At the moment, the drop-down menu doesn't open. There is a function to open and close it in the `scripts.js` file.
+目前，下拉菜单尚未打开。 在 `scripts.js` 文件中有一个打开和关闭它的函数。
 
 \--- task ---
 
-Add the function to open the drop-down menu, using the `onclick` attribute.
+使用 `onclick` 属性来添加打开下拉菜单的函数。
 
 ## --- code ---
 
@@ -119,11 +119,11 @@ line_highlights: 14
 --------------------------------------------------------
 
 <div class="dropdown">
-  <button onclick="openDropdown()">Choose a dinosaur &#9207;</button>
+  <button onclick="openDropdown()">选择一个恐龙 &#9207;</button>
   <div id="dropdown-options">
-    <button>T-Rex</button>
-    <button>Triceratops</button>
-    <button>Stegosaurus</button>
+    <button>霸王龙</button>
+    <button>三角龙</button>
+    <button>剑龙</button>
   </div>
 </div>
 
@@ -131,13 +131,13 @@ line_highlights: 14
 
 \--- /task ---
 
-### Add some instructions
+### 添加一些说明
 
-Your user won't know what to do unless you tell them!
+你的用户不知道该做什么，除非你告诉他们！
 
 \--- task ---
 
-Add the instructions in a `<section>` using a `<h1>` element:
+使用一个 `<h1>` 元素在 `<section>` 中添加说明。
 
 ## --- code ---
 
@@ -158,13 +158,13 @@ line_highlights: 24-26
 
 \--- /task ---
 
-### Make the page your own
+### 打造你自己的页面
 
-Now it is time to style your web page with different fonts and colours.
+现在是时候用各种字体和颜色来设计您的网页了。
 
 \--- task ---
 
-Add an appropriate font for your webpage from Google Fonts.
+从 Google Fonts 中为你的网页添加合适的字体。
 
 [[[google-fonts]]]
 
@@ -172,9 +172,9 @@ Add an appropriate font for your webpage from Google Fonts.
 
 \--- task ---
 
-打开 `default.css`.
+打开 `default.css`。
 
-Change the `--body-background` and `--body-text` colour variables to new colours of your choice.
+将 `--body-background` 和 `--body-text` 颜色变量更改为你选择的新颜色。
 
 ## --- code ---
 
@@ -185,7 +185,7 @@ line_number_start: 5
 line_highlights: 6-8
 ---------------------------------------------------------
 
-/\* Base Colours \*/
+/\* 基本颜色 \*/
 \--body-background: #FFFFFF;
 \--body-text-colour: #000000;
 
@@ -197,21 +197,21 @@ line_highlights: 6-8
 
 \--- task ---
 
-Run your code to see your changes.
+运行你的代码来查看你的更改。
 
-Adjust the colours if you want to.
+如果你需要的话，请调整颜色。
 
 \--- /task ---
 
-### Add the content holder
+### 添加内容容器
 
-Finally, you are going to add a grid to hold the content for each of your options. This won't contain anything yet.
+最后，你将添加一个网格来保存每个选项的内容。 这暂时不包含任何内容。
 
 \--- task ---
 
-Open `index.html`.
+打开 `index.html`。
 
-Inside the `<main>` tags, add a new section with the id attribute `content-holder`.
+在 `<main>` 标签中，添加一个带有 id 属性 `content-holder` 的新部分。
 
 ## --- code ---
 
@@ -225,7 +225,7 @@ line_highlights: 27-29
 ```
 <main>
   <section id="instruction">
-    <h1>Select a team!</h1>
+    <h1>选择一个团队！</h1>
   </section>
   <section id="content-holder">
   
@@ -239,9 +239,9 @@ line_highlights: 27-29
 
 \--- task ---
 
-Inside the new section, add a title and three slots for content.
+在新的部分内，添加标题和三个内容槽。
 
-Use `id` attributes for the slots, you will use these later!
+给插槽添加 `id` 属性，你稍后会用到它们！
 
 ## --- code ---
 
@@ -254,7 +254,7 @@ line_highlights: 28-31
 
 ```
   <section id="content-holder">
-    <h1 id="title">Title</h1>
+    <h1 id="title">标题</h1>
     <div id="slot-1" class="content"></div>
     <div id="slot-2" class="content"></div>
     <div id="slot-3" class="content"></div>
@@ -266,4 +266,4 @@ line_highlights: 28-31
 
 \--- /task ---
 
-Next, you will add even more colours that will change depending on which option the user chooses!
+接下来，你将添加更多颜色，它们会根据用户的选择而发生变化！
