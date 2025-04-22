@@ -1,22 +1,22 @@
 ## 为各个部分添加动画
 
-In this step, you will make **three** intersection observers that will detect when your slots enter the viewport and apply animations to them.
+在此步骤中，你将制作**三个**交叉观察器，它们将检测你的插槽何时进入视口并对其应用动画。
 
-### Create the first observer
+### 创建第一个观察器
 
 \--- task ---
 
-Open `scripts.js` and find the `// Observers` comment.
+打开 `scripts.js` 并找到`// 观察器 `注释。
 
 \--- /task ---
 
 \--- task ---
 
-Create a new `IntersectionOberver` constant, called `slot1observer`.
+为常量 `slot1observer` 创建一个新的 `IntersectionOberver` 实例。
 
-Add the entries array and the `if` statement that checks whether the entry is intersecting.
+添加 entries 数组和 `if` 语句，检查条目是否具有交叉性。
 
-For these observers, you want the **whole** target to be in the viewport, so set the `threshold` to `1`.
+对于这些观察者，你希望**整个**目标位于视口中，因此将 `threshold` 设置为 `1`。
 
 ## --- code ---
 
@@ -26,7 +26,7 @@ line_numbers: false
 line_highlights: 2-9
 ---------------------------------------------------------
 
-// Observers
+// 观察器
 const slot1observer = new IntersectionObserver(
 (entries) => {
 if (entries[0].isIntersecting) {
@@ -45,7 +45,7 @@ if (entries[0].isIntersecting) {
 
 \--- task ---
 
-Inside the `if` statement, write the code that adds a class to `slot1`. Leave the `""` empty for now.
+在 `if` 语句中，编写向 `slot1` 添加类的代码。 暂时将 `""` 留空。
 
 ## --- code ---
 
@@ -55,7 +55,7 @@ line_numbers: false
 line_highlights: 5
 -------------------------------------------------------
 
-// Observers
+// 观察器
 const slot1observer = new IntersectionObserver(
 (entries) => {
 if (entries[0].isIntersecting) {
@@ -71,9 +71,9 @@ slot1.classList.add("");
 
 \--- task ---
 
-**Choose** which animation you would like to use for your first slot.
+**选择**你想要在第一个插槽中使用的动画。
 
-There are 5 animations which have been pre-defined for you inside **style.css**:
+在 **style.css** 中已经为你预先定义了 5 种动画：
 
 1. `fade-in`
 2. `grow-in`
@@ -81,9 +81,9 @@ There are 5 animations which have been pre-defined for you inside **style.css**:
 4. `slide-left`
 5. `slide-right`
 
-Put the name of your animation in between the `""` inside your observer.
+将动画的名称放在观察器的 `""` 里面。
 
-You can always change it later if you want to use a different one.
+如果你想使用其他的，你随时可以更改它。
 
 ## --- code ---
 
@@ -93,7 +93,7 @@ line_numbers: false
 line_number_start: 5
 ------------------------------------------------------------------------------
 
-// Observers
+// 观察器
 const slot1observer = new IntersectionObserver(
 (entries) => {
 if (entries[0].isIntersecting) {
@@ -109,9 +109,9 @@ slot1.classList.add("rise-in");
 
 \--- task ---
 
-Now, you need to set your `IntersectionObserver` to observe the page.
+现在，你需要设置你的 `IntersectionObserver` 来监视页面。
 
-Add the call.
+添加调用。
 
 ## --- code ---
 
@@ -121,7 +121,7 @@ line_numbers: false
 line_highlights: 10
 --------------------------------------------------------
 
-// Observers
+// 观察器
 const slot1observer = new IntersectionObserver(
 (entries) => {
 if (entries[0].isIntersecting) {
@@ -138,19 +138,19 @@ slot1observer.observe(slot1);
 
 \--- task ---
 
-**Click Run**
+**点击运行**
 
-- Select an option and scroll down, you should see the first slot appear and then animate.
+- 选择一个选项并向下滚动，你应该会看到第一个插槽出现然后播放动画。
 
 \--- collapse ---
 
 ---
 
-## title: My content is long and my animation isn't working
+## title: 我的内容很长，动画不起作用
 
-If you have a lot of content in your slot, it may never be entirely in the viewport and because your `threshold` is set to `1` (100% of the element), your animation will not trigger.
+如果你的插槽中有很多内容， 它可能永远不会完全出现在视图中，并且由于你的 `threshold` 已设置为 `1` (元素的100%),，您的动画将不会触发。
 
-To fix this, you might want to remove the threshold completely like this:
+为了解决这个问题，你可能想要完全删除阈值，像这样：
 
 ## --- code ---
 
@@ -160,7 +160,7 @@ line_numbers: false
 line_highlights: 10
 --------------------------------------------------------
 
-// Observers
+// 观察器
 const slot1observer = new IntersectionObserver(
 (entries) => {
 if (entries[0].isIntersecting) {
@@ -172,7 +172,7 @@ slot1observer.observe(slot1);
 
 \--- /code ---
 
-Or you can reduce the amount of the element needed to trigger the animation. For example, this would require half of the element to trigger...
+或者你可以减少触发动画所需的元素数量。 例如，这需要一半的元素来触发......
 
 ## --- code ---
 
@@ -182,7 +182,7 @@ line_numbers: false
 line_highlights: 10
 --------------------------------------------------------
 
-// Observers
+// 观察器
 const slot1observer = new IntersectionObserver(
 (entries) => {
 if (entries[0].isIntersecting) {
@@ -199,13 +199,13 @@ slot1observer.observe(slot1);
 
 \--- /task ---
 
-It doesn't look very good that your slot appears before animating, so you are going to make your content slots invisible until they animate.
+在插槽出现之前显示动画看起来不太好，所以你要在设置动画之前让你的内容插槽隐藏。
 
 \--- task ---
 
-Open `style.css` and find the `.content` selector.
+打开 `style.css` 并找到 `.content` 选择器。
 
-Add an `opacity` property and set it to `0`.
+添加一个 `opacity` 属性，并将其设置为 `0` 。
 
 ## --- code ---
 
@@ -227,37 +227,37 @@ opacity: 0;
 
 \--- /code ---
 
-**Click Run**
+**点击运行**
 
-- Scroll to see your animation again. The slot should not appear until it animates.
-
-\--- /task ---
-
-### Adding observers for the other two slots
-
-\--- task ---
-
-Open `scripts.js`.
-
-Copy your first observer.
+- 滚动即可再次查看动画。 该插槽应该不会在动画之前出现。
 
 \--- /task ---
 
+### 为另外两个插槽添加观察器
+
 \--- task ---
 
-Paste it underneath.
+打开 `scripts.js`。
 
-Change all the `slot1` references to `slot2`.
+复制你的第一个观察器。
 
-You can use the same animation or pick another one.
+\--- /task ---
+
+\--- task ---
+
+把它粘贴在下面。
+
+将所有`slot1`的引用更改为 `slot2`。
+
+你可以使用相同的动画或选择另一个动画。
 
 \--- collapse ---
 
 ---
 
-## title: The animations
+## title: 动画
 
-There are 5 animations you can choose from:
+有 5 种动画可供选择：
 
 1. `fade-in`
 2. `grow-in`
@@ -275,7 +275,7 @@ line_numbers: false
 line_highlights: 2, 5, 10
 --------------------------------------------------------------
 
-// Observers
+// 观察器
 const slot2observer = new IntersectionObserver(
 (entries) => {
 if (entries[0].isIntersecting) {
@@ -288,21 +288,21 @@ slot2observer.observe(slot2);
 
 \--- /code ---
 
-**Click Run**
+**点击运行**
 
-- Test your second animation.
-
-\--- /task ---
-
-\--- task ---
-
-Copy the observer again and paste it underneath.
+- 测试你的第二个动画。
 
 \--- /task ---
 
 \--- task ---
 
-Change all the references so they say `slot3`, and maybe choose a different animation.
+再次复制观察器并它粘贴到下面。
+
+\--- /task ---
+
+\--- task ---
+
+更改所有引用，使它们显示`slot3`，也可能选择一个不同的动画。
 
 ## --- code ---
 
@@ -312,7 +312,7 @@ line_numbers: false
 line_highlights: 2, 5, 10
 --------------------------------------------------------------
 
-// Observers
+// 观察器
 const slot3observer = new IntersectionObserver(
 (entries) => {
 if (entries[0].isIntersecting) {
@@ -325,10 +325,10 @@ slot3observer.observe(slot3);
 
 \--- /code ---
 
-**Click Run**
+**点击运行**
 
-- Test your third animation.
+- 测试你的第三个动画。
 
 \--- /task ---
 
-Next, you are going to use `localStorage` to make the user's choice permanent!
+接下来，你将使用 `localStorage` 让用户的选择永久保存！
