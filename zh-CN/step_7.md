@@ -1,27 +1,27 @@
 ## 让选择永久生效
 
-In this step, you will use the local storage in the user's web browser to save the choice they make, so whenever the page is loaded it keeps the colours and content of their choice!
+在此步骤中，你将使用用户的 Web 浏览器中的本地存储来保存他们的选择，因此无论何时加载页面，它都会保留他们选择的颜色和内容！
 
-### Saving the user's choice
+### 保存用户的选择
 
-You are going to add lines to each of your option functions to set a variable in localStorage when the user selects an option.
+你将向每个选项函数添加代码行，让用户在选择一个选项时在 localStorage 中设置一个变量。
 
 \--- task ---
 
-Open `scripts.js` and find your `option1()` function.
+打开 `scripts.js` 并找到你的 `option1()` 函数。
 
 \--- /task ---
 
 \--- task ---
 
-At the bottom of the function, add `localStorage.setItem()`, which creates a storage variable.
+在函数底部，添加`localStorage.setItem()`，它会创建一个存储变量。
 
-Inside the brackets:
+括号内：
 
-- Provide the name of the variable: `"choice"`
-- Add the name of your first option in quotes `""`, separated by a comma.
+- 提供变量的名称：`"choice"`
+- 在引号`""`中添加你第一个选项的名称，用逗号分隔。
 
-The football example looks like this:
+足球示例如下所示：
 
 ## --- code ---
 
@@ -32,9 +32,9 @@ line_highlights: 7
 -------------------------------------------------------
 
 slot3.classList.add("liverpool");
-slot3.innerHTML = "<h1>Top Players</h1> \n \<p>Mohamed Salah</p>\n \
-<p>Virgil van Dijk</p>\n \
-<p>Trent Alexander-Arnold</p>";
+slot3.innerHTML = "<h1>最佳球员</h1> \n \<p>穆罕默德·萨拉赫</p>\n \
+<p>维吉尔·范戴克</p>\n \
+<p>特伦特·亚历山大-阿诺德</p>";
 
 localStorage.setItem("choice", "liverpool");
 }
@@ -45,19 +45,19 @@ localStorage.setItem("choice", "liverpool");
 
 \--- task ---
 
-Copy the line and place it at the bottom of your `option2()` and `option3()` functions, changing the value of the variable to match those choices.
+复制代码行并将其放在你的 `option2()` 和 `option3()` 函数的底部，更改变量的值以匹配这些选项。
 
 \--- /task ---
 
-### Check the choice when the page is loaded
+### 检查页面加载时的选项
 
-Next, you are going to create a function to check if the variable has been set when the page loads.
+接下来，你将创建一个函数来检查该变量是否在页面加载时被设置。
 
 \--- task ---
 
-In `scripts.js`, find the `// Loading event` comment.
+在 `scripts.js`中找到 `// 加载事件` 注释。
 
-Underneath, use `document.addEventListener()` to create a function that will run when the page is loaded.
+下面，使用 `document.addEventListener()` 创建一个在页面加载时运行的函数。
 
 ## --- code ---
 
@@ -67,7 +67,7 @@ line_numbers: false
 line_highlights: 2-3
 ---------------------------------------------------------
 
-// Loading event
+// 加载事件
 document.addEventListener("DOMContentLoaded", function () {
 
 });
@@ -78,7 +78,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
 \--- task ---
 
-Inside the event listener, create a new `constant` to hold the value contained in the `choice` variable in `localStorage`.
+在事件监听器中，创建一个新的 `常量` 来保持 `localStorage` 中的变量 `choice` 包含的值。
 
 ## --- code ---
 
@@ -88,7 +88,7 @@ line_numbers: false
 line_highlights: 3
 -------------------------------------------------------
 
-// Loading event
+// 加载事件
 document.addEventListener("DOMContentLoaded", function () {
 const choice = localStorage.getItem("choice");
 });
@@ -99,9 +99,9 @@ const choice = localStorage.getItem("choice");
 
 \--- task ---
 
-Create an `if` statement to check if the `choice` value is the first option.
+创建一个 `if` 语句来检查 `choice` 值是否是第一个选项。
 
-If it is, then call your `option1()` function.
+如果是，则调用你的 `option1()` 函数。
 
 ## --- code ---
 
@@ -111,7 +111,7 @@ line_numbers: false
 line_highlights: 4-6
 ---------------------------------------------------------
 
-// Loading event
+// 加载事件
 document.addEventListener("DOMContentLoaded", function () {
 const choice = localStorage.getItem("choice");
 
@@ -126,7 +126,7 @@ option1();
 
 \--- task ---
 
-Finally, add two `else if` statements to check for the other two options, calling their functions.
+最后，添加两个 `else if` 语句来检查另外两个选项，并调用它们的函数。
 
 ## --- code ---
 
@@ -136,7 +136,7 @@ line_numbers: false
 line_highlights: 7-10
 ----------------------------------------------------------
 
-// Loading event
+// 加载事件
 document.addEventListener("DOMContentLoaded", function () {
 const choice = localStorage.getItem("choice");
 
@@ -155,29 +155,29 @@ option3();
 
 \--- task ---
 
-**Click Run**
+**点击运行**
 
-- Select an option.
+- 选择一个选项。
 
-**Click Run** (again)
+**点击运行** (再次)
 
-- The page should stay the same.
+- 页面应该保持不变。
 
-Try changing options and then click **Run** again, the page should keep the last option you chose.
+尝试更改选项，然后再次单击**运行**，页面应保留你选择的最后一个选项。
 
 \--- /task ---
 
-### Reset the choice
+### 重置选择
 
-You also need to create an option for the user to reset their choice and see the instructions again.
+你还需要创建一个选项，让用户重置他们的选择并再次查看说明。
 
 \--- task ---
 
-In `scripts.js`, find the `// Reset` comment.
+在 `scripts.js` 中找到 `// 重置` 注释。
 
-Create a new function called `reset`.
+创建一个名为`reset`的新函数。
 
-This function will clear the choices, hide the content, show the instructions, and clear the `localStorage` variable.
+该函数将清除选择，隐藏内容，显示说明，并清除 `localStorage` 变量。
 
 ## --- code ---
 
@@ -187,7 +187,7 @@ line_numbers: false
 line_highlights: 2-7
 ---------------------------------------------------------
 
-// Reset
+// 重置
 function reset(){
 clear();
 content.style.display = "";
@@ -201,9 +201,9 @@ localStorage.setItem("choice", "");
 
 \--- task ---
 
-Open `index.html`
+打开 `index.html`
 
-Add a new button to your drop-down menu so the user can reset the page.
+在下拉菜单中添加一个新按钮，以便用户可以重置页面。
 
 ## --- code ---
 
@@ -215,10 +215,10 @@ line_highlights: 5
 
 ```
     <div id="dropdown-options">
-      <button onclick="option1()">Liverpool</button>
-      <button onclick="option2()">Manchester City</button>
-      <button onclick="option3()">Tottenham</button>
-      <button onclick="reset()">Reset</button>
+      <button onclick="option1()">利物浦</button>
+      <button onclick="option2()">曼城</button>
+      <button onclick="option3()">托特纳姆</button>
+      <button onclick="reset()">重置</button>
     </div>
 ```
 
@@ -228,10 +228,10 @@ line_highlights: 5
 
 \--- task ---
 
-**Click Run**
+**点击运行**
 
-- Test your reset button by selecting an option, clicking **Run** again and then resetting.
+- 通过选择一个选项来测试你的重置按钮，点击**运行**，然后重置。
 
 \--- /task ---
 
-Well done, you have made an awesome fan webpage, and used your new CSS and JavaScript skills to make it amazing!
+做得好，你制作了一个很棒的粉丝网页，并使用了你新掌握的 CSS 和 JavaScript 技能让它变得更加精彩！
