@@ -1,17 +1,17 @@
-Dropdown function
+下拉功能函数
 
-Constants
+常量
 
-Clear function
+清除函数
 
-Option 1
+选项 1
 
-Option 2
+选项 2
 
-Option 3
+选项 3
 
-Observers
+观察器
 
-Loading event
+加载事件
 
-Reset
+重置
