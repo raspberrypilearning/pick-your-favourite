@@ -1,37 +1,37 @@
-## Choose your colours
+## 选择你的颜色
 
-In this step, you will make your webpage colours change for all the options!
+在此步骤中，你将让你的网页颜色根据所选的选项而改变！
 
 \--- task ---
 
-**Try it**
+**尝试一下**
 
-Click on the options in the dinosaur example to see the colours change!
+单击恐龙示例中的选项，看看颜色发生的变化！
 
 <iframe src="https://editor.raspberrypi.org/en/embed/viewer/pick-your-favourite-dinosaur" width="100%" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen> </iframe>
 
 \--- /task ---
 
-For each option you will need colours for:
+对于以下每个选项，你需要添加颜色：
 
-- The `<body>` of the webpage
-- The three content slots
-- Heading and text for the slots
+- 网页的 `<body>`
+- 三个内容插槽
+- 插槽的标题和文本
 
-**Tip:** You are going to add a lot of code in this step, so make sure you use copy (<kbd>Ctrl</kbd>+<kbd>C</kbd> or <kbd>Cmd</kbd>+<kbd>C</kbd>) and paste (<kbd>Ctrl</kbd>+<kbd>V</kbd> or <kbd>Cmd</kbd>+<kbd>V</kbd>) to speed the process up.
+**提示：** 你将要在这个步骤中添加大量代码，因此请确保使用复制 (<0>Ctrl</0>+<0>C</0> or <0>Cmd</0>+<0>C</0>) 和粘贴 (<0>Ctrl</0>+<0>V</0> or <0>Cmd</0>+<0>V</0>) 来更快的完成这个过程。
 
-### Create your body colour classes
+### 创建你的主体颜色变量
 
 \--- task ---
 
-Choose a body colour for each of the three options and note them down.
+为三个选项分别选择一种主体颜色并记录下来。
 
-You can use a [colour picker](https://www.w3schools.com/colors/colors_picker.asp){:target="_blank"} to help you choose.
+你可以使用[颜色选择器](https://www.w3schools.com/colors/colors_picker.asp){:target="_blank"} 来帮助你选择。
 \--- /task ---
 
 \--- task ---
 
-If you want to add your own colours, you can open `default.css` and add your own variables inside the `:root` selector.
+如果你想添加自己的颜色，你可以打开`default.css`并在`:root`选择器内添加自己的变量。
 
 ## --- code ---
 
@@ -42,7 +42,7 @@ line_number_start: 5
 line_highlights: 10
 --------------------------------------------------------
 
-/\* Base Colours \*/
+/\* 基本颜色 \*/
 \--body-background: #FFFFFF;
 \--body-text-colour: #000000;
 
@@ -54,17 +54,17 @@ line_highlights: 10
 
 \--- task ---
 
-Open `style.css`.
+打开 `style.css`。
 
-Find the `/* Body Classes */` comment.
+找到 `/* 主体类 */` 注释。
 
-Underneath, create a class selector for your first option with the `.` identifier.
+在下面，使用`.`标识符为你的第一个选项创建一个类选择器。
 
-Set the `background-color:` property to the body colour for the first option.
+将 `background-color:` 属性设置为第一个选项的主体颜色。
 
-You might also want to set a `color:` property to make sure the title text is visible.
+你可能还想要设置一个 `color:` 属性，以确保标题文本可见。
 
-You should give this class a name that relates to your option, the **dinosaur** example looks like this:
+你应该给这个类起一个与你的选项相关的名称, **恐龙** 的示例如下所示：
 
 ## --- code ---
 
@@ -74,7 +74,7 @@ line_numbers: false
 line_highlights: 2-5
 ---------------------------------------------------------
 
-/\* Body Classes \*/
+/\* 主体类 \*/
 .trex {
 background-color: var(--trex-body);
 color: white;
@@ -86,17 +86,17 @@ color: white;
 
 \--- task ---
 
-Underneath this, create the other **2 class selectors** for your other options.
+在此代码的下方，为你的其他选项创建另外**两个类选择器**。
 
 \--- collapse ---
 
 ---
 
-## title: What should my code look like?
+## title: 我的代码看起来应该是什么样的？
 
-Your CSS should contain three class selectors, with `background-color:` and maybe `color` properties set.
+你的 CSS 应该包含三个类选择器，并设置了 `background-color:` 和可能设置了的 `color` 属性。
 
-This is the **dinosaur** example.
+这是**恐龙**的例子。
 
 ## --- code ---
 
@@ -106,7 +106,7 @@ line_numbers: false
 line_highlights:
 -----------------------------------------------------
 
-/\* Body Classes \*/
+/\* 主体类 \*/
 .trex {
 background-color: #41220f;
 color: white;
@@ -128,15 +128,15 @@ color: black;
 
 \--- /task ---
 
-### Creating functions
+### 创建函数
 
-Next, you need to create functions that will make the changes to your page when the options are clicked.
+接下来，你需要创建在单击选项时对页面进行更改的函数。
 
 \--- task ---
 
-Open `scripts.js` and find the `// Option 1` comment.
+打开 `scripts.js` 并找到 `//选项 1` 注释。
 
-Create a function called `option1`.
+创建一个名为 `option1` 的函数。
 
 ## --- code ---
 
@@ -146,7 +146,7 @@ line_numbers: false
 line_highlights: 2-4
 ---------------------------------------------------------
 
-// Option 1
+// 选项 1
 function option1(){
 
 }
@@ -157,7 +157,7 @@ function option1(){
 
 \--- task ---
 
-When an option is clicked, you need to clear the page, then hide the instruction and set the `content-holder` to display as a `grid`.
+当点击某个选项时，你需要清除页面，然后隐藏说明，并将`content-holder`设置为显示为`grid`。
 
 ## --- code ---
 
@@ -167,7 +167,7 @@ line_numbers: false
 line_highlights: 3-6
 ---------------------------------------------------------
 
-// Option 1
+// 选项 1
 function option1(){
 clear();
 
@@ -181,9 +181,9 @@ content.style.display = "grid";
 
 \--- task ---
 
-Next, add the new class you made in `style.css` to the body, and change the title to match your option.
+接下来，将你在 `style.css` 中创建的新类添加到body，并更改标题以匹配你的选项。
 
-The **dinosaur** example looks like this:
+**恐龙** 的示例如下所示：
 
 ## --- code ---
 
@@ -193,7 +193,7 @@ line_numbers: false
 line_highlights: 8-10
 ----------------------------------------------------------
 
-// Option 1
+// 选项 1
 function option1(){
 clear();
 
@@ -202,23 +202,23 @@ content.style.display = "grid";
 
 body.classList.add("trex");
 
-title.innerHTML = "T-Rex";
+title.innerHTML = "霸王龙";
 
 \--- /code ---
 
-Make sure you use a title that matches your option!
+确保你使用的标题与你的选项相匹配！
 
 \--- /task ---
 
 \--- task ---
 
-Copy the `option1()` function underneath the `// Option 2` comment.
+将 `option1()` 函数复制到 `// 选项 2` 注释下方。
 
-Change:
+更改：
 
-- The function name to `option2`
-- The class name added to `body` to the class you made earlier for option 2
-- The title to match your second option
+- 函数名称改为 `option2`
+- 添加到 `body` 的类名与你之前为选项 2创建的类名相同
+- 标题与你的第二个选项相匹配
 
 ## --- code ---
 
@@ -228,7 +228,7 @@ line_numbers: false
 line_highlights: 2, 8, 10
 --------------------------------------------------------------
 
-// Option 2
+// 选项 2
 function option2(){
 clear();
 
@@ -237,7 +237,7 @@ content.style.display = "grid";
 
 body.classList.add("triceratops");
 
-title.innerHTML = "Triceratops";
+title.innerHTML = "三角龙";
 }
 
 \--- /code ---
@@ -246,19 +246,19 @@ title.innerHTML = "Triceratops";
 
 \--- task ---
 
-Do the same for your third option, underneath the `// Option 3` comment.
+在 `// 选项 3` 注释下面，对你的第三个选项执行相同操作。
 
-Make sure to update:
+确保更新：
 
-- The function name
-- The class added to body
-- The title
+- 函数名称
+- 添加到 body 的类
+- 标题
 
 \--- collapse ---
 
 ---
 
-## title: How should my option3 function look?
+## title: 我的 option3 函数看起来应该是什么样的？
 
 ## --- code ---
 
@@ -267,7 +267,7 @@ filename: scripts.js
 line_numbers: false
 --------------------------------------------------------
 
-// Option 3
+// 选项 3
 function option3(){
 clear();
 
@@ -276,7 +276,7 @@ content.style.display = "grid";
 
 body.classList.add("stegosaurus");
 
-title.innerHTML = "Stegosaurus";
+title.innerHTML = "剑龙";
 }
 
 \--- /code ---
@@ -285,15 +285,15 @@ title.innerHTML = "Stegosaurus";
 
 \--- /task ---
 
-### Make the options work
+### 让选择发挥作用
 
-To test your code, you need to link the buttons in the drop-down menu to the functions you have just written.
+为了测试你的代码，你需要将下拉菜单中的按钮链接到你刚刚编写的函数。
 
 \--- task ---
 
-Open `index.html`.
+打开 `index.html`。
 
-Add `onclick` properties to each of your drop-down buttons, calling each of the three functions.
+为每个下拉按钮添加 `onclick` 属性，并调用这三个函数中对应的每一个函数。
 
 ## --- code ---
 
@@ -305,10 +305,9 @@ line_highlights: 16-18
 -----------------------------------------------------------
 
 <div id="dropdown-options">
-  <button onclick="option1()">T-Rex</button>
-  <button onclick="option2()">Triceratops</button>
-  <button onclick="option3()">Stegosaurus</button>
-</div>
+  <button onclick="option1()">霸王龙</button>
+  <button onclick="option2()">三角龙</button>
+  <button onclick="option3()">剑龙</button></div>
 
 \--- /code ---
 
@@ -316,12 +315,12 @@ line_highlights: 16-18
 
 \--- task ---
 
-**Click Run**
+**点击运行**
 
-- Use the drop-down menu and select your options. You should see the colours change!
+- 使用下拉菜单并选择你的选项。 你应该看到颜色的变化！
 
-**Debug**: If your colours don't change, make sure the class names you added in JavaScript match the ones in your CSS **exactly**!.
+**调试**：如果你的颜色没有改变，请确保你在 JavaScript 中添加的类名与 CSS 中的类名**完全**匹配！
 
 \--- /task ---
 
-Next, you will allow the user to change the content of your webpage when they choose an option!
+接下来，你将允许用户在选择一个选项时更改网页的内容！
