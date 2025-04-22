@@ -154,6 +154,7 @@ Tu peux copier la ligne ci-dessus qui fait la même chose pour le slot 1, ou é
 
 ---
 title: Un exemple
+---
 
 L'exemple du dinosaure ressemble à ceci :
 

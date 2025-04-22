@@ -58,7 +58,7 @@ line_highlights: 29-31
 ---
 
 <section id="content-holder">
-  <h1 id="title">Title</h1>
+  <h1 id="title">Titel</h1>
   <div id="slot-1" class="content">
 
   </div>
@@ -86,7 +86,7 @@ line_highlights: 30
 ---
 
 <section id="content-holder">
-  <h1 id="title">Title</h1>
+  <h1 id="title">Titel</h1>
   <div id="slot-1" class="content">
     <h1>Slot kop</h1>
   </div>

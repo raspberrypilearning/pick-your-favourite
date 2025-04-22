@@ -1,16 +1,16 @@
-// Fonction du menu déroulant
+// 下拉功能函数
 const dropdown = document.getElementById("dropdown-options");
 
 function openDropdown(){
   if (dropdown.classList.contains("open")){
-    dropdown.classList.remove("open");    
+    dropdown.classList.remove("open");
   } else {
     dropdown.classList.add("open");
   }
-  
+
 };
 
-// Constantes
+// 常量
 const body = document.querySelector("body");
 const instruction = document.querySelector("#instruction");
 const content = document.querySelector("#content-holder");
@@ -19,27 +19,32 @@ const slot1 = document.querySelector("#slot-1");
 const slot2 = document.querySelector("#slot-2");
 const slot3 = document.querySelector("#slot-3");
 
-// Fonction d'effacement
+// 清除函数
 function clear(){
   body.classList = '';
-  
+
   slot1.classList = 'content';
-  
+
   slot2.classList = 'content';
-  
+
   slot3.classList = 'content';
-  
+
   dropdown.classList.remove("open");
 }
 
-// Option 1
+// 选项 1
 
-// Option 2
 
-// Option 3
+// 选项 2
 
-// Observateurs
 
-// Chargement de l'événement
+// 选项 3
 
-// Réinitialiser
+
+// 观察器
+
+
+// 加载事件
+
+
+// 重置
