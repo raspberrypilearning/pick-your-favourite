@@ -103,7 +103,7 @@ button {
   font-size: 32px;
 }
 
-/* Body 类*/
+/* 主体类 */
 
 
 #slot-1 {
@@ -111,7 +111,7 @@ button {
   grid-row-end: 3;
 }
 
-/* Slot 1 类*/
+/* Slot 1 类 */
 
 
 #slot-2 {
@@ -119,7 +119,7 @@ button {
   grid-row-end: 5;
 }
 
-/* Slot 2 类*/
+/* Slot 2 类 */
 
 
 #slot-3 {
@@ -127,10 +127,10 @@ button {
   grid-row-end: 7;
 }
 
-/* Slot 3 类*/
+/* Slot 3 类 */
 
 
-/* 动画*/
+/* 动画 */
 
 @keyframes appear {
   from {
