@@ -17,6 +17,8 @@
 
 如果你想在探索 HTML，CSS，JavaScript 中获得更多乐趣，那么你可以尝试[这些项目](https://projects.raspberrypi.org/zh-CN/projects?software%5B%5D=html-css-javascript).
 
+***
+
 该项目由以下志愿者翻译：
 
 刘璨瑜

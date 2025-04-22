@@ -39,7 +39,7 @@ line_numbers: false
 
 --- choices ---
 
-- ( ) `background-color: --body-background;` ()
+- ( ) `background-color: --body-background;`
 
   --- feedback ---
 
