@@ -1,52 +1,52 @@
 ## 更改一些内容
 
-In this step, you will add the text content and colours to the first paragraph on your webpage for each of the options.
+在此步骤中，你将为每个选项添加文本内容和颜色到你网页上的第一段。
 
-### What content will you add?
+### 你将添加什么内容？
 
 \--- task ---
 
-Decide what the titles of each of your content paragraphs will be.
+确定每个内容段落的标题。
 
-**Think about**
+**想一想**
 
-- What three things should all fans of your theme know about?
-- What categories could you write about for each option?
-- What three things do all three options share?
+- 你主题的所有粉丝都应该了解哪三件事？
+- 你可以为每个选项编写哪些类别？
+- 这三个选项共有哪三样东西？
 
 \--- collapse ---
 
 ---
 
-## title: Some examples
+## title: 一些示例
 
-**The football example has paragraph slots for:**
+**足球示例有段落插槽：**
 
-- Match results
-- News
-- Top players
+- 比赛结果
+- 新闻
+- 最佳球员
 
-The content changes depending on which football **team** the user chooses.
+内容会根据用户选择的**足球队**而变化。
 
-**The dinosaur example has paragraph slots for:**
+**恐龙示例具有用于以下各项的段落插槽**
 
-- Anatomy and characteristics
-- Trivia
-- An activity
+- 解剖结构和特征
+- 冷知识
+- 一项活动
 
-The content changes depending on which dinosaur **species** the user chooses.
+内容会根据用户选择的恐龙**种类**而变化。
 
 \--- /collapse ---
 
 \--- /task ---
 
-### Creating the text for the first paragraph
+### 为第一段创建文本
 
-You are going to create the content for the first paragraph — for all three options — and also set a colour for it.
+你将要为第一段创建内容 — 对于所有三个选项 — — 并为它设置一个颜色。
 
 \--- task ---
 
-Open `index.html` and add a line break in between the opening and closing `<div>` tags (with the id `slot-1`).
+打开 `index.html` 并在 `<div>` 的开始和结束标签之间添加一个换行符 (使用 id `slot-1`)。
 
 ## --- code ---
 
@@ -68,13 +68,13 @@ line_highlights: 29-31
 
 \--- /code ---
 
-**Tip:** Make sure you put your cursor between the opening `<div>` and the closing `</div>` before putting the line break in.
+**提示**：在输入换行符之前，请确保将光标放在开头的 `<div>` 和结尾的 `</div>` 之间。
 
 \--- /task ---
 
 \--- task ---
 
-Add a heading for the content slot using `<h1>` tags.
+使用 `<h1>` 标签为内容插槽添加一个标题。
 
 ## --- code ---
 
@@ -88,7 +88,7 @@ line_highlights: 30
 <section id="content-holder">
   <h1 id="title">标题</h1>
   <div id="slot-1" class="content">
-    <h1>Slot Heading</h1>
+    <h1>标题插槽</h1>
   </div>
   <div id="slot-2" class="content"></div>
   <div id="slot-3" class="content"></div>
@@ -100,17 +100,17 @@ line_highlights: 30
 
 \--- task ---
 
-Add content for this slot for the **first option** a user can choose.
+为这个插槽添加内容，作为可供用户选择的**第一个选项**。
 
-You can use `<p>`, `<ul>`, `<ol>`, or any other elements you have experience with.
+你可以使用 `<p>`, `<ul>`, `<ol>`, 或任何其他你熟悉的元素。
 
 \--- collapse ---
 
 ---
 
-## title: Some examples
+## title: 一些示例
 
-### Dinosaurs
+### 恐龙
 
 ## --- code ---
 
@@ -124,11 +124,11 @@ line_highlights: 30
 <section id="content-holder">
   <h1 id="title">标题</h1>
   <div id="slot-1" class="content">
-    <h1>Anatomy and Characteristics</h1>
-    <p>One of the largest meat-eating dinosaurs</p> 
-    <p>Powerful hind limbs</p> 
-    <p>Massive skull with sharp teeth</p>
-    <p>Tiny, two-fingered forelimbs</p>
+    <h1>解剖结构和特征</h1>
+    <p>最大的食肉恐龙之一</p> 
+    <p>强壮的后肢</p> 
+    <p>巨大的头骨和锋利的牙齿</p>
+    <p>小巧的两指前肢</p>
   </div>
   <div id="slot-2" class="content"></div>
   <div id="slot-3" class="content"></div>
@@ -136,7 +136,7 @@ line_highlights: 30
 
 \--- /code ---
 
-### Football
+### 足球
 
 ## --- code ---
 
@@ -150,12 +150,12 @@ line_highlights: 30
 <section id="content-holder">
   <h1 id="title">标题</h1>
   <div id="slot-1" class="content">
-    <h1>Recent results</h1>
-    <p>Liverpool 4 - 1 Chelsea</p>
-    <p>Liverpool 5 - 2 Norwich City</p>
-    <p>Fulham 1 - 1 Liverpool</p>
-    <p>Bournemouth 0 - 4 Liverpool</p>
-    <p>Liverpool 2 - 1 Fulham</p>
+    <h1>最近的结果</h1>
+    <p>利物浦 4 - 1 切尔西</p>
+    <p>利物浦 5 - 2 诺维奇城</p>
+    <p>富勒姆 1 - 1 利物浦</p>
+    <p>伯恩茅斯 0 - 4 利物浦</p>
+    <p>利物浦 2 - 1 富勒姆</p>
   </div>
   <div id="slot-2" class="content"></div>
   <div id="slot-3" class="content"></div>
@@ -165,29 +165,29 @@ line_highlights: 30
 
 \--- /collapse ---
 
-Run your code, and select the first option from your drop-down menu.
+运行你的代码，然后从下拉菜单中选择第一个选项。
 
-Make sure that you can see the content you have written.
-
-\--- /task ---
-
-### Add colour to the first slot
-
-The background colour is the same as the webpage. Next, you will add new colours for the first option.
-
-\--- task ---
-
-Open `default.css` and add a new colour for your first option, call the variable `--slot1-classname` — replacing the end with your class for the first option.
+确保你能够看到你所写的内容。
 
 \--- /task ---
 
+### 向第一个插槽添加颜色
+
+背景颜色与网页相同。 接下来，你将为第一个选项添加新的颜色。
+
 \--- task ---
 
-Open `style.css` and find the `/* Slot 1 classes */` comment on line 128.
+打开`default.css`并为你的第一个选项添加一种新颜色，调用变量`--slot1-classname`—— 将第一个选项的末尾替换为你的类。
 
-Add a new selector for the `slot-1` ID and add a class for your first option.
+\--- /task ---
 
-The **football** example looked like this:
+\--- task ---
+
+打开`style.css`并找到第128行的`/* 插槽 1 类 */`注释。
+
+为`slot-1`ID 添加一个新的选择器，并为你的第一个选项添加一个类。
+
+**足球** 的示例看起来像这样：
 
 ## --- code ---
 
@@ -197,20 +197,20 @@ line_numbers: false
 line_highlights: 2-4
 ---------------------------------------------------------
 
-/\* Slot 1 classes \*/
+/\* 插槽 1 类\*/
 \#slot-1.liverpool {
 
 }
 
 \--- /code ---
 
-This selector will style the element with id `slot-1` and the class `liverpool`.
+这个选择器将为 id 为`slot-1`并且类为`liverpool`的元素设置样式。
 
 \--- /task ---
 
 \--- task ---
 
-Add your background colour to this selector.
+将你的背景颜色添加到此选择器。
 
 ## --- code ---
 
@@ -220,7 +220,7 @@ line_numbers: false
 line_highlights: 3
 -------------------------------------------------------
 
-/\* Slot 1 classes \*/
+/\* 插槽 1 类\*/
 \#slot-1.liverpool {
 background-color: var(--slot1-liverpool);
 }
@@ -229,15 +229,15 @@ background-color: var(--slot1-liverpool);
 
 \--- /task ---
 
-### Use JavaScript to add the content and colours
+### 使用 JavaScript 添加内容和颜色
 
-Now, you are going to write the JavaScript that adds the class to slot 1 and fill it with your content.
+现在，你将编写 JavaScript ，将类添加到插槽 1 并用你的内容填充它。
 
 \--- task ---
 
-Open `scripts.js` and find your `option1` function.
+打开 `scripts.js` 并找到你的 `option1` 函数。
 
-Use the constant `slot1` to add your class to the content slot.
+使用常量`slot1`来将你的类添加到内容插槽。
 
 ## --- code ---
 
@@ -256,16 +256,16 @@ content.style.display = "grid";
 
 body.classList.add("liverpool");
 
-title.innerHTML = "Liverpool";
+title.innerHTML = "利物浦";
 
 slot1.classList.add("liverpool");
 }
 
 \--- /code ---
 
-Run your code, and select the first option.
+运行你的代码，并选择第一个选项。
 
-You should see the colour you chose now!
+你现在应该可以看到你选择的颜色！
 
 \--- /task ---
 
@@ -273,15 +273,15 @@ You should see the colour you chose now!
 
 ---
 
-## title: My text colour isn't very visible
+## title: 我的文本颜色不是很明显
 
-When you see your colours, you might want to change the text colour of your content.
+当你看到你的颜色时，你可能想要更改你的内容的文本颜色。
 
-Make sure they contrast well with the background colour you have chosen.
+确保它们与你选择的背景颜色形成良好的对比。
 
-**Tip:** To make life easier, choose `black` or `white` text.
+\*\*提示：\*\*为了让生活更轻松，请选择`黑色`或`白色`文本。
 
-Add the `color` property to your selector.
+将 `color` 属性添加到你的选择器。
 
 ## --- code ---
 
@@ -292,7 +292,7 @@ line_number_start: 128
 line_highlights: 131
 ---------------------------------------------------------
 
-/\* Slot 1 classes \*/
+/\* 插槽 1 类\*/
 \#slot-1.liverpool {
 background-color: var(--slot1-liverpool);
 color: white;
@@ -304,7 +304,7 @@ color: white;
 
 \--- task ---
 
-Add a line to change the `innerHTML` of `slot1`.
+添加一行`innerHTML`来更改`slot1`。
 
 ## --- code ---
 
@@ -325,17 +325,17 @@ slot1.innerHTML = "";
 
 \--- task ---
 
-Open `index.html`.
+打开 `index.html`。
 
-Highlight and copy (<kbd>Ctrl</kbd>+<kbd>C</kbd> or <kbd>Cmd</kbd>+<kbd>C</kbd>) the content inside the `slot-1` div.
+高亮并复制(<kbd>Ctrl</kbd>+<kbd>C</kbd> 或 <kbd>Cmd</kbd>+<kbd>C</kbd>) `slot-1` div. 中的内容。
 
 \--- /task ---
 
 \--- task ---
 
-Open `scripts.js`.
+打开 `scripts.js`。
 
-Paste (<kbd>Ctrl</kbd>+<kbd>V</kbd> or <kbd>Cmd</kbd>+<kbd>V</kbd>) the content in between the speech marks `""`.
+粘贴到（<kbd>Ctrl</kbd>+<kbd>V</kbd> 或 <kbd>Cmd</kbd>+<kbd>V</kbd>）引号`""`之间。
 
 ## --- code ---
 
@@ -347,11 +347,11 @@ line_highlights: 47-52
 -----------------------------------------------------------
 
 slot1.classList.add("liverpool")
-slot1.innerHTML = "<h1>Recent results</h1><p>Liverpool 4 - 1 Chelsea</p>
-<p>Liverpool 5 - 2 Norwich City</p>
-<p>Fulham 1 - 1 Liverpool</p>
-<p>Bournemouth 0 - 4 Liverpool</p>
-<p>Liverpool 2 - 1 Fulham</p>";
+slot1.innerHTML = "<h1>最近的结果</h1><p>利物浦 4 - 1 切尔西</p>
+<p>利物浦 5 - 2 诺维奇城</p>
+<p>富勒姆 1 - 1 利物浦</p>
+<p>伯恩茅斯 0 - 4 利物浦</p>
+<p>利物浦 2 - 1 富勒姆</p>";
 }
 
 \--- /code ---
@@ -360,7 +360,7 @@ slot1.innerHTML = "<h1>Recent results</h1><p>Liverpool 4 - 1 Chelsea</p>
 
 \--- task ---
 
-Add `\n \` to add a line break to the end of every line, **except** the last one.
+在每一行的末尾添加换行符`\n \`，**除了**最后一行。
 
 ## --- code ---
 
@@ -372,11 +372,12 @@ line_highlights: 47-51
 -----------------------------------------------------------
 
 slot1.classList.add("liverpool")
-slot1.innerHTML = "<h1>Recent results</h1> \n \<p>Liverpool 4 - 1 Chelsea</p> \n \
-<p>Liverpool 5 - 2 Norwich City</p> \n \
-<p>Fulham 1 - 1 Liverpool</p> \n \
-<p>Bournemouth 0 - 4 Liverpool</p>\n \
-<p>Liverpool 2 - 1 Fulham</p>";
+slot1.innerHTML = "<0>Recent results</0> \n \
+<1>利物浦 4 - 1 切尔西</1> \n \
+<1>利物浦 5 - 2 诺维奇城</1> \n \
+<1>富勒姆1 - 1 利物浦</1> \n \
+<1>伯恩茅斯 0 - 4 利物浦</1>\n \
+<1>利物浦 2 - 1 富勒姆</1>";
 }
 
 \--- /code ---
@@ -385,7 +386,7 @@ slot1.innerHTML = "<h1>Recent results</h1> \n \<p>Liverpool 4 - 1 Chelsea</p> \n
 
 \--- task ---
 
-Now, open `index.html` and delete the content inside the `slot-1` div.
+现在，打开 `index.html` 并删除`slot-1`div中的内容。
 
 ## --- code ---
 
@@ -408,23 +409,23 @@ line_highlights: 29
 
 \--- /task ---
 
-### Change the content for options 2 and 3
+### 更改选项 2 和 3 的内容
 
-Now that option 1 works for your first slot, it is time to add the content and colours for your second option.
+现在选项 1 适用于你的第一个插槽，是时候为你的第二个选项添加内容和颜色了。
 
 \--- task ---
 
-Add a slot 1 colour to `default.css` for your second option.
+将插槽 1 颜色添加到 `default.css` 作为你的第二个选项。
 
 \--- /task ---
 
 \--- task ---
 
-Open `style.css` and underneath your first slot1 selector, add a new one for your second option.
+打开 `style.css` 并在你的第一个插槽 1选择器下面，为你的第二个选项添加一个新的选择器。
 
-The selector must start with `#slot-1.` and end with your second option class.
+选择器必须以 `#slot-1` 开头，然后以第二个选项类结束。
 
-The football one looks like this:
+足球那部分看起来是这样的：
 
 ## --- code ---
 
@@ -434,7 +435,7 @@ line_numbers: false
 line_highlights: 6-8
 ---------------------------------------------------------
 
-/\* Slot 1 classes \*/
+/\* 插槽 1 类\*/
 \#slot-1.liverpool {
 background-color: var(--slot1-liverpool);
 }
@@ -449,7 +450,7 @@ background-color: var(--slot1-liverpool);
 
 \--- task ---
 
-Set the `background-color` property in your new selector to the colour variable you made for it.
+将新选择器中的`background-color`属性的变量设置为你为它创建的颜色变量。
 
 ## --- code ---
 
@@ -467,15 +468,15 @@ background-color: var(--slot-1-man-city);
 
 \--- /task ---
 
-Now, you are going to add to your `option2()` function, so it applies the class and changes the content.
+现在，你将添加到你的 `option2()` 函数中，以便它应用类并更改内容。
 
 \--- task ---
 
-Find your `option2()` function in `scripts.js`.
+在 `scripts.js`中找到你的 `option2()` 函数。
 
-Add a line to apply your new class to it.
+添加一行来将你的新类应用到它。
 
-The **football** example looked like this:
+**足球** 的示例看起来像这样：
 
 ## --- code ---
 
@@ -505,11 +506,11 @@ slot1.classList.add("man-city");
 
 \--- task ---
 
-In your `option1` function, copy the lines that changed the `innerHTML` for slot 1.
+在你的 `option1`函数中，复制更改了插槽 1的`innerHTML` 的代码行。
 
-Paste them inside the `option2` function.
+将它们粘贴到`option2`函数中。
 
-Edit the lines of text so they are about your second option. The football example looked like this (with Manchester City's results instead of Liverpool's):
+编辑文本行，使它们与你的第二个选项相关。 足球示例看起来像这样（使用曼城的结果而不是利物浦的结果）：
 
 ## --- code ---
 
@@ -521,11 +522,11 @@ line_highlights: 48-52
 -----------------------------------------------------------
 
 slot1.classList.add("man-city");
-slot1.innerHTML = "<h1>Recent results</h1> \n \<p>Man City 3 - 1 Burnley</p> \n \
-<p>Tottenham 0 - 1 Man City</p> \n \
-<p>Newcastle 2 - 3 Man City</p> \n \
-<p>Man City 5 - 0 Huddersfield</p> \n \
-<p>Man City 2 - 0 Sheffield United</p>";
+slot1.innerHTML = "<h1>最近的结果</h1> \n \<p>曼城 3 - 1 伯恩利</p> \n \
+<p>托特纳姆 0 - 1 曼城</p> \n \
+<p>纽卡斯尔 2 - 3 曼城</p> \n \
+<p>曼城 5 - 0 哈德斯菲尔德</p> \n \
+<p>曼城 2 - 0 谢菲尔德联</p>";
 }
 
 \--- /code ---
@@ -534,45 +535,45 @@ slot1.innerHTML = "<h1>Recent results</h1> \n \<p>Man City 3 - 1 Burnley</p> \n 
 
 \--- task ---
 
-Run your code and select your second option. You should see your new colour and content appear!
+运行你的代码并选择第二个选项。 你应该会看到新的颜色和内容出现！
 
-You might want to add a `color` property to the class to change the text colour to make it more visible.
-
-\--- /task ---
-
-To finish this step, you are going to repeat the same process again but for the **third option**.
-
-\--- task ---
-
-Add a new colour to `default.css`.
-
-Open `style.css` and add a new selector for `#slot-1` using your third class name.
+你可能想要向类添加`color`属性来更改文本颜色，使其更加清晰可见。
 
 \--- /task ---
 
+要完成这一步，你将再次重复相同的进程，但选择**第三个选项**。
+
 \--- task ---
 
-Open `scripts.js` and copy all the slot 1 lines from your `option2` function.
+向`default.css`添加新颜色。
 
-Paste them at the bottom of your `option3` function.
+打开 `style.css` 并使用你的第三个类名称为 `#slot-1` 添加一个新的选择器。
 
 \--- /task ---
 
 \--- task ---
 
-Change the name of the class to your third option class.
+打开`scripts.js`并从`option2`函数中复制所有插槽1 的代码行。
 
-Update the content to match your third option.
+将它们粘贴到`option3`函数的底部。
 
 \--- /task ---
 
-Now that you have functions to show your content, you want to hide it before the user chooses an option.
+\--- task ---
+
+将类名称更改为你的第三个选项类。
+
+更新内容以匹配你的第三个选项。
+
+\--- /task ---
+
+现在你有了显示内容的函数，你想在用户选择选项之前隐藏它。
 
 \--- task ---
 
-Open `style.css` and find the `#content-holder` selector.
+打开 `style.css` 并找到 `#content-holder` 选择器。
 
-Set its `display` property to `none`.
+将它的 `display`属性设置为 `none`。
 
 ## --- code ---
 
@@ -594,12 +595,12 @@ display: none;
 
 \--- task ---
 
-### Test your project
+### 测试你的项目
 
-**Click Run**
+**点击运行**
 
-- Select an option and scroll down, make sure the colours and content look how you want them to.
+- 选择一个选项并向下滚动，确保颜色和内容符合你的要求。
 
 \--- /task ---
 
-Next, you will add the colours, classes, and code for the second and third content slots. Then you will have a whole webpage that changes, not just one slot!
+接下来，你将添加第二和第三个内容插槽的颜色、类和代码。 然后，你将拥有一个可以发生变化的完整网页，而不仅仅是一个插槽！
