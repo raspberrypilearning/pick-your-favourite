@@ -1,25 +1,25 @@
 ## 升级你的项目
 
-In this step, you can upgrade your project by:
+在此步骤中，你可以通过以下方式升级您的项目：
 
-- Adding more styling to your content slots
-- Adding more options to your drop-down menu
+- 为内容插槽添加更多样式
+- 向下拉菜单添加更多选项
 
-You don't have to do both. Choose whichever one appeals to you and fits the time you have.
+你不必同时做这两件事。 选择一个你感兴趣并且时间允许的去做。
 
 \--- collapse ---
 
 ---
 
-## title: Add more styling to your content slots
+## title: 为你的内容插槽添加更多样式
 
-At the moment, your content slots are styled with a `background-color` and maybe `color`.
+目前，你的内容插槽采用 `background-color` 和 `color` 样式。
 
-You can also add styling to change the colour of your `h1` or any other element.
+你还可以添加样式来更改 `h1` 或任何其他元素的颜色。
 
-To style a specific element, you can add an element selector inside your class selectors.
+要设置特定元素的样式，你可以在类选择器中添加一个元素选择器。
 
-For example, the **football** example adds a colour to the `h1` element for each class like this:
+例如，**足球** 示例为每个类的 `h1` 元素添加了一种颜色：
 
 ## --- code ---
 
@@ -40,9 +40,9 @@ h1 {
 
 \--- /code ---
 
-You can see that it uses the colours from another slot to tie the webpage together.
+你可以看到它使用另一个插槽中的颜色将网页连接在一起。
 
-You can add any styling you might want to your content. The **dinosaur** example used the `text-align` property to change the alignment in the **activity** content slot, for example.
+你可以为你的内容添加任何您想要的样式。 例如，**恐龙** 示例使用 `text-align` 属性来更改 **活动** 内容槽中的对齐方式。
 
 ## --- code ---
 
@@ -68,47 +68,47 @@ text-align: center;
 
 ---
 
-## title: Add another option
+## title: 添加另一个选项
 
-If you have more time, you might want to add more options to your drop-down menu for your user to choose from.
+如果你有更多时间，你可能希望在下拉菜单中添加更多选项供用户选择。
 
 \--- task ---
 
-Open `default.css` and, for your new option, add new colours for:
+打开 `default.css` 并为你的新选项添加新颜色：
 
-- The body
-- Slot 1
-- Slot 2
-- Slot 3
+- 身体
+- 插槽 1
+- 插槽 2
+- 插槽 3
 
 \--- /task ---
 
 \--- task ---
 
-Open `style.css` and create new classes for `<body>` and each of your content slots. Use your new colours to style the slots.
+打开 `style.css` 并为`<body>` 以及您的每个内容栏位创建新类。 使用你的新颜色来设计插槽的样式。
 
 \--- /task ---
 
 \--- task ---
 
-Open `scripts.js` and create a new function called `option4()`.
+打开 `scripts.js` 并创建一个名为 `option4()` 的新函数。
 
-You can copy one of your previous functions to make this process easier.
+你可以复制以前的某个函数来让这个过程更容易。
 
-Apply the classes you just made and change the content to match your new option.
+应用你刚刚创建的类并更改内容以匹配你的新选项。
 
-Make sure you also set the `choice` variable to match the new option at the end of the function.
+确保你还设置了 `choice` 变量以匹配函数末尾的新选项。
 
 \--- /task ---
 
 \--- task ---
 
-Open `index.html` and add a new button to the `drop-down-options` `<div>`.
+打开 `index.html` 并在 `drop-down-options` `<div>` 中添加一个新的按钮。
 
-Add the `onclick` attribute to call your new function that will change the content.
+添加 `onclick` 属性来调用将更改内容的新函数。
 
 \--- /task ---
 
-You can repeat the steps above for as many options as you would like to add to your webpage!
+你可以重复上述步骤，将任意数量的选项添加到你的网页！
 
 \--- /collapse ---
