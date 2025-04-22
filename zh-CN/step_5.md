@@ -1,28 +1,28 @@
 ## 更改页面的其余部分
 
-In this step, you will make your whole webpage change when the user chooses an option.
+在此步骤中，当用户选择一个选项时，你将更改整个网页。
 
-### Add content for slot 2
+### 为插槽 2 添加内容
 
-The process for adding content to slot 2 is very similar to what you did in the previous step. To make this process quicker, use copy (<kbd>Ctrl</kbd>+<kbd>C</kbd> or <kbd>Cmd</kbd>+<kbd>C</kbd>) and paste (<kbd>Ctrl</kbd>+<kbd>V</kbd> or <kbd>Cmd</kbd>+<kbd>V</kbd>) on the code you have already written, then update it to match the new content.
+向插槽 2 添加内容的过程和你在上一步的操作非常相似。 为了让这个过程更快完成，在你已经编写的代码上使用复制(<kbd>Ctrl</kbd>+<kbd>C</kbd> 或 <kbd>Cmd</kbd>+<kbd>C</kbd>) 并粘贴 (<kbd>Ctrl</kbd>+<kbd>V</kbd> 或 <kbd>Cmd</kbd>+<kbd>V</kbd>)，然后更新它以匹配新的内容。
 
-In the last step, you did each option one at a time. This time, you will do all three options at each step: adding colours, creating classes, and adding the code.
+在最后一步，你一次完成了每个选项。 这一次，你将在每个步骤中执行所有三个选项：添加颜色、创建类和添加代码。
 
-### Add colours for slot 2
+### 为插槽 2 添加颜色
 
 \--- task ---
 
-打开 `default.css`.
+打开 `default.css`。
 
-Add **three** new colour variables. Assign colours to them for your slot 2 classes.
+添加**三个**新的颜色变量。 将颜色分配给你的插槽2的类。
 
 \--- collapse ---
 
 ---
 
-## title: An example
+## title: 一个示例
 
-The dinosaur examples slot 2 colours look like this:
+恐龙示例的插槽2颜色看起来像这样：
 
 ## --- code ---
 
@@ -31,7 +31,7 @@ filename: default.css
 line_numbers: false
 --------------------------------------------------------
 
-/\* Slot 2 colours \*/
+/\* 插槽 2 颜色 \*/
 \--slot-2-t-rex: #00b2a9;
 \--slot-2-triceratops: #ffc659;
 \--slot-2-stegosaurus: #131f53;
@@ -42,23 +42,23 @@ line_numbers: false
 
 \--- /task ---
 
-### Create classes for slot 2
+### 为插槽 2 创建类
 
 \--- task ---
 
-Open `style.css`.
+打开 `style.css`。
 
-Find the `/* Slot 2 classes */` comment.
+找到 `/* 插槽 2 类 */` 注释。
 
-Create **three** classes underneath for slot 2, one for each option.
+在插槽2下面创建**三个**类，每个选项一个。
 
 \--- collapse ---
 
 ---
 
-## title: An example
+## title: 一个示例
 
-Here is the slot 2 classes for the dinosaur example.
+这是恐龙示例的插槽 2 类。
 
 ## --- code ---
 
@@ -67,7 +67,7 @@ filename: style.css
 line_numbers: false
 --------------------------------------------------------
 
-/\* Slot 2 Classes \*/
+/\* 插槽 2 类 \*/
 \#slot-2.trex {
 background-color: var(--slot-2-t-rex);
 color: black;
@@ -85,25 +85,25 @@ color: white;
 
 \--- /code ---
 
-Make sure you are using **your** class names, not the ones in the example.
+确保你使用的是**你的**类名，而不是示例中的类名。
 
 \--- /collapse ---
 
 \--- /task ---
 
-### Add code for slot 2
+### 为插槽2添加代码
 
-Now you are going to add to your three `option` functions to apply the classes to slot 2, and then change their `innerHTML`.
+现在你要添加到你的三个 `option` 函数中以将类应用于插槽 2，然后更改它们的 `innerHTML`。
 
 \--- task ---
 
-Open `scripts.js`.
+打开 `scripts.js`。
 
-Find your `option1()` function.
+找到你的 `option1()` 函数。
 
-Add a line that adds your option 1 class to slot 2.
+添加一行，将选项 1 类添加到插槽 2。
 
-The dinosaur example looked like this:
+恐龙的示例看起来像这样：
 
 ## --- code ---
 
@@ -113,7 +113,7 @@ line_numbers: false
 line_highlights: 20
 --------------------------------------------------------
 
-// Option 1
+// 选项 1
 function option1() {
 clear();
 
@@ -127,11 +127,11 @@ title.innerHTML = "T-Rex <br> &#129430";
 
 slot1.classList.add("trex");
 slot1.innerHTML =
-  "<h1>Anatomy and Characteristics</h1> \n \
-      <p>One of the largest meat-eating dinosaurs</p> \n \
-      <p>Powerful hind limbs</p> \n \
-      <p>Massive skull with sharp teeth</p> \n \
-      <p>Tiny, two-fingered forelimbs</p>";
+  "<h1>解剖结构和特征</h1> \n \
+      <p>最大的食肉恐龙之一</p> \n \
+      <p>强壮的后肢</p> \n \
+      <p>巨大的头骨和锋利的牙齿</p> \n \
+      <p>小巧的两指前肢</p>";
 
 slot2.classList.add("trex");
 ```
@@ -140,25 +140,25 @@ slot2.classList.add("trex");
 
 \--- /task ---
 
-What content are you going to put in slot 2?
+你打算在插槽 2 中放入什么内容？
 
-In the football example it was **Recent news** and in the dinosaur example it was **Trivia**.
+在足球的例子中，它是**最新消息**，而在恐龙的例子中，它是**冷知识**。
 
 \--- task ---
 
-Next, add the lines needed to change the `innerHTML` of slot 2.
+接下来，添加代码行以更改插槽2的`innerHTML` 。
 
-You can copy the line above that does the same thing for slot 1, or write a new set of lines yourself.
+你可以复制上面对插槽1做同样事情的代码行，或者自己写一组新的代码行。
 
-**Tip**: Make sure **every** line except the last one has `\n \` at the end.
+**提示**：确保除最后一行之外的**每一行**末尾都有 `\n \`。
 
 \--- collapse ---
 
 ---
 
-## title: An example
+## title: 一个示例
 
-The dinosaur example looks like this:
+恐龙的示例如下所示：
 
 ## --- code ---
 
@@ -168,7 +168,7 @@ line_numbers: false
 line_highlights: 21-24
 -----------------------------------------------------------
 
-// Option 1
+// 选项 1
 function option1() {
 clear();
 
@@ -178,56 +178,56 @@ content.style.display = "grid";
 
 body.classList.add("trex");
 
-title.innerHTML = "T-Rex <br> &#129430";
+title.innerHTML = "霸王龙 <br> &#129430";
 
 slot1.classList.add("trex");
 slot1.innerHTML =
-  "<h1>Anatomy and Characteristics</h1> \n \
-      <p>One of the largest meat-eating dinosaurs</p> \n \
-      <p>Powerful hind limbs</p> \n \
-      <p>Massive skull with sharp teeth</p> \n \
-      <p>Tiny, two-fingered forelimbs</p>";
+  "<h1>解剖结构与特征</h1> \n \
+      <p>最大的食肉恐龙之一</p> \n \
+      <p>强壮的后肢</p> \n \
+      <p>巨大的骨头和锋利的牙齿</p> \n \
+      <p>小巧的两指前肢</p>";
 
 slot2.classList.add("trex");
-slot2.innerHTML = "<h1>Trivia</h1> \n \
-  <p>T-Rex had an huge bite force, capable of crushing bone.</p>\n \
-  <p>T-Rex was a fast runner</p>\n \
-  <p>The name Tyrannosaurus Rex means tyrant lizard king in Greek</p>";
+slot2.innerHTML = "<h1>冷知识</h1> \n \
+  <p>霸王龙的咬合力非常大，可以咬碎骨头</p>\n \
+  <p>霸王龙跑得很快</p>\n \
+  <p>霸王龙这个名字在希腊语中的意思是暴君蜥蜴王</p>";
 ```
 
 \--- /code ---
 
 \--- /collapse ---
 
-**Click Run**
+**点击运行**
 
-- Test the content and class by selecting your first option.
-
-\--- /task ---
-
-\--- task ---
-
-Copy those lines and paste them into your `option2()` function.
+- 选择你的第一个选项来测试内容和类。
 
 \--- /task ---
 
 \--- task ---
 
-Change the added class to match your second option.
+复制这些代码行并将它们粘贴到你的`option2()`函数中。
 
 \--- /task ---
 
 \--- task ---
 
-Change the content to match your second option.
+更改添加的类以匹配你的第二个选项。
+
+\--- /task ---
+
+\--- task ---
+
+更改内容以匹配你的第二个选项。
 
 \--- collapse ---
 
 ---
 
-## title: An example
+## title: 一个示例
 
-The `option2` function for the dinosaur example looked like this:
+恐龙示例的 `option2` 函数看起来像这样：
 
 ## --- code ---
 
@@ -237,7 +237,7 @@ line_numbers: false
 line_highlights: 21-25
 -----------------------------------------------------------
 
-// Option 2
+// 选项 2
 function option2() {
 clear();
 
@@ -247,22 +247,22 @@ content.style.display = "grid";
 
 body.classList.add("triceratops");
 
-title.innerHTML = "Triceratops";
+title.innerHTML = "三角龙";
 
 slot1.classList.add("triceratops");
 slot1.innerHTML =
-"<h1>Anatomy and Characteristics</h1> \n \
-    <p>A herbivorous dinosaur</p> \n \
-    <p>Known for its distinctive frill and three facial horns</p> \n \
-    <p>It had a bulky body, a beak-like mouth, and a large bony plate projecting from the back of its skull</p> \n \
-    <p>Triceratops likely lived in herds and used its horns for defense</p>";
+"<h1>解剖结构和特征</h1> \n \
+    <p>食草恐龙</p> \n \
+    <p>以其独特的褶边和三个面部角而闻名</p> \n \
+    <p>它身体庞大，嘴巴像喙一样，头骨后部突出着一块巨大的骨板</p> \n \
+    <p>三角龙可能群居，用角进行防御</p>";
 
 slot2.classList.add("triceratops");
 slot2.innerHTML =
-"<h1>Trivia</h1> \n \
-    <p>Triceratops was a bit of a show off, its frill may have been used for display</p>\n \
-    <p>Triceratops roamed North America during the Late Cretaceous period</p>\n \
-    <p>Triceratops means three-horned face in Greek</p>";
+"<h1>冷知识</h1> \n \
+    <p>三角龙有点爱炫耀，它的褶边可能是用来展示的</p>\n \
+    <p>三角龙在白垩纪晚期漫游在北美洲</p>\n \
+    <p>三角龙在希腊语中的意思是三角脸</p>";
 ```
 
 }
@@ -271,39 +271,39 @@ slot2.innerHTML =
 
 \--- /collapse ---
 
-**Click Run**
+**点击运行**
 
-- Test your colours and content by selecting your second option.
+- 选择第二个选项来测试你的颜色和内容。
 
 \--- /task ---
 
 \--- task ---
 
-Copy the lines again, and add them to your `option3()` function.
+再次复制这些代码行，并将他们添加到你的`option3()`函数里。
 
-Modify the class and content to match your third option.
+修改类和内容以匹配你的第三个选项。
 
 \--- /task ---
 
-### The third slot
+### 第三个插槽
 
-You are so close to finishing the content of your webpage! 太棒了！
+你就要完成你的网页的内容了！ 太棒了！
 
-Now, you are going to add the colours, classes, and code to style and fill the third slot!
+现在，你将要添加颜色、类和代码来设置样式并填充第三个插槽！
 
-You have done this twice now, so the instructions will just remind you of the steps.
+你现在已经做过两次了，因此说明只会提醒你注意步骤。
 
 \--- task ---
 
-Open `default.css` and add three colours for slot 3 (one for each of your options).
+打开`default.css`并为插槽 3 添加三种颜色（每个选项一种）。
 
 \--- collapse ---
 
 ---
 
-## title: An example
+## title: 一个示例
 
-These are the colour variables for slot 3 in the dinosaur example:
+这些是恐龙示例中插槽 3 的颜色变量：
 
 ## --- code ---
 
@@ -325,17 +325,17 @@ line_highlights:
 
 \--- task ---
 
-Open `style.css` and find the `/* Slot 3 classes */` comment.
+打开 `style.css` 并找到 `/* 插槽 3 类*/` 注释。
 
-Underneath, create 3 classes for slot 3 (one for each of your options).
+在下面，为插槽 3 创建 3 个类（每个选项一个）。
 
 \--- collapse ---
 
 ---
 
-## title: An example
+## title: 一个示例
 
-Here are the classes for the **dinosaur** example:
+以下是**恐龙**示例的类：
 
 ## --- code ---
 
@@ -345,7 +345,7 @@ line_numbers: false
 line_highlights:
 -----------------------------------------------------
 
-/\* Slot 3 Classes \*/
+/\* 插槽 3 类\*/
 \#slot-3.trex {
 background-color: var(--slot-3-t-rex);
 }
@@ -368,15 +368,15 @@ color: white;
 
 \--- task ---
 
-Open `scripts.js`.
+打开 `scripts.js`。
 
-Add lines to each of your option functions to apply your new classes and add the content to slot 3.
+将行添加到你的每个选项函数中，以应用你的新类，并将内容添加到插槽3。
 
 \--- collapse ---
 
 ---
 
-## title: An example
+## title: 一个示例
 
 ## --- code ---
 
@@ -385,7 +385,7 @@ filename: scripts.js
 line_numbers: false
 --------------------------------------------------------
 
-// Option 1
+// 选项 1
 function option1() {
 clear();
 
@@ -399,32 +399,32 @@ title.innerHTML = "T-Rex <br> &#129430";
 
 slot1.classList.add("trex");
 slot1.innerHTML =
-    "<h1>Anatomy and Characteristics</h1> \n \
-        <p>One of the largest meat-eating dinosaurs</p> \n \
-        <p>Powerful hind limbs</p> \n \
-        <p>Massive skull with sharp teeth</p> \n \
-        <p>Tiny, two-fingered forelimbs</p>";
+    "<h1>解剖结构和特征</h1> \n \
+        <p>最大的食肉恐龙之一</p> \n \
+        <p>强壮的后肢</p> \n \
+        <p>巨大的骨头和锋利的牙齿</p> \n \
+        <p>小巧的两指前肢</p>";
 
 slot2.classList.add("trex");
 slot2.innerHTML =
-    "<h1>Trivia</h1> \n \
-        <p>T-Rex had an huge bite force, capable of crushing bone.</p>\n \
-        <p>T-Rex was a fast runner</p>\n \
-        <p>The name Tyrannosaurus Rex means tyrant lizard king in Greek</p>";
+    "<h1>冷知识</h1> \n \
+        <p>霸王龙的咬合力非常大，可以咬碎骨头。</p>\n \
+        <p>霸王龙跑得很快</p>\n \
+        <p>霸王龙这个名字在希腊语中的意思是暴君蜥蜴王</p>";
 
 slot3.classList.add("trex");
 slot3.innerHTML =
-    "<h1>Activity</h1> \n \
+    "<h1>活动</h1> \n \
         <ol>\n \
-        <li>Get into teams and line up at a start line</li>\n \
-        <li>Put one toy for each team member at the other end of the room</li>\n \
-        <li>One person from each team races to 'bite' a toy and bring it back to the team</li>\n \
-        <li>The first team to return all their toys wins!</li> </ol>";
+        <li>分成几组，在起跑线上排好队</li>\n \
+        <li>在房间的另一端为每个队员放一个玩具</li>\n \
+        <li>每队派出一名队员竞相“咬”一个玩具，并把它带回给团队</li>\n \
+        <li>第一个带回所有玩具的队伍获胜！</li> </ol>";
 ```
 
 }
 
-// Option 2
+// 选项 2
 function option2() {
 clear();
 
@@ -434,38 +434,38 @@ content.style.display = "grid";
 
 body.classList.add("triceratops");
 
-title.innerHTML = "Triceratops";
+title.innerHTML = "三角龙";
 
 slot1.classList.add("triceratops");
 slot1.innerHTML =
-    "<h1>Anatomy and Characteristics</h1> \n \
-        <p>A herbivorous dinosaur</p> \n \
-        <p>Known for its distinctive frill and three facial horns</p> \n \
-        <p>It had a bulky body, a beak-like mouth, and a large bony plate projecting from the back of its skull</p> \n \
-        <p>Triceratops likely lived in herds and used its horns for defense</p>";
+    "<h1>解剖结构和特征</h1> \n \
+        <p>食草恐龙</p> \n \
+        <p>以其独特的褶边和三个面部角而闻名</p> \n \
+        <p>它身体庞大，嘴巴像喙一样，头骨后部突出着一块巨大的骨板</p> \n \
+        <p>三角龙可能群居，用角进行防御</p>";
 
 slot2.classList.add("triceratops");
 slot2.innerHTML =
-    "<h1>Trivia</h1> \n \
-        <p>Triceratops was a bit of a show off, its frill may have been used for display</p>\n \
-        <p>Triceratops roamed North America during the Late Cretaceous period</p>\n \
-        <p>Triceratops means three-horned face in Greek</p>";
+    "<h1>冷知识</h1> \n \
+        <p>三角龙有点爱炫耀，它的褶边可能是用来展示的</p>\n \
+        <p>三角龙在白垩纪晚期漫游在北美洲</p>\n \
+        <p>三角龙在希腊语中的意思是三角脸</p>";
 
 slot3.classList.add("triceratops");
 slot3.innerHTML =
-    "<h1>Activity</h1> \n \
+    "<h1>活动</h1> \n \
     <ol>\n \
-        <li>Create some Triceratops horns using paper or cardboard</li>\n \
-        <li>Attach them to headbands or make them handheld</li>\n \
-        <li>Place the horns at varying distances on the ground</li>\n \
-        <li>Use hula hoops or create rings from cardboard</li>\n \
-        <li>Take turns tossing the rings onto the Triceratops horns, earning 10 points</li>\n \
-        <li>The person with the most points after all turns wins!</li> </ol>";
+        <li>使用纸张或纸板制作一些三角龙角</li>\n \
+        <li>将它们固定在头带上或手持使用</li>\n \
+        <li>将角以不同距离放置在地面上</li>\n \
+        <li>使用呼啦圈或用纸板制作环</li>\n \
+        <li>轮流将环扔到三角龙角上，每次成功都能赢得 10分！</li>\n \
+        <li>所有回合结束后分数最高的人获胜！</li> </ol>";
 ```
 
 }
 
-// Option 3
+// 选项 3
 function option3() {
 clear();
 
@@ -475,30 +475,30 @@ content.style.display = "grid";
 
 body.classList.add("stegosaurus");
 
-title.innerHTML = "Stegosaurus";
+title.innerHTML = "剑龙";
 
 slot1.classList.add("stegosaurus");
 slot1.innerHTML =
-    "<h1>Anatomy and Characteristics</h1> \n \
-        <p>Stegosaurus was a plant eater (a herbivor)</p> \n \
-        <p>It had a double row of large bony plates along its back</p> \n \
-        <p>It had spikes on its tail</p> \n \
-        <p>It a small head, with a small brain compared to its body size</p>";
+    "<h1>解剖结构和特征</h1> \n \
+        <p>剑龙是食草动物 (草食性动物)</p> \n \
+        <p>背部有两排大骨板</p> \n \
+        <p>尾巴上有尖刺</p> \n \
+        <p>它的头很小，与身体相比，脑部较小</p>";
 
 slot2.classList.add("stegosaurus");
 slot2.innerHTML =
-    "<h1>Trivia</h1> \n \
-        <p>Stegosaurus had a second brain in its hips, assisting in coordinating movement and balance</p>\n \
-        <p>Stegosaurus lived during the Late Jurassic period</p> \n \
-        <p>Stegosaurus means armoured roof lizard in Greek</p> \n \
-        <p>The stop-motion puppet used in the 1933 film King Kong was based on a 1897 illustration of Stegosaurus</p>";
+    "<h1>冷知识</h1> \n \
+        <p>剑龙的臀部有第二个大脑，帮助协调运动和平衡</p>\n \
+        <p>剑龙生活在侏罗纪晚期</p> \n \
+        <p>剑龙在希腊语中的意思是“装甲屋顶蜥蜴”</p> \n \
+        <p>1933 年电影《金刚》中使用的定格木偶是根据 1897 年的剑龙插图制作的</p>";
 
 slot3.classList.add("stegosaurus");
 slot3.innerHTML =
-    "<h1>Activity</h1> \n \
-        <ol><li>Decorate some paper plates to make Stegosaurus's bony plates</li>\n \
-        <li>Once the plates are dry, have a 'Stegosaurus Parade' to showcase your plates</li>\n \
-        <li>Share the designs and celebrate the creativity!</li></ol>";
+    "<h1>活动</h1> \n \
+        <ol><li>装饰一些纸盘，制作剑龙的骨板</li>\n \
+        <li>盘子干了之后，举行“剑龙游行”来展示你的盘子</li>\n \
+        <li>分享设计并庆祝你的创意！</li></ol>";
 ```
 
 }
@@ -511,12 +511,12 @@ slot3.innerHTML =
 
 \--- task ---
 
-**Click Run**
+**点击运行**
 
-- Test all three options, check the content and colours look how you want them to.
+- 测试所有三个选项，检查内容和颜色是否符合你的要求。
 
-You can adjust the text colour to make sure it contrasts with the background enough.
+你可以调整文本颜色以确保其与背景有足够的对比度。
 
 \--- /task ---
 
-Next, you will add some sparkle to your webpage using **intersection observers** and animations!
+接下来，你将使用**交叉点观察器**和动画为你的网页添加一些亮点！
